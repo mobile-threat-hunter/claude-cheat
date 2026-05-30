@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-05-30T12:00:00+00:00",
+  "window_days": 30,
+  "queries": [
+    "claude code skill",
+    "anthropic claude skill",
+    "claude skill tutorial"
+  ],
+  "total_candidates": 10,
+  "videos": [
+    {
+      "id": "_placeholder_1",
+      "title": "[샘플] Claude Code Skills 완벽 가이드 — 처음부터 끝까지",
+      "channel": "Sample Channel",
+      "channel_id": "UC_placeholder",
+      "published_at": "2026-05-25T10:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "description": "이 영상은 YOUTUBE_API_KEY가 아직 설정되지 않아 보여드리는 샘플 데이터입니다. 실제 데이터를 받으려면 .env에 YOUTUBE_API_KEY를 추가한 뒤 `skill-collector update-youtube`를 실행하세요. 매일 자동 갱신을 원하면 GitHub Actions 설정 가이드를 참고하세요.",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "url": "https://www.youtube.com/",
+      "matched_query": "claude code skill"
+    }
+  ]
+}
