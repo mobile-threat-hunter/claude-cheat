@@ -1,6 +1,6 @@
 {
-  "title": "My recommended dev workflow",
-  "subtitle": "The skills I'd want loaded across a code project from kickoff to production — grouped by phase, stack-agnostic. Same picks work whether you're shipping a Rust CLI or a Django backend.",
+  "title": "Claude's recommended dev workflow",
+  "subtitle": "The skills Claude would want loaded across a code project from kickoff to production, grouped by phase and stack-agnostic. Same picks work whether you're shipping a Rust CLI or a Django backend.",
   "note": "Each card cites an exemplar from the corpus. Click it to read the actual skill.",
   "phases": [
     {
