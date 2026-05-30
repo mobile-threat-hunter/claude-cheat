@@ -1,0 +1,133 @@
+{
+  "title": "My recommended dev workflow",
+  "subtitle": "The skills I'd want loaded across a code project from kickoff to production — grouped by phase, stack-agnostic. Same picks work whether you're shipping a Rust CLI or a Django backend.",
+  "note": "Each card cites an exemplar from the corpus. Click it to read the actual skill.",
+  "phases": [
+    {
+      "id": "kickoff",
+      "name": "1. Kick off",
+      "summary": "Sharpen a vague idea into a concrete requirements doc and a working scaffold. Most rework comes from skipping this step.",
+      "picks": [
+        {
+          "concept": "Structured brainstorming",
+          "why": "Forces you to articulate constraints, non-goals, and 'when NOT to use it' before any code. Saves hours of mid-implementation pivots.",
+          "example_id": "92793cc88e87dea3",
+          "example_label": "ce-brainstorm"
+        },
+        {
+          "concept": "Scaffold + opinionated setup",
+          "why": "Gets the boring initial work right: .gitignore, CI stub, README skeleton, project conventions. Turns 'set up day' into 'set up hour'.",
+          "example_id": "9f12e3103674c70a",
+          "example_label": "ce-setup"
+        },
+        {
+          "concept": "Codebase audit (when joining an existing project)",
+          "why": "Maps the landscape — modules, hot spots, conventions — before you touch anything. Prevents naive edits that violate hidden invariants.",
+          "example_id": "5c89a45c8eb28015",
+          "example_label": "audit-codebase"
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "name": "2. Plan",
+      "summary": "Decompose the work, lock down architecture, write the decisions you'll regret forgetting later.",
+      "picks": [
+        {
+          "concept": "Multi-phase planning pipeline",
+          "why": "PRD → design review → tech decisions → research → metrics. Each gate forces clarity before the next. Half the bugs are killed before they exist.",
+          "example_id": "154b81b53317025e",
+          "example_label": "plan-pipeline-start"
+        },
+        {
+          "concept": "Agent-native architecture audit",
+          "why": "Scores the design against principles like 'action parity' and 'tools as primitives'. Catches anti-patterns before they're load-bearing.",
+          "example_id": "7b67e3b6c1975c9a",
+          "example_label": "ce-agent-native-audit"
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "name": "3. Build",
+      "summary": "Small loops, deterministic outputs, frequent checkpoints. Trust the spec from the plan phase.",
+      "picks": [
+        {
+          "concept": "Compound work cycle",
+          "why": "Splits big tasks across many subagents working in parallel. Keeps individual changes small and reviewable instead of one mega-diff.",
+          "example_id": "53b32bc2e0c89ff0",
+          "example_label": "ce-work"
+        },
+        {
+          "concept": "Execution-phase playbook",
+          "why": "Translates the plan into concrete, ordered steps with verification between each. The discipline pays off in late-stage debugging.",
+          "example_id": "ff2302c9929565bd",
+          "example_label": "plan-pipeline-execute"
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "name": "4. Verify",
+      "summary": "Correctness, performance, and security before anything ships. Reviews catch what tests can't.",
+      "picks": [
+        {
+          "concept": "Multi-angle code review",
+          "why": "Looks at correctness bugs AND reuse / simplification / efficiency in one pass. Faster than waiting for a human review round-trip.",
+          "example_id": "8ce7c0b06cda58c1",
+          "example_label": "ce-code-review"
+        },
+        {
+          "concept": "Browser E2E smoke check",
+          "why": "Hits the user-facing flow after each meaningful change. Catches integration regressions that unit tests miss by design.",
+          "example_id": "c2a6b13db75773c3",
+          "example_label": "ce-test-browser"
+        }
+      ]
+    },
+    {
+      "id": "ship",
+      "name": "5. Ship",
+      "summary": "Clean up, document, announce. The work isn't done until someone else can use it.",
+      "picks": [
+        {
+          "concept": "Branch + working-tree hygiene",
+          "why": "Prunes stale branches and clarifies what's in flight. A clean repo is faster to navigate the next morning.",
+          "example_id": "c2f2c32cae6a1b49",
+          "example_label": "ce-clean-gone-branches"
+        },
+        {
+          "concept": "Documentation + diagrams",
+          "why": "Markdown + Mermaid for architecture, flows, decision trees. Future-you and your teammates will thank present-you.",
+          "example_id": "3a22e7ff260eca9b",
+          "example_label": "markdown-mermaid-writing"
+        },
+        {
+          "concept": "Demo reel for the PR",
+          "why": "GIF / terminal recording / screenshots showing the change actually works. Reviewers grok intent in 5 seconds vs reading 500 lines.",
+          "example_id": "2f37d938ada8d651",
+          "example_label": "ce-demo-reel"
+        }
+      ]
+    },
+    {
+      "id": "operate",
+      "name": "6. Operate",
+      "summary": "Production starts on deploy. Watch the signals you said you'd watch.",
+      "picks": [
+        {
+          "concept": "Post-deploy canary watch",
+          "why": "Tails the relevant dashboards and alerts for N minutes after deploy. Catches the regression while you still remember what changed.",
+          "example_id": "e41eaf0ecbe2bccc",
+          "example_label": "canary"
+        },
+        {
+          "concept": "Product pulse / window report",
+          "why": "Periodically summarizes what users experienced, how the product performed, and which signals deserve a closer look. Stops bugs from compounding silently.",
+          "example_id": "236dabea61f987be",
+          "example_label": "ce-product-pulse"
+        }
+      ]
+    }
+  ]
+}
