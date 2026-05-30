@@ -1,685 +1,695 @@
 {
-  "title": "Claude's recommended dev workflow",
-  "subtitle": "The skills Claude would want loaded across a code project from kickoff to production. Start with Common; layer specialised tracks (Backend / Frontend / Mobile / Data·ML) on top when they apply.",
-  "note": "Each pick cites an exemplar from the corpus when one exists. Click it to read the actual skill.",
-  "tracks": [
+  "generated_at": "2026-05-30T17:54:39.994294+00:00",
+  "current_model": "opus-4.8",
+  "current_month": "2026-05",
+  "snapshots": [
     {
-      "id": "common",
-      "name": "Common",
-      "tagline": "Works for any code project. The baseline every track inherits.",
-      "phases": [
+      "model": "opus-4.8",
+      "month": "2026-05",
+      "label": "2026-05 · opus-4.8",
+      "title": "Claude's recommended dev workflow",
+      "subtitle": "The skills Claude would want loaded across a code project from kickoff to production. Start with Common; layer specialised tracks (Backend / Frontend / Mobile / Data·ML) on top when they apply.",
+      "note": "Each pick cites an exemplar from the corpus when one exists. Click it to read the actual skill.",
+      "tracks": [
         {
-          "id": "kickoff",
-          "name": "1. Kick off",
-          "summary": "Sharpen a vague idea into a concrete requirements doc and a working scaffold. Most rework comes from skipping this step.",
-          "picks": [
+          "id": "common",
+          "name": "Common",
+          "tagline": "Works for any code project. The baseline every track inherits.",
+          "phases": [
             {
-              "concept": "Structured brainstorming",
-              "why": "Forces you to articulate constraints, non-goals, and 'when NOT to use it' before any code. Saves hours of mid-implementation pivots.",
-              "example_id": "92793cc88e87dea3",
-              "example_label": "ce-brainstorm"
+              "id": "kickoff",
+              "name": "1. Kick off",
+              "summary": "Sharpen a vague idea into a concrete requirements doc and a working scaffold. Most rework comes from skipping this step.",
+              "picks": [
+                {
+                  "concept": "Structured brainstorming",
+                  "why": "Forces you to articulate constraints, non-goals, and 'when NOT to use it' before any code. Saves hours of mid-implementation pivots.",
+                  "example_id": "92793cc88e87dea3",
+                  "example_label": "ce-brainstorm"
+                },
+                {
+                  "concept": "Scaffold + opinionated setup",
+                  "why": "Gets the boring initial work right: .gitignore, CI stub, README skeleton, project conventions. Turns 'set up day' into 'set up hour'.",
+                  "example_id": "9f12e3103674c70a",
+                  "example_label": "ce-setup"
+                },
+                {
+                  "concept": "Codebase audit (when joining an existing project)",
+                  "why": "Maps the landscape — modules, hot spots, conventions — before you touch anything. Prevents naive edits that violate hidden invariants.",
+                  "example_id": "5c89a45c8eb28015",
+                  "example_label": "audit-codebase"
+                }
+              ]
             },
             {
-              "concept": "Scaffold + opinionated setup",
-              "why": "Gets the boring initial work right: .gitignore, CI stub, README skeleton, project conventions. Turns 'set up day' into 'set up hour'.",
-              "example_id": "9f12e3103674c70a",
-              "example_label": "ce-setup"
+              "id": "plan",
+              "name": "2. Plan",
+              "summary": "Decompose the work, lock down architecture, write the decisions you'll regret forgetting later.",
+              "picks": [
+                {
+                  "concept": "Multi-phase planning pipeline",
+                  "why": "PRD → design review → tech decisions → research → metrics. Each gate forces clarity before the next. Half the bugs are killed before they exist.",
+                  "example_id": "154b81b53317025e",
+                  "example_label": "plan-pipeline-start"
+                },
+                {
+                  "concept": "Agent-native architecture audit",
+                  "why": "Scores the design against principles like 'action parity' and 'tools as primitives'. Catches anti-patterns before they're load-bearing.",
+                  "example_id": "7b67e3b6c1975c9a",
+                  "example_label": "ce-agent-native-audit"
+                }
+              ]
             },
             {
-              "concept": "Codebase audit (when joining an existing project)",
-              "why": "Maps the landscape — modules, hot spots, conventions — before you touch anything. Prevents naive edits that violate hidden invariants.",
-              "example_id": "5c89a45c8eb28015",
-              "example_label": "audit-codebase"
+              "id": "build",
+              "name": "3. Build",
+              "summary": "Small loops, deterministic outputs, frequent checkpoints. Trust the spec from the plan phase.",
+              "picks": [
+                {
+                  "concept": "Compound work cycle",
+                  "why": "Splits big tasks across many subagents working in parallel. Keeps individual changes small and reviewable instead of one mega-diff.",
+                  "example_id": "53b32bc2e0c89ff0",
+                  "example_label": "ce-work"
+                },
+                {
+                  "concept": "Execution-phase playbook",
+                  "why": "Translates the plan into concrete, ordered steps with verification between each. The discipline pays off in late-stage debugging.",
+                  "example_id": "ff2302c9929565bd",
+                  "example_label": "plan-pipeline-execute"
+                }
+              ]
+            },
+            {
+              "id": "verify",
+              "name": "4. Verify",
+              "summary": "Correctness, performance, and security before anything ships. Reviews catch what tests can't.",
+              "picks": [
+                {
+                  "concept": "Multi-angle code review",
+                  "why": "Looks at correctness bugs AND reuse / simplification / efficiency in one pass. Faster than waiting for a human review round-trip.",
+                  "example_id": "8ce7c0b06cda58c1",
+                  "example_label": "ce-code-review"
+                },
+                {
+                  "concept": "Browser E2E smoke check",
+                  "why": "Hits the user-facing flow after each meaningful change. Catches integration regressions that unit tests miss by design.",
+                  "example_id": "c2a6b13db75773c3",
+                  "example_label": "ce-test-browser"
+                }
+              ]
+            },
+            {
+              "id": "ship",
+              "name": "5. Ship",
+              "summary": "Clean up, document, announce. The work isn't done until someone else can use it.",
+              "picks": [
+                {
+                  "concept": "Branch + working-tree hygiene",
+                  "why": "Prunes stale branches and clarifies what's in flight. A clean repo is faster to navigate the next morning.",
+                  "example_id": "c2f2c32cae6a1b49",
+                  "example_label": "ce-clean-gone-branches"
+                },
+                {
+                  "concept": "Documentation + diagrams",
+                  "why": "Markdown + Mermaid for architecture, flows, decision trees. Future-you and your teammates will thank present-you.",
+                  "example_id": "3a22e7ff260eca9b",
+                  "example_label": "markdown-mermaid-writing"
+                },
+                {
+                  "concept": "Demo reel for the PR",
+                  "why": "GIF / terminal recording / screenshots showing the change actually works. Reviewers grok intent in 5 seconds vs reading 500 lines.",
+                  "example_id": "2f37d938ada8d651",
+                  "example_label": "ce-demo-reel"
+                }
+              ]
+            },
+            {
+              "id": "operate",
+              "name": "6. Operate",
+              "summary": "Production starts on deploy. Watch the signals you said you'd watch.",
+              "picks": [
+                {
+                  "concept": "Post-deploy canary watch",
+                  "why": "Tails the relevant dashboards and alerts for N minutes after deploy. Catches the regression while you still remember what changed.",
+                  "example_id": "e41eaf0ecbe2bccc",
+                  "example_label": "canary"
+                },
+                {
+                  "concept": "Product pulse / window report",
+                  "why": "Periodically summarizes what users experienced, how the product performed, and which signals deserve a closer look. Stops bugs from compounding silently.",
+                  "example_id": "236dabea61f987be",
+                  "example_label": "ce-product-pulse"
+                }
+              ]
             }
           ]
         },
         {
-          "id": "plan",
-          "name": "2. Plan",
-          "summary": "Decompose the work, lock down architecture, write the decisions you'll regret forgetting later.",
-          "picks": [
+          "id": "backend",
+          "name": "Backend",
+          "tagline": "Server-side / API / database projects.",
+          "note": "Read Common first. These layer on server-side specifics.",
+          "phases": [
             {
-              "concept": "Multi-phase planning pipeline",
-              "why": "PRD → design review → tech decisions → research → metrics. Each gate forces clarity before the next. Half the bugs are killed before they exist.",
-              "example_id": "154b81b53317025e",
-              "example_label": "plan-pipeline-start"
+              "id": "kickoff",
+              "name": "1. Kick off",
+              "summary": "Decide language, framework, and deployment target explicitly before any code. These choices shape every later phase.",
+              "picks": [
+                {
+                  "concept": "Language + framework decision",
+                  "why": "Node / Python / Go / Java / Rust each carry different tradeoffs in team skills, latency profile, deployment story, and ecosystem maturity for your domain. Pick deliberately and capture the reasoning in an ADR.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Deployment target decision",
+                  "why": "Serverless vs containers vs VMs vs managed PaaS determines CI shape, observability tooling, scaling story, and cost model. Decide before writing the Dockerfile or serverless.yml.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Agent-native architecture audit",
-              "why": "Scores the design against principles like 'action parity' and 'tools as primitives'. Catches anti-patterns before they're load-bearing.",
-              "example_id": "7b67e3b6c1975c9a",
-              "example_label": "ce-agent-native-audit"
+              "id": "plan",
+              "name": "2. Plan",
+              "summary": "API and data model first. Decide write paths and the consistency story before any controller code.",
+              "picks": [
+                {
+                  "concept": "API contract first",
+                  "why": "Define OpenAPI / gRPC proto / SDL schema before writing handlers. Server and client codegen plus contract tests all build on this single source.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Database schema design",
+                  "why": "Tables, relationships, indexes — and most importantly access patterns — drawn out before any migration runs. Prevents expensive late-stage rewrites.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "build",
+              "name": "3. Build",
+              "summary": "Migrations and request validation are where production tends to break first. Be strict.",
+              "picks": [
+                {
+                  "concept": "Migration discipline",
+                  "why": "Additive-only migrations (add column → backfill → switch reads → remove old). Every migration must have a rollback path. Never DROP in the same release as the read switch.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Strict request validation",
+                  "why": "Schema-validate every inbound request (Zod / Pydantic / proto). Reject early with clear errors instead of letting bad data leak into the persistence layer.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "verify",
+              "name": "4. Verify",
+              "summary": "Beyond unit tests, exercise the API the way real clients will.",
+              "picks": [
+                {
+                  "concept": "Load test the hot endpoints",
+                  "why": "k6 / Locust / wrk against staging with a realistic traffic shape. Measure p95/p99 latency, tail behaviour, and connection-pool exhaustion before production traffic hits.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Contract testing",
+                  "why": "Diff the actual implementation against the API contract on every PR. Catches breaking changes before clients see them.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "operate",
+              "name": "6. Operate",
+              "summary": "Servers run 24/7. Observability is not a launch checklist item; it is the operational primitive.",
+              "picks": [
+                {
+                  "concept": "Structured logging + tracing",
+                  "why": "JSON logs with request_id plus OpenTelemetry spans across services. Without them, root-causing a production incident is effectively guessing.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "SLO + error-budget tracking",
+                  "why": "Separate user-visible errors from internal noise. Burn-rate alerts on the SLO surface real problems and silence background flakes.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             }
           ]
         },
         {
-          "id": "build",
-          "name": "3. Build",
-          "summary": "Small loops, deterministic outputs, frequent checkpoints. Trust the spec from the plan phase.",
-          "picks": [
+          "id": "frontend",
+          "name": "Frontend",
+          "tagline": "Web UI / browser apps.",
+          "note": "Read Common first. These layer on frontend specifics.",
+          "phases": [
             {
-              "concept": "Compound work cycle",
-              "why": "Splits big tasks across many subagents working in parallel. Keeps individual changes small and reviewable instead of one mega-diff.",
-              "example_id": "53b32bc2e0c89ff0",
-              "example_label": "ce-work"
+              "id": "kickoff",
+              "name": "1. Kick off",
+              "summary": "Audit what already exists in the design system. Don't reinvent buttons.",
+              "picks": [
+                {
+                  "concept": "Design system audit",
+                  "why": "List every existing token, primitive, and pattern before creating new ones. 80% of 'new components' should be assemblies of existing primitives.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Execution-phase playbook",
-              "why": "Translates the plan into concrete, ordered steps with verification between each. The discipline pays off in late-stage debugging.",
-              "example_id": "ff2302c9929565bd",
-              "example_label": "plan-pipeline-execute"
+              "id": "plan",
+              "name": "2. Plan",
+              "summary": "Wireframes precede pixel-perfect designs precede code. Skipping a layer makes the next one painful.",
+              "picks": [
+                {
+                  "concept": "Wireframe → prototype loop",
+                  "why": "Clickable, low-fidelity prototype before any component code. Faster to throw away when the UX is wrong.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Component API design",
+                  "why": "Props, slots, controlled vs uncontrolled — sketched on paper before TypeScript. Sane defaults > more options.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "build",
+              "name": "3. Build",
+              "summary": "Build in isolation, integrate last. Storybook is leverage.",
+              "picks": [
+                {
+                  "concept": "Component-driven (Storybook)",
+                  "why": "Develop each component against its stories, not by tabbing to the live app. Smaller feedback loop = faster iteration.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "verify",
+              "name": "4. Verify",
+              "summary": "Pixels matter, accessibility matters, performance matters. Automate each.",
+              "picks": [
+                {
+                  "concept": "Visual regression",
+                  "why": "Snapshot diff (Percy / Chromatic / Playwright) catches the 'we accidentally broke the header on mobile' bug before users do.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Accessibility audit",
+                  "why": "axe / pa11y in CI + manual keyboard / screen reader pass before launch. Roughly 15% of users benefit; 100% of code reviews should require it.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Browser E2E (covered in Common)",
+                  "why": "Same Playwright/Cypress suite from Common; for frontend work this is where most regressions surface.",
+                  "example_id": "c2a6b13db75773c3",
+                  "example_label": "ce-test-browser"
+                }
+              ]
+            },
+            {
+              "id": "ship",
+              "name": "5. Ship",
+              "summary": "Don't ship 5MB of JavaScript for a button.",
+              "picks": [
+                {
+                  "concept": "Bundle + Lighthouse audit",
+                  "why": "Track bundle size budget per route. Lighthouse perf/a11y/SEO scores in CI. Regressions blocked at PR time.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "operate",
+              "name": "6. Operate",
+              "summary": "Users hit weird browser versions, weird network conditions, weird input devices. See it from their side.",
+              "picks": [
+                {
+                  "concept": "Frontend error tracking",
+                  "why": "Sentry / LogRocket capturing JS errors + session replay. Source maps uploaded so stacks are readable. Cumulative Layout Shift alerts too.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Core Web Vitals monitoring",
+                  "why": "RUM (real user monitoring) for LCP, INP, CLS by route. Lab numbers can mislead; real-user p75s are the source of truth.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             }
           ]
         },
         {
-          "id": "verify",
-          "name": "4. Verify",
-          "summary": "Correctness, performance, and security before anything ships. Reviews catch what tests can't.",
-          "picks": [
+          "id": "mobile",
+          "name": "Mobile",
+          "tagline": "Native iOS / Android apps (or cross-platform).",
+          "note": "Read Common first. Mobile adds device + store specifics.",
+          "phases": [
             {
-              "concept": "Multi-angle code review",
-              "why": "Looks at correctness bugs AND reuse / simplification / efficiency in one pass. Faster than waiting for a human review round-trip.",
-              "example_id": "8ce7c0b06cda58c1",
-              "example_label": "ce-code-review"
+              "id": "kickoff",
+              "name": "1. Kick off",
+              "summary": "Mobile work has high day-0 friction: store accounts, certificates, and platform priority. Resolve these before writing the first screen.",
+              "picks": [
+                {
+                  "concept": "Platform priority decision",
+                  "why": "iOS-first / Android-first / parity carries real cost implications. Most indie launches pick one and iterate; enterprise typically needs parity. Decide explicitly with a written rationale.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Developer account + certificate setup",
+                  "why": "Apple Developer ($99/yr) + Google Play Console ($25 one-time), signing certificates, provisioning profiles, push notification certs. Many teams discover these are missing at submission time, which delays launch by days.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Browser E2E smoke check",
-              "why": "Hits the user-facing flow after each meaningful change. Catches integration regressions that unit tests miss by design.",
-              "example_id": "c2a6b13db75773c3",
-              "example_label": "ce-test-browser"
+              "id": "plan",
+              "name": "2. Plan",
+              "summary": "The cross-platform decision is one of the most expensive choices to reverse. Make it explicit and document why.",
+              "picks": [
+                {
+                  "concept": "Native vs cross-platform decision",
+                  "why": "Write an ADR. Key constraints: team skills, performance ceiling, OS-specific features needed, time-to-market. Avoid drifting into one approach by momentum.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "build",
+              "name": "3. Build",
+              "summary": "A tight build/simulate loop matters more on mobile. The IDE-to-simulator round-trip dominates iteration time.",
+              "picks": [
+                {
+                  "concept": "Simulator build automation",
+                  "why": "One command to build, boot the simulator, install, launch, and tail logs. Removes the 30-second context switch on every iteration.",
+                  "example_id": "dc668b3339d59044",
+                  "example_label": "ce-test-xcode"
+                }
+              ]
+            },
+            {
+              "id": "verify",
+              "name": "4. Verify",
+              "summary": "Behavior must hold across a wide range of devices and OS versions, not just the developer's primary device.",
+              "picks": [
+                {
+                  "concept": "Device matrix testing",
+                  "why": "iPhone SE through iPhone Pro Max, Pixel 4a through Galaxy S24, OS N-2 through N. Cloud device farms (BrowserStack / Sauce) for breadth; physical devices for touch feel.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "ship",
+              "name": "5. Ship",
+              "summary": "Store review rejections come for many reasons. Prepare for them in advance.",
+              "picks": [
+                {
+                  "concept": "Store submission checklist",
+                  "why": "Privacy manifest, permission justifications, age rating, screenshots for every device class, release notes, what's-new copy. Treat the checklist as a deploy artifact.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "operate",
+              "name": "6. Operate",
+              "summary": "Mobile users update slowly; old versions linger in production for months.",
+              "picks": [
+                {
+                  "concept": "Crashlytics + funnel analytics",
+                  "why": "Crash-free rate per app version. Funnel analytics for critical user paths. A forced-update gate for unfixable older versions.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             }
           ]
         },
         {
-          "id": "ship",
-          "name": "5. Ship",
-          "summary": "Clean up, document, announce. The work isn't done until someone else can use it.",
-          "picks": [
+          "id": "data",
+          "name": "Data / ML",
+          "tagline": "Data pipelines, model training, scientific computing.",
+          "note": "Read Common first. Data / ML adds eval-set discipline and reproducibility.",
+          "phases": [
             {
-              "concept": "Branch + working-tree hygiene",
-              "why": "Prunes stale branches and clarifies what's in flight. A clean repo is faster to navigate the next morning.",
-              "example_id": "c2f2c32cae6a1b49",
-              "example_label": "ce-clean-gone-branches"
+              "id": "kickoff",
+              "name": "1. Kick off",
+              "summary": "Look at the data before assuming anything.",
+              "picks": [
+                {
+                  "concept": "Data exploration + schema discovery",
+                  "why": "Read the actual schema, sample rows, distributions. Nulls, encoding, time-zone bugs, label imbalance — these become 80% of project pain if found late.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Documentation + diagrams",
-              "why": "Markdown + Mermaid for architecture, flows, decision trees. Future-you and your teammates will thank present-you.",
-              "example_id": "3a22e7ff260eca9b",
-              "example_label": "markdown-mermaid-writing"
+              "id": "plan",
+              "name": "2. Plan",
+              "summary": "The evaluation set is the project's truth. Build it before any model.",
+              "picks": [
+                {
+                  "concept": "Eval set design (before any modeling!)",
+                  "why": "Held-out test set + slices for sub-populations + the dumb-baseline number. If you can't articulate the metric and how it's measured, you're not ready to train.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Demo reel for the PR",
-              "why": "GIF / terminal recording / screenshots showing the change actually works. Reviewers grok intent in 5 seconds vs reading 500 lines.",
-              "example_id": "2f37d938ada8d651",
-              "example_label": "ce-demo-reel"
+              "id": "build",
+              "name": "3. Build",
+              "summary": "Notebooks are great for exploration, bad for production. Convert at the right moment.",
+              "picks": [
+                {
+                  "concept": "Reproducible notebook → script pipeline",
+                  "why": "Once a notebook 'works', extract into a script with locked seeds, pinned deps, deterministic outputs. The notebook stays for exploration; the script is what runs in CI.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Domain-specific scientific skills",
+                  "why": "K-Dense-AI's collection covers most common ground (zarr for chunked arrays, geomaster for geospatial, fluidsim for CFD, etc.). Reuse before reinventing.",
+                  "example_id": "988f5413ac40d669",
+                  "example_label": "zarr-python"
+                }
+              ]
+            },
+            {
+              "id": "verify",
+              "name": "4. Verify",
+              "summary": "Models lie smoothly. Compare against baselines, watch for drift.",
+              "picks": [
+                {
+                  "concept": "Baseline comparison",
+                  "why": "Random / most-frequent-class / last-value-carried-forward — your model must beat the dumb baseline on every metric and slice. If it doesn't, you have a bug.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Distribution drift detection",
+                  "why": "Compare train vs prod feature distributions periodically. PSI / KL-divergence alerts on the inputs catch silent degradation before metrics tank.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
+            },
+            {
+              "id": "ship",
+              "name": "5. Ship",
+              "summary": "Models without provenance can't be reproduced, can't be audited.",
+              "picks": [
+                {
+                  "concept": "Model card / data card",
+                  "why": "What was trained on what data, with what splits, evaluated how, with which limitations. Future-you and your auditors both need this.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Diagram-driven documentation",
+                  "why": "Pipeline diagrams (data → features → model → output) make a system reviewable. Mermaid is enough; you don't need draw.io.",
+                  "example_id": "3a22e7ff260eca9b",
+                  "example_label": "markdown-mermaid-writing"
+                }
+              ]
+            },
+            {
+              "id": "operate",
+              "name": "6. Operate",
+              "summary": "Inference cost and latency are now business metrics.",
+              "picks": [
+                {
+                  "concept": "Inference latency + cost monitor",
+                  "why": "Tokens per request, p95/p99 latency, cost per query. Especially with LLM-backed features, cost can spike from a single prompt regression.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             }
           ]
         },
         {
-          "id": "operate",
-          "name": "6. Operate",
-          "summary": "Production starts on deploy. Watch the signals you said you'd watch.",
-          "picks": [
+          "id": "security",
+          "name": "Security",
+          "tagline": "Cross-cutting concerns: threat model, secrets, dependencies, audit. Apply alongside whichever other track fits the project.",
+          "note": "Security touches every phase of every project. Read Common first; treat this track as the security overlay on top.",
+          "phases": [
             {
-              "concept": "Post-deploy canary watch",
-              "why": "Tails the relevant dashboards and alerts for N minutes after deploy. Catches the regression while you still remember what changed.",
-              "example_id": "e41eaf0ecbe2bccc",
-              "example_label": "canary"
+              "id": "kickoff",
+              "name": "1. Kick off",
+              "summary": "Identify what you're protecting and from whom before any architecture decision. Threat models built after the fact are theatre.",
+              "picks": [
+                {
+                  "concept": "Threat model (STRIDE / data flow)",
+                  "why": "Map trust boundaries, data flows, and threat actors. Ninety minutes here prevents weeks of retrofitted patches. STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) is a good starting checklist.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Compliance scope",
+                  "why": "Identify whether PCI-DSS, HIPAA, GDPR, SOC2, or any industry-specific regulation applies. Data residency, retention, audit logging, and encryption defaults all follow from this scope.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Product pulse / window report",
-              "why": "Periodically summarizes what users experienced, how the product performed, and which signals deserve a closer look. Stops bugs from compounding silently.",
-              "example_id": "236dabea61f987be",
-              "example_label": "ce-product-pulse"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "backend",
-      "name": "Backend",
-      "tagline": "Server-side / API / database projects.",
-      "note": "Read Common first. These layer on server-side specifics.",
-      "phases": [
-        {
-          "id": "kickoff",
-          "name": "1. Kick off",
-          "summary": "Decide language, framework, and deployment target explicitly before any code. These choices shape every later phase.",
-          "picks": [
-            {
-              "concept": "Language + framework decision",
-              "why": "Node / Python / Go / Java / Rust each carry different tradeoffs in team skills, latency profile, deployment story, and ecosystem maturity for your domain. Pick deliberately and capture the reasoning in an ADR.",
-              "example_id": "",
-              "example_label": ""
+              "id": "plan",
+              "name": "2. Plan",
+              "summary": "Authentication and data-protection design happen at planning time. These decisions are expensive to reverse mid-build.",
+              "picks": [
+                {
+                  "concept": "Auth / authz model design",
+                  "why": "Sessions vs JWT vs OAuth vs SAML; RBAC vs ABAC vs ReBAC. Decide the model and where session state lives before the first login screen. Swapping mid-project breaks everything that touched auth.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Data classification + encryption design",
+                  "why": "Classify every data type as public, internal, PII, or secret. Per class, define encryption at rest, encryption in transit, retention period, and access roles. The matrix drives schema, storage, and access-control decisions.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Deployment target decision",
-              "why": "Serverless vs containers vs VMs vs managed PaaS determines CI shape, observability tooling, scaling story, and cost model. Decide before writing the Dockerfile or serverless.yml.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "plan",
-          "name": "2. Plan",
-          "summary": "API and data model first. Decide write paths and the consistency story before any controller code.",
-          "picks": [
-            {
-              "concept": "API contract first",
-              "why": "Define OpenAPI / gRPC proto / SDL schema before writing handlers. Server and client codegen plus contract tests all build on this single source.",
-              "example_id": "",
-              "example_label": ""
+              "id": "build",
+              "name": "3. Build",
+              "summary": "Secrets out of the repository, dependencies under scrutiny, every input validated. The boring foundations.",
+              "picks": [
+                {
+                  "concept": "Secrets management",
+                  "why": "Vault / AWS Secrets Manager / GCP Secret Manager / Doppler. Never commit credentials to git, never echo them in logs. Rotate on a schedule. Prefer short-lived tokens over long-lived API keys where possible.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Dependency vulnerability scanning",
+                  "why": "Dependabot / Snyk / pip-audit / npm audit / cargo audit in CI. Block PRs introducing known CVEs. Pin transitive dependencies to known-good versions.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Input / output sanitization",
+                  "why": "Parameterized queries against SQL injection. HTML-escape for XSS. Content-Security-Policy headers. Allowlist over denylist. Validate at trust boundaries, not only at the edge.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Database schema design",
-              "why": "Tables, relationships, indexes — and most importantly access patterns — drawn out before any migration runs. Prevents expensive late-stage rewrites.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "build",
-          "name": "3. Build",
-          "summary": "Migrations and request validation are where production tends to break first. Be strict.",
-          "picks": [
-            {
-              "concept": "Migration discipline",
-              "why": "Additive-only migrations (add column → backfill → switch reads → remove old). Every migration must have a rollback path. Never DROP in the same release as the read switch.",
-              "example_id": "",
-              "example_label": ""
+              "id": "verify",
+              "name": "4. Verify",
+              "summary": "Multiple complementary checks: static, dynamic, and human review. No single tool catches everything.",
+              "picks": [
+                {
+                  "concept": "Security audit pass",
+                  "why": "A scored posture assessment across authn, authz, data handling, dependency hygiene, and infrastructure. Run on every release candidate.",
+                  "example_id": "5657281efa45ff77",
+                  "example_label": "security-audit"
+                },
+                {
+                  "concept": "OWASP Top 10 sweep",
+                  "why": "Focused review against injection, broken access control, identification failures, security misconfiguration, and the rest of the OWASP Top 10. Faster than a full audit; catches the most common classes.",
+                  "example_id": "49e9ab43ec7ce259",
+                  "example_label": "security"
+                },
+                {
+                  "concept": "Configuration security check",
+                  "why": "Quick scan of the configuration surface against known threats: leaked tokens, weak defaults, overly permissive CORS, exposed admin endpoints. Run in CI on config changes.",
+                  "example_id": "207e3fde5e33aa35",
+                  "example_label": "security-check"
+                }
+              ]
             },
             {
-              "concept": "Strict request validation",
-              "why": "Schema-validate every inbound request (Zod / Pydantic / proto). Reject early with clear errors instead of letting bad data leak into the persistence layer.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "verify",
-          "name": "4. Verify",
-          "summary": "Beyond unit tests, exercise the API the way real clients will.",
-          "picks": [
-            {
-              "concept": "Load test the hot endpoints",
-              "why": "k6 / Locust / wrk against staging with a realistic traffic shape. Measure p95/p99 latency, tail behaviour, and connection-pool exhaustion before production traffic hits.",
-              "example_id": "",
-              "example_label": ""
+              "id": "ship",
+              "name": "5. Ship",
+              "summary": "Provenance and integrity of what you ship. Downstream consumers must be able to verify the artifact is the one you built.",
+              "picks": [
+                {
+                  "concept": "SBOM generation",
+                  "why": "Software Bill of Materials in CycloneDX or SPDX format. Lists every dependency with version and license. Required for many procurement processes; essential for fast incident response when a CVE drops.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Signed releases / artifact integrity",
+                  "why": "Sigstore / cosign / GPG-signed releases. Downstream consumers verify the binary they received was actually built by your CI. Critical for supply-chain integrity.",
+                  "example_id": "",
+                  "example_label": ""
+                }
+              ]
             },
             {
-              "concept": "Contract testing",
-              "why": "Diff the actual implementation against the API contract on every PR. Catches breaking changes before clients see them.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "operate",
-          "name": "6. Operate",
-          "summary": "Servers run 24/7. Observability is not a launch checklist item; it is the operational primitive.",
-          "picks": [
-            {
-              "concept": "Structured logging + tracing",
-              "why": "JSON logs with request_id plus OpenTelemetry spans across services. Without them, root-causing a production incident is effectively guessing.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "SLO + error-budget tracking",
-              "why": "Separate user-visible errors from internal noise. Burn-rate alerts on the SLO surface real problems and silence background flakes.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "frontend",
-      "name": "Frontend",
-      "tagline": "Web UI / browser apps.",
-      "note": "Read Common first. These layer on frontend specifics.",
-      "phases": [
-        {
-          "id": "kickoff",
-          "name": "1. Kick off",
-          "summary": "Audit what already exists in the design system. Don't reinvent buttons.",
-          "picks": [
-            {
-              "concept": "Design system audit",
-              "why": "List every existing token, primitive, and pattern before creating new ones. 80% of 'new components' should be assemblies of existing primitives.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "plan",
-          "name": "2. Plan",
-          "summary": "Wireframes precede pixel-perfect designs precede code. Skipping a layer makes the next one painful.",
-          "picks": [
-            {
-              "concept": "Wireframe → prototype loop",
-              "why": "Clickable, low-fidelity prototype before any component code. Faster to throw away when the UX is wrong.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Component API design",
-              "why": "Props, slots, controlled vs uncontrolled — sketched on paper before TypeScript. Sane defaults > more options.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "build",
-          "name": "3. Build",
-          "summary": "Build in isolation, integrate last. Storybook is leverage.",
-          "picks": [
-            {
-              "concept": "Component-driven (Storybook)",
-              "why": "Develop each component against its stories, not by tabbing to the live app. Smaller feedback loop = faster iteration.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "verify",
-          "name": "4. Verify",
-          "summary": "Pixels matter, accessibility matters, performance matters. Automate each.",
-          "picks": [
-            {
-              "concept": "Visual regression",
-              "why": "Snapshot diff (Percy / Chromatic / Playwright) catches the 'we accidentally broke the header on mobile' bug before users do.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Accessibility audit",
-              "why": "axe / pa11y in CI + manual keyboard / screen reader pass before launch. Roughly 15% of users benefit; 100% of code reviews should require it.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Browser E2E (covered in Common)",
-              "why": "Same Playwright/Cypress suite from Common; for frontend work this is where most regressions surface.",
-              "example_id": "c2a6b13db75773c3",
-              "example_label": "ce-test-browser"
-            }
-          ]
-        },
-        {
-          "id": "ship",
-          "name": "5. Ship",
-          "summary": "Don't ship 5MB of JavaScript for a button.",
-          "picks": [
-            {
-              "concept": "Bundle + Lighthouse audit",
-              "why": "Track bundle size budget per route. Lighthouse perf/a11y/SEO scores in CI. Regressions blocked at PR time.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "operate",
-          "name": "6. Operate",
-          "summary": "Users hit weird browser versions, weird network conditions, weird input devices. See it from their side.",
-          "picks": [
-            {
-              "concept": "Frontend error tracking",
-              "why": "Sentry / LogRocket capturing JS errors + session replay. Source maps uploaded so stacks are readable. Cumulative Layout Shift alerts too.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Core Web Vitals monitoring",
-              "why": "RUM (real user monitoring) for LCP, INP, CLS by route. Lab numbers can mislead; real-user p75s are the source of truth.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mobile",
-      "name": "Mobile",
-      "tagline": "Native iOS / Android apps (or cross-platform).",
-      "note": "Read Common first. Mobile adds device + store specifics.",
-      "phases": [
-        {
-          "id": "kickoff",
-          "name": "1. Kick off",
-          "summary": "Mobile work has high day-0 friction: store accounts, certificates, and platform priority. Resolve these before writing the first screen.",
-          "picks": [
-            {
-              "concept": "Platform priority decision",
-              "why": "iOS-first / Android-first / parity carries real cost implications. Most indie launches pick one and iterate; enterprise typically needs parity. Decide explicitly with a written rationale.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Developer account + certificate setup",
-              "why": "Apple Developer ($99/yr) + Google Play Console ($25 one-time), signing certificates, provisioning profiles, push notification certs. Many teams discover these are missing at submission time, which delays launch by days.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "plan",
-          "name": "2. Plan",
-          "summary": "The cross-platform decision is one of the most expensive choices to reverse. Make it explicit and document why.",
-          "picks": [
-            {
-              "concept": "Native vs cross-platform decision",
-              "why": "Write an ADR. Key constraints: team skills, performance ceiling, OS-specific features needed, time-to-market. Avoid drifting into one approach by momentum.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "build",
-          "name": "3. Build",
-          "summary": "A tight build/simulate loop matters more on mobile. The IDE-to-simulator round-trip dominates iteration time.",
-          "picks": [
-            {
-              "concept": "Simulator build automation",
-              "why": "One command to build, boot the simulator, install, launch, and tail logs. Removes the 30-second context switch on every iteration.",
-              "example_id": "dc668b3339d59044",
-              "example_label": "ce-test-xcode"
-            }
-          ]
-        },
-        {
-          "id": "verify",
-          "name": "4. Verify",
-          "summary": "Behavior must hold across a wide range of devices and OS versions, not just the developer's primary device.",
-          "picks": [
-            {
-              "concept": "Device matrix testing",
-              "why": "iPhone SE through iPhone Pro Max, Pixel 4a through Galaxy S24, OS N-2 through N. Cloud device farms (BrowserStack / Sauce) for breadth; physical devices for touch feel.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "ship",
-          "name": "5. Ship",
-          "summary": "Store review rejections come for many reasons. Prepare for them in advance.",
-          "picks": [
-            {
-              "concept": "Store submission checklist",
-              "why": "Privacy manifest, permission justifications, age rating, screenshots for every device class, release notes, what's-new copy. Treat the checklist as a deploy artifact.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "operate",
-          "name": "6. Operate",
-          "summary": "Mobile users update slowly; old versions linger in production for months.",
-          "picks": [
-            {
-              "concept": "Crashlytics + funnel analytics",
-              "why": "Crash-free rate per app version. Funnel analytics for critical user paths. A forced-update gate for unfixable older versions.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "data",
-      "name": "Data / ML",
-      "tagline": "Data pipelines, model training, scientific computing.",
-      "note": "Read Common first. Data / ML adds eval-set discipline and reproducibility.",
-      "phases": [
-        {
-          "id": "kickoff",
-          "name": "1. Kick off",
-          "summary": "Look at the data before assuming anything.",
-          "picks": [
-            {
-              "concept": "Data exploration + schema discovery",
-              "why": "Read the actual schema, sample rows, distributions. Nulls, encoding, time-zone bugs, label imbalance — these become 80% of project pain if found late.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "plan",
-          "name": "2. Plan",
-          "summary": "The evaluation set is the project's truth. Build it before any model.",
-          "picks": [
-            {
-              "concept": "Eval set design (before any modeling!)",
-              "why": "Held-out test set + slices for sub-populations + the dumb-baseline number. If you can't articulate the metric and how it's measured, you're not ready to train.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "build",
-          "name": "3. Build",
-          "summary": "Notebooks are great for exploration, bad for production. Convert at the right moment.",
-          "picks": [
-            {
-              "concept": "Reproducible notebook → script pipeline",
-              "why": "Once a notebook 'works', extract into a script with locked seeds, pinned deps, deterministic outputs. The notebook stays for exploration; the script is what runs in CI.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Domain-specific scientific skills",
-              "why": "K-Dense-AI's collection covers most common ground (zarr for chunked arrays, geomaster for geospatial, fluidsim for CFD, etc.). Reuse before reinventing.",
-              "example_id": "988f5413ac40d669",
-              "example_label": "zarr-python"
-            }
-          ]
-        },
-        {
-          "id": "verify",
-          "name": "4. Verify",
-          "summary": "Models lie smoothly. Compare against baselines, watch for drift.",
-          "picks": [
-            {
-              "concept": "Baseline comparison",
-              "why": "Random / most-frequent-class / last-value-carried-forward — your model must beat the dumb baseline on every metric and slice. If it doesn't, you have a bug.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Distribution drift detection",
-              "why": "Compare train vs prod feature distributions periodically. PSI / KL-divergence alerts on the inputs catch silent degradation before metrics tank.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "ship",
-          "name": "5. Ship",
-          "summary": "Models without provenance can't be reproduced, can't be audited.",
-          "picks": [
-            {
-              "concept": "Model card / data card",
-              "why": "What was trained on what data, with what splits, evaluated how, with which limitations. Future-you and your auditors both need this.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Diagram-driven documentation",
-              "why": "Pipeline diagrams (data → features → model → output) make a system reviewable. Mermaid is enough; you don't need draw.io.",
-              "example_id": "3a22e7ff260eca9b",
-              "example_label": "markdown-mermaid-writing"
-            }
-          ]
-        },
-        {
-          "id": "operate",
-          "name": "6. Operate",
-          "summary": "Inference cost and latency are now business metrics.",
-          "picks": [
-            {
-              "concept": "Inference latency + cost monitor",
-              "why": "Tokens per request, p95/p99 latency, cost per query. Especially with LLM-backed features, cost can spike from a single prompt regression.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "security",
-      "name": "Security",
-      "tagline": "Cross-cutting concerns: threat model, secrets, dependencies, audit. Apply alongside whichever other track fits the project.",
-      "note": "Security touches every phase of every project. Read Common first; treat this track as the security overlay on top.",
-      "phases": [
-        {
-          "id": "kickoff",
-          "name": "1. Kick off",
-          "summary": "Identify what you're protecting and from whom before any architecture decision. Threat models built after the fact are theatre.",
-          "picks": [
-            {
-              "concept": "Threat model (STRIDE / data flow)",
-              "why": "Map trust boundaries, data flows, and threat actors. Ninety minutes here prevents weeks of retrofitted patches. STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) is a good starting checklist.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Compliance scope",
-              "why": "Identify whether PCI-DSS, HIPAA, GDPR, SOC2, or any industry-specific regulation applies. Data residency, retention, audit logging, and encryption defaults all follow from this scope.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "plan",
-          "name": "2. Plan",
-          "summary": "Authentication and data-protection design happen at planning time. These decisions are expensive to reverse mid-build.",
-          "picks": [
-            {
-              "concept": "Auth / authz model design",
-              "why": "Sessions vs JWT vs OAuth vs SAML; RBAC vs ABAC vs ReBAC. Decide the model and where session state lives before the first login screen. Swapping mid-project breaks everything that touched auth.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Data classification + encryption design",
-              "why": "Classify every data type as public, internal, PII, or secret. Per class, define encryption at rest, encryption in transit, retention period, and access roles. The matrix drives schema, storage, and access-control decisions.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "build",
-          "name": "3. Build",
-          "summary": "Secrets out of the repository, dependencies under scrutiny, every input validated. The boring foundations.",
-          "picks": [
-            {
-              "concept": "Secrets management",
-              "why": "Vault / AWS Secrets Manager / GCP Secret Manager / Doppler. Never commit credentials to git, never echo them in logs. Rotate on a schedule. Prefer short-lived tokens over long-lived API keys where possible.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Dependency vulnerability scanning",
-              "why": "Dependabot / Snyk / pip-audit / npm audit / cargo audit in CI. Block PRs introducing known CVEs. Pin transitive dependencies to known-good versions.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Input / output sanitization",
-              "why": "Parameterized queries against SQL injection. HTML-escape for XSS. Content-Security-Policy headers. Allowlist over denylist. Validate at trust boundaries, not only at the edge.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "verify",
-          "name": "4. Verify",
-          "summary": "Multiple complementary checks: static, dynamic, and human review. No single tool catches everything.",
-          "picks": [
-            {
-              "concept": "Security audit pass",
-              "why": "A scored posture assessment across authn, authz, data handling, dependency hygiene, and infrastructure. Run on every release candidate.",
-              "example_id": "5657281efa45ff77",
-              "example_label": "security-audit"
-            },
-            {
-              "concept": "OWASP Top 10 sweep",
-              "why": "Focused review against injection, broken access control, identification failures, security misconfiguration, and the rest of the OWASP Top 10. Faster than a full audit; catches the most common classes.",
-              "example_id": "49e9ab43ec7ce259",
-              "example_label": "security"
-            },
-            {
-              "concept": "Configuration security check",
-              "why": "Quick scan of the configuration surface against known threats: leaked tokens, weak defaults, overly permissive CORS, exposed admin endpoints. Run in CI on config changes.",
-              "example_id": "207e3fde5e33aa35",
-              "example_label": "security-check"
-            }
-          ]
-        },
-        {
-          "id": "ship",
-          "name": "5. Ship",
-          "summary": "Provenance and integrity of what you ship. Downstream consumers must be able to verify the artifact is the one you built.",
-          "picks": [
-            {
-              "concept": "SBOM generation",
-              "why": "Software Bill of Materials in CycloneDX or SPDX format. Lists every dependency with version and license. Required for many procurement processes; essential for fast incident response when a CVE drops.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Signed releases / artifact integrity",
-              "why": "Sigstore / cosign / GPG-signed releases. Downstream consumers verify the binary they received was actually built by your CI. Critical for supply-chain integrity.",
-              "example_id": "",
-              "example_label": ""
-            }
-          ]
-        },
-        {
-          "id": "operate",
-          "name": "6. Operate",
-          "summary": "Security is a continuous practice, not a launch milestone. Observe, rotate, respond.",
-          "picks": [
-            {
-              "concept": "Audit logging",
-              "why": "Capture authentication events, privileged actions, and data access. Append-only, tamper-evident storage. Retention aligned with compliance scope. Searchable during incident response.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Incident response runbook",
-              "why": "Documented procedure: who to page, how to communicate internally and externally, how to scope blast radius, how to rotate credentials. Tabletop-exercise it quarterly.",
-              "example_id": "",
-              "example_label": ""
-            },
-            {
-              "concept": "Threat intelligence feed",
-              "why": "Track relevant CVE feeds, vendor advisories, and AI-agent-specific threat patterns. Translate alerts into action items rather than reading them passively.",
-              "example_id": "a503a03e65711df4",
-              "example_label": "update-threat-db"
+              "id": "operate",
+              "name": "6. Operate",
+              "summary": "Security is a continuous practice, not a launch milestone. Observe, rotate, respond.",
+              "picks": [
+                {
+                  "concept": "Audit logging",
+                  "why": "Capture authentication events, privileged actions, and data access. Append-only, tamper-evident storage. Retention aligned with compliance scope. Searchable during incident response.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Incident response runbook",
+                  "why": "Documented procedure: who to page, how to communicate internally and externally, how to scope blast radius, how to rotate credentials. Tabletop-exercise it quarterly.",
+                  "example_id": "",
+                  "example_label": ""
+                },
+                {
+                  "concept": "Threat intelligence feed",
+                  "why": "Track relevant CVE feeds, vendor advisories, and AI-agent-specific threat patterns. Translate alerts into action items rather than reading them passively.",
+                  "example_id": "a503a03e65711df4",
+                  "example_label": "update-threat-db"
+                }
+              ]
             }
           ]
         }
