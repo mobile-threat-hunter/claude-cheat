@@ -1,6 +1,6 @@
 {
-  "title": "Claude 스킬을 어떻게 써야 할까 — 537개 스킬이 알려준 것들",
-  "subtitle": "코퍼스 내 평점 상위 Agent Skills의 구조·내용 패턴을 종합한 정리입니다.",
+  "title": "Claude 스킬을 어떻게 써야 할까?",
+  "subtitle": "537개 상위 Agent Skills를 분석해 구조와 내용 패턴을 정리했습니다.",
   "generated_note": "통계는 output/patterns.json (자동 생성). 본문 서술은 직접 큐레이션.",
   "sections": [
     {

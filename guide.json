@@ -1,6 +1,6 @@
 {
-  "title": "How to write a Claude skill — what 537 skills told us",
-  "subtitle": "Synthesis of structural and content patterns across the highest-rated Agent Skills in the corpus.",
+  "title": "How to write a Claude skill?",
+  "subtitle": "Structural and content patterns synthesized across the highest-rated Agent Skills in the corpus.",
   "generated_note": "Stats come from output/patterns.json (auto). Narrative is hand-curated.",
   "sections": [
     {
