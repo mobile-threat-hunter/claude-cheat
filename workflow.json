@@ -143,19 +143,38 @@
       "note": "Read Common first. These layer on server-side specifics.",
       "phases": [
         {
+          "id": "kickoff",
+          "name": "1. Kick off",
+          "summary": "Decide language, framework, and deployment target explicitly before any code. These choices shape every later phase.",
+          "picks": [
+            {
+              "concept": "Language + framework decision",
+              "why": "Node / Python / Go / Java / Rust each carry different tradeoffs in team skills, latency profile, deployment story, and ecosystem maturity for your domain. Pick deliberately and capture the reasoning in an ADR.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Deployment target decision",
+              "why": "Serverless vs containers vs VMs vs managed PaaS determines CI shape, observability tooling, scaling story, and cost model. Decide before writing the Dockerfile or serverless.yml.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
           "id": "plan",
           "name": "2. Plan",
-          "summary": "API + data model first; decide write paths and consistency story before any controller code.",
+          "summary": "API and data model first. Decide write paths and the consistency story before any controller code.",
           "picks": [
             {
               "concept": "API contract first",
-              "why": "Define OpenAPI / gRPC proto / SDL schema before writing handlers. Server and client codegen + contract tests both build on this single source.",
+              "why": "Define OpenAPI / gRPC proto / SDL schema before writing handlers. Server and client codegen plus contract tests all build on this single source.",
               "example_id": "",
               "example_label": ""
             },
             {
               "concept": "Database schema design",
-              "why": "Tables, relationships, indexes — and most importantly access patterns — drawn out before any migration runs. Saves expensive late-stage rewrites.",
+              "why": "Tables, relationships, indexes — and most importantly access patterns — drawn out before any migration runs. Prevents expensive late-stage rewrites.",
               "example_id": "",
               "example_label": ""
             }
@@ -164,7 +183,7 @@
         {
           "id": "build",
           "name": "3. Build",
-          "summary": "Migrations and request shape are where production usually breaks first. Be strict.",
+          "summary": "Migrations and request validation are where production tends to break first. Be strict.",
           "picks": [
             {
               "concept": "Migration discipline",
@@ -183,11 +202,11 @@
         {
           "id": "verify",
           "name": "4. Verify",
-          "summary": "Beyond unit tests: hammer the API like real clients will.",
+          "summary": "Beyond unit tests, exercise the API the way real clients will.",
           "picks": [
             {
               "concept": "Load test the hot endpoints",
-              "why": "k6 / Locust / wrk against staging with realistic traffic shape. p95/p99 latency, tail behaviour, connection pool exhaustion — better found here than at 3 AM.",
+              "why": "k6 / Locust / wrk against staging with a realistic traffic shape. Measure p95/p99 latency, tail behaviour, and connection-pool exhaustion before production traffic hits.",
               "example_id": "",
               "example_label": ""
             },
@@ -202,17 +221,17 @@
         {
           "id": "operate",
           "name": "6. Operate",
-          "summary": "Servers run 24/7. Observability is not a launch checklist item — it's the operational primitive.",
+          "summary": "Servers run 24/7. Observability is not a launch checklist item; it is the operational primitive.",
           "picks": [
             {
               "concept": "Structured logging + tracing",
-              "why": "JSON logs with request_id + OpenTelemetry spans across services. Without these you debug production by reading tea leaves.",
+              "why": "JSON logs with request_id plus OpenTelemetry spans across services. Without them, root-causing a production incident is effectively guessing.",
               "example_id": "",
               "example_label": ""
             },
             {
               "concept": "SLO + error-budget tracking",
-              "why": "Separate user-visible errors from internal noise. Burn-rate alerts on the SLO let you know when something's actually wrong vs background flakes.",
+              "why": "Separate user-visible errors from internal noise. Burn-rate alerts on the SLO surface real problems and silence background flakes.",
               "example_id": "",
               "example_label": ""
             }
@@ -322,7 +341,7 @@
             },
             {
               "concept": "Core Web Vitals monitoring",
-              "why": "RUM (real user monitoring) for LCP, INP, CLS by route. Lab numbers lie; production p75s don't.",
+              "why": "RUM (real user monitoring) for LCP, INP, CLS by route. Lab numbers can mislead; real-user p75s are the source of truth.",
               "example_id": "",
               "example_label": ""
             }
@@ -337,13 +356,32 @@
       "note": "Read Common first. Mobile adds device + store specifics.",
       "phases": [
         {
+          "id": "kickoff",
+          "name": "1. Kick off",
+          "summary": "Mobile work has high day-0 friction: store accounts, certificates, and platform priority. Resolve these before writing the first screen.",
+          "picks": [
+            {
+              "concept": "Platform priority decision",
+              "why": "iOS-first / Android-first / parity carries real cost implications. Most indie launches pick one and iterate; enterprise typically needs parity. Decide explicitly with a written rationale.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Developer account + certificate setup",
+              "why": "Apple Developer ($99/yr) + Google Play Console ($25 one-time), signing certificates, provisioning profiles, push notification certs. Many teams discover these are missing at submission time, which delays launch by days.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
           "id": "plan",
           "name": "2. Plan",
-          "summary": "The cross-platform decision is the most expensive one to reverse. Make it explicit and document why.",
+          "summary": "The cross-platform decision is one of the most expensive choices to reverse. Make it explicit and document why.",
           "picks": [
             {
               "concept": "Native vs cross-platform decision",
-              "why": "Write an ADR. Constraints: team skills, performance ceiling, OS-specific features needed, time-to-market. Don't drift into one because of momentum.",
+              "why": "Write an ADR. Key constraints: team skills, performance ceiling, OS-specific features needed, time-to-market. Avoid drifting into one approach by momentum.",
               "example_id": "",
               "example_label": ""
             }
@@ -352,11 +390,11 @@
         {
           "id": "build",
           "name": "3. Build",
-          "summary": "Tight build/simulate loop matters more on mobile — IDE+simulator dance kills focus.",
+          "summary": "A tight build/simulate loop matters more on mobile. The IDE-to-simulator round-trip dominates iteration time.",
           "picks": [
             {
               "concept": "Simulator build automation",
-              "why": "One command to build + boot simulator + install + launch + tail logs. Cuts the 30-second context switch each iteration.",
+              "why": "One command to build, boot the simulator, install, launch, and tail logs. Removes the 30-second context switch on every iteration.",
               "example_id": "dc668b3339d59044",
               "example_label": "ce-test-xcode"
             }
@@ -365,11 +403,11 @@
         {
           "id": "verify",
           "name": "4. Verify",
-          "summary": "Your phone isn't the user's phone.",
+          "summary": "Behavior must hold across a wide range of devices and OS versions, not just the developer's primary device.",
           "picks": [
             {
               "concept": "Device matrix testing",
-              "why": "iPhone SE through iPhone Pro Max, Pixel 4a through Galaxy S24, OS N-2 through N. Cloud device farms (BrowserStack/Sauce) for breadth, physical for touch feel.",
+              "why": "iPhone SE through iPhone Pro Max, Pixel 4a through Galaxy S24, OS N-2 through N. Cloud device farms (BrowserStack / Sauce) for breadth; physical devices for touch feel.",
               "example_id": "",
               "example_label": ""
             }
@@ -378,11 +416,11 @@
         {
           "id": "ship",
           "name": "5. Ship",
-          "summary": "Store reviewers reject weird things. Be ready.",
+          "summary": "Store review rejections come for many reasons. Prepare for them in advance.",
           "picks": [
             {
               "concept": "Store submission checklist",
-              "why": "Privacy manifest, permission justifications, age rating, screenshots for every device class, release notes, what's-new copy. Treat as a deploy artifact.",
+              "why": "Privacy manifest, permission justifications, age rating, screenshots for every device class, release notes, what's-new copy. Treat the checklist as a deploy artifact.",
               "example_id": "",
               "example_label": ""
             }
@@ -391,11 +429,11 @@
         {
           "id": "operate",
           "name": "6. Operate",
-          "summary": "Mobile users update slowly. Old versions linger.",
+          "summary": "Mobile users update slowly; old versions linger in production for months.",
           "picks": [
             {
               "concept": "Crashlytics + funnel analytics",
-              "why": "Crash-free rate per app version. Funnel analytics for the critical user paths. Forced-update gate for unfixable old versions.",
+              "why": "Crash-free rate per app version. Funnel analytics for critical user paths. A forced-update gate for unfixable older versions.",
               "example_id": "",
               "example_label": ""
             }

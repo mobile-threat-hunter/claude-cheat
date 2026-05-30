@@ -143,19 +143,38 @@
       "note": "Common을 먼저 읽으세요. 여기는 서버 사이드 특화만 더합니다.",
       "phases": [
         {
+          "id": "kickoff",
+          "name": "1. 시작 (Kick off)",
+          "summary": "언어 · 프레임워크 · 배포 타깃을 코드 짜기 전에 명시적으로 결정합니다. 이후 모든 단계의 모양이 여기서 정해집니다.",
+          "picks": [
+            {
+              "concept": "언어 + 프레임워크 결정",
+              "why": "Node · Python · Go · Java · Rust 각각이 팀 스킬 · 레이턴시 프로필 · 배포 스토리 · 도메인 생태계 성숙도에서 다른 트레이드오프를 가집니다. 의도적으로 고르고 이유를 ADR로 남기세요.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "배포 타깃 결정",
+              "why": "Serverless · 컨테이너 · VM · 매니지드 PaaS 중 무엇이냐가 CI 구조 · 옵저버빌리티 도구 · 스케일링 전략 · 비용 모델을 결정합니다. Dockerfile 이나 serverless.yml 짜기 전에 결정합니다.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
           "id": "plan",
           "name": "2. 설계 (Plan)",
           "summary": "API와 데이터 모델 먼저. 컨트롤러 코드 짜기 전에 write 경로와 일관성 전략을 결정합니다.",
           "picks": [
             {
               "concept": "API 계약 우선 (Contract first)",
-              "why": "OpenAPI / gRPC proto / SDL 스키마를 핸들러 코드 전에 정의. 서버·클라이언트 codegen과 contract test가 이 단일 소스에 같이 묶입니다.",
+              "why": "OpenAPI / gRPC proto / SDL 스키마를 핸들러 코드 전에 정의합니다. 서버·클라이언트 codegen과 contract test가 이 단일 소스 위에 묶입니다.",
               "example_id": "",
               "example_label": ""
             },
             {
               "concept": "DB 스키마 설계",
-              "why": "테이블·관계·인덱스 — 가장 중요한 건 access 패턴 — 을 마이그레이션 실행 전에 그려둡니다. 후반의 비싼 재작업을 막아줍니다.",
+              "why": "테이블 · 관계 · 인덱스 (가장 중요하게는 access 패턴)를 마이그레이션 실행 전에 그려둡니다. 후반의 비싼 재작업을 막아줍니다.",
               "example_id": "",
               "example_label": ""
             }
@@ -164,17 +183,17 @@
         {
           "id": "build",
           "name": "3. 구현 (Build)",
-          "summary": "마이그레이션과 request 형태는 프로덕션이 제일 먼저 터지는 지점. 엄격하게.",
+          "summary": "마이그레이션과 request 형태는 프로덕션이 가장 먼저 깨지는 지점입니다. 엄격하게 다룹니다.",
           "picks": [
             {
               "concept": "마이그레이션 규율",
-              "why": "additive-only 마이그레이션 (컬럼 추가 → 백필 → read 전환 → 옛 컬럼 제거). 모든 마이그레이션은 rollback 경로 필수. read 전환과 같은 릴리스에서 DROP 절대 금지.",
+              "why": "additive-only 마이그레이션 (컬럼 추가 → 백필 → read 전환 → 옛 컬럼 제거). 모든 마이그레이션은 rollback 경로가 필수입니다. read 전환과 같은 릴리스에서 DROP 절대 금지.",
               "example_id": "",
               "example_label": ""
             },
             {
               "concept": "엄격한 request 검증",
-              "why": "모든 입력 요청을 스키마 검증 (Zod / Pydantic / proto). 잘못된 데이터가 영속 레이어로 새기 전에 명확한 에러로 거절.",
+              "why": "모든 입력 요청을 스키마 검증합니다 (Zod / Pydantic / proto). 잘못된 데이터가 영속 레이어로 새기 전에 명확한 에러로 거절합니다.",
               "example_id": "",
               "example_label": ""
             }
@@ -183,17 +202,17 @@
         {
           "id": "verify",
           "name": "4. 검증 (Verify)",
-          "summary": "유닛 테스트 너머 — 진짜 클라이언트가 두드릴 패턴으로 API를 망치질해봅니다.",
+          "summary": "유닛 테스트 너머에서, 실제 클라이언트가 두드릴 패턴으로 API를 측정합니다.",
           "picks": [
             {
               "concept": "핫 엔드포인트 부하 테스트",
-              "why": "k6 / Locust / wrk로 staging에 현실적인 트래픽 패턴 투입. p95/p99 레이턴시, tail behavior, 커넥션 풀 고갈 — 새벽 3시보다 여기서 발견하는 게 낫습니다.",
+              "why": "k6 / Locust / wrk로 staging에 현실적인 트래픽 패턴을 투입합니다. p95/p99 레이턴시, tail behavior, 커넥션 풀 고갈을 프로덕션 트래픽이 들어오기 전에 측정해서 잡습니다.",
               "example_id": "",
               "example_label": ""
             },
             {
               "concept": "Contract testing",
-              "why": "PR마다 실제 구현과 API 계약을 diff. breaking change가 클라이언트에 닿기 전에 잡아냅니다.",
+              "why": "PR마다 실제 구현과 API 계약을 diff합니다. breaking change가 클라이언트에 닿기 전에 잡아냅니다.",
               "example_id": "",
               "example_label": ""
             }
@@ -202,17 +221,17 @@
         {
           "id": "operate",
           "name": "6. 운영 (Operate)",
-          "summary": "서버는 24/7 돕니다. 옵저버빌리티는 출시 체크리스트가 아니라 운영의 1차 도구.",
+          "summary": "서버는 24/7 돕니다. 옵저버빌리티는 출시 체크리스트가 아니라 운영의 1차 도구입니다.",
           "picks": [
             {
               "concept": "구조화된 로깅 + 트레이싱",
-              "why": "request_id가 박힌 JSON 로그 + 서비스 간 OpenTelemetry span. 이거 없이는 프로덕션 디버깅을 점치는 수준으로 합니다.",
+              "why": "request_id가 박힌 JSON 로그 + 서비스 간 OpenTelemetry span. 이 데이터 없이는 프로덕션 장애 원인 추적이 사실상 추측 단계에 머뭅니다.",
               "example_id": "",
               "example_label": ""
             },
             {
               "concept": "SLO + 에러 버짓 트래킹",
-              "why": "사용자-가시 에러와 내부 noise를 분리. SLO 기준 burn-rate 알람만 진짜 비상으로 다루면 백그라운드 flake에 시달리지 않습니다.",
+              "why": "사용자에게 보이는 에러와 내부 noise를 분리합니다. SLO 기준 burn-rate 알람이 진짜 비상만 깨우고 백그라운드 flake는 걸러줍니다.",
               "example_id": "",
               "example_label": ""
             }
@@ -322,7 +341,7 @@
             },
             {
               "concept": "Core Web Vitals 모니터링",
-              "why": "라우트별 LCP · INP · CLS RUM (real user monitoring). 랩 수치는 거짓말; 프로덕션 p75는 거짓말 못 함.",
+              "why": "라우트별 LCP · INP · CLS RUM (real user monitoring). 랩 환경 수치는 오해를 줄 수 있고, 실제 사용자의 p75 수치가 진실에 더 가깝습니다.",
               "example_id": "",
               "example_label": ""
             }
@@ -337,13 +356,32 @@
       "note": "Common을 먼저 읽으세요. Mobile은 디바이스·스토어 특화를 더합니다.",
       "phases": [
         {
+          "id": "kickoff",
+          "name": "1. 시작 (Kick off)",
+          "summary": "모바일은 day-0 마찰이 큽니다. 스토어 계정 · 인증서 · 플랫폼 우선순위 같은 항목은 첫 화면 짜기 전에 정리해야 합니다.",
+          "picks": [
+            {
+              "concept": "플랫폼 우선순위 결정",
+              "why": "iOS 우선 · Android 우선 · 양쪽 동시 중 무엇이냐는 비용에 직결됩니다. 인디 런칭은 보통 하나를 골라 반복하고, 엔터프라이즈는 보통 양쪽 동시. 명시적으로 결정하고 근거를 문서화합니다.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "개발자 계정 + 인증서 셋업",
+              "why": "Apple Developer (연 $99) + Google Play Console (1회 $25), 서명 인증서, 프로비저닝 프로파일, 푸시 인증서. 많은 팀이 출시 직전에 이게 없다는 걸 발견해 며칠씩 지연됩니다.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
           "id": "plan",
           "name": "2. 설계 (Plan)",
-          "summary": "크로스 플랫폼 결정은 되돌리기 가장 비싼 결정. 명시적으로 정하고 이유를 남깁니다.",
+          "summary": "크로스 플랫폼 결정은 되돌리기 가장 비싼 결정 중 하나입니다. 명시적으로 정하고 이유를 남깁니다.",
           "picks": [
             {
               "concept": "네이티브 vs 크로스 플랫폼 결정",
-              "why": "ADR 작성. 제약: 팀 스킬 · 성능 천장 · OS 고유 기능 · TTM. 관성으로 휩쓸리지 말고 명시적으로.",
+              "why": "ADR로 작성합니다. 핵심 제약: 팀 스킬 · 성능 천장 · OS 고유 기능 · TTM. 관성으로 휩쓸리지 말고 명시적으로 결정.",
               "example_id": "",
               "example_label": ""
             }
@@ -352,11 +390,11 @@
         {
           "id": "build",
           "name": "3. 구현 (Build)",
-          "summary": "빌드 → 시뮬레이션 루프가 모바일에서 더 결정적. IDE+시뮬레이터 왔다 갔다가 집중력을 죽입니다.",
+          "summary": "빌드 → 시뮬레이션 루프가 모바일에서 더 결정적입니다. IDE와 시뮬레이터 사이 왕복이 반복 시간을 지배합니다.",
           "picks": [
             {
               "concept": "시뮬레이터 빌드 자동화",
-              "why": "한 명령으로 빌드 + 시뮬레이터 부팅 + 설치 + 실행 + 로그 tail. 반복마다 30초 컨텍스트 스위치 절감.",
+              "why": "한 명령으로 빌드 + 시뮬레이터 부팅 + 설치 + 실행 + 로그 tail. 반복마다 30초씩 드는 컨텍스트 스위치를 제거합니다.",
               "example_id": "dc668b3339d59044",
               "example_label": "ce-test-xcode"
             }
@@ -365,11 +403,11 @@
         {
           "id": "verify",
           "name": "4. 검증 (Verify)",
-          "summary": "내 폰은 사용자 폰이 아닙니다.",
+          "summary": "다양한 디바이스와 OS 버전에서 동작을 보장해야 합니다. 개발자의 주력 단말 하나로는 불충분합니다.",
           "picks": [
             {
               "concept": "디바이스 매트릭스 테스트",
-              "why": "iPhone SE부터 iPhone Pro Max까지, Pixel 4a부터 Galaxy S24까지, OS N-2부터 N까지. 폭은 클라우드 디바이스 팜 (BrowserStack/Sauce), 터치감은 실물.",
+              "why": "iPhone SE부터 iPhone Pro Max까지, Pixel 4a부터 Galaxy S24까지, OS N-2부터 N까지. 폭은 클라우드 디바이스 팜 (BrowserStack / Sauce), 터치감은 실물 디바이스.",
               "example_id": "",
               "example_label": ""
             }
@@ -378,11 +416,11 @@
         {
           "id": "ship",
           "name": "5. 배포 (Ship)",
-          "summary": "스토어 리뷰어는 이상한 걸로 reject합니다. 준비하세요.",
+          "summary": "스토어 심사에서 거절되는 사유는 다양하므로 사전 준비가 필요합니다.",
           "picks": [
             {
               "concept": "스토어 제출 체크리스트",
-              "why": "Privacy manifest · 권한 사용 사유 · 연령 등급 · 디바이스 클래스별 스크린샷 · 릴리스 노트 · what's-new 카피. 배포 산출물로 취급.",
+              "why": "Privacy manifest · 권한 사용 사유 · 연령 등급 · 디바이스 클래스별 스크린샷 · 릴리스 노트 · what's-new 카피. 체크리스트 자체를 배포 산출물로 취급합니다.",
               "example_id": "",
               "example_label": ""
             }
@@ -391,11 +429,11 @@
         {
           "id": "operate",
           "name": "6. 운영 (Operate)",
-          "summary": "모바일 사용자는 천천히 업데이트합니다. 옛 버전이 남아있어요.",
+          "summary": "모바일 사용자는 천천히 업데이트합니다. 옛 버전이 몇 달씩 프로덕션에 남습니다.",
           "picks": [
             {
               "concept": "Crashlytics + funnel 분석",
-              "why": "앱 버전별 crash-free rate. 핵심 user path 깔때기 분석. 못 고치는 옛 버전은 강제 업데이트 게이트.",
+              "why": "앱 버전별 crash-free rate. 핵심 user path 깔때기 분석. 더 이상 수정이 안 되는 옛 버전은 강제 업데이트 게이트.",
               "example_id": "",
               "example_label": ""
             }
