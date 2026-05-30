@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T17:54:39.994294+00:00",
+  "generated_at": "2026-05-30T19:40:45.674100+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-05",
   "snapshots": [
@@ -8,7 +8,7 @@
       "month": "2026-05",
       "label": "2026-05 · opus-4.8",
       "title": "Claude's recommended dev workflow",
-      "subtitle": "The skills Claude would want loaded across a code project from kickoff to production. Start with Common; layer specialised tracks (Backend / Frontend / Mobile / Data·ML) on top when they apply.",
+      "subtitle": "The skills Claude would want loaded across a code project from kickoff to production! Start with Common; layer specialised tracks (Backend / Frontend / Mobile / Data·ML) on top when they apply!",
       "note": "Each pick cites an exemplar from the corpus when one exists. Click it to read the actual skill.",
       "tracks": [
         {
