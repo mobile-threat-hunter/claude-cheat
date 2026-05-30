@@ -1,0 +1,132 @@
+{
+  "title": "Claude 스킬을 어떻게 써야 할까 — 537개 스킬이 알려준 것들",
+  "subtitle": "코퍼스 내 평점 상위 Agent Skills의 구조·내용 패턴을 종합한 정리입니다.",
+  "generated_note": "통계는 output/patterns.json (자동 생성). 본문 서술은 직접 큐레이션.",
+  "sections": [
+    {
+      "id": "what-this-is",
+      "title": "먼저 읽기",
+      "body": "*스킬*은 Claude가 능력을 얻기 위해 로드하는 마크다운 파일입니다. 잘 쓰는 사람들은 스킬을 **사람용 문서가 아니라 Claude가 실행할 사양**처럼 다룹니다. 아래 패턴들은 템플릿·미완성 스킬을 걸러낸 537개 스킬을 분석한 결과 — 종합 점수 상위의 스킬들이 공유하는 작은 관습 모음으로, 그대로 따라하면 됩니다.\n\n이 가이드는 **Agent Skills** (코퍼스의 78%)에 초점을 둡니다. Slash-Commands, Hooks, Status Lines는 더 단순한 아티팩트이고 별도 형태가 있습니다.",
+      "exemplars": []
+    },
+    {
+      "id": "frontmatter",
+      "title": "1. Frontmatter — 최소한으로",
+      "body": "YAML 필드 두 개가 사실상 필수: **`name`** 과 **`description`** (각각 ~98%의 스킬이 사용). 나머지는 선택사항이고 프로젝트 특화입니다.\n\n자주 등장하는 다른 필드들은 프로젝트 성격을 알려줍니다:\n\n- **`allowed-tools`** — Claude에게 정확히 어떤 도구를 쓸지 지시. CLI를 감싸는 스킬에서 흔함.\n- **`license`, `metadata`, `compatibility`, `author`** — 스킬을 *카탈로그*로 출판하는 컬렉션에서 함께 등장 (예: K-Dense-AI 과학 스킬). 제품으로 배포한다면 유용, 개인 스킬엔 과함.\n- **`argument-hint`** — 스킬이 위치 인자를 받을 때 사용 (EveryInc compound-engineering plugin 흔함).\n- **`disable-model-invocation: true`** — Claude가 추론해서 불러서는 안 되고, 사용자가 명시적으로 호출할 때만 실행되어야 하는 스킬에서 사용.\n\n자기만의 필드를 이유 없이 만들지 마세요. Claude 로더는 알 수 없는 필드를 조용히 무시하므로 cargo cult가 됩니다.",
+      "exemplars": [
+        {
+          "id": "c2f2c32cae6a1b49",
+          "why": "최소형 — name + description만"
+        },
+        {
+          "id": "7b67e3b6c1975c9a",
+          "why": "argument-hint, disable-model-invocation 추가"
+        },
+        {
+          "id": "8529bd631a04abf0",
+          "why": "카탈로그 스타일 풀 frontmatter (license, metadata, compatibility)"
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "2. Description — 슬로건이 아니라 발견 트리거를 써라",
+      "body": "**Description은 당신이 쓸 필드 중 가장 중요**합니다. Claude가 *이 스킬을 로드할지 말지* 결정하는 기준이기 때문입니다. 코퍼스는 두 패턴으로 갈립니다:\n\n- **짧은 헤드라인** (≤120자, 18%) — 스킬 이름 자체가 이미 명확할 때만 통함. 예: `\"Update the shipping address on an unfulfilled order before it ships.\"`\n- **긴 트리거** (>300자, 30%) — 스킬을 발동시켜야 하는 상황과 **사용자가 실제로 말할 법한 문장**까지 열거. **50.3%의 스킬이 명시적인 `\"Use when\"` / `\"When the user\"` / `\"Trigger on\"` 문구를 포함**.\n\n긴 형식의 승리 패턴: 스킬이 뭘 하는지 한 줄, 그다음 발동되어야 하는 신호 — **사용자가 직접 말할 만한 따옴표 발화**(`\"what's my thinking style\"`, `\"cognitive profile\"`) 포함. 빈 글자가 아니라 스킬이 사용자 의도와 매칭되는 메커니즘입니다.\n\n**안티패턴**: 마케팅 카피처럼 시적인 description. 스킬 트리거에 도움 안 됩니다.",
+      "exemplars": [
+        {
+          "id": "31e0e5cb7abdd603",
+          "why": "모범적인 긴 트리거 — 의도와 따옴표 발화 열거"
+        },
+        {
+          "id": "23a08b30447abfab",
+          "why": "이름이 명확해서 짧은 헤드라인으로 충분"
+        },
+        {
+          "id": "d06d6b81bdf90ceb",
+          "why": "균형형 — 한 단락에서 스킬과 사용 시점을 함께 설명"
+        }
+      ]
+    },
+    {
+      "id": "body-structure",
+      "title": "3. Body 구조 — 표준 8개 섹션",
+      "body": "상위 스킬들은 자유 형식 에세이가 아닙니다. 예측 가능한 섹션 레이아웃을 따릅니다. 코퍼스에서 `##` 헤딩을 세어보면 가장 많이 나오는 라벨:\n\n1. **Overview** / **Purpose** / **Core concept** (>50%) — 한 단락 framing\n2. **When to use this** (224개 스킬) — 트리거 조건을 사람-가독으로 다시 명시\n3. **Workflow steps** / **Steps** (109) — 순서 있는 번호 리스트\n4. **Prerequisites** (113) — 실행 전 충족되어야 할 조건\n5. **Parameters** (106) — 있을 때는 보통 표\n6. **Output format** (116) — Claude의 출력에 대한 기대 설정\n7. **Best practices** (275 — 단일 최다 섹션!) — 누적된 do/don't\n8. **Error handling** / **Safety** / **When NOT to use** — 실패 모드와 범위 밖 케이스\n\n8개 다 필요한 건 아닙니다. 맞는 것만 고르세요. **섹션 1, 2, 3만 있는 집중형 스킬이 8개 다 있는 산만한 스킬보다 좋습니다.** 중앙값 스킬의 헤딩 수는 18개 — 산문이 아니라 스캔 가능한 신호로 읽힙니다.",
+      "exemplars": [
+        {
+          "id": "7b67e3b6c1975c9a",
+          "why": "고전적 Overview → Principles → Workflow → Output 구조"
+        },
+        {
+          "id": "23a08b30447abfab",
+          "why": "Purpose → Prerequisites → Parameters → Workflow — 최소형이지만 완결적"
+        },
+        {
+          "id": "d06d6b81bdf90ceb",
+          "why": "프레임워크별 섹션을 가진 도메인 지식 스킬"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "title": "4. 길이 — 중앙값을 노려라, 최댓값이 아니라",
+      "body": "537개 샘플의 분포:\n\n- **본문 길이**: 중앙값 **7,000자** (~1,100 단어). 절반은 4,900~12,800자 사이.\n- **헤딩 수**: 중앙값 18\n- **코드 블록**: 중앙값 6\n\n매우 긴 스킬 (>20k자)도 존재하고 잘 랭크되지만, 보통 내부 하위 절차를 가진 **다단계 워크플로우**이지 단순히 길지는 않습니다. ~600자보다 짧으면 stub 또는 description-only 스킬일 가능성 — Claude가 할 수 있는 게 별로 없습니다.\n\n실용적 스윗스팟은 **5–10k자 + 10–20 헤딩**. Claude가 길을 잃지 않을 만큼 구조가 있으면서 실제 지시사항을 묻어버리지 않는 길이입니다.",
+      "exemplars": [
+        {
+          "id": "c2f2c32cae6a1b49",
+          "why": "2k자 — 집중형, 한 가지만 함"
+        },
+        {
+          "id": "067a3d6a62a691f5",
+          "why": "19k자 — Anthropic의 algorithmic-art는 예시 때문에 의도적으로 김"
+        }
+      ]
+    },
+    {
+      "id": "formatting",
+      "title": "5. 서식 — 리스트와 표 위주, 거의 항상 코드 블록",
+      "body": "코퍼스는 **서식이 풍부**합니다:\n\n- **99.6%** 불릿 리스트 사용\n- **93.3%** 코드 블록 최소 1개 포함\n- **79.5%** 번호 리스트 (대부분 순차 단계용)\n- **56.2%** 표 포함 (보통 파라미터, 옵션 매트릭스, 비교용)\n\n장식이 아니라 Claude가 의도를 파싱하는 방법입니다. **번호 단계는 \"이 순서로 하라\", 불릿 리스트는 \"옵션이나 속성 나열\", 표는 \"구조화된 사양\"** 을 의미. 의도적으로 쓰세요.\n\n명령어나 예시 호출은 인라인 `` `text` ``가 아니라 fenced 코드 블록에 넣어야 합니다. 인라인 backtick으로 명령을 쓴 스킬은 Claude가 실행 가능한 코드로 안정적으로 인식하지 못하는 경향이 있습니다.",
+      "exemplars": [
+        {
+          "id": "23a08b30447abfab",
+          "why": "파라미터 표 + 번호 워크플로우 + 코드 예시"
+        },
+        {
+          "id": "3a22e7ff260eca9b",
+          "why": "다이어그램 문법을 위한 코드 블록 다용"
+        }
+      ]
+    },
+    {
+      "id": "triggers-inside-body",
+      "title": "6. 트리거 언어는 본문에도 넣어라",
+      "body": "Description에만 의존하지 마세요. 강한 스킬들은 **본문 안에 트리거 조건을 다시 명시**합니다 — 보통 `## When to use this` 전용 섹션. 패턴:\n\n```\n## When to use this\nUse this skill when the user:\n- says \"X\", \"Y\", or \"Z\"\n- is doing <task>\n- mentions <domain term>\n\n## When NOT to use\n- <out-of-scope case 1>\n- <out-of-scope case 2>\n```\n\n`When NOT to use` 절이 좋은 스킬과 훌륭한 스킬을 가릅니다 — 인접하지만 잘못된 상황에 스킬이 적용되는 걸 막아줍니다. 명시적인 부정 케이스를 포함하는 건 상위 1/4 스킬뿐입니다.",
+      "exemplars": [
+        {
+          "id": "31e0e5cb7abdd603",
+          "why": "사용자 발화 인용이 들어간 정교한 When-to-use 섹션"
+        },
+        {
+          "id": "8529bd631a04abf0",
+          "why": "명시적 Safety + 범위 밖 케이스 커버"
+        }
+      ]
+    },
+    {
+      "id": "naming",
+      "title": "7. 이름 — kebab-case 동사",
+      "body": "두 가지 명명 스타일이 지배적:\n\n- **동사-명사**: `clean-gone-branches`, `audit-codebase`, `analyze-competition` — 액션 스킬용\n- **도메인-명사**: `competitive-landscape`, `clinical-decision-support`, `dhdna-profiler` — 지식 도메인 스킬용\n\n**kebab-case, 2–4 단어, 소문자**. 영리한 이름은 피하세요 — Claude는 이름을 먼저 보지 않습니다, description을 봅니다. 이름은 파일 트리를 browsing하는 사람용입니다.\n\n프로젝트 prefix (compound-engineering의 `ce-*`, 40RTY의 `shopify-admin-*`)는 컬렉션 내 관련 스킬을 그룹화하는 용도. 컬렉션을 출판할 때만 쓰세요 — 개인 `.claude/skills/`에서는 노이즈입니다.",
+      "exemplars": [
+        {
+          "id": "c2f2c32cae6a1b49",
+          "why": "kebab-case 동사-명사, 이름만 봐도 뭘 하는지 명확"
+        }
+      ]
+    },
+    {
+      "id": "anti-patterns",
+      "title": "8. 피해야 할 안티패턴",
+      "body": "하위 랭크 스킬과 형태 outlier에서 발견되는 흔한 실수:\n\n1. **본문 < 600자** — 스킬이 description + stub뿐. 확장하거나 형제 스킬에 병합.\n2. **트리거 언어가 어디에도 없음** — Claude가 언제 발동할지 알 수 없음. 실질 유틸리티 0.\n3. **Description이 슬로건** (예: `\"The best skill for X\"`). 의도 매칭에 무용.\n4. **거대한 단일 섹션** — 헤딩 없는 prose 벽. 중앙값 스킬은 헤딩 18개; 1개라면 navigability 이점을 잃은 것.\n5. **Frontmatter 필드를 발명** — Claude는 조용히 무시. 문서화된 필드만 쓸 것.\n6. **남의 스킬을 통째로 복사** — 새로 추가된 스킬 하위 1/4에서 흔함. 중복 본문이라 탐지하기 쉽고 기여 없음.\n7. **프로덕션에 체크인된 템플릿** — 출판된 스킬에 `{{your_thing_here}}` 플레이스홀더가 남아있음. `template` 장르 분류기가 이 코퍼스에 존재하는 이유 자체가 너무 많은 스킬이 이 상태로 배포되기 때문입니다.",
+      "exemplars": []
+    }
+  ]
+}
