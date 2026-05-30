@@ -1,0 +1,132 @@
+{
+  "title": "How to write a Claude skill — what 537 skills told us",
+  "subtitle": "Synthesis of structural and content patterns across the highest-rated Agent Skills in the corpus.",
+  "generated_note": "Stats come from output/patterns.json (auto). Narrative is hand-curated.",
+  "sections": [
+    {
+      "id": "what-this-is",
+      "title": "Read this first",
+      "body": "A *skill* is a markdown file Claude loads to acquire a capability. People who write skills well treat them as **executable specs for Claude**, not documentation for humans. The patterns below come from analyzing 537 skills (after filtering templates and stubs) — the ones that consistently rank high on composite score share a small set of conventions you can copy directly.\n\nThe guide is biased toward **Agent Skills** (the dominant 78% of the corpus). Slash-Commands, Hooks, and Status Lines are simpler artifacts with their own shapes.",
+      "exemplars": []
+    },
+    {
+      "id": "frontmatter",
+      "title": "1. Frontmatter — keep it minimal",
+      "body": "Two YAML fields are de-facto required: **`name`** and **`description`** (each appears in ~98% of serious skills). Everything else is optional and project-specific.\n\nThe other fields that show up frequently signal what kind of project you're in:\n\n- **`allowed-tools`** — tells Claude exactly which tools to use. Common in skills that wrap a CLI.\n- **`license`, `metadata`, `compatibility`, `author`** — appear together in skill collections that publish skills as a *catalog* (e.g., K-Dense-AI scientific skills). Useful if you're shipping a product, overkill for personal skills.\n- **`argument-hint`** — used when the skill takes positional arguments (common in EveryInc's compound-engineering plugin).\n- **`disable-model-invocation: true`** — when the skill is meant to run only when the user explicitly invokes it, not when Claude infers it's relevant.\n\nDon't invent your own fields without a reason. Claude's loader ignores unknown fields silently, so they're cargo cult.",
+      "exemplars": [
+        {
+          "id": "c2f2c32cae6a1b49",
+          "why": "minimal — just name + description"
+        },
+        {
+          "id": "7b67e3b6c1975c9a",
+          "why": "adds argument-hint and disable-model-invocation"
+        },
+        {
+          "id": "8529bd631a04abf0",
+          "why": "full catalog-style frontmatter (license, metadata, compatibility)"
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "2. Description — write a discoverability trigger, not a tagline",
+      "body": "The **description is the most important field you'll write**, because Claude uses it to decide *whether to load the skill at all*. The corpus splits into two clear patterns:\n\n- **Short headline** (≤120 chars, 18% of skills) — works only when the skill name is already obvious. Example: `\"Update the shipping address on an unfulfilled order before it ships.\"`\n- **Long trigger** (>300 chars, 30%) — explicitly enumerates the situations and exact user phrases that should fire the skill. **50.3% of skills include an explicit `\"Use when\"` / `\"When the user\"` / `\"Trigger on\"` phrase.**\n\nThe winning pattern in the long form: state what the skill does, then list the cues that should activate it, including **direct quotes the user might say** (`\"what's my thinking style\"`, `\"cognitive profile\"`). This isn't filler — it's how the skill gets matched to user intent.\n\n**Anti-pattern**: poetic descriptions that read like marketing copy. They don't help Claude trigger the skill.",
+      "exemplars": [
+        {
+          "id": "31e0e5cb7abdd603",
+          "why": "exemplary long trigger — enumerates intents + quoted phrases"
+        },
+        {
+          "id": "23a08b30447abfab",
+          "why": "good short headline — works because the name is unambiguous"
+        },
+        {
+          "id": "d06d6b81bdf90ceb",
+          "why": "balanced — explains the skill + when to use it in one paragraph"
+        }
+      ]
+    },
+    {
+      "id": "body-structure",
+      "title": "3. Body structure — the canonical 8 sections",
+      "body": "The top skills aren't free-form essays. They follow a predictable section layout. Counting `##` headings across the corpus, these are the most common section labels:\n\n1. **Overview** / **Purpose** / **Core concept** (>50%) — one-paragraph framing\n2. **When to use this** (224 skills) — restates triggering conditions for the human reader\n3. **Workflow steps** / **Steps** (109) — numbered, sequential\n4. **Prerequisites** (113) — what must be true before running\n5. **Parameters** (106) — usually a table when present\n6. **Output format** (116) — sets expectations on what Claude produces\n7. **Best practices** (275 — the single most common section!) — accumulated do/don't lessons\n8. **Error handling** / **Safety** / **When NOT to use** — failure modes and out-of-scope cases\n\nYou don't need all eight. Pick the ones that fit. **A focused skill with sections 1, 2, 3 beats a sprawling skill with all eight.** The median skill has 18 headings total (`##` and below) — these are read as scannable cues, not prose.",
+      "exemplars": [
+        {
+          "id": "7b67e3b6c1975c9a",
+          "why": "classic Overview → Principles → Workflow → Output structure"
+        },
+        {
+          "id": "23a08b30447abfab",
+          "why": "Purpose → Prerequisites → Parameters → Workflow — minimal but complete"
+        },
+        {
+          "id": "d06d6b81bdf90ceb",
+          "why": "domain-knowledge skill with section per framework"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "title": "4. Length — aim for the median, not the maximum",
+      "body": "The 537-skill sample distribution:\n\n- **Body length**: median **7,000 chars** (~1,100 words). Half are between 4,900 and 12,800 chars.\n- **Heading count**: median 18\n- **Code blocks**: median 6\n\nVery long skills (>20k chars) exist and rank well, but they're usually **multi-phase workflows** with internal sub-procedures, not just verbose. If your skill is shorter than ~600 chars, it's probably a stub or a description-only skill — Claude can't do much with it.\n\nA practical sweet spot is **5–10k chars with 10–20 headings**. That gives Claude enough structure to navigate without burying the actual instructions.",
+      "exemplars": [
+        {
+          "id": "c2f2c32cae6a1b49",
+          "why": "2k chars — focused, does one thing"
+        },
+        {
+          "id": "067a3d6a62a691f5",
+          "why": "19k chars — Anthropic's algorithmic-art uses length intentionally for examples"
+        }
+      ]
+    },
+    {
+      "id": "formatting",
+      "title": "5. Formatting — heavy on lists and tables, almost always code",
+      "body": "The corpus is **format-rich**:\n\n- **99.6%** use bullet lists\n- **93.3%** include at least one code block\n- **79.5%** use numbered lists (mostly for sequential steps)\n- **56.2%** include a table (typically for parameters, options matrices, or comparison)\n\nThis isn't decoration — it's how Claude parses intent. **Numbered steps say \"do this in order\"; bullet lists say \"these are options or attributes\"; tables say \"this is a structured spec\"**. Use them deliberately.\n\nCommands and example invocations should be in fenced code blocks, never inline. Skills that put commands inline as backtick-`text` tend to be less reliably picked up by Claude as runnable code.",
+      "exemplars": [
+        {
+          "id": "23a08b30447abfab",
+          "why": "parameter table + numbered workflow + code examples"
+        },
+        {
+          "id": "3a22e7ff260eca9b",
+          "why": "heavy use of code blocks for diagram syntax"
+        }
+      ]
+    },
+    {
+      "id": "triggers-inside-body",
+      "title": "6. Trigger language belongs in the body too",
+      "body": "Don't rely on the description alone. The strongest skills **restate trigger conditions inside the body**, usually in a dedicated `## When to use this` section. The pattern:\n\n```\n## When to use this\nUse this skill when the user:\n- says \"X\", \"Y\", or \"Z\"\n- is doing <task>\n- mentions <domain term>\n\n## When NOT to use\n- <out-of-scope case 1>\n- <out-of-scope case 2>\n```\n\nThe `When NOT to use` half is what separates good skills from great ones — it prevents the skill from being applied to adjacent-but-wrong situations. Only the top quartile of skills include explicit negative cases.",
+      "exemplars": [
+        {
+          "id": "31e0e5cb7abdd603",
+          "why": "elaborate When-to-use section with quoted user phrases"
+        },
+        {
+          "id": "8529bd631a04abf0",
+          "why": "explicit Safety + out-of-scope coverage"
+        }
+      ]
+    },
+    {
+      "id": "naming",
+      "title": "7. Naming — kebab-case verbs",
+      "body": "Two naming styles dominate:\n\n- **Verb-noun**: `clean-gone-branches`, `audit-codebase`, `analyze-competition` — for action skills\n- **Domain-noun**: `competitive-landscape`, `clinical-decision-support`, `dhdna-profiler` — for knowledge-domain skills\n\nKeep it **kebab-case, 2–4 words, lowercase**. Avoid clever names — Claude doesn't see the name first; it sees the description. The name is for humans browsing the file tree.\n\nProject prefixes (`ce-*` in compound-engineering, `shopify-admin-*` in 40RTY) help group related skills in collections. Use them only if you're publishing a collection — they're noise in a personal `.claude/skills/`.",
+      "exemplars": [
+        {
+          "id": "c2f2c32cae6a1b49",
+          "why": "kebab-case verb-noun, clear from the name what it does"
+        }
+      ]
+    },
+    {
+      "id": "anti-patterns",
+      "title": "8. Anti-patterns to avoid",
+      "body": "From the bottom-ranked skills and shape outliers, these are common mistakes:\n\n1. **Body < 600 chars** — skill is just the description with a stub. Either expand it or merge it into a sibling skill.\n2. **No trigger language anywhere** — Claude can't tell when to invoke it. Adds 0 to the skill's actual utility.\n3. **Description is a slogan** (e.g., `\"The best skill for X\"`). Useless for matching intent.\n4. **One giant section** — no headings, just a wall of prose. Median skill has 18 headings; if yours has 1, you've lost the navigability advantage.\n5. **Inventing frontmatter fields** — Claude ignores them silently. Stick to documented fields.\n6. **Copying other people's skills verbatim** — common in the bottom quartile of newly-added skills. Easy to detect (duplicate bodies across repos) and contributes nothing.\n7. **Templates checked into production** — leaving `{{your_thing_here}}` placeholders in the published skill. The `template` genre classifier exists in this corpus precisely because so many skills ship in this state.",
+      "exemplars": []
+    }
+  ]
+}

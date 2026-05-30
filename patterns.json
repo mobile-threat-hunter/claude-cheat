@@ -1,0 +1,263 @@
+{
+  "sample_size": 537,
+  "filter": {
+    "class": "Agent Skills",
+    "min_body_length": 600,
+    "excludes": "template-genre skills"
+  },
+  "frontmatter_fields": [
+    {
+      "field": "description",
+      "count": 526,
+      "pct": 98.0
+    },
+    {
+      "field": "name",
+      "count": 525,
+      "pct": 97.8
+    },
+    {
+      "field": "license",
+      "count": 149,
+      "pct": 27.7
+    },
+    {
+      "field": "metadata",
+      "count": 143,
+      "pct": 26.6
+    },
+    {
+      "field": "compatibility",
+      "count": 141,
+      "pct": 26.3
+    },
+    {
+      "field": "role",
+      "count": 106,
+      "pct": 19.7
+    },
+    {
+      "field": "toolkit",
+      "count": 106,
+      "pct": 19.7
+    },
+    {
+      "field": "api_version",
+      "count": 106,
+      "pct": 19.7
+    },
+    {
+      "field": "graphql_operations",
+      "count": 106,
+      "pct": 19.7
+    },
+    {
+      "field": "status",
+      "count": 106,
+      "pct": 19.7
+    },
+    {
+      "field": "argument-hint",
+      "count": 67,
+      "pct": 12.5
+    },
+    {
+      "field": "allowed-tools",
+      "count": 62,
+      "pct": 11.5
+    },
+    {
+      "field": "version",
+      "count": 14,
+      "pct": 2.6
+    },
+    {
+      "field": "disable-model-invocation",
+      "count": 10,
+      "pct": 1.9
+    },
+    {
+      "field": "ce_platforms",
+      "count": 1,
+      "pct": 0.2
+    }
+  ],
+  "description": {
+    "length": {
+      "count": 537,
+      "min": 13,
+      "p25": 144,
+      "median": 217,
+      "p75": 326,
+      "p90": 461,
+      "max": 1010,
+      "mean": 254.4
+    },
+    "has_trigger_phrase_pct": 50.3,
+    "has_quoted_user_phrase_pct": 3.9,
+    "short_pct_lt_120": 18.2,
+    "long_pct_gt_300": 30.4
+  },
+  "body": {
+    "length_chars": {
+      "count": 537,
+      "min": 629,
+      "p25": 4917,
+      "median": 7031,
+      "p75": 12774,
+      "p90": 22375,
+      "max": 110236,
+      "mean": 10991.4
+    },
+    "heading_count": {
+      "count": 537,
+      "min": 0,
+      "p25": 11,
+      "median": 18,
+      "p75": 39,
+      "p90": 72,
+      "max": 237,
+      "mean": 29.7
+    },
+    "code_block_count": {
+      "count": 537,
+      "min": 0,
+      "p25": 3,
+      "median": 6,
+      "p75": 11,
+      "p90": 21,
+      "max": 77,
+      "mean": 8.9
+    },
+    "has_numbered_list_pct": 79.5,
+    "has_bullet_list_pct": 99.6,
+    "has_table_pct": 56.2,
+    "has_code_block_pct": 93.3
+  },
+  "common_section_headings_h2": [
+    {
+      "label": "best practices",
+      "count": 275
+    },
+    {
+      "label": "when to use this",
+      "count": 224
+    },
+    {
+      "label": "overview",
+      "count": 156
+    },
+    {
+      "label": "purpose",
+      "count": 124
+    },
+    {
+      "label": "error handling",
+      "count": 118
+    },
+    {
+      "label": "output format",
+      "count": 116
+    },
+    {
+      "label": "prerequisites",
+      "count": 113
+    },
+    {
+      "label": "workflow steps",
+      "count": 109
+    },
+    {
+      "label": "parameters",
+      "count": 106
+    },
+    {
+      "label": "graphql operations",
+      "count": 106
+    },
+    {
+      "label": "session tracking",
+      "count": 106
+    },
+    {
+      "label": "core concepts",
+      "count": 98
+    },
+    {
+      "label": "safety",
+      "count": 94
+    },
+    {
+      "label": "quick start",
+      "count": 92
+    },
+    {
+      "label": "core capabilities",
+      "count": 68
+    },
+    {
+      "label": "detailed patterns and worked",
+      "count": 58
+    },
+    {
+      "label": "troubleshooting",
+      "count": 55
+    },
+    {
+      "label": "resources",
+      "count": 54
+    },
+    {
+      "label": "installation",
+      "count": 53
+    },
+    {
+      "label": "additional resources",
+      "count": 39
+    }
+  ],
+  "exemplars": [
+    {
+      "id": "7b67e3b6c1975c9a",
+      "name": "ce-agent-native-audit",
+      "description": "Run comprehensive agent-native architecture review with scored principles",
+      "source": "github:EveryInc/compound-engineering-plugin@main",
+      "composite": 1.0
+    },
+    {
+      "id": "31e0e5cb7abdd603",
+      "name": "dhdna-profiler",
+      "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
+      "source": "github:K-Dense-AI/claude-scientific-skills@main",
+      "composite": 0.992
+    },
+    {
+      "id": "d06d6b81bdf90ceb",
+      "name": "competitive-landscape",
+      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
+      "source": "github:wshobson/agents@main",
+      "composite": 0.899
+    },
+    {
+      "id": "067a3d6a62a691f5",
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
+      "source": "github:anthropics/skills@main",
+      "composite": 0.89
+    },
+    {
+      "id": "2270e331920f0d67",
+      "name": "setup-codemap-cli",
+      "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
+      "source": "github:NeoLabHQ/context-engineering-kit@master",
+      "composite": 0.89
+    },
+    {
+      "id": "23a08b30447abfab",
+      "name": "shopify-admin-address-correction",
+      "description": "Update the shipping address on an unfulfilled order before it ships.",
+      "source": "github:40RTY-ai/shopify-admin-skills@main",
+      "composite": 0.651
+    }
+  ]
+}
