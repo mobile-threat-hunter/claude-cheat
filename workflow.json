@@ -544,6 +544,146 @@
           ]
         }
       ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "tagline": "Cross-cutting concerns: threat model, secrets, dependencies, audit. Apply alongside whichever other track fits the project.",
+      "note": "Security touches every phase of every project. Read Common first; treat this track as the security overlay on top.",
+      "phases": [
+        {
+          "id": "kickoff",
+          "name": "1. Kick off",
+          "summary": "Identify what you're protecting and from whom before any architecture decision. Threat models built after the fact are theatre.",
+          "picks": [
+            {
+              "concept": "Threat model (STRIDE / data flow)",
+              "why": "Map trust boundaries, data flows, and threat actors. Ninety minutes here prevents weeks of retrofitted patches. STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) is a good starting checklist.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Compliance scope",
+              "why": "Identify whether PCI-DSS, HIPAA, GDPR, SOC2, or any industry-specific regulation applies. Data residency, retention, audit logging, and encryption defaults all follow from this scope.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "plan",
+          "name": "2. Plan",
+          "summary": "Authentication and data-protection design happen at planning time. These decisions are expensive to reverse mid-build.",
+          "picks": [
+            {
+              "concept": "Auth / authz model design",
+              "why": "Sessions vs JWT vs OAuth vs SAML; RBAC vs ABAC vs ReBAC. Decide the model and where session state lives before the first login screen. Swapping mid-project breaks everything that touched auth.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Data classification + encryption design",
+              "why": "Classify every data type as public, internal, PII, or secret. Per class, define encryption at rest, encryption in transit, retention period, and access roles. The matrix drives schema, storage, and access-control decisions.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "build",
+          "name": "3. Build",
+          "summary": "Secrets out of the repository, dependencies under scrutiny, every input validated. The boring foundations.",
+          "picks": [
+            {
+              "concept": "Secrets management",
+              "why": "Vault / AWS Secrets Manager / GCP Secret Manager / Doppler. Never commit credentials to git, never echo them in logs. Rotate on a schedule. Prefer short-lived tokens over long-lived API keys where possible.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Dependency vulnerability scanning",
+              "why": "Dependabot / Snyk / pip-audit / npm audit / cargo audit in CI. Block PRs introducing known CVEs. Pin transitive dependencies to known-good versions.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Input / output sanitization",
+              "why": "Parameterized queries against SQL injection. HTML-escape for XSS. Content-Security-Policy headers. Allowlist over denylist. Validate at trust boundaries, not only at the edge.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "name": "4. Verify",
+          "summary": "Multiple complementary checks: static, dynamic, and human review. No single tool catches everything.",
+          "picks": [
+            {
+              "concept": "Security audit pass",
+              "why": "A scored posture assessment across authn, authz, data handling, dependency hygiene, and infrastructure. Run on every release candidate.",
+              "example_id": "5657281efa45ff77",
+              "example_label": "security-audit"
+            },
+            {
+              "concept": "OWASP Top 10 sweep",
+              "why": "Focused review against injection, broken access control, identification failures, security misconfiguration, and the rest of the OWASP Top 10. Faster than a full audit; catches the most common classes.",
+              "example_id": "49e9ab43ec7ce259",
+              "example_label": "security"
+            },
+            {
+              "concept": "Configuration security check",
+              "why": "Quick scan of the configuration surface against known threats: leaked tokens, weak defaults, overly permissive CORS, exposed admin endpoints. Run in CI on config changes.",
+              "example_id": "207e3fde5e33aa35",
+              "example_label": "security-check"
+            }
+          ]
+        },
+        {
+          "id": "ship",
+          "name": "5. Ship",
+          "summary": "Provenance and integrity of what you ship. Downstream consumers must be able to verify the artifact is the one you built.",
+          "picks": [
+            {
+              "concept": "SBOM generation",
+              "why": "Software Bill of Materials in CycloneDX or SPDX format. Lists every dependency with version and license. Required for many procurement processes; essential for fast incident response when a CVE drops.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Signed releases / artifact integrity",
+              "why": "Sigstore / cosign / GPG-signed releases. Downstream consumers verify the binary they received was actually built by your CI. Critical for supply-chain integrity.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "operate",
+          "name": "6. Operate",
+          "summary": "Security is a continuous practice, not a launch milestone. Observe, rotate, respond.",
+          "picks": [
+            {
+              "concept": "Audit logging",
+              "why": "Capture authentication events, privileged actions, and data access. Append-only, tamper-evident storage. Retention aligned with compliance scope. Searchable during incident response.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Incident response runbook",
+              "why": "Documented procedure: who to page, how to communicate internally and externally, how to scope blast radius, how to rotate credentials. Tabletop-exercise it quarterly.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Threat intelligence feed",
+              "why": "Track relevant CVE feeds, vendor advisories, and AI-agent-specific threat patterns. Translate alerts into action items rather than reading them passively.",
+              "example_id": "a503a03e65711df4",
+              "example_label": "update-threat-db"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

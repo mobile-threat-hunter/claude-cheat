@@ -544,6 +544,146 @@
           ]
         }
       ]
+    },
+    {
+      "id": "security",
+      "name": "Security (보안)",
+      "tagline": "교차하는 관심사: 위협 모델 · 시크릿 · 의존성 · 감사. 다른 어떤 트랙과도 함께 적용합니다.",
+      "note": "보안은 모든 프로젝트의 모든 단계에 닿습니다. Common을 먼저 읽고, 이 트랙은 그 위에 얹는 보안 레이어로 보세요.",
+      "phases": [
+        {
+          "id": "kickoff",
+          "name": "1. 시작 (Kick off)",
+          "summary": "무엇을 누구로부터 보호할지 아키텍처 결정 전에 식별합니다. 사후에 만든 위협 모델은 형식적인 문서일 뿐입니다.",
+          "picks": [
+            {
+              "concept": "위협 모델 (STRIDE / data flow)",
+              "why": "신뢰 경계 · 데이터 흐름 · 위협 행위자를 지도화합니다. 여기에 90분 쓰면 사후 패치 몇 주를 절약합니다. STRIDE (Spoofing · Tampering · Repudiation · Information disclosure · Denial of service · Elevation of privilege)는 시작 체크리스트로 좋습니다.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "컴플라이언스 범위 식별",
+              "why": "PCI-DSS · HIPAA · GDPR · SOC2 · 업종 특화 규제 중 무엇이 적용되는지 식별합니다. 데이터 거주성 · 보관 기간 · 감사 로깅 · 암호화 기본값이 모두 이 범위에서 따라옵니다.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "plan",
+          "name": "2. 설계 (Plan)",
+          "summary": "인증과 데이터 보호 설계는 플래닝 단계에서 해야 합니다. 이 결정들은 구현 중간에 되돌리기 비쌉니다.",
+          "picks": [
+            {
+              "concept": "Auth / Authz 모델 설계",
+              "why": "Sessions vs JWT vs OAuth vs SAML, RBAC vs ABAC vs ReBAC. 모델과 세션 상태 위치를 첫 로그인 화면 전에 결정합니다. 프로젝트 중간에 갈아끼우면 auth를 건드린 모든 게 깨집니다.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "데이터 분류 + 암호화 설계",
+              "why": "모든 데이터 타입을 public · internal · PII · secret로 분류합니다. 클래스별로 at-rest 암호화 · in-transit 암호화 · 보관 기간 · 접근 권한을 정의합니다. 이 매트릭스가 스키마 · 스토리지 · 접근 제어를 결정합니다.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "build",
+          "name": "3. 구현 (Build)",
+          "summary": "시크릿은 repo 밖, 의존성은 감시 아래, 모든 입력은 검증합니다. 지루한 기초를 다집니다.",
+          "picks": [
+            {
+              "concept": "시크릿 관리",
+              "why": "Vault / AWS Secrets Manager / GCP Secret Manager / Doppler. 자격증명을 git에 커밋 금지, 로그에 출력 금지. 주기적 로테이션. 가능하면 장기 API 키 대신 단기 토큰을 사용합니다.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "의존성 취약점 스캐닝",
+              "why": "Dependabot / Snyk / pip-audit / npm audit / cargo audit를 CI에 통합. 알려진 CVE를 도입하는 PR은 차단. transitive 의존성은 known-good 버전으로 고정합니다.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "입출력 sanitization",
+              "why": "SQL injection 대비 parameterized query. XSS 대비 HTML escape. Content-Security-Policy 헤더. denylist보다 allowlist. 엣지뿐 아니라 모든 신뢰 경계에서 검증합니다.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "name": "4. 검증 (Verify)",
+          "summary": "보완적인 여러 체크 (정적 · 동적 · 사람 리뷰)를 함께 돌립니다. 단일 도구로는 다 못 잡습니다.",
+          "picks": [
+            {
+              "concept": "보안 감사 패스",
+              "why": "인증 · 권한 · 데이터 핸들링 · 의존성 위생 · 인프라까지 점수화한 보안 자세 평가. 모든 릴리스 후보에 대해 실행합니다.",
+              "example_id": "5657281efa45ff77",
+              "example_label": "security-audit"
+            },
+            {
+              "concept": "OWASP Top 10 스윕",
+              "why": "Injection · 깨진 접근 제어 · 식별 실패 · 보안 설정 오류 등 OWASP Top 10에 초점을 둔 리뷰. 전체 감사보다 빠르고 가장 흔한 클래스를 잡아냅니다.",
+              "example_id": "49e9ab43ec7ce259",
+              "example_label": "security"
+            },
+            {
+              "concept": "설정 보안 체크",
+              "why": "유출된 토큰 · 약한 기본값 · 과도하게 허용된 CORS · 노출된 admin 엔드포인트 등 알려진 위협에 대한 설정 면 빠른 스캔. 설정 변경 시 CI에서 실행합니다.",
+              "example_id": "207e3fde5e33aa35",
+              "example_label": "security-check"
+            }
+          ]
+        },
+        {
+          "id": "ship",
+          "name": "5. 배포 (Ship)",
+          "summary": "출시하는 산출물의 provenance와 무결성. 다운스트림 컨슈머가 받은 아티팩트가 당신이 빌드한 것인지 검증할 수 있어야 합니다.",
+          "picks": [
+            {
+              "concept": "SBOM (Software Bill of Materials) 생성",
+              "why": "CycloneDX 또는 SPDX 형식. 모든 의존성을 버전과 라이선스와 함께 나열합니다. 많은 조달 프로세스에서 필수, CVE가 터졌을 때 incident response 속도에 결정적.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "서명된 릴리스 / 아티팩트 무결성",
+              "why": "Sigstore / cosign / GPG 서명 릴리스. 다운스트림이 받은 바이너리가 실제로 당신의 CI에서 빌드된 것인지 검증합니다. 공급망 무결성에 핵심.",
+              "example_id": "",
+              "example_label": ""
+            }
+          ]
+        },
+        {
+          "id": "operate",
+          "name": "6. 운영 (Operate)",
+          "summary": "보안은 마일스톤이 아니라 지속 활동입니다. 관찰하고, 로테이션하고, 대응합니다.",
+          "picks": [
+            {
+              "concept": "감사 로깅",
+              "why": "auth 이벤트 · 권한 작업 · 데이터 접근을 캡처합니다. append-only · tamper-evident 저장소. 컴플라이언스 범위에 맞는 보관 기간. incident response에서 검색 가능해야 합니다.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "Incident response 런북",
+              "why": "문서화된 절차: 누구를 호출할지, 내부와 외부 커뮤니케이션 방식, blast radius 산정 방식, 자격증명 로테이션 방법. 분기별 tabletop exercise로 연습.",
+              "example_id": "",
+              "example_label": ""
+            },
+            {
+              "concept": "위협 인텔리전스 피드",
+              "why": "관련 CVE 피드 · 벤더 advisory · AI 에이전트 특화 위협 패턴을 추적합니다. 알람을 수동적으로 읽는 대신 action item으로 번역합니다.",
+              "example_id": "a503a03e65711df4",
+              "example_label": "update-threat-db"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
