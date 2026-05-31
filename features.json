@@ -1,5 +1,7 @@
 {
-  "generated_at": "2026-05-31T17:15:34.271Z",
+  "generated_at": "2026-05-31T17:23:08.454749+00:00",
+  "content_hash": "836cfc5a8f8793ccddce5dcedd4bad7ad3c77a59ff4ddb4a88b712c0d7d43980",
+  "feature_count": 30,
   "features": [
     {
       "id": "claude-md-files",
@@ -391,5 +393,6 @@
       "example": "# Inside a session\n/export                  # Copy current conversation to clipboard\n/export report.md        # Save to file\n\n# View raw transcripts\nls ~/.claude/projects/\n# Each subdir = one project\n# Each .jsonl = one session\n# Each line   = { role, content, ... }\n\n# Adjust retention\n// .claude/settings.json\n{ \"cleanupPeriodDays\": 60 }",
       "docs_url": "https://code.claude.com/docs/en/sessions.md"
     }
-  ]
+  ],
+  "history": []
 }
