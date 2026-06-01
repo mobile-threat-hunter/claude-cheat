@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T17:46:35.036820+00:00",
+  "generated_at": "2026-06-01T21:27:06.643239+00:00",
   "content_hash": "636db21e54b5b9a382b8d5b7ebde9c112966789e16809c24525086408c6f28ce",
   "feature_count": 30,
   "features": [
@@ -694,11 +694,5 @@
       "docs_url": "https://code.claude.com/docs/en/sessions.md"
     }
   ],
-  "history": [
-    {
-      "generated_at": "2026-05-31T17:23:08.454749+00:00",
-      "content_hash": "836cfc5a8f8793ccddce5dcedd4bad7ad3c77a59ff4ddb4a88b712c0d7d43980",
-      "feature_count": 30
-    }
-  ]
+  "history": []
 }
