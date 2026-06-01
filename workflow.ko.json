@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-30T19:40:45.674772+00:00",
+  "generated_at": "2026-06-01T23:55:30.713178+00:00",
   "current_model": "opus-4.8",
-  "current_month": "2026-05",
+  "current_month": "2026-06",
   "snapshots": [
     {
       "model": "opus-4.8",
-      "month": "2026-05",
-      "label": "2026-05 · opus-4.8",
+      "month": "2026-06",
+      "label": "2026-06 · opus-4.8",
       "title": "클로드 모델이 추천하는 개발 워크플로우",
       "subtitle": "코드 프로젝트를 시작부터 운영까지 진행할 때 클로드가 깔아두고 싶은 스킬을 단계별로 정리했습니다! Common(공통)을 기본으로 깔고, Backend/Frontend/Mobile/Data·ML 트랙을 필요에 따라 얹어 사용하세요!",
       "note": "각 카드는 코퍼스 내 실제 예시 스킬을 인용합니다 (있을 때). 클릭하면 원본을 볼 수 있어요.",
