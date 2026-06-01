@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-01T22:11:33.990Z",
+  "generated_at": "2026-06-01T22:19:44.044Z",
   "sources": {
     "anthropic_news_count": 12,
     "claude_code_releases_count": 12,
-    "translated_ko": 22
+    "translated_ko": 24
   },
   "items": [
     {
@@ -13,7 +13,9 @@
       "source_label": "Anthropic News",
       "title": "Anthropic confidentially submits draft S-1 to the SEC",
       "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec"
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "title_ko": "Anthropic, SEC에 기밀 S-1 초안 제출",
+      "summary_ko": "Anthropic이 미국 증권거래위원회(SEC)에 S-1 등록신고서 초안을 기밀로 제출했습니다. S-1은 기업공개(IPO)를 위한 필수 서류로, 이번 제출은 향후 상장 가능성을 가늠하는 단계입니다."
     },
     {
       "date": "2026-06-01",
@@ -44,7 +46,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.159",
       "summary": "- Internal infrastructure improvements (no user-facing changes)",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+      "title_ko": "Claude Code v2.1.159",
+      "summary_ko": "- 내부 인프라 개선 (사용자에게 노출되는 변경 사항 없음)"
     },
     {
       "date": "2026-05-30",
