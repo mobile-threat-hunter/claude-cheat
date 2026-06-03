@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-01T23:55:30.227555+00:00",
-  "total_corpus": 708,
-  "window_size": 177,
+  "generated_at": "2026-06-03T17:27:15.807890+00:00",
+  "total_corpus": 714,
+  "window_size": 178,
   "windows": {
     "active": {
       "label": "Hot repos",
-      "criterion": "top 177 by recent push (≤ 0d)",
-      "count": 177,
+      "criterion": "top 178 by recent push (≤ 0d)",
+      "count": 178,
       "keywords": [
         {
           "term": "core concepts",
           "df_trending": 50,
           "df_total": 56,
-          "lift": 3.57,
+          "lift": 3.58,
           "skill_ids": [
             "39407e48a88b2ea6",
             "b2d80b93d273c146",
@@ -49,8 +49,8 @@
         {
           "term": "implementing",
           "df_trending": 96,
-          "df_total": 107,
-          "lift": 3.59,
+          "df_total": 106,
+          "lift": 3.63,
           "skill_ids": [
             "b2d80b93d273c146",
             "689570be53895c49",
@@ -88,7 +88,7 @@
           "term": "optimizing",
           "df_trending": 28,
           "df_total": 32,
-          "lift": 3.5,
+          "lift": 3.51,
           "skill_ids": [
             "022e8111ede09f62",
             "39a70518baf538aa",
@@ -124,7 +124,7 @@
           "term": "designing",
           "df_trending": 34,
           "df_total": 39,
-          "lift": 3.49,
+          "lift": 3.5,
           "skill_ids": [
             "644bb1346363fb84",
             "f4887dc290ae890e",
@@ -162,7 +162,7 @@
           "term": "best practices",
           "df_trending": 25,
           "df_total": 36,
-          "lift": 2.78,
+          "lift": 2.79,
           "skill_ids": [
             "38decad3a8bf1151",
             "689570be53895c49",
@@ -195,7 +195,7 @@
           "term": "debugging",
           "df_trending": 33,
           "df_total": 38,
-          "lift": 3.47,
+          "lift": 3.48,
           "skill_ids": [
             "39407e48a88b2ea6",
             "f125435da22057fe",
@@ -230,10 +230,60 @@
           ]
         },
         {
+          "term": "service",
+          "df_trending": 18,
+          "df_total": 19,
+          "lift": 3.8,
+          "skill_ids": [
+            "7b6e3e4ca01212d8",
+            "e2ae6409d97c0a8a",
+            "57097409b9579bbf",
+            "a068ecf0f43322d2",
+            "10ff2287a6ea5606",
+            "2a08121cbc03b46c",
+            "f269da30b9d0708e",
+            "55aa55ca902886c2",
+            "fbaa23bf7e0f32d6",
+            "1b736c2436c6d970",
+            "485081f151f9ed3e",
+            "528819a445512047",
+            "68d982d963f6be75",
+            "670a2ad2cf2c59d9",
+            "9620c1a9d7ddb3a7",
+            "984f9289df8d0b9d",
+            "4517a199d9777a81",
+            "16df36161aeffd21"
+          ]
+        },
+        {
+          "term": "comprehensive guide",
+          "df_trending": 16,
+          "df_total": 19,
+          "lift": 3.38,
+          "skill_ids": [
+            "b2d80b93d273c146",
+            "022e8111ede09f62",
+            "39a70518baf538aa",
+            "820263b14ff1afe8",
+            "2a08121cbc03b46c",
+            "55aa55ca902886c2",
+            "12eb4f9945c59bdb",
+            "cc5e0890cba17e18",
+            "208f09bd02b25a1b",
+            "f31d71bd0904eb2e",
+            "08a7d210cb8a56d8",
+            "a993f7a71e1a7c7b",
+            "ac39e499e3f87936",
+            "e3ede5164850992d",
+            "8b7e74a5a662e292",
+            "824f86860b0a35b2"
+          ]
+        },
+        {
           "term": "master",
           "df_trending": 54,
-          "df_total": 63,
-          "lift": 3.43,
+          "df_total": 64,
+          "lift": 3.38,
           "skill_ids": [
             "f529fadff713a7ac",
             "7b6e3e4ca01212d8",
@@ -268,60 +318,10 @@
           ]
         },
         {
-          "term": "service",
-          "df_trending": 18,
-          "df_total": 19,
-          "lift": 3.79,
-          "skill_ids": [
-            "7b6e3e4ca01212d8",
-            "e2ae6409d97c0a8a",
-            "57097409b9579bbf",
-            "a068ecf0f43322d2",
-            "10ff2287a6ea5606",
-            "2a08121cbc03b46c",
-            "f269da30b9d0708e",
-            "55aa55ca902886c2",
-            "fbaa23bf7e0f32d6",
-            "1b736c2436c6d970",
-            "485081f151f9ed3e",
-            "528819a445512047",
-            "68d982d963f6be75",
-            "670a2ad2cf2c59d9",
-            "9620c1a9d7ddb3a7",
-            "984f9289df8d0b9d",
-            "4517a199d9777a81",
-            "16df36161aeffd21"
-          ]
-        },
-        {
-          "term": "comprehensive guide",
-          "df_trending": 16,
-          "df_total": 19,
-          "lift": 3.37,
-          "skill_ids": [
-            "b2d80b93d273c146",
-            "022e8111ede09f62",
-            "39a70518baf538aa",
-            "820263b14ff1afe8",
-            "2a08121cbc03b46c",
-            "55aa55ca902886c2",
-            "12eb4f9945c59bdb",
-            "cc5e0890cba17e18",
-            "208f09bd02b25a1b",
-            "f31d71bd0904eb2e",
-            "08a7d210cb8a56d8",
-            "a993f7a71e1a7c7b",
-            "ac39e499e3f87936",
-            "e3ede5164850992d",
-            "8b7e74a5a662e292",
-            "824f86860b0a35b2"
-          ]
-        },
-        {
           "term": "implement",
           "df_trending": 35,
           "df_total": 42,
-          "lift": 3.33,
+          "lift": 3.34,
           "skill_ids": [
             "644bb1346363fb84",
             "7b6e3e4ca01212d8",
@@ -359,7 +359,7 @@
           "term": "strategies",
           "df_trending": 34,
           "df_total": 41,
-          "lift": 3.32,
+          "lift": 3.33,
           "skill_ids": [
             "b2d80b93d273c146",
             "644bb1346363fb84",
@@ -435,7 +435,7 @@
           "term": "establishing",
           "df_trending": 16,
           "df_total": 16,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "644bb1346363fb84",
             "e4e5630c5f4e0962",
@@ -457,9 +457,9 @@
         },
         {
           "term": "concepts",
-          "df_trending": 51,
-          "df_total": 66,
-          "lift": 3.09,
+          "df_trending": 52,
+          "df_total": 67,
+          "lift": 3.11,
           "skill_ids": [
             "39407e48a88b2ea6",
             "b2d80b93d273c146",
@@ -497,7 +497,7 @@
           "term": "managing",
           "df_trending": 26,
           "df_total": 35,
-          "lift": 2.97,
+          "lift": 2.98,
           "skill_ids": [
             "644bb1346363fb84",
             "f4887dc290ae890e",
@@ -531,7 +531,7 @@
           "term": "practices",
           "df_trending": 31,
           "df_total": 42,
-          "lift": 2.95,
+          "lift": 2.96,
           "skill_ids": [
             "38decad3a8bf1151",
             "689570be53895c49",
@@ -569,7 +569,7 @@
           "term": "performance",
           "df_trending": 30,
           "df_total": 41,
-          "lift": 2.93,
+          "lift": 2.94,
           "skill_ids": [
             "022e8111ede09f62",
             "820263b14ff1afe8",
@@ -607,7 +607,7 @@
           "term": "architecture",
           "df_trending": 30,
           "df_total": 42,
-          "lift": 2.86,
+          "lift": 2.87,
           "skill_ids": [
             "7b6e3e4ca01212d8",
             "022e8111ede09f62",
@@ -645,7 +645,7 @@
           "term": "patterns",
           "df_trending": 84,
           "df_total": 118,
-          "lift": 2.85,
+          "lift": 2.86,
           "skill_ids": [
             "b2d80b93d273c146",
             "319dd3f32999924b",
@@ -683,7 +683,7 @@
           "term": "production",
           "df_trending": 28,
           "df_total": 40,
-          "lift": 2.8,
+          "lift": 2.81,
           "skill_ids": [
             "57097409b9579bbf",
             "abca3f4d248065e2",
@@ -719,7 +719,7 @@
           "term": "patterns comprehensive",
           "df_trending": 12,
           "df_total": 13,
-          "lift": 3.69,
+          "lift": 3.7,
           "skill_ids": [
             "b2d80b93d273c146",
             "820263b14ff1afe8",
@@ -739,7 +739,7 @@
           "term": "patterns including",
           "df_trending": 11,
           "df_total": 11,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "7b6e3e4ca01212d8",
             "e2ae6409d97c0a8a",
@@ -758,7 +758,7 @@
           "term": "production patterns",
           "df_trending": 10,
           "df_total": 10,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "f269da30b9d0708e",
             "7ae5901f7e0e10fe",
@@ -776,7 +776,7 @@
           "term": "production-ready",
           "df_trending": 14,
           "df_total": 16,
-          "lift": 3.5,
+          "lift": 3.51,
           "skill_ids": [
             "689570be53895c49",
             "be173d4c97a11f7b",
@@ -798,7 +798,7 @@
           "term": "management",
           "df_trending": 28,
           "df_total": 47,
-          "lift": 2.38,
+          "lift": 2.39,
           "skill_ids": [
             "e2ae6409d97c0a8a",
             "1bf3e0fef52d49f9",
@@ -833,8 +833,8 @@
         {
           "term": "including",
           "df_trending": 47,
-          "df_total": 81,
-          "lift": 2.32,
+          "df_total": 80,
+          "lift": 2.36,
           "skill_ids": [
             "39407e48a88b2ea6",
             "e4e5630c5f4e0962",
@@ -872,7 +872,7 @@
           "term": "apis",
           "df_trending": 18,
           "df_total": 28,
-          "lift": 2.57,
+          "lift": 2.58,
           "skill_ids": [
             "644bb1346363fb84",
             "689570be53895c49",
@@ -898,7 +898,7 @@
           "term": "configuring",
           "df_trending": 11,
           "df_total": 11,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "38decad3a8bf1151",
             "2a08121cbc03b46c",
@@ -917,7 +917,7 @@
           "term": "secure",
           "df_trending": 11,
           "df_total": 11,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "dd0768742b5437ae",
             "69ac194099d1a65f",
@@ -936,7 +936,7 @@
           "term": "core",
           "df_trending": 65,
           "df_total": 119,
-          "lift": 2.18,
+          "lift": 2.19,
           "skill_ids": [
             "39407e48a88b2ea6",
             "b2d80b93d273c146",
@@ -974,7 +974,7 @@
           "term": "migrating",
           "df_trending": 14,
           "df_total": 18,
-          "lift": 3.11,
+          "lift": 3.12,
           "skill_ids": [
             "f529fadff713a7ac",
             "be0b8aaefdd01b1f",
@@ -996,7 +996,7 @@
           "term": "services",
           "df_trending": 15,
           "df_total": 21,
-          "lift": 2.86,
+          "lift": 2.87,
           "skill_ids": [
             "689570be53895c49",
             "7b6e3e4ca01212d8",
@@ -1019,7 +1019,7 @@
           "term": "infrastructure",
           "df_trending": 15,
           "df_total": 21,
-          "lift": 2.86,
+          "lift": 2.87,
           "skill_ids": [
             "39a70518baf538aa",
             "57097409b9579bbf",
@@ -1042,7 +1042,7 @@
           "term": "design",
           "df_trending": 37,
           "df_total": 70,
-          "lift": 2.11,
+          "lift": 2.12,
           "skill_ids": [
             "b2d80b93d273c146",
             "f4887dc290ae890e",
@@ -1103,7 +1103,7 @@
           "term": "applications implementing",
           "df_trending": 9,
           "df_total": 10,
-          "lift": 3.6,
+          "lift": 3.61,
           "skill_ids": [
             "3f32514be0ad1f22",
             "17723a1196e6e225",
@@ -1120,7 +1120,7 @@
           "term": "maintainable",
           "df_trending": 11,
           "df_total": 12,
-          "lift": 3.67,
+          "lift": 3.68,
           "skill_ids": [
             "f529fadff713a7ac",
             "7b6e3e4ca01212d8",
@@ -1139,7 +1139,7 @@
           "term": "testing",
           "df_trending": 19,
           "df_total": 36,
-          "lift": 2.11,
+          "lift": 2.12,
           "skill_ids": [
             "39407e48a88b2ea6",
             "b2d80b93d273c146",
@@ -1166,7 +1166,7 @@
           "term": "guide implementing",
           "df_trending": 8,
           "df_total": 8,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "022e8111ede09f62",
             "55aa55ca902886c2",
@@ -1182,7 +1182,7 @@
           "term": "security",
           "df_trending": 16,
           "df_total": 26,
-          "lift": 2.46,
+          "lift": 2.47,
           "skill_ids": [
             "38decad3a8bf1151",
             "3f1a948e6f82d290",
@@ -1242,12 +1242,12 @@
         {
           "id": "369dd42467de01fb",
           "name": "ce-compound",
-          "description": "Document a recently solved problem to compound your team's knowledge",
+          "description": "Document a recently solved problem to compound your team's knowledge or CONCEPTS.md, the project's shared domain vocabulary.",
           "source": "github:EveryInc/compound-engineering-plugin@main",
           "composite": 0.991,
           "categories": [
-            "business",
-            "docs"
+            "docs",
+            "search"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -1317,6 +1317,17 @@
           "categories": [
             "design",
             "development"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "8ce7c0b06cda58c1",
+          "name": "ce-code-review",
+          "description": "Structured code review using tiered persona agents, confidence-gated findings, and a merge/dedup pipeline. In interactive mode it applies safe, verified fixes and commits them when",
+          "source": "github:EveryInc/compound-engineering-plugin@main",
+          "composite": 0.973,
+          "categories": [
+            "review"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -1401,18 +1412,6 @@
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "8ce7c0b06cda58c1",
-          "name": "ce-code-review",
-          "description": "Structured code review using tiered persona agents, confidence-gated findings, and a merge/dedup pipeline. Use when reviewing code changes before creating a PR.",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.962,
-          "categories": [
-            "review",
-            "development"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
           "id": "ba31db3bbc00862c",
           "name": "ce-plan",
           "description": "Create structured plans for multi-step tasks -- software features, research workflows, events, study plans, or any goal that benefits from breakdown. Also deepens existing plans wi",
@@ -1425,9 +1424,9 @@
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "c6e1d6c5d98e567a",
-          "name": "ce-polish-beta",
-          "description": "[BETA] Start the dev server, open the feature in a browser, and iterate on improvements together.",
+          "id": "56e5718d38596a0e",
+          "name": "ce-polish",
+          "description": "Start the dev server, open the feature in a browser, and iterate on improvements together. Manual invocation only — type /ce-polish to run it.",
           "source": "github:EveryInc/compound-engineering-plugin@main",
           "composite": 0.95,
           "categories": [
@@ -1499,21 +1498,21 @@
     },
     "newcomer": {
       "label": "New entrants",
-      "criterion": "top 177 by most-recent first_seen (≤ 3d ago)",
-      "count": 177,
+      "criterion": "top 178 by most-recent first_seen (≤ 5d ago)",
+      "count": 178,
       "keywords": [
         {
           "term": "branch",
           "df_trending": 20,
-          "df_total": 26,
-          "lift": 3.08,
+          "df_total": 27,
+          "lift": 2.97,
           "skill_ids": [
+            "56e5718d38596a0e",
             "1b7ea1a579c87c42",
             "142522eeb9a083da",
             "c2f2c32cae6a1b49",
             "15e1d11aa05c7f95",
             "7890adc125c4a405",
-            "c6e1d6c5d98e567a",
             "113eed07ebd050f5",
             "c2a6b13db75773c3",
             "faeda0a6197f1fe4",
@@ -1534,7 +1533,7 @@
           "term": "migrated source",
           "df_trending": 11,
           "df_total": 11,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "87e445a96d9d000b",
             "67409490b98b7e38",
@@ -1551,15 +1550,17 @@
         },
         {
           "term": "step",
-          "df_trending": 26,
-          "df_total": 40,
-          "lift": 2.6,
+          "df_trending": 27,
+          "df_total": 42,
+          "lift": 2.58,
           "skill_ids": [
+            "d7edf912623a316f",
+            "8946305b00b9789b",
+            "749836edbacfefcb",
             "93c4f60274014f00",
             "461ed63d4b2e76fc",
             "142522eeb9a083da",
             "c2f2c32cae6a1b49",
-            "8ce7c0b06cda58c1",
             "7b172599b129fcd8",
             "2938f575a0d094d7",
             "c574a74768a3482c",
@@ -1579,20 +1580,19 @@
             "f3b0060c5828cd33",
             "8077a72a8afa9aa5",
             "49e9ab43ec7ce259",
-            "8c648afb008976a4",
-            "74b0ae33ccec828e"
+            "8c648afb008976a4"
           ]
         },
         {
           "term": "phase",
           "df_trending": 17,
-          "df_total": 23,
-          "lift": 2.96,
+          "df_total": 24,
+          "lift": 2.84,
           "skill_ids": [
+            "56e5718d38596a0e",
             "27269f8880e086d3",
             "fdad5ef5cf50ca85",
             "c51e516eebe732de",
-            "c6e1d6c5d98e567a",
             "53b32bc2e0c89ff0",
             "2938f575a0d094d7",
             "b6b86901a580ae92",
@@ -1609,46 +1609,10 @@
           ]
         },
         {
-          "term": "git",
-          "df_trending": 28,
-          "df_total": 46,
-          "lift": 2.43,
-          "skill_ids": [
-            "49b278be776a9b73",
-            "142522eeb9a083da",
-            "c2f2c32cae6a1b49",
-            "ad081c6bc3f8b97d",
-            "15e1d11aa05c7f95",
-            "113eed07ebd050f5",
-            "faeda0a6197f1fe4",
-            "4e4242e5219f4f9b",
-            "8bb5f50441876b21",
-            "e41eaf0ecbe2bccc",
-            "b9beec4571840018",
-            "52175b2ed892602c",
-            "fb87c8fde767de78",
-            "f8e51c4b269e07c6",
-            "0a76c578c710941f",
-            "6e7c8fae176522c4",
-            "5f5437c42636d8f4",
-            "812958df4c2806dd",
-            "f822f5e106c4b3fb",
-            "22a6476070b42bc0",
-            "ff2302c9929565bd",
-            "fd9a39caa9eb351a",
-            "060764d06d103753",
-            "7c996147e6f625de",
-            "effb03780dd34bea",
-            "b34c906bfd705ce8",
-            "1dae3ec08ff50528",
-            "74b0ae33ccec828e"
-          ]
-        },
-        {
           "term": "usage",
           "df_trending": 25,
           "df_total": 42,
-          "lift": 2.38,
+          "lift": 2.39,
           "skill_ids": [
             "564b52352bfd9061",
             "2f37d938ada8d651",
@@ -1678,11 +1642,47 @@
           ]
         },
         {
+          "term": "git",
+          "df_trending": 27,
+          "df_total": 46,
+          "lift": 2.35,
+          "skill_ids": [
+            "49b278be776a9b73",
+            "142522eeb9a083da",
+            "c2f2c32cae6a1b49",
+            "ad081c6bc3f8b97d",
+            "15e1d11aa05c7f95",
+            "113eed07ebd050f5",
+            "faeda0a6197f1fe4",
+            "4e4242e5219f4f9b",
+            "8bb5f50441876b21",
+            "e41eaf0ecbe2bccc",
+            "b9beec4571840018",
+            "52175b2ed892602c",
+            "fb87c8fde767de78",
+            "f8e51c4b269e07c6",
+            "0a76c578c710941f",
+            "6e7c8fae176522c4",
+            "5f5437c42636d8f4",
+            "812958df4c2806dd",
+            "f822f5e106c4b3fb",
+            "22a6476070b42bc0",
+            "ff2302c9929565bd",
+            "fd9a39caa9eb351a",
+            "060764d06d103753",
+            "7c996147e6f625de",
+            "effb03780dd34bea",
+            "b34c906bfd705ce8",
+            "1dae3ec08ff50528"
+          ]
+        },
+        {
           "term": "current",
           "df_trending": 47,
-          "df_total": 81,
-          "lift": 2.32,
+          "df_total": 82,
+          "lift": 2.3,
           "skill_ids": [
+            "56e5718d38596a0e",
             "564b52352bfd9061",
             "49b278be776a9b73",
             "fdad5ef5cf50ca85",
@@ -1695,7 +1695,6 @@
             "16df36161aeffd21",
             "b9b10ad68ef55bae",
             "ba31db3bbc00862c",
-            "c6e1d6c5d98e567a",
             "d514015139354c90",
             "c2a6b13db75773c3",
             "faeda0a6197f1fe4",
@@ -1719,7 +1718,7 @@
           "term": "migrated",
           "df_trending": 11,
           "df_total": 11,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "87e445a96d9d000b",
             "67409490b98b7e38",
@@ -1738,7 +1737,7 @@
           "term": "fix",
           "df_trending": 14,
           "df_total": 18,
-          "lift": 3.11,
+          "lift": 3.12,
           "skill_ids": [
             "31914ffa69588c41",
             "d757be6ad7a41169",
@@ -1784,35 +1783,10 @@
           ]
         },
         {
-          "term": "scope",
-          "df_trending": 17,
-          "df_total": 28,
-          "lift": 2.43,
-          "skill_ids": [
-            "1b7ea1a579c87c42",
-            "92793cc88e87dea3",
-            "7a4ef8573988e5e7",
-            "5c89a45c8eb28015",
-            "8bb5f50441876b21",
-            "94e26febb8f71f33",
-            "0a76c578c710941f",
-            "d6fbbb9c217dad13",
-            "ccf235a71070c4f4",
-            "72d2394887ec026d",
-            "860e0f92c3d1b9bf",
-            "3663ad5e9667724a",
-            "fd9a39caa9eb351a",
-            "8077a72a8afa9aa5",
-            "5657281efa45ff77",
-            "207e3fde5e33aa35",
-            "a503a03e65711df4"
-          ]
-        },
-        {
           "term": "status",
           "df_trending": 20,
           "df_total": 39,
-          "lift": 2.05,
+          "lift": 2.06,
           "skill_ids": [
             "0952ace899838e2a",
             "b546cad2dbd1e62e",
@@ -1837,34 +1811,29 @@
           ]
         },
         {
-          "term": "mcp",
-          "df_trending": 16,
-          "df_total": 25,
-          "lift": 2.56,
+          "term": "says",
+          "df_trending": 11,
+          "df_total": 12,
+          "lift": 3.68,
           "skill_ids": [
-            "564b52352bfd9061",
-            "690bdadeafb0f413",
-            "c2a6b13db75773c3",
-            "dc668b3339d59044",
-            "75cc219a329d4b43",
-            "f031acf3e0566048",
-            "09eef06b3fb95d8c",
-            "88c42d4669685635",
-            "cba5ef5b7624ca77",
-            "3a53b92a7c9bae54",
-            "4a43d8d1bf0d2335",
-            "30ce90657f29a2e4",
-            "c933eb5dab55fb6c",
-            "a2fdbba3083cf373",
-            "f091806cce0dbe88",
-            "a503a03e65711df4"
+            "bb308285ec3030ed",
+            "92793cc88e87dea3",
+            "c2f2c32cae6a1b49",
+            "ad081c6bc3f8b97d",
+            "15e1d11aa05c7f95",
+            "d757be6ad7a41169",
+            "ba31db3bbc00862c",
+            "236dabea61f987be",
+            "7b4dc0669721664d",
+            "9562727c53f03a2a",
+            "b2495323afb4cd82"
           ]
         },
         {
           "term": "docs",
           "df_trending": 20,
           "df_total": 40,
-          "lift": 2.0,
+          "lift": 2.01,
           "skill_ids": [
             "7a4ef8573988e5e7",
             "369dd42467de01fb",
@@ -1892,7 +1861,7 @@
           "term": "snapshot",
           "df_trending": 10,
           "df_total": 10,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "75cc219a329d4b43",
             "f031acf3e0566048",
@@ -1910,7 +1879,7 @@
           "term": "report",
           "df_trending": 18,
           "df_total": 33,
-          "lift": 2.18,
+          "lift": 2.19,
           "skill_ids": [
             "142522eeb9a083da",
             "7b67e3b6c1975c9a",
@@ -1933,16 +1902,58 @@
           ]
         },
         {
+          "term": "release",
+          "df_trending": 14,
+          "df_total": 20,
+          "lift": 2.81,
+          "skill_ids": [
+            "bb308285ec3030ed",
+            "83c88b5b4c27c06c",
+            "a108e702853f8123",
+            "b2495323afb4cd82",
+            "ee3e1e287ae05f94",
+            "0d86d144429fad96",
+            "8a59b9d85057444c",
+            "0a0669858a8ef62f",
+            "4663a09e558977b0",
+            "090e0c41694487ea",
+            "060764d06d103753",
+            "7c996147e6f625de",
+            "cc2f743ccbab0e30",
+            "1dae3ec08ff50528"
+          ]
+        },
+        {
+          "term": "codex",
+          "df_trending": 12,
+          "df_total": 15,
+          "lift": 3.21,
+          "skill_ids": [
+            "749836edbacfefcb",
+            "ad081c6bc3f8b97d",
+            "90b0d1c807abdd04",
+            "7b172599b129fcd8",
+            "113eed07ebd050f5",
+            "9f12e3103674c70a",
+            "fe0e03b27cd253a5",
+            "c574a74768a3482c",
+            "09eef06b3fb95d8c",
+            "88c42d4669685635",
+            "6f89b4ecffb16abc",
+            "8a59b9d85057444c"
+          ]
+        },
+        {
           "term": "bash",
           "df_trending": 26,
-          "df_total": 54,
-          "lift": 1.93,
+          "df_total": 55,
+          "lift": 1.9,
           "skill_ids": [
-            "2f2652d4820416c0",
+            "56e5718d38596a0e",
             "169e4acf4adcb6a3",
+            "2f2652d4820416c0",
             "461ed63d4b2e76fc",
             "c2f2c32cae6a1b49",
-            "c6e1d6c5d98e567a",
             "4e4242e5219f4f9b",
             "1bcff5af0ecf2fc4",
             "0addc325e7465c41",
@@ -1967,10 +1978,33 @@
           ]
         },
         {
+          "term": "mode",
+          "df_trending": 15,
+          "df_total": 24,
+          "lift": 2.51,
+          "skill_ids": [
+            "8ce7c0b06cda58c1",
+            "7a4ef8573988e5e7",
+            "8fa11515d593ecc9",
+            "fe0e03b27cd253a5",
+            "c574a74768a3482c",
+            "7a0e52adb314acba",
+            "9debcfd6defbb846",
+            "3edd282d5d7d3fef",
+            "fd9a39caa9eb351a",
+            "72e0bcc9fff9c810",
+            "9261da85a777e5d8",
+            "b34c906bfd705ce8",
+            "8c648afb008976a4",
+            "1dae3ec08ff50528",
+            "2df229a77bd34a2f"
+          ]
+        },
+        {
           "term": "sections",
           "df_trending": 11,
           "df_total": 13,
-          "lift": 3.38,
+          "lift": 3.39,
           "skill_ids": [
             "fdad5ef5cf50ca85",
             "15e1d11aa05c7f95",
@@ -1986,20 +2020,45 @@
           ]
         },
         {
-          "term": "current branch",
-          "df_trending": 9,
-          "df_total": 11,
-          "lift": 3.27,
+          "term": "scope",
+          "df_trending": 16,
+          "df_total": 28,
+          "lift": 2.29,
           "skill_ids": [
-            "142522eeb9a083da",
-            "15e1d11aa05c7f95",
-            "c6e1d6c5d98e567a",
-            "c2a6b13db75773c3",
-            "e41eaf0ecbe2bccc",
-            "fb87c8fde767de78",
-            "f8e51c4b269e07c6",
-            "29524d07deaa20b0",
-            "fd9a39caa9eb351a"
+            "1b7ea1a579c87c42",
+            "92793cc88e87dea3",
+            "7a4ef8573988e5e7",
+            "5c89a45c8eb28015",
+            "8bb5f50441876b21",
+            "94e26febb8f71f33",
+            "0a76c578c710941f",
+            "d6fbbb9c217dad13",
+            "ccf235a71070c4f4",
+            "72d2394887ec026d",
+            "860e0f92c3d1b9bf",
+            "3663ad5e9667724a",
+            "fd9a39caa9eb351a",
+            "8077a72a8afa9aa5",
+            "5657281efa45ff77",
+            "207e3fde5e33aa35"
+          ]
+        },
+        {
+          "term": "changelog",
+          "df_trending": 10,
+          "df_total": 11,
+          "lift": 3.65,
+          "skill_ids": [
+            "bb308285ec3030ed",
+            "ee3e1e287ae05f94",
+            "0d86d144429fad96",
+            "0a0669858a8ef62f",
+            "090e0c41694487ea",
+            "9ffbad3860119699",
+            "060764d06d103753",
+            "7c996147e6f625de",
+            "b34c906bfd705ce8",
+            "1dae3ec08ff50528"
           ]
         },
         {
@@ -2031,28 +2090,33 @@
           ]
         },
         {
-          "term": "says",
-          "df_trending": 10,
-          "df_total": 11,
-          "lift": 3.64,
+          "term": "mcp",
+          "df_trending": 15,
+          "df_total": 25,
+          "lift": 2.41,
           "skill_ids": [
-            "92793cc88e87dea3",
-            "c2f2c32cae6a1b49",
-            "ad081c6bc3f8b97d",
-            "15e1d11aa05c7f95",
-            "d757be6ad7a41169",
-            "ba31db3bbc00862c",
-            "236dabea61f987be",
-            "7b4dc0669721664d",
-            "9562727c53f03a2a",
-            "b2495323afb4cd82"
+            "564b52352bfd9061",
+            "690bdadeafb0f413",
+            "c2a6b13db75773c3",
+            "dc668b3339d59044",
+            "75cc219a329d4b43",
+            "f031acf3e0566048",
+            "09eef06b3fb95d8c",
+            "88c42d4669685635",
+            "cba5ef5b7624ca77",
+            "3a53b92a7c9bae54",
+            "4a43d8d1bf0d2335",
+            "30ce90657f29a2e4",
+            "c933eb5dab55fb6c",
+            "a2fdbba3083cf373",
+            "f091806cce0dbe88"
           ]
         },
         {
           "term": "ccguide",
           "df_trending": 9,
           "df_total": 9,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "75cc219a329d4b43",
             "f031acf3e0566048",
@@ -2066,32 +2130,27 @@
           ]
         },
         {
-          "term": "release",
-          "df_trending": 13,
-          "df_total": 19,
-          "lift": 2.74,
+          "term": "instructions step",
+          "df_trending": 7,
+          "df_total": 7,
+          "lift": 4.01,
           "skill_ids": [
-            "83c88b5b4c27c06c",
-            "a108e702853f8123",
-            "b2495323afb4cd82",
-            "ee3e1e287ae05f94",
-            "0d86d144429fad96",
-            "8a59b9d85057444c",
-            "0a0669858a8ef62f",
-            "4663a09e558977b0",
-            "090e0c41694487ea",
-            "060764d06d103753",
-            "7c996147e6f625de",
-            "cc2f743ccbab0e30",
-            "1dae3ec08ff50528"
+            "b9beec4571840018",
+            "d6fbbb9c217dad13",
+            "29524d07deaa20b0",
+            "860e0f92c3d1b9bf",
+            "fd9a39caa9eb351a",
+            "8077a72a8afa9aa5",
+            "49e9ab43ec7ce259"
           ]
         },
         {
           "term": "instructions",
           "df_trending": 22,
-          "df_total": 50,
-          "lift": 1.76,
+          "df_total": 51,
+          "lift": 1.73,
           "skill_ids": [
+            "749836edbacfefcb",
             "7a7d1a5e2597afc5",
             "5c89a45c8eb28015",
             "e41eaf0ecbe2bccc",
@@ -2112,129 +2171,83 @@
             "5657281efa45ff77",
             "207e3fde5e33aa35",
             "49e9ab43ec7ce259",
-            "98ef81fed50e0215",
-            "a503a03e65711df4"
+            "98ef81fed50e0215"
           ]
         },
         {
-          "term": "plan",
-          "df_trending": 18,
-          "df_total": 37,
-          "lift": 1.95,
+          "term": "current branch",
+          "df_trending": 9,
+          "df_total": 12,
+          "lift": 3.01,
           "skill_ids": [
-            "fdad5ef5cf50ca85",
-            "8fa11515d593ecc9",
-            "7a7d1a5e2597afc5",
-            "ba31db3bbc00862c",
-            "7b4dc0669721664d",
-            "fe0e03b27cd253a5",
-            "53b32bc2e0c89ff0",
-            "2938f575a0d094d7",
-            "5c89a45c8eb28015",
-            "2b4d869580461bc3",
-            "9debcfd6defbb846",
-            "3edd282d5d7d3fef",
-            "ff2302c9929565bd",
-            "154b81b53317025e",
-            "7c2b1530f5df4053",
-            "dd3d4f9a25815263",
-            "2396303904e3384a",
-            "e22da92ddede6636"
-          ]
-        },
-        {
-          "term": "instructions step",
-          "df_trending": 7,
-          "df_total": 7,
-          "lift": 4.0,
-          "skill_ids": [
-            "b9beec4571840018",
-            "d6fbbb9c217dad13",
+            "56e5718d38596a0e",
+            "142522eeb9a083da",
+            "15e1d11aa05c7f95",
+            "c2a6b13db75773c3",
+            "e41eaf0ecbe2bccc",
+            "fb87c8fde767de78",
+            "f8e51c4b269e07c6",
             "29524d07deaa20b0",
-            "860e0f92c3d1b9bf",
-            "fd9a39caa9eb351a",
-            "8077a72a8afa9aa5",
-            "49e9ab43ec7ce259"
+            "fd9a39caa9eb351a"
           ]
         },
         {
-          "term": "codex",
-          "df_trending": 11,
-          "df_total": 14,
-          "lift": 3.14,
+          "term": "talk",
+          "df_trending": 9,
+          "df_total": 10,
+          "lift": 3.61,
           "skill_ids": [
-            "ad081c6bc3f8b97d",
-            "90b0d1c807abdd04",
-            "7b172599b129fcd8",
-            "113eed07ebd050f5",
-            "9f12e3103674c70a",
-            "fe0e03b27cd253a5",
-            "c574a74768a3482c",
-            "09eef06b3fb95d8c",
-            "88c42d4669685635",
-            "6f89b4ecffb16abc",
-            "8a59b9d85057444c"
-          ]
-        },
-        {
-          "term": "mode",
-          "df_trending": 14,
-          "df_total": 23,
-          "lift": 2.43,
-          "skill_ids": [
-            "7a4ef8573988e5e7",
-            "8fa11515d593ecc9",
-            "fe0e03b27cd253a5",
-            "c574a74768a3482c",
-            "7a0e52adb314acba",
-            "9debcfd6defbb846",
-            "3edd282d5d7d3fef",
-            "fd9a39caa9eb351a",
-            "72e0bcc9fff9c810",
+            "8946305b00b9789b",
             "9261da85a777e5d8",
             "b34c906bfd705ce8",
             "8c648afb008976a4",
             "1dae3ec08ff50528",
-            "2df229a77bd34a2f"
+            "2df229a77bd34a2f",
+            "8aaf5f0e6813cefd",
+            "7c8585903c2f59f6",
+            "2d54c92326e929e3"
           ]
         },
         {
-          "term": "audit",
-          "df_trending": 14,
-          "df_total": 24,
-          "lift": 2.33,
+          "term": "repository",
+          "df_trending": 11,
+          "df_total": 15,
+          "lift": 2.94,
           "skill_ids": [
-            "7b67e3b6c1975c9a",
-            "7a4ef8573988e5e7",
-            "87e445a96d9d000b",
-            "67409490b98b7e38",
-            "cfc5142d60187082",
-            "5c89a45c8eb28015",
-            "94e26febb8f71f33",
-            "751c55faaccf10f8",
-            "267b9b68fa51ba66",
-            "f176c20beae44bbd",
-            "01d7d9132642369e",
-            "5657281efa45ff77",
-            "49e9ab43ec7ce259",
-            "e22da92ddede6636"
-          ]
-        },
-        {
-          "term": "changelog",
-          "df_trending": 9,
-          "df_total": 10,
-          "lift": 3.6,
-          "skill_ids": [
-            "ee3e1e287ae05f94",
-            "0d86d144429fad96",
-            "0a0669858a8ef62f",
-            "090e0c41694487ea",
+            "8946305b00b9789b",
+            "749836edbacfefcb",
+            "1b7ea1a579c87c42",
+            "6c3cb5846695491a",
+            "142522eeb9a083da",
+            "bafae72d0512bbf2",
+            "792cdae7926b821f",
+            "4e4242e5219f4f9b",
+            "6e7c8fae176522c4",
             "9ffbad3860119699",
-            "060764d06d103753",
-            "7c996147e6f625de",
-            "b34c906bfd705ce8",
             "1dae3ec08ff50528"
+          ]
+        },
+        {
+          "term": "github",
+          "df_trending": 15,
+          "df_total": 28,
+          "lift": 2.15,
+          "skill_ids": [
+            "8946305b00b9789b",
+            "749836edbacfefcb",
+            "d757be6ad7a41169",
+            "a108e702853f8123",
+            "7b172599b129fcd8",
+            "e222fda8726265fb",
+            "b2495323afb4cd82",
+            "6f89b4ecffb16abc",
+            "8bb5f50441876b21",
+            "fb87c8fde767de78",
+            "f8e51c4b269e07c6",
+            "f176c20beae44bbd",
+            "29524d07deaa20b0",
+            "9ffbad3860119699",
+            "ebfba0a35bce4186"
           ]
         },
         {
@@ -2259,35 +2272,35 @@
           ]
         },
         {
-          "term": "arguments",
+          "term": "plan",
           "df_trending": 17,
-          "df_total": 36,
-          "lift": 1.89,
+          "df_total": 37,
+          "lift": 1.84,
           "skill_ids": [
-            "089419be98f5d44e",
-            "142522eeb9a083da",
-            "8ce7c0b06cda58c1",
-            "7a4ef8573988e5e7",
-            "d757be6ad7a41169",
+            "fdad5ef5cf50ca85",
+            "8fa11515d593ecc9",
+            "7a7d1a5e2597afc5",
+            "ba31db3bbc00862c",
+            "7b4dc0669721664d",
+            "fe0e03b27cd253a5",
             "53b32bc2e0c89ff0",
-            "67409490b98b7e38",
-            "c933eb5dab55fb6c",
+            "2938f575a0d094d7",
             "5c89a45c8eb28015",
-            "e41eaf0ecbe2bccc",
-            "e058884cbfd3ae0a",
-            "ccf235a71070c4f4",
-            "72d2394887ec026d",
-            "2db7af442b832f69",
-            "e2648ac80a3500f7",
-            "ebfba0a35bce4186",
-            "a77b67cbe90962b3"
+            "2b4d869580461bc3",
+            "9debcfd6defbb846",
+            "3edd282d5d7d3fef",
+            "ff2302c9929565bd",
+            "154b81b53317025e",
+            "7c2b1530f5df4053",
+            "dd3d4f9a25815263",
+            "2396303904e3384a"
           ]
         },
         {
           "term": "repo",
           "df_trending": 10,
           "df_total": 13,
-          "lift": 3.08,
+          "lift": 3.09,
           "skill_ids": [
             "83c88b5b4c27c06c",
             "142522eeb9a083da",
@@ -2305,7 +2318,7 @@
           "term": "hook",
           "df_trending": 10,
           "df_total": 13,
-          "lift": 3.08,
+          "lift": 3.09,
           "skill_ids": [
             "4e4242e5219f4f9b",
             "1bcff5af0ecf2fc4",
@@ -2320,10 +2333,31 @@
           ]
         },
         {
+          "term": "detect",
+          "df_trending": 13,
+          "df_total": 22,
+          "lift": 2.37,
+          "skill_ids": [
+            "d7edf912623a316f",
+            "142522eeb9a083da",
+            "2f37d938ada8d651",
+            "7a7d1a5e2597afc5",
+            "e41eaf0ecbe2bccc",
+            "febe8613467d9134",
+            "58483c822c0cfe15",
+            "0777e177acd435b8",
+            "f822f5e106c4b3fb",
+            "29524d07deaa20b0",
+            "3663ad5e9667724a",
+            "7c996147e6f625de",
+            "effb03780dd34bea"
+          ]
+        },
+        {
           "term": "official docs",
           "df_trending": 7,
           "df_total": 8,
-          "lift": 3.5,
+          "lift": 3.51,
           "skill_ids": [
             "75cc219a329d4b43",
             "f031acf3e0566048",
@@ -2335,29 +2369,58 @@
           ]
         },
         {
-          "term": "yaml",
-          "df_trending": 11,
-          "df_total": 16,
-          "lift": 2.75,
+          "term": "interactive",
+          "df_trending": 14,
+          "df_total": 26,
+          "lift": 2.16,
           "skill_ids": [
-            "b546cad2dbd1e62e",
-            "71455635cfc8dadd",
-            "369dd42467de01fb",
-            "236dabea61f987be",
-            "6f89b4ecffb16abc",
-            "d1095e9d1a651858",
-            "52175b2ed892602c",
-            "e058884cbfd3ae0a",
+            "461ed63d4b2e76fc",
+            "8ce7c0b06cda58c1",
+            "7a4ef8573988e5e7",
+            "8fa11515d593ecc9",
+            "7a7d1a5e2597afc5",
+            "ba31db3bbc00862c",
+            "90d07b4987847deb",
+            "c574a74768a3482c",
+            "19c74ea8ede76dd1",
+            "7a0e52adb314acba",
+            "58483c822c0cfe15",
+            "751c55faaccf10f8",
+            "5f5437c42636d8f4",
+            "a77b67cbe90962b3"
+          ]
+        },
+        {
+          "term": "quick",
+          "df_trending": 18,
+          "df_total": 43,
+          "lift": 1.68,
+          "skill_ids": [
+            "d7edf912623a316f",
+            "83c88b5b4c27c06c",
+            "96df51aa9ce7be8c",
+            "e222fda8726265fb",
+            "90d07b4987847deb",
+            "c574a74768a3482c",
+            "88c42d4669685635",
+            "b6b86901a580ae92",
+            "30ce90657f29a2e4",
+            "19c74ea8ede76dd1",
+            "7a0e52adb314acba",
+            "dd562237188b7da7",
+            "f8e51c4b269e07c6",
+            "f2580386af5de2e1",
+            "5657281efa45ff77",
             "207e3fde5e33aa35",
-            "1d3a930cba00936b",
-            "a503a03e65711df4"
+            "49e9ab43ec7ce259",
+            "2d54c92326e929e3"
           ]
         },
         {
           "term": "guide version",
           "df_trending": 6,
           "df_total": 6,
-          "lift": 4.0,
+          "lift": 4.01,
           "skill_ids": [
             "67409490b98b7e38",
             "bafae72d0512bbf2",
@@ -2365,48 +2428,6 @@
             "792cdae7926b821f",
             "4663a09e558977b0",
             "d1095e9d1a651858"
-          ]
-        },
-        {
-          "term": "current snapshot",
-          "df_trending": 6,
-          "df_total": 6,
-          "lift": 4.0,
-          "skill_ids": [
-            "75cc219a329d4b43",
-            "f031acf3e0566048",
-            "88c42d4669685635",
-            "cba5ef5b7624ca77",
-            "3a53b92a7c9bae54",
-            "30ce90657f29a2e4"
-          ]
-        },
-        {
-          "term": "event hook",
-          "df_trending": 6,
-          "df_total": 6,
-          "lift": 4.0,
-          "skill_ids": [
-            "42b6d91063a68039",
-            "0addc325e7465c41",
-            "c6d74ee2bb45426d",
-            "9b6efc2ce4792009",
-            "05541cf340090f5b",
-            "50767cd3dc6c78dc"
-          ]
-        },
-        {
-          "term": "talk stage",
-          "df_trending": 6,
-          "df_total": 6,
-          "lift": 4.0,
-          "skill_ids": [
-            "8c648afb008976a4",
-            "1dae3ec08ff50528",
-            "2df229a77bd34a2f",
-            "8aaf5f0e6813cefd",
-            "7c8585903c2f59f6",
-            "2d54c92326e929e3"
           ]
         }
       ],
@@ -2431,6 +2452,18 @@
           "composite": 1.0,
           "categories": [
             "uncategorized"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "bb308285ec3030ed",
+          "name": "ce-promote",
+          "description": "Draft user-facing announcement and marketing copy for a feature that just shipped — an X post or thread, a changelog blurb, a LinkedIn post, an email, a blog intro, or a short demo",
+          "source": "github:EveryInc/compound-engineering-plugin@main",
+          "composite": 0.992,
+          "categories": [
+            "docs",
+            "design"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -2471,12 +2504,12 @@
         {
           "id": "369dd42467de01fb",
           "name": "ce-compound",
-          "description": "Document a recently solved problem to compound your team's knowledge",
+          "description": "Document a recently solved problem to compound your team's knowledge or CONCEPTS.md, the project's shared domain vocabulary.",
           "source": "github:EveryInc/compound-engineering-plugin@main",
           "composite": 0.991,
           "categories": [
-            "business",
-            "docs"
+            "docs",
+            "search"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -2652,6 +2685,17 @@
           "awesome_class": "Agent Skills"
         },
         {
+          "id": "8ce7c0b06cda58c1",
+          "name": "ce-code-review",
+          "description": "Structured code review using tiered persona agents, confidence-gated findings, and a merge/dedup pipeline. In interactive mode it applies safe, verified fixes and commits them when",
+          "source": "github:EveryInc/compound-engineering-plugin@main",
+          "composite": 0.973,
+          "categories": [
+            "review"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
           "id": "7a4ef8573988e5e7",
           "name": "ce-compound-refresh",
           "description": "Refresh stale learning and pattern docs under docs/solutions/ by reviewing them against the current codebase, then updating, consolidating, or deleting drifted ones. Use when the u",
@@ -2669,28 +2713,6 @@
           "description": "Generate and critically evaluate grounded ideas about a topic. Use when asking what to improve, requesting idea generation, exploring surprising directions, or wanting the AI to pr",
           "source": "github:EveryInc/compound-engineering-plugin@main",
           "composite": 0.973,
-          "categories": [
-            "uncategorized"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "90b0d1c807abdd04",
-          "name": "ce-optimize",
-          "description": "Run metric-driven iterative optimization loops -- define a measurable goal, run parallel experiments, measure each against hard gates or LLM-as-judge scores, keep improvements, and",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.973,
-          "categories": [
-            "uncategorized"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "d757be6ad7a41169",
-          "name": "ce-debug",
-          "description": "Systematically find root causes and fix bugs. Use when debugging errors, investigating test failures, reproducing bugs from issue trackers (GitHub, Linear, Jira), or when stuck on ",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.971,
           "categories": [
             "uncategorized"
           ],

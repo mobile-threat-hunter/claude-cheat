@@ -1,5 +1,5 @@
 {
-  "sample_size": 550,
+  "sample_size": 556,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,73 +8,73 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 534,
-      "pct": 97.1
-    },
-    {
-      "field": "name",
-      "count": 533,
+      "count": 539,
       "pct": 96.9
     },
     {
+      "field": "name",
+      "count": 538,
+      "pct": 96.8
+    },
+    {
       "field": "license",
-      "count": 150,
-      "pct": 27.3
+      "count": 151,
+      "pct": 27.2
     },
     {
       "field": "metadata",
-      "count": 144,
-      "pct": 26.2
+      "count": 145,
+      "pct": 26.1
     },
     {
       "field": "compatibility",
       "count": 141,
-      "pct": 25.6
+      "pct": 25.4
     },
     {
       "field": "role",
       "count": 106,
-      "pct": 19.3
+      "pct": 19.1
     },
     {
       "field": "toolkit",
       "count": 106,
-      "pct": 19.3
+      "pct": 19.1
     },
     {
       "field": "api_version",
       "count": 106,
-      "pct": 19.3
+      "pct": 19.1
     },
     {
       "field": "graphql_operations",
       "count": 106,
-      "pct": 19.3
+      "pct": 19.1
     },
     {
       "field": "status",
       "count": 106,
-      "pct": 19.3
+      "pct": 19.1
     },
     {
       "field": "argument-hint",
-      "count": 67,
-      "pct": 12.2
+      "count": 69,
+      "pct": 12.4
     },
     {
       "field": "allowed-tools",
       "count": 62,
-      "pct": 11.3
+      "pct": 11.2
     },
     {
       "field": "version",
       "count": 18,
-      "pct": 3.3
+      "pct": 3.2
     },
     {
       "field": "disable-model-invocation",
-      "count": 10,
-      "pct": 1.8
+      "count": 11,
+      "pct": 2.0
     },
     {
       "field": "author",
@@ -84,55 +84,55 @@
   ],
   "description": {
     "length": {
-      "count": 550,
+      "count": 556,
       "min": 13,
       "p25": 142,
-      "median": 215,
-      "p75": 323,
+      "median": 217,
+      "p75": 326,
       "p90": 461,
       "max": 1010,
-      "mean": 252.6
+      "mean": 253.8
     },
-    "has_trigger_phrase_pct": 49.6,
-    "has_quoted_user_phrase_pct": 4.2,
-    "short_pct_lt_120": 18.9,
-    "long_pct_gt_300": 29.8
+    "has_trigger_phrase_pct": 49.5,
+    "has_quoted_user_phrase_pct": 4.3,
+    "short_pct_lt_120": 18.5,
+    "long_pct_gt_300": 30.4
   },
   "body": {
     "length_chars": {
-      "count": 550,
+      "count": 556,
       "min": 629,
       "p25": 4843,
-      "median": 6997,
-      "p75": 12700,
-      "p90": 22144,
+      "median": 6998,
+      "p75": 12774,
+      "p90": 22009,
       "max": 110236,
-      "mean": 10885.5
+      "mean": 10857.9
     },
     "heading_count": {
-      "count": 550,
+      "count": 556,
       "min": 0,
       "p25": 11,
-      "median": 17,
+      "median": 18,
       "p75": 39,
-      "p90": 72,
+      "p90": 70,
       "max": 237,
       "mean": 29.4
     },
     "code_block_count": {
-      "count": 550,
+      "count": 556,
       "min": 0,
       "p25": 3,
       "median": 6,
       "p75": 11,
       "p90": 21,
       "max": 77,
-      "mean": 8.9
+      "mean": 8.8
     },
     "has_numbered_list_pct": 79.1,
     "has_bullet_list_pct": 99.5,
-    "has_table_pct": 56.2,
-    "has_code_block_pct": 92.9
+    "has_table_pct": 56.3,
+    "has_code_block_pct": 93.0
   },
   "common_section_headings_h2": [
     {
@@ -141,15 +141,15 @@
     },
     {
       "label": "when to use this",
-      "count": 225
+      "count": 226
     },
     {
       "label": "overview",
-      "count": 157
+      "count": 159
     },
     {
       "label": "purpose",
-      "count": 124
+      "count": 125
     },
     {
       "label": "error handling",
@@ -157,7 +157,7 @@
     },
     {
       "label": "output format",
-      "count": 116
+      "count": 117
     },
     {
       "label": "prerequisites",
@@ -229,7 +229,7 @@
       "name": "dhdna-profiler",
       "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.992
+      "composite": 0.991
     },
     {
       "id": "d06d6b81bdf90ceb",
@@ -250,14 +250,14 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.888
+      "composite": 0.887
     },
     {
       "id": "0952ace899838e2a",
       "name": "karpathy-guidelines",
       "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiabl",
       "source": "github:multica-ai/andrej-karpathy-skills@main",
-      "composite": 0.854
+      "composite": 0.853
     }
   ]
 }
