@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-06-03T18:12:46.882Z",
+  "generated_at": "2026-06-04T11:41:25.853Z",
   "sources": {
     "anthropic_news_count": 12,
     "claude_code_releases_count": 12,
-    "translated_ko": 24
+    "translated_ko": 23
   },
   "items": [
+    {
+      "date": "2026-06-03",
+      "datetime": "2026-06-03T21:31:35Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.162",
+      "summary": "- `claude agents --json` now includes `waitingFor` showing what a waiting session is blocked on (e.g. permission prompt)\n- `--tools`: explicitly listing Grep/Glob now provides the dedicated search tools on native builds with embedded search (previously these names were silently ignored)\n- `/effort` now confirms when your chosen level will persist as the default for new sessions\n- Clicking a slash…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162"
+    },
     {
       "date": "2026-06-03",
       "datetime": "2026-06-03T16:18:23.000Z",
@@ -236,17 +245,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
       "title_ko": "Claude Code v2.1.149",
       "summary_ko": "- `/usage`가 사용량을 카테고리별(스킬 · 서브에이전트 · 플러그인 · MCP 서버별 비용)로 분해해서 표시합니다\n- `/diff` 상세 뷰를 키보드로 스크롤 가능 (방향키 · `j`/`k` · `PgUp`/`PgDn` · `Space` · `Home`/`End`)\n- Markdown 출력에서 이제 GFM 태스크 리스트 체크박스가 렌더링됨…"
-    },
-    {
-      "date": "2026-05-22",
-      "datetime": "2026-05-22T01:16:52Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.148",
-      "summary": "- Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
-      "title_ko": "Claude Code v2.1.148",
-      "summary_ko": "- 일부 사용자에게서 Bash 도구가 모든 명령에 대해 exit code 127을 반환하던 문제 수정 (2.1.147에서 도입된 회귀 버그)"
     },
     {
       "date": "2026-05-20",
