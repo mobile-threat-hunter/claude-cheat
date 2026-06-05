@@ -1,5 +1,5 @@
 {
-  "sample_size": 556,
+  "sample_size": 566,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,73 +8,73 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 539,
-      "pct": 96.9
+      "count": 546,
+      "pct": 96.5
     },
     {
       "field": "name",
-      "count": 538,
-      "pct": 96.8
+      "count": 545,
+      "pct": 96.3
     },
     {
       "field": "license",
-      "count": 151,
-      "pct": 27.2
+      "count": 153,
+      "pct": 27.0
     },
     {
       "field": "metadata",
-      "count": 145,
+      "count": 148,
       "pct": 26.1
     },
     {
       "field": "compatibility",
-      "count": 141,
-      "pct": 25.4
+      "count": 142,
+      "pct": 25.1
     },
     {
       "field": "role",
       "count": 106,
-      "pct": 19.1
+      "pct": 18.7
     },
     {
       "field": "toolkit",
       "count": 106,
-      "pct": 19.1
+      "pct": 18.7
     },
     {
       "field": "api_version",
       "count": 106,
-      "pct": 19.1
+      "pct": 18.7
     },
     {
       "field": "graphql_operations",
       "count": 106,
-      "pct": 19.1
+      "pct": 18.7
     },
     {
       "field": "status",
       "count": 106,
-      "pct": 19.1
+      "pct": 18.7
     },
     {
       "field": "argument-hint",
       "count": 69,
-      "pct": 12.4
+      "pct": 12.2
     },
     {
       "field": "allowed-tools",
-      "count": 62,
-      "pct": 11.2
+      "count": 63,
+      "pct": 11.1
     },
     {
       "field": "version",
-      "count": 18,
-      "pct": 3.2
+      "count": 20,
+      "pct": 3.5
     },
     {
       "field": "disable-model-invocation",
       "count": 11,
-      "pct": 2.0
+      "pct": 1.9
     },
     {
       "field": "author",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 556,
+      "count": 566,
       "min": 13,
-      "p25": 142,
+      "p25": 141,
       "median": 217,
       "p75": 326,
-      "p90": 461,
+      "p90": 459,
       "max": 1010,
-      "mean": 253.8
+      "mean": 252.6
     },
-    "has_trigger_phrase_pct": 49.5,
-    "has_quoted_user_phrase_pct": 4.3,
-    "short_pct_lt_120": 18.5,
+    "has_trigger_phrase_pct": 48.9,
+    "has_quoted_user_phrase_pct": 4.4,
+    "short_pct_lt_120": 18.7,
     "long_pct_gt_300": 30.4
   },
   "body": {
     "length_chars": {
-      "count": 556,
+      "count": 566,
       "min": 629,
-      "p25": 4843,
-      "median": 6998,
-      "p75": 12774,
+      "p25": 4829,
+      "median": 7031,
+      "p75": 12820,
       "p90": 22009,
       "max": 110236,
-      "mean": 10857.9
+      "mean": 10883.4
     },
     "heading_count": {
-      "count": 556,
+      "count": 566,
       "min": 0,
       "p25": 11,
-      "median": 18,
-      "p75": 39,
-      "p90": 70,
+      "median": 17,
+      "p75": 38,
+      "p90": 68,
       "max": 237,
-      "mean": 29.4
+      "mean": 29.2
     },
     "code_block_count": {
-      "count": 556,
+      "count": 566,
       "min": 0,
       "p25": 3,
       "median": 6,
@@ -129,10 +129,10 @@
       "max": 77,
       "mean": 8.8
     },
-    "has_numbered_list_pct": 79.1,
+    "has_numbered_list_pct": 79.0,
     "has_bullet_list_pct": 99.5,
-    "has_table_pct": 56.3,
-    "has_code_block_pct": 93.0
+    "has_table_pct": 56.2,
+    "has_code_block_pct": 92.8
   },
   "common_section_headings_h2": [
     {
@@ -152,12 +152,12 @@
       "count": 125
     },
     {
-      "label": "error handling",
+      "label": "output format",
       "count": 118
     },
     {
-      "label": "output format",
-      "count": 117
+      "label": "error handling",
+      "count": 118
     },
     {
       "label": "prerequisites",
@@ -229,35 +229,35 @@
       "name": "dhdna-profiler",
       "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.991
+      "composite": 0.992
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "composite": 0.9
     },
     {
       "id": "2270e331920f0d67",
       "name": "setup-codemap-cli",
       "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.891
+      "composite": 0.89
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.887
+      "composite": 0.886
     },
     {
-      "id": "0952ace899838e2a",
-      "name": "karpathy-guidelines",
-      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiabl",
-      "source": "github:multica-ai/andrej-karpathy-skills@main",
-      "composite": 0.852
+      "id": "9fb6b861ee0bf92a",
+      "name": "web-access",
+      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
+      "source": "github:eze-is/web-access@main",
+      "composite": 0.859
     }
   ]
 }
