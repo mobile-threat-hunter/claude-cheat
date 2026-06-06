@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-06-05T12:21:12.612Z",
+  "generated_at": "2026-06-06T09:31:13.765Z",
   "sources": {
     "anthropic_news_count": 12,
     "claude_code_releases_count": 12,
-    "translated_ko": 21
+    "translated_ko": 19
   },
   "items": [
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T01:33:35Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.167",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167"
+    },
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T00:55:18Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.166",
+      "summary": "- Added `fallbackModel` setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; `--fallback-model` now also applies to interactive sessions\n- Added glob pattern support in deny rule tool-name position (`\"*\"` denies all tools); allow rules reject non-MCP globs, and unknown tool names in deny rules warn at startup\n- Hardened cross-session…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T14:58:47.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical &quot;Magnifica humanitas&quot;",
+      "summary": "The full text of Chris Olah&#x27;s remarks on the Pope&#x27;s encyclical on AI.",
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "title_ko": "Anthropic 공동창업자 Chris Olah, 교황 레오 14세의 회칙 'Magnifica humanitas'에 대한 발언",
+      "summary_ko": "AI에 관한 교황의 회칙에 대해 Chris Olah가 남긴 발언 전문"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T14:40:24.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Widening the conversation on frontier AI",
+      "summary": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. ",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
+      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
+    },
     {
       "date": "2026-06-05",
       "datetime": "2026-06-05T05:45:06Z",
@@ -199,28 +239,6 @@
       "summary_ko": "유럽에서 여섯 번째가 되는 밀라노 사무소를 새로 엽니다."
     },
     {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T00:52:08Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.153",
-      "summary": "- Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git LFS downloads during clone and update\n- Claude Code now shows a one-time notice when your npm global install can't auto-update; `/doctor` lists the fixes\n- Status line commands now receive `COLUMNS` and `LINES` environment variables so scripts can size output to the terminal width\n- `claude agents`: autocomplete in…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
-      "title_ko": "Claude Code v2.1.153",
-      "summary_ko": "- `github`/`git` 플러그인 marketplace 소스에 `skipLfs` 옵션 추가 — clone/update 시 Git LFS 다운로드 건너뜀\n- npm 글로벌 설치본이 자동 업데이트되지 못할 때 Claude Code가 일회성 안내를 표시 · `/doctor`로 수정 방법 안내\n- 상태 표시줄 명령에서 이제 `COLUMNS` · `LINES` 환경 변수를 받을 수 있음…"
-    },
-    {
-      "date": "2026-05-27",
-      "datetime": "2026-05-27T01:30:59Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.152",
-      "summary": "- `/code-review --fix` now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; `/simplify` now invokes `/code-review --fix`\n- Skills and slash commands can now set `disallowed-tools` in frontmatter to remove tools from the model while the skill is active\n- Added `/reload-skills` command to re-scan skill directories without…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
-      "title_ko": "Claude Code v2.1.152",
-      "summary_ko": "- `/code-review --fix`가 이제 리뷰 후 작업 트리에 수정사항을 적용하고, 재사용 · 단순화 · 효율성 제안을 함께 보여줍니다. `/simplify`는 이제 `/code-review --fix`를 호출합니다\n- 스킬과 슬래시 명령이 frontmatter에 `disallowed-tools`를 설정해 모델에서 도구를 제거할 수 있게 됨…"
-    },
-    {
       "date": "2026-05-26",
       "datetime": "2026-05-26T23:11:06.000Z",
       "source": "anthropic-news",
@@ -230,28 +248,6 @@
       "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
       "title_ko": "Anthropic, 최기영을 한국 대표이사로 선임",
       "summary_ko": "서울 사무소 개소를 앞두고 최기영이 Anthropic 한국 대표이사로 합류합니다."
-    },
-    {
-      "date": "2026-05-25",
-      "datetime": "2026-05-25T18:41:28.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical &quot;Magnifica humanitas&quot;",
-      "summary": "The full text of Chris Olah&#x27;s remarks on the Pope&#x27;s encyclical on AI",
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "title_ko": "Anthropic 공동창업자 Chris Olah, 교황 레오 14세의 회칙 'Magnifica humanitas'에 대한 발언",
-      "summary_ko": "AI에 관한 교황의 회칙에 대해 Chris Olah가 남긴 발언 전문"
-    },
-    {
-      "date": "2026-05-20",
-      "datetime": "2026-05-20T00:29:29.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Widening the conversation on frontier AI",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
     },
     {
       "date": "2026-05-19",

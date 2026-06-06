@@ -229,14 +229,14 @@
       "name": "dhdna-profiler",
       "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.992
+      "composite": 0.991
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "2270e331920f0d67",
@@ -250,7 +250,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.886
+      "composite": 0.885
     },
     {
       "id": "9fb6b861ee0bf92a",
