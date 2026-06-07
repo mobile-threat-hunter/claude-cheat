@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-06-06T09:31:13.765Z",
+  "generated_at": "2026-06-07T10:18:08.444Z",
   "sources": {
     "anthropic_news_count": 12,
     "claude_code_releases_count": 12,
-    "translated_ko": 19
+    "translated_ko": 18
   },
   "items": [
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T23:41:53Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.168",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168"
+    },
     {
       "date": "2026-06-06",
       "datetime": "2026-06-06T01:33:35Z",
@@ -215,17 +224,6 @@
       "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
       "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
       "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
-    },
-    {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T18:00:55Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.154",
-      "summary": "- Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks\n- Introducing dynamic workflows: ask Claude to create a workflow and it orchestrates work across tens to hundreds of agents in the background, so you can take on larger, more complex tasks. Run `/workflows` to view your runs\n- Fast mode on Opus 4.8 is now available at a fraction of its previous cost: 2x the…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
-      "title_ko": "Claude Code v2.1.154",
-      "summary_ko": "- Opus 4.8 출시! 이제 기본값이 high effort · 가장 어려운 작업에는 `/effort xhigh`\n- 동적 워크플로우(dynamic workflows) 도입: Claude에게 워크플로우 생성을 요청하면 백그라운드에서 수십~수백 개 에이전트로 작업을 조율해 더 크고 복잡한 일을 처리합니다. `/workflows`로 보기"
     },
     {
       "date": "2026-05-28",
