@@ -1,43 +1,237 @@
 {
-  "generated_at": "2026-05-30T16:37:22.709049+00:00",
+  "generated_at": "2026-06-11T18:59:24.901Z",
   "sources": {
     "anthropic_news_count": 12,
     "claude_code_releases_count": 12,
-    "translated_ko": 24
+    "translated_ko": 11
   },
   "items": [
     {
-      "date": "2026-05-30",
-      "datetime": "2026-05-30T02:42:16Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.158",
-      "summary": "- Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting `CLAUDE_CODE_ENABLE_AUTO_MODE=1`",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
-      "title_ko": "Claude Code v2.1.158",
-      "summary_ko": "- 이제 Bedrock, Vertex, Foundry에서 Opus 4.7 / Opus 4.8용 Auto 모드를 사용할 수 있습니다. `CLAUDE_CODE_ENABLE_AUTO_MODE=1`로 활성화하세요"
+      "date": "2026-06-11",
+      "datetime": "2026-06-11T18:00:23.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance"
     },
     {
-      "date": "2026-05-29",
-      "datetime": "2026-05-29T20:20:38Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.157",
-      "summary": "- Plugins in `.claude/skills` directories are now automatically loaded, no marketplace required\n- Added `claude plugin init <name>` to scaffold a new plugin in `.claude/skills`\n- Added autocomplete for `/plugin` arguments: subcommands, installed plugin names, and plugins from known marketplaces\n- `claude agents`: the `agent` field in `settings.json` is now honored for dispatched sessions, with…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
-      "title_ko": "Claude Code v2.1.157",
-      "summary_ko": "- `.claude/skills` 디렉터리에 들어있는 플러그인이 marketplace 없이 자동 로드됩니다\n- `.claude/skills`에 새 플러그인 스캐폴드를 만드는 `claude plugin init <name>` 추가\n- `/plugin` 인자 자동완성 추가 (서브커맨드 · 설치된 플러그인 이름 · 알려진 marketplace의 플러그인)…"
+      "date": "2026-06-11",
+      "datetime": "2026-06-11T13:36:07.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Corps",
+      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
+      "url": "https://www.anthropic.com/news/claude-corps"
     },
     {
-      "date": "2026-05-29",
-      "datetime": "2026-05-29T01:42:23Z",
+      "date": "2026-06-11",
+      "datetime": "2026-06-11T05:41:54Z",
       "source": "claude-code",
       "source_label": "Claude Code",
-      "title": "Claude Code v2.1.156",
-      "summary": "- Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
-      "title_ko": "Claude Code v2.1.156",
-      "summary_ko": "- Opus 4.8 사용 시 thinking block이 수정되면서 API 오류로 이어지던 문제 수정"
+      "title": "Claude Code v2.1.173",
+      "summary": "- Fixed Fable 5 model names with a `[1m]` suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically\n- Fixed a spurious \"sandbox dependencies missing\" startup warning on Windows when sandbox was enabled in settings",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173"
+    },
+    {
+      "date": "2026-06-10",
+      "datetime": "2026-06-10T20:44:15Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.172",
+      "summary": "- Sub-agents can now spawn their own sub-agents (up to 5 levels deep)\n- Amazon Bedrock now reads the AWS region from `~/.aws` config files when `AWS_REGION` isn't set, matching AWS SDK precedence; `/status` shows where the region came from\n- Added a search bar when browsing a marketplace's plugins in `/plugin`\n- Added `model` attribute to the `claude_code.lines_of_code.count` OTEL metric\n- Fixed…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172"
+    },
+    {
+      "date": "2026-06-09",
+      "datetime": "2026-06-09T20:27:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "date": "2026-06-09",
+      "datetime": "2026-06-09T17:23:09Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.170",
+      "summary": "- Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally available. Update to version 2.1.170 for access. https://www.anthropic.com/news/claude-fable-5-mythos-5\n- Fixed sessions not saving transcripts (and not appearing in --resume) when launched from the VS Code integrated terminal or any…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170"
+    },
+    {
+      "date": "2026-06-08",
+      "datetime": "2026-06-08T21:57:18Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.169",
+      "summary": "- Added `--safe-mode` flag (and `CLAUDE_CODE_SAFE_MODE`) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP servers) disabled for troubleshooting\n- Added `/cd` command to move a session to a new working directory without breaking the prompt cache mid-session\n- Added a `disableBundledSkills` setting and `CLAUDE_CODE_DISABLE_BUNDLED_SKILLS` environment variable to…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169"
+    },
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T23:41:53Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.168",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168"
+    },
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T01:33:35Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.167",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167"
+    },
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T00:55:18Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.166",
+      "summary": "- Added `fallbackModel` setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; `--fallback-model` now also applies to interactive sessions\n- Added glob pattern support in deny rule tool-name position (`\"*\"` denies all tools); allow rules reject non-MCP globs, and unknown tool names in deny rules warn at startup\n- Hardened cross-session…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T14:58:47.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical &quot;Magnifica humanitas&quot;",
+      "summary": "The full text of Chris Olah&#x27;s remarks on the Pope&#x27;s encyclical on AI.",
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "title_ko": "Anthropic 공동창업자 Chris Olah, 교황 레오 14세의 회칙 'Magnifica humanitas'에 대한 발언",
+      "summary_ko": "AI에 관한 교황의 회칙에 대해 Chris Olah가 남긴 발언 전문"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T14:40:24.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Widening the conversation on frontier AI",
+      "summary": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. ",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
+      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T05:45:06Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.165",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165"
+    },
+    {
+      "date": "2026-06-04",
+      "datetime": "2026-06-04T21:52:51Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.163",
+      "summary": "- Added `requiredMinimumVersion` and `requiredMaximumVersion` managed settings — Claude Code refuses to start if its version is outside the allowed range and directs the user to an approved version\n- Added `/plugin list` command to list installed plugins, with `--enabled`/`--disabled` filters\n- Added a \"c to copy\" shortcut to `/btw` that copies the raw markdown answer to the clipboard, preserving…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163"
+    },
+    {
+      "date": "2026-06-03",
+      "datetime": "2026-06-03T21:31:35Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.162",
+      "summary": "- `claude agents --json` now includes `waitingFor` showing what a waiting session is blocked on (e.g. permission prompt)\n- `--tools`: explicitly listing Grep/Glob now provides the dedicated search tools on native builds with embedded search (previously these names were silently ignored)\n- `/effort` now confirms when your chosen level will persist as the default for new sessions\n- Clicking a slash…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162"
+    },
+    {
+      "date": "2026-06-03",
+      "datetime": "2026-06-03T16:18:23.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. ",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "title_ko": "1년간의 AI 기반 사이버 위협을 매핑하며 배운 것",
+      "summary_ko": "AI가 사이버 공격의 양상과 수법을 바꾸는 가운데, 기존 보안 커뮤니티의 기법·프레임워크가 얼마나 잘 버티는지 새 보고서로 정리했습니다."
+    },
+    {
+      "date": "2026-06-03",
+      "datetime": "2026-06-03T15:30:11.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "summary": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.",
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "title_ko": "Claude Partner Network의 Services Track과 Partner Hub 공개",
+      "summary_ko": "지난 3월 출범한 Claude Partner Network에 두 가지 새 구성 요소를 추가합니다. Services Track과 Partner Hub로, 기업 고객이 Claude 도입을 도와줄 파트너를 더 쉽게 찾을 수 있게 됐습니다."
+    },
+    {
+      "date": "2026-06-02",
+      "datetime": "2026-06-02T21:58:22Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.161",
+      "summary": "- `OTEL_RESOURCE_ATTRIBUTES` values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo\n- `claude agents` rows now show `done/total` before the detail when work is fanned out; peek shows the longest-running item\n- `/mcp` now collapses claude.ai connectors you've never signed in to behind a \"Show unused connectors\" row\n- Parallel…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+      "title_ko": "Claude Code v2.1.161",
+      "summary_ko": "- `OTEL_RESOURCE_ATTRIBUTES` 값이 메트릭 데이터포인트의 라벨로 포함되어 팀·repo 등 커스텀 차원으로 사용량을 분석할 수 있습니다\n- `claude agents` 행이 fan-out 작업 시 상세 앞에 `done/total`을 표시하고, peek은 가장 오래 실행 중인 항목을 보여줍니다\n- `/mcp`가 한 번도 로그인하지 않은 claude.ai 커넥터를 \"Show unused connectors\" 행 뒤로 접어둡니다\n- 병렬…"
+    },
+    {
+      "date": "2026-06-02",
+      "datetime": "2026-06-02T14:03:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Expanding Project Glasswing",
+      "summary": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "title_ko": "Project Glasswing 확장",
+      "summary_ko": "Project Glasswing을 15개국 이상의 신규 조직 약 150곳으로 확장합니다."
+    },
+    {
+      "date": "2026-06-02",
+      "datetime": "2026-06-02T02:10:25Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.160",
+      "summary": "- Added a prompt before writing to shell startup files (`.zshenv`, `.zlogin`, `.bash_login`) and `~/.config/git/`, which could otherwise lead to unintended command execution\n- `acceptEdits` mode now prompts before writing build-tool config files that grant code execution (`.npmrc`, `.yarnrc*`, `bunfig.toml`, `.bazelrc`, `.pre-commit-config.yaml`, `.devcontainer/`, etc.)\n- Edit no longer requires…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+      "title_ko": "Claude Code v2.1.160",
+      "summary_ko": "- 셸 시작 파일(`.zshenv`, `.zlogin`, `.bash_login`)과 `~/.config/git/`에 쓰기 전 확인 프롬프트 추가 — 의도치 않은 명령 실행을 막기 위함\n- `acceptEdits` 모드에서도 코드 실행 권한을 부여하는 빌드 도구 설정 파일(`.npmrc`, `.yarnrc*`, `bunfig.toml`, `.bazelrc`, `.pre-commit-config.yaml`, `.devcontainer/` 등)을 쓰기 전 확인하도록 변경\n- Edit는 더 이상…"
+    },
+    {
+      "date": "2026-06-01",
+      "datetime": "2026-06-01T15:59:13.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "title_ko": "Anthropic, SEC에 기밀 S-1 초안 제출",
+      "summary_ko": "Anthropic이 미국 증권거래위원회(SEC)에 S-1 등록신고서 초안을 기밀로 제출했습니다. S-1은 기업공개(IPO)를 위한 필수 서류로, 이번 제출은 향후 상장 가능성을 가늠하는 단계입니다."
+    },
+    {
+      "date": "2026-06-01",
+      "datetime": "2026-06-01T15:29:46.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
+      "url": "https://www.anthropic.com/news/series-h",
+      "title_ko": "Anthropic, $965B post-money 가치 평가로 Series H에서 650억 달러 조달",
+      "summary_ko": "Anthropic이 Altimeter Capital · Dragoneer · Greenoaks · Sequoia Capital이 주도한 Series H 라운드에서 650억 달러를 조달했습니다."
+    },
+    {
+      "date": "2026-06-01",
+      "datetime": "2026-06-01T10:18:23.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 4.8",
+      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "title_ko": "Claude Opus 4.8 출시",
+      "summary_ko": "신규 모델 Claude Opus 4.8은 Opus 계열의 업그레이드로, 코딩 · 에이전트 작업 · 전문 업무 전반에서 성능이 향상되었으며 장기 실행 작업을 일관되게 처리합니다."
     },
     {
       "date": "2026-05-28",
@@ -49,226 +243,6 @@
       "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
       "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
       "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
-    },
-    {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T18:07:20.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-      "summary": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
-      "url": "https://www.anthropic.com/news/series-h",
-      "title_ko": "Anthropic, $965B post-money 가치 평가로 Series H에서 650억 달러 조달",
-      "summary_ko": "Anthropic이 Altimeter Capital · Dragoneer · Greenoaks · Sequoia Capital이 주도한 Series H 라운드에서 650억 달러를 조달했습니다."
-    },
-    {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T18:00:55Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.154",
-      "summary": "- Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest tasks\n- Introducing dynamic workflows: ask Claude to create a workflow and it orchestrates work across tens to hundreds of agents in the background, so you can take on larger, more complex tasks. Run `/workflows` to view your runs\n- Fast mode on Opus 4.8 is now available at a fraction of its previous cost: 2x the…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
-      "title_ko": "Claude Code v2.1.154",
-      "summary_ko": "- Opus 4.8 출시! 이제 기본값이 high effort · 가장 어려운 작업에는 `/effort xhigh`\n- 동적 워크플로우(dynamic workflows) 도입: Claude에게 워크플로우 생성을 요청하면 백그라운드에서 수십~수백 개 에이전트로 작업을 조율해 더 크고 복잡한 일을 처리합니다. `/workflows`로 보기"
-    },
-    {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T16:53:42.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 4.8",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "title_ko": "Claude Opus 4.8 출시",
-      "summary_ko": "신규 모델 Claude Opus 4.8은 Opus 계열의 업그레이드로, 코딩 · 에이전트 작업 · 전문 업무 전반에서 성능이 향상되었으며 장기 실행 작업을 일관되게 처리합니다."
-    },
-    {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T13:00:32.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
-      "summary": "We&#x27;re opening a new office in Milan, our sixth in Europe.",
-      "url": "https://www.anthropic.com/news/milan-office-opening",
-      "title_ko": "Anthropic, 이탈리아 기업 · 연구 · 개발자 지원을 위해 밀라노 사무소 개소",
-      "summary_ko": "유럽에서 여섯 번째가 되는 밀라노 사무소를 새로 엽니다."
-    },
-    {
-      "date": "2026-05-28",
-      "datetime": "2026-05-28T00:52:08Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.153",
-      "summary": "- Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git LFS downloads during clone and update\n- Claude Code now shows a one-time notice when your npm global install can't auto-update; `/doctor` lists the fixes\n- Status line commands now receive `COLUMNS` and `LINES` environment variables so scripts can size output to the terminal width\n- `claude agents`: autocomplete in…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
-      "title_ko": "Claude Code v2.1.153",
-      "summary_ko": "- `github`/`git` 플러그인 marketplace 소스에 `skipLfs` 옵션 추가 — clone/update 시 Git LFS 다운로드 건너뜀\n- npm 글로벌 설치본이 자동 업데이트되지 못할 때 Claude Code가 일회성 안내를 표시 · `/doctor`로 수정 방법 안내\n- 상태 표시줄 명령에서 이제 `COLUMNS` · `LINES` 환경 변수를 받을 수 있음…"
-    },
-    {
-      "date": "2026-05-27",
-      "datetime": "2026-05-27T01:30:59Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.152",
-      "summary": "- `/code-review --fix` now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; `/simplify` now invokes `/code-review --fix`\n- Skills and slash commands can now set `disallowed-tools` in frontmatter to remove tools from the model while the skill is active\n- Added `/reload-skills` command to re-scan skill directories without…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
-      "title_ko": "Claude Code v2.1.152",
-      "summary_ko": "- `/code-review --fix`가 이제 리뷰 후 작업 트리에 수정사항을 적용하고, 재사용 · 단순화 · 효율성 제안을 함께 보여줍니다. `/simplify`는 이제 `/code-review --fix`를 호출합니다\n- 스킬과 슬래시 명령이 frontmatter에 `disallowed-tools`를 설정해 모델에서 도구를 제거할 수 있게 됨…"
-    },
-    {
-      "date": "2026-05-26",
-      "datetime": "2026-05-26T23:11:06.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
-      "summary": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.",
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "title_ko": "Anthropic, 최기영을 한국 대표이사로 선임",
-      "summary_ko": "서울 사무소 개소를 앞두고 최기영이 Anthropic 한국 대표이사로 합류합니다."
-    },
-    {
-      "date": "2026-05-25",
-      "datetime": "2026-05-25T18:41:28.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical &quot;Magnifica humanitas&quot;",
-      "summary": "The full text of Chris Olah&#x27;s remarks on the Pope&#x27;s encyclical on AI",
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "title_ko": "Anthropic 공동창업자 Chris Olah, 교황 레오 14세의 회칙 'Magnifica humanitas'에 대한 발언",
-      "summary_ko": "AI에 관한 교황의 회칙에 대해 Chris Olah가 남긴 발언 전문"
-    },
-    {
-      "date": "2026-05-23",
-      "datetime": "2026-05-23T04:03:51Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.150",
-      "summary": "- Internal infrastructure improvements (no user-facing changes)",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
-      "title_ko": "Claude Code v2.1.150",
-      "summary_ko": "- 내부 인프라 개선 (사용자에게 보이는 변경 없음)"
-    },
-    {
-      "date": "2026-05-22",
-      "datetime": "2026-05-22T22:09:29Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.149",
-      "summary": "- `/usage` now shows a per-category breakdown of what's driving your limits usage — skills, subagents, plugins, and per-MCP-server cost\n- `/diff` detail view can now be scrolled with the keyboard (arrows, `j`/`k`, `PgUp`/`PgDn`, `Space`, `Home`/`End`)\n- Markdown output now renders GFM task list checkboxes (`- [ ] todo` / `- [x] done`) instead of plain bullets\n- Enterprise: added the…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
-      "title_ko": "Claude Code v2.1.149",
-      "summary_ko": "- `/usage`가 사용량을 카테고리별(스킬 · 서브에이전트 · 플러그인 · MCP 서버별 비용)로 분해해서 표시합니다\n- `/diff` 상세 뷰를 키보드로 스크롤 가능 (방향키 · `j`/`k` · `PgUp`/`PgDn` · `Space` · `Home`/`End`)\n- Markdown 출력에서 이제 GFM 태스크 리스트 체크박스가 렌더링됨…"
-    },
-    {
-      "date": "2026-05-22",
-      "datetime": "2026-05-22T01:16:52Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.148",
-      "summary": "- Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
-      "title_ko": "Claude Code v2.1.148",
-      "summary_ko": "- 일부 사용자에게서 Bash 도구가 모든 명령에 대해 exit code 127을 반환하던 문제 수정 (2.1.147에서 도입된 회귀 버그)"
-    },
-    {
-      "date": "2026-05-21",
-      "datetime": "2026-05-21T20:39:22Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.147",
-      "summary": "- Pinned background sessions (`Ctrl+T` in `claude agents`) now stay alive when idle, are restarted in place to apply Claude Code updates, and are shed under memory pressure only after non-pinned sessions\n- Renamed `/simplify` to `/code-review`. It now reports correctness bugs at a chosen effort level (e.g., `/code-review high`); pass `--comment` to post findings as inline GitHub PR comments. The…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
-      "title_ko": "Claude Code v2.1.147",
-      "summary_ko": "- 고정된 백그라운드 세션(`claude agents`에서 `Ctrl+T`)이 idle 상태에서도 살아 있고, Claude Code 업데이트 적용을 위해 제자리에서 재시작되며, 메모리 압박 시 고정되지 않은 세션 이후에만 정리됩니다\n- `/simplify`를 `/code-review`로 이름 변경, 선택한 effort 레벨에서 정확성 버그를 보고합니다…"
-    },
-    {
-      "date": "2026-05-21",
-      "datetime": "2026-05-21T01:51:52Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.146",
-      "summary": "- Renamed `/simplify` to `/code-review` with an optional effort level (e.g. `/code-review high`)\n- Auto mode no longer suppresses `AskUserQuestion` when the user or a skill explicitly relies on it\n- Fixed Windows PowerShell tool failing with \"command line is invalid\" when `pwsh` is installed via winget or the Microsoft Store (regression in v2.1.124)\n- Fixed MCP `resources/list`,…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
-      "title_ko": "Claude Code v2.1.146",
-      "summary_ko": "- `/simplify`를 `/code-review`로 이름 변경 (옵션으로 effort 레벨, 예: `/code-review high`)\n- 사용자나 스킬이 `AskUserQuestion`에 명시적으로 의존할 때 더 이상 Auto 모드가 이를 억제하지 않습니다\n- Windows PowerShell 도구가 winget으로 설치된 `pwsh`에서 'command line is invalid'로 실패하던 문제 수정"
-    },
-    {
-      "date": "2026-05-20",
-      "datetime": "2026-05-20T00:29:29.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Widening the conversation on frontier AI",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
-    },
-    {
-      "date": "2026-05-19",
-      "datetime": "2026-05-19T21:31:07Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.145",
-      "summary": "- Added `claude agents --json` to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)\n- Added `agent_id` and `parent_agent_id` attributes to `claude_code.tool` OTEL spans, and fixed trace parenting so background subagent spans nest under the dispatching Agent tool span\n- Status line JSON input now includes GitHub repo and PR information when detected\n-…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
-      "title_ko": "Claude Code v2.1.145",
-      "summary_ko": "- 라이브 Claude 세션을 JSON으로 나열하는 `claude agents --json` 추가 (tmux-resurrect · 상태 표시줄 · 세션 피커 스크립팅용)\n- `claude_code.tool` OTEL span에 `agent_id` · `parent_agent_id` 속성 추가, 백그라운드 서브에이전트 span이 디스패칭 에이전트 아래에 올바르게 nesting되도록 trace parenting 수정…"
-    },
-    {
-      "date": "2026-05-19",
-      "datetime": "2026-05-19T18:06:44.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic acquires Stainless",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "title_ko": "Anthropic, Stainless 인수",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
-    },
-    {
-      "date": "2026-05-19",
-      "datetime": "2026-05-19T13:30:59.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "title_ko": "KPMG, 27만 6천 명 인력과 핵심 사업 전반에 Claude를 통합하는 전략적 동맹 체결",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
-    },
-    {
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T17:32:36.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "title_ko": "PwC, 클라이언트를 위해 기술 구축 · 딜 실행 · 기업 기능 재구성에 Claude 배포",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
-    },
-    {
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T16:16:25.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude for Small Business",
-      "summary": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "title_ko": "'Claude for Small Business' 출시",
-      "summary_ko": "Claude for Small Business를 출시합니다. 소상공인이 매일 사용하는 도구 안에 Claude를 넣어주는 커넥터와 즉시 실행 가능한 워크플로우 패키지입니다."
-    },
-    {
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T16:05:24.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic forms $200 million partnership with the Gates Foundation",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-      "title_ko": "Anthropic, Gates Foundation과 2억 달러 규모 파트너십 체결",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
     }
   ]
 }

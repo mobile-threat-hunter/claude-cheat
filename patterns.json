@@ -1,5 +1,5 @@
 {
-  "sample_size": 550,
+  "sample_size": 570,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,73 +8,73 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 534,
-      "pct": 97.1
+      "count": 552,
+      "pct": 96.8
     },
     {
       "field": "name",
-      "count": 533,
-      "pct": 96.9
-    },
-    {
-      "field": "license",
-      "count": 150,
-      "pct": 27.3
-    },
-    {
-      "field": "metadata",
-      "count": 144,
-      "pct": 26.2
+      "count": 551,
+      "pct": 96.7
     },
     {
       "field": "compatibility",
-      "count": 141,
-      "pct": 25.6
+      "count": 156,
+      "pct": 27.4
+    },
+    {
+      "field": "metadata",
+      "count": 155,
+      "pct": 27.2
+    },
+    {
+      "field": "license",
+      "count": 153,
+      "pct": 26.8
     },
     {
       "field": "role",
       "count": 106,
-      "pct": 19.3
+      "pct": 18.6
     },
     {
       "field": "toolkit",
       "count": 106,
-      "pct": 19.3
+      "pct": 18.6
     },
     {
       "field": "api_version",
       "count": 106,
-      "pct": 19.3
+      "pct": 18.6
     },
     {
       "field": "graphql_operations",
       "count": 106,
-      "pct": 19.3
+      "pct": 18.6
     },
     {
       "field": "status",
       "count": 106,
-      "pct": 19.3
-    },
-    {
-      "field": "argument-hint",
-      "count": 67,
-      "pct": 12.2
+      "pct": 18.6
     },
     {
       "field": "allowed-tools",
-      "count": 62,
-      "pct": 11.3
+      "count": 76,
+      "pct": 13.3
+    },
+    {
+      "field": "argument-hint",
+      "count": 69,
+      "pct": 12.1
     },
     {
       "field": "version",
-      "count": 18,
-      "pct": 3.3
+      "count": 26,
+      "pct": 4.6
     },
     {
       "field": "disable-model-invocation",
-      "count": 10,
-      "pct": 1.8
+      "count": 11,
+      "pct": 1.9
     },
     {
       "field": "author",
@@ -84,55 +84,55 @@
   ],
   "description": {
     "length": {
-      "count": 550,
+      "count": 570,
       "min": 13,
-      "p25": 142,
-      "median": 215,
-      "p75": 323,
-      "p90": 461,
-      "max": 1010,
-      "mean": 252.6
+      "p25": 140,
+      "median": 211,
+      "p75": 324,
+      "p90": 459,
+      "max": 1068,
+      "mean": 250.9
     },
-    "has_trigger_phrase_pct": 49.6,
-    "has_quoted_user_phrase_pct": 4.2,
-    "short_pct_lt_120": 18.9,
-    "long_pct_gt_300": 29.8
+    "has_trigger_phrase_pct": 48.2,
+    "has_quoted_user_phrase_pct": 4.6,
+    "short_pct_lt_120": 19.3,
+    "long_pct_gt_300": 29.6
   },
   "body": {
     "length_chars": {
-      "count": 550,
+      "count": 570,
       "min": 629,
-      "p25": 4843,
-      "median": 6997,
-      "p75": 12700,
-      "p90": 22144,
+      "p25": 4727,
+      "median": 6962,
+      "p75": 12774,
+      "p90": 22375,
       "max": 110236,
-      "mean": 10885.5
+      "mean": 10982.7
     },
     "heading_count": {
-      "count": 550,
+      "count": 570,
       "min": 0,
       "p25": 11,
-      "median": 17,
+      "median": 18,
       "p75": 39,
-      "p90": 72,
+      "p90": 67,
       "max": 237,
-      "mean": 29.4
+      "mean": 29.3
     },
     "code_block_count": {
-      "count": 550,
+      "count": 570,
       "min": 0,
       "p25": 3,
       "median": 6,
       "p75": 11,
       "p90": 21,
       "max": 77,
-      "mean": 8.9
+      "mean": 8.8
     },
-    "has_numbered_list_pct": 79.1,
-    "has_bullet_list_pct": 99.5,
-    "has_table_pct": 56.2,
-    "has_code_block_pct": 92.9
+    "has_numbered_list_pct": 78.9,
+    "has_bullet_list_pct": 99.1,
+    "has_table_pct": 57.0,
+    "has_code_block_pct": 93.0
   },
   "common_section_headings_h2": [
     {
@@ -141,7 +141,7 @@
     },
     {
       "label": "when to use this",
-      "count": 225
+      "count": 226
     },
     {
       "label": "overview",
@@ -149,15 +149,15 @@
     },
     {
       "label": "purpose",
-      "count": 124
+      "count": 125
+    },
+    {
+      "label": "output format",
+      "count": 118
     },
     {
       "label": "error handling",
       "count": 118
-    },
-    {
-      "label": "output format",
-      "count": 116
     },
     {
       "label": "prerequisites",
@@ -184,12 +184,12 @@
       "count": 99
     },
     {
-      "label": "safety",
+      "label": "quick start",
       "count": 94
     },
     {
-      "label": "quick start",
-      "count": 93
+      "label": "safety",
+      "count": 94
     },
     {
       "label": "core capabilities",
@@ -201,7 +201,7 @@
     },
     {
       "label": "troubleshooting",
-      "count": 55
+      "count": 56
     },
     {
       "label": "installation",
@@ -236,28 +236,28 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.898
     },
     {
       "id": "2270e331920f0d67",
       "name": "setup-codemap-cli",
       "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.89
+      "composite": 0.892
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.888
+      "composite": 0.889
     },
     {
-      "id": "0952ace899838e2a",
-      "name": "karpathy-guidelines",
-      "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiabl",
-      "source": "github:multica-ai/andrej-karpathy-skills@main",
-      "composite": 0.854
+      "id": "9fb6b861ee0bf92a",
+      "name": "web-access",
+      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
+      "source": "github:eze-is/web-access@main",
+      "composite": 0.857
     }
   ]
 }
