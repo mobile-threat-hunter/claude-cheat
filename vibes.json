@@ -1,0 +1,939 @@
+{
+  "generated_at": "2026-06-11T15:58:12.222595+00:00",
+  "content_hash": "c9ab166a407d6fda146246670f7bb8839b8f027e53e31ed12517032dcae3ec76",
+  "vibe_count": 133,
+  "vibes": [
+    {
+      "word": "Baking",
+      "meaning_en": "Heating something in an oven until it's done.",
+      "meaning_ko": "재료를 오븐에 넣어 익혀서 완성시키는 행위.",
+      "vibe_en": "Claude is letting an idea finish rising — soon out of the oven.",
+      "vibe_ko": "아이디어가 오븐 안에서 마지막으로 부풀어 오르는 중인 느낌."
+    },
+    {
+      "word": "Blanching",
+      "meaning_en": "Briefly dipping food in boiling water to set color or loosen skin.",
+      "meaning_ko": "재료를 끓는 물에 살짝 데치는 조리법.",
+      "vibe_en": "A quick parboil before the real work — Claude prepping the rough shape.",
+      "vibe_ko": "본 작업 전 살짝 데쳐 두는 — 준비 단계의 가벼운 처리 느낌."
+    },
+    {
+      "word": "Brewing",
+      "meaning_en": "Steeping something (tea, coffee, beer) so flavor develops over time.",
+      "meaning_ko": "차나 커피·맥주처럼 시간을 들여 우려내거나 발효시키는 일.",
+      "vibe_en": "Claude is steeping the answer — patience pays.",
+      "vibe_ko": "답이 천천히 우러나는 중. 조금만 기다려 주세요."
+    },
+    {
+      "word": "Caramelizing",
+      "meaning_en": "Slowly cooking sugar until it turns golden and sweet.",
+      "meaning_ko": "설탕을 천천히 가열해 갈색의 향긋한 캐러멜로 변화시키는 일.",
+      "vibe_en": "A slow, deliberate sweetening — adding depth to the response.",
+      "vibe_ko": "천천히 깊은 풍미를 더해가는 — 답에 단맛이 배는 중."
+    },
+    {
+      "word": "Concocting",
+      "meaning_en": "Mixing varied ingredients together to invent a new dish or drink.",
+      "meaning_ko": "이것저것 섞어 새 요리나 음료를 만들어내는 행위.",
+      "vibe_en": "Claude is brewing a one-of-a-kind potion of words.",
+      "vibe_ko": "Claude만의 특제 조합을 만들어내는 중."
+    },
+    {
+      "word": "Cooking",
+      "meaning_en": "Preparing food with heat.",
+      "meaning_ko": "음식을 익히는 일반적인 조리 행위.",
+      "vibe_en": "Plain and confident — Claude's just cooking.",
+      "vibe_ko": "꾸미지 않은 가장 자신 있는 표현 — 그냥 만들고 있어요."
+    },
+    {
+      "word": "Crystallizing",
+      "meaning_en": "Forming clear, well-shaped crystals out of a liquid.",
+      "meaning_ko": "용액에서 결정 구조가 또렷이 잡혀가는 과정.",
+      "vibe_en": "A blurry idea is snapping into a sharp, faceted shape.",
+      "vibe_ko": "흐릿하던 생각이 또렷한 결정으로 잡혀가는 순간."
+    },
+    {
+      "word": "Fermenting",
+      "meaning_en": "Letting yeast or bacteria slowly transform something (bread, kimchi, wine).",
+      "meaning_ko": "효모나 균이 시간을 들여 재료를 변화시키는 발효.",
+      "vibe_en": "Slow, biological, can't be rushed — Claude is letting it work.",
+      "vibe_ko": "재촉하지 못하는 자연스러운 발효 — 시간이 답을 만들어주는 중."
+    },
+    {
+      "word": "Flambeing",
+      "meaning_en": "Pouring liquor over a hot pan and lighting it on fire briefly.",
+      "meaning_ko": "달궈진 팬에 술을 부어 불꽃을 일으키는 조리 기법.",
+      "vibe_en": "Showy and quick — a small theatrical flourish before plating.",
+      "vibe_ko": "잠깐 불꽃이 일어나는 — 화려한 마무리 직전의 느낌."
+    },
+    {
+      "word": "Frosting",
+      "meaning_en": "Covering a cake with sweet, smooth icing.",
+      "meaning_ko": "케이크 위에 부드러운 크림이나 아이싱을 얹는 일.",
+      "vibe_en": "The finishing touch — Claude is decorating the top of the answer.",
+      "vibe_ko": "마지막 장식 — 답 위에 부드럽게 마감을 얹는 중."
+    },
+    {
+      "word": "Garnishing",
+      "meaning_en": "Adding a small decorative element to a finished dish.",
+      "meaning_ko": "완성된 요리 위에 장식이나 마무리 재료를 얹는 일.",
+      "vibe_en": "Adding a tiny flourish — parsley sprig on the response.",
+      "vibe_ko": "마지막에 살짝 얹는 한 줄기 장식 같은 디테일."
+    },
+    {
+      "word": "Julienning",
+      "meaning_en": "Cutting vegetables into thin matchstick strips.",
+      "meaning_ko": "채소를 가늘게 채 써는 정교한 칼질.",
+      "vibe_en": "Precise knife-work — Claude is slicing data into clean strips.",
+      "vibe_ko": "정교한 칼질로 데이터를 가지런히 정리하는 중."
+    },
+    {
+      "word": "Kneading",
+      "meaning_en": "Pressing and folding dough to develop gluten.",
+      "meaning_ko": "반죽을 눌러 접으며 글루텐을 길러내는 일.",
+      "vibe_en": "Working the answer with both hands — adding structure.",
+      "vibe_ko": "양손으로 반죽을 다루듯 — 답에 짜임새를 더하는 중."
+    },
+    {
+      "word": "Leavening",
+      "meaning_en": "Letting yeast lift dough so it rises and lightens.",
+      "meaning_ko": "효모로 반죽을 부풀려 가볍게 만드는 일.",
+      "vibe_en": "Letting the response rise and lighten on its own.",
+      "vibe_ko": "답이 자연스럽게 부풀어 오르도록 두는 중."
+    },
+    {
+      "word": "Marinating",
+      "meaning_en": "Soaking food in a flavored liquid so taste sinks in.",
+      "meaning_ko": "재료를 양념에 담가 맛이 배어들도록 두는 일.",
+      "vibe_en": "Letting the idea soak — flavor needs time to penetrate.",
+      "vibe_ko": "아이디어를 양념에 담가 — 풍미가 스며들길 기다리는 중."
+    },
+    {
+      "word": "Percolating",
+      "meaning_en": "Letting hot water seep slowly through coffee grounds.",
+      "meaning_ko": "뜨거운 물이 커피 가루 사이로 천천히 스며 내려오는 추출.",
+      "vibe_en": "Thoughts are slowly dripping into the cup.",
+      "vibe_ko": "생각이 한 방울씩 잔에 떨어지는 중."
+    },
+    {
+      "word": "Proofing",
+      "meaning_en": "Letting bread dough rise for the final time before baking.",
+      "meaning_ko": "빵 반죽을 굽기 전 마지막으로 부풀리는 발효 단계.",
+      "vibe_en": "Final rest before the oven — the answer is about to be ready.",
+      "vibe_ko": "오븐 직전 마지막 휴식 — 곧 답이 나옵니다."
+    },
+    {
+      "word": "Sauteing",
+      "meaning_en": "Cooking food quickly in a small amount of hot fat.",
+      "meaning_ko": "기름 두른 팬에 빠르게 볶아내는 조리.",
+      "vibe_en": "Quick, hot, decisive — Claude is moving fast on the burner.",
+      "vibe_ko": "기름 두른 팬 위에서 — 빠르고 단호하게 처리하는 중."
+    },
+    {
+      "word": "Seasoning",
+      "meaning_en": "Adding salt, pepper, herbs to bring a dish into balance.",
+      "meaning_ko": "소금·후추·허브로 요리의 균형을 잡는 마감.",
+      "vibe_en": "Adjusting tone — bringing the answer into balance.",
+      "vibe_ko": "답의 균형을 잡는 마지막 간 맞추기."
+    },
+    {
+      "word": "Shucking",
+      "meaning_en": "Removing the husk, shell, or pod from food (corn, oysters).",
+      "meaning_ko": "옥수수 껍질이나 굴 껍데기를 벗겨내는 일.",
+      "vibe_en": "Peeling away the outer noise to reach the kernel.",
+      "vibe_ko": "겉껍질을 벗겨 알맹이만 꺼내려 하는 중."
+    },
+    {
+      "word": "Simmering",
+      "meaning_en": "Cooking at a gentle bubble just below a boil.",
+      "meaning_ko": "팔팔 끓는 직전, 잔잔한 거품이 이는 약불 조리.",
+      "vibe_en": "Patient low heat — the response is gathering depth.",
+      "vibe_ko": "은근한 약불에서 — 답이 깊어지는 중."
+    },
+    {
+      "word": "Stewing",
+      "meaning_en": "Slow-cooking meat and vegetables in liquid for hours.",
+      "meaning_ko": "고기와 채소를 국물에 오래 끓여 깊은 맛을 내는 조리.",
+      "vibe_en": "Long, low, comforting — Claude is taking its time.",
+      "vibe_ko": "느긋하고 푸근한 — 시간을 들여 우려내는 중."
+    },
+    {
+      "word": "Tempering",
+      "meaning_en": "Slowly bringing chocolate or eggs to a stable working temperature.",
+      "meaning_ko": "초콜릿이나 달걀을 균일한 온도로 천천히 맞춰가는 일.",
+      "vibe_en": "Gradual, careful equalization — no shocks to the system.",
+      "vibe_ko": "충격 없이 — 온도를 천천히 맞춰가는 신중함."
+    },
+    {
+      "word": "Whisking",
+      "meaning_en": "Beating ingredients quickly with a wire whisk.",
+      "meaning_ko": "거품기로 재료를 빠르게 휘저어 섞는 일.",
+      "vibe_en": "Energetic and airy — Claude is mixing things up.",
+      "vibe_ko": "공기를 머금게 하는 — 활기찬 휘젓기 같은 느낌."
+    },
+    {
+      "word": "Zesting",
+      "meaning_en": "Grating the colorful outer skin of citrus for aroma.",
+      "meaning_ko": "감귤류 껍질의 향긋한 겉부분만 곱게 갈아내는 일.",
+      "vibe_en": "Adding a bright, fragrant top note — small but vivid.",
+      "vibe_ko": "작지만 향긋한 — 답에 산뜻한 향을 더하는 중."
+    },
+    {
+      "word": "Calculating",
+      "meaning_en": "Doing math; figuring something out with numbers.",
+      "meaning_ko": "수치를 다뤄 답을 계산해내는 일.",
+      "vibe_en": "Crunching the math behind the scenes.",
+      "vibe_ko": "뒤에서 묵묵히 수치를 계산하는 중."
+    },
+    {
+      "word": "Cerebrating",
+      "meaning_en": "Thinking with the cerebrum — using your brain.",
+      "meaning_ko": "대뇌를 써서 진지하게 생각하는 일.",
+      "vibe_en": "Big brain mode — the gray matter is working.",
+      "vibe_ko": "회색 뇌세포가 본격적으로 가동되는 중."
+    },
+    {
+      "word": "Cogitating",
+      "meaning_en": "Thinking deeply or meditatively about a problem.",
+      "meaning_ko": "문제를 곰곰이 깊이 곱씹어 보는 사색.",
+      "vibe_en": "Steady, deliberate pondering — a philosopher pose.",
+      "vibe_ko": "철학자 같은 자세로 — 차근차근 곱씹는 중."
+    },
+    {
+      "word": "Computing",
+      "meaning_en": "Running computations.",
+      "meaning_ko": "연산을 수행하는 일.",
+      "vibe_en": "Pure machine-mode — gears are turning.",
+      "vibe_ko": "톱니바퀴가 돌아가는 — 순수 연산 모드."
+    },
+    {
+      "word": "Considering",
+      "meaning_en": "Weighing something carefully before deciding.",
+      "meaning_ko": "여러 가능성을 신중히 따져보는 일.",
+      "vibe_en": "Looking at it from a few angles before answering.",
+      "vibe_ko": "답하기 전 여러 각도에서 살펴보는 중."
+    },
+    {
+      "word": "Contemplating",
+      "meaning_en": "Looking at something thoughtfully for a while.",
+      "meaning_ko": "한참 생각에 잠겨 사색하는 일.",
+      "vibe_en": "A quiet, meditative pause.",
+      "vibe_ko": "조용히 마음을 가라앉히고 — 묵상하듯 들여다보는 중."
+    },
+    {
+      "word": "Deciphering",
+      "meaning_en": "Decoding something hard to read or understand.",
+      "meaning_ko": "암호 같은 것을 풀어 해석해 내는 일.",
+      "vibe_en": "Untangling the meaning — Claude is breaking the code.",
+      "vibe_ko": "의미를 풀어내는 — 암호를 해독하는 중."
+    },
+    {
+      "word": "Deliberating",
+      "meaning_en": "Slowly thinking over a decision with care.",
+      "meaning_ko": "결정을 신중히 따져보며 숙고하는 일.",
+      "vibe_en": "Jury-style careful weighing.",
+      "vibe_ko": "배심원처럼 — 신중히 결정을 저울질하는 중."
+    },
+    {
+      "word": "Determining",
+      "meaning_en": "Working out what something is or should be.",
+      "meaning_ko": "사실이나 방향을 따져 결정해 내는 일.",
+      "vibe_en": "Narrowing in on the answer.",
+      "vibe_ko": "답을 점점 좁혀가는 중."
+    },
+    {
+      "word": "Elucidating",
+      "meaning_en": "Making something clearer through explanation.",
+      "meaning_ko": "복잡한 것을 풀어 명료하게 설명해내는 일.",
+      "vibe_en": "Polishing the explanation until it shines.",
+      "vibe_ko": "설명을 갈고 닦아 명료하게 다듬는 중."
+    },
+    {
+      "word": "Envisioning",
+      "meaning_en": "Picturing something clearly in your mind.",
+      "meaning_ko": "어떤 모습을 머릿속에 또렷이 그려보는 일.",
+      "vibe_en": "Sketching the future shape of the answer.",
+      "vibe_ko": "답의 모습을 머릿속으로 미리 스케치하는 중."
+    },
+    {
+      "word": "Ideating",
+      "meaning_en": "Generating ideas freely.",
+      "meaning_ko": "아이디어를 자유롭게 떠올려보는 일.",
+      "vibe_en": "Free-flowing brainstorm in progress.",
+      "vibe_ko": "자유롭게 아이디어를 쏟아내는 중."
+    },
+    {
+      "word": "Imagining",
+      "meaning_en": "Forming pictures in the mind.",
+      "meaning_ko": "머릿속에 장면이나 가능성을 그려보는 일.",
+      "vibe_en": "Letting possibility unfold without constraint.",
+      "vibe_ko": "제약 없이 — 가능성을 머릿속에 풀어놓는 중."
+    },
+    {
+      "word": "Inferring",
+      "meaning_en": "Drawing a conclusion from clues.",
+      "meaning_ko": "단서를 모아 결론을 추론해내는 일.",
+      "vibe_en": "Connecting dots that weren't explicitly drawn.",
+      "vibe_ko": "명시되지 않은 점들을 연결해 답을 추론하는 중."
+    },
+    {
+      "word": "Mulling",
+      "meaning_en": "Turning something over and over in your head.",
+      "meaning_ko": "어떤 생각을 머릿속에서 거듭 굴려보는 일.",
+      "vibe_en": "Letting the idea roll around the mind.",
+      "vibe_ko": "생각을 마음속에서 — 슬쩍슬쩍 굴려보는 중."
+    },
+    {
+      "word": "Musing",
+      "meaning_en": "Thinking idly and thoughtfully.",
+      "meaning_ko": "이런저런 생각에 잠겨 한가로이 떠올려보는 일.",
+      "vibe_en": "Loose, exploratory wandering of thought.",
+      "vibe_ko": "여유롭게 — 자유로이 생각을 헤매는 중."
+    },
+    {
+      "word": "Philosophising",
+      "meaning_en": "Reasoning about big or abstract questions.",
+      "meaning_ko": "추상적인 큰 문제를 논리적으로 짚어보는 일.",
+      "vibe_en": "Going meta — pondering the question itself.",
+      "vibe_ko": "질문 자체를 — 한 발 물러서 곱씹는 중."
+    },
+    {
+      "word": "Pondering",
+      "meaning_en": "Thinking carefully and at length.",
+      "meaning_ko": "오랫동안 진지하게 생각해보는 일.",
+      "vibe_en": "Classic thinker pose — chin in hand.",
+      "vibe_ko": "턱을 괴고 — 천천히 생각에 잠긴 중."
+    },
+    {
+      "word": "Processing",
+      "meaning_en": "Running through information step by step.",
+      "meaning_ko": "정보를 단계적으로 처리해 나가는 일.",
+      "vibe_en": "Standard 'computer working' mode.",
+      "vibe_ko": "전형적인 '처리 중'의 느낌."
+    },
+    {
+      "word": "Puzzling",
+      "meaning_en": "Trying to figure out something confusing.",
+      "meaning_ko": "헷갈리는 것을 풀어보려 애쓰는 일.",
+      "vibe_en": "Eyebrows furrowed — actively wrestling with the question.",
+      "vibe_ko": "미간을 좁히고 — 문제와 정면으로 씨름하는 중."
+    },
+    {
+      "word": "Ruminating",
+      "meaning_en": "Reflecting on something deeply, like a cow chewing cud.",
+      "meaning_ko": "되새김질하듯 — 같은 생각을 거듭 곱씹는 일.",
+      "vibe_en": "Chewing the question slowly until meaning surfaces.",
+      "vibe_ko": "되새김하듯 — 의미가 떠오를 때까지 거듭 곱씹는 중."
+    },
+    {
+      "word": "Sussing",
+      "meaning_en": "Figuring something out by careful observation.",
+      "meaning_ko": "상황을 잘 살펴 본질을 알아내는 일.",
+      "vibe_en": "Quietly sizing the situation up.",
+      "vibe_ko": "조용히 상황을 — 살피며 파악하는 중."
+    },
+    {
+      "word": "Synthesizing",
+      "meaning_en": "Combining pieces into a coherent whole.",
+      "meaning_ko": "흩어진 조각을 모아 하나의 일관된 결과로 엮어내는 일.",
+      "vibe_en": "Stitching disparate threads into one fabric.",
+      "vibe_ko": "흩어진 실들을 — 하나의 천으로 짜내는 중."
+    },
+    {
+      "word": "Thinking",
+      "meaning_en": "Using the mind to consider, reason, or imagine.",
+      "meaning_ko": "머리를 써서 생각하는 가장 기본적인 행위.",
+      "vibe_en": "The honest, no-frills default.",
+      "vibe_ko": "꾸밈없는 — 가장 솔직한 기본 상태."
+    },
+    {
+      "word": "Accomplishing",
+      "meaning_en": "Successfully completing a task.",
+      "meaning_ko": "주어진 일을 완수해내는 일.",
+      "vibe_en": "Quietly checking the box on what was asked.",
+      "vibe_ko": "조용히 — 맡은 일을 완수하는 중."
+    },
+    {
+      "word": "Actioning",
+      "meaning_en": "Acting on something; turning a plan into a step.",
+      "meaning_ko": "계획을 실제 행동으로 옮기는 일 (비즈니스 용어).",
+      "vibe_en": "Corporate-flavor 'doing it now'.",
+      "vibe_ko": "회사어 느낌의 — '지금 처리 중입니다'."
+    },
+    {
+      "word": "Actualizing",
+      "meaning_en": "Making something real that was only a possibility.",
+      "meaning_ko": "가능성에 머물던 것을 실제로 구현해내는 일.",
+      "vibe_en": "From idea to artifact — taking shape.",
+      "vibe_ko": "아이디어가 — 실체로 모습을 갖춰가는 중."
+    },
+    {
+      "word": "Architecting",
+      "meaning_en": "Designing the overall structure of a system.",
+      "meaning_ko": "시스템의 전체 구조를 설계하는 일.",
+      "vibe_en": "Drafting the blueprint of the response.",
+      "vibe_ko": "답의 — 청사진을 그리는 중."
+    },
+    {
+      "word": "Bootstrapping",
+      "meaning_en": "Starting something with minimal external help.",
+      "meaning_ko": "최소한의 자원으로 — 스스로 시작점을 만들어내는 일.",
+      "vibe_en": "Pulling itself up by its own laces.",
+      "vibe_ko": "스스로의 끈을 — 스스로 묶어 일어서는 중."
+    },
+    {
+      "word": "Channeling",
+      "meaning_en": "Directing or transmitting (energy, ideas) through a path.",
+      "meaning_ko": "에너지나 생각을 어딘가로 흘려 보내는 일.",
+      "vibe_en": "Letting the response flow through Claude as a conduit.",
+      "vibe_ko": "통로처럼 — 답을 흘려보내는 중."
+    },
+    {
+      "word": "Channelling",
+      "meaning_en": "British spelling of channeling — same act.",
+      "meaning_ko": "Channeling의 영국식 표기 — 같은 뜻.",
+      "vibe_en": "Same vibe, British spelling.",
+      "vibe_ko": "같은 의미의 — 영국식 표기."
+    },
+    {
+      "word": "Choreographing",
+      "meaning_en": "Designing a sequence of dance movements.",
+      "meaning_ko": "춤동작의 순서를 짜내는 일.",
+      "vibe_en": "Planning the steps so the answer flows like a dance.",
+      "vibe_ko": "안무를 짜듯 — 답이 흐르듯 이어지도록 설계하는 중."
+    },
+    {
+      "word": "Composing",
+      "meaning_en": "Writing or arranging something with care, like music or prose.",
+      "meaning_ko": "글이나 곡 등을 — 정성껏 짜내는 일.",
+      "vibe_en": "Treating the response like a piece of music.",
+      "vibe_ko": "답을 — 한 곡의 음악처럼 짜내는 중."
+    },
+    {
+      "word": "Crafting",
+      "meaning_en": "Making something with skill and care.",
+      "meaning_ko": "정성과 솜씨로 — 무언가를 만들어내는 일.",
+      "vibe_en": "Handmade feel — paying attention to detail.",
+      "vibe_ko": "수공예 같은 — 디테일에 정성을 들이는 중."
+    },
+    {
+      "word": "Creating",
+      "meaning_en": "Bringing something new into existence.",
+      "meaning_ko": "새로운 것을 — 만들어내는 일.",
+      "vibe_en": "Direct, generative — fresh from scratch.",
+      "vibe_ko": "처음부터 — 새로 만들어내는 직설적인 표현."
+    },
+    {
+      "word": "Effecting",
+      "meaning_en": "Causing something to happen.",
+      "meaning_ko": "어떤 결과를 — 실제로 일어나게 하는 일.",
+      "vibe_en": "Putting the plan into motion.",
+      "vibe_ko": "계획을 — 실행으로 옮기는 중."
+    },
+    {
+      "word": "Forging",
+      "meaning_en": "Shaping metal with heat and hammer.",
+      "meaning_ko": "쇠를 달궈 망치로 두들겨 모양을 잡는 일.",
+      "vibe_en": "Pressure + heat — hammering the answer into shape.",
+      "vibe_ko": "열과 압력으로 — 답을 형태로 두들겨내는 중."
+    },
+    {
+      "word": "Forming",
+      "meaning_en": "Giving something a shape.",
+      "meaning_ko": "어떤 모양을 — 잡아 주는 일.",
+      "vibe_en": "Loose clay finding its outline.",
+      "vibe_ko": "흙덩이가 — 윤곽을 찾아가는 느낌."
+    },
+    {
+      "word": "Generating",
+      "meaning_en": "Producing or creating output.",
+      "meaning_ko": "결과물을 — 만들어내는 일.",
+      "vibe_en": "Plain, technical — 'producing output'.",
+      "vibe_ko": "꾸밈없이 기술적인 — '출력 생성 중'."
+    },
+    {
+      "word": "Hatching",
+      "meaning_en": "Breaking out of an egg; also: scheming a plan into being.",
+      "meaning_ko": "알을 깨고 — 무언가 새로 태어나게 하는 일 (또는 계획이 모습을 갖추는 일).",
+      "vibe_en": "Something new is about to break the shell.",
+      "vibe_ko": "껍데기를 깨고 — 새 것이 나오기 직전의 느낌."
+    },
+    {
+      "word": "Working",
+      "meaning_en": "Doing the labor required to complete a task.",
+      "meaning_ko": "일을 해나가는 가장 평범한 표현.",
+      "vibe_en": "Honest, plain effort.",
+      "vibe_ko": "솔직하게 — 그냥 일하는 중."
+    },
+    {
+      "word": "Wrangling",
+      "meaning_en": "Handling and controlling something difficult.",
+      "meaning_ko": "다루기 어려운 것을 — 어떻게든 통제해내는 일.",
+      "vibe_en": "Rope in hand — bringing wild data under control.",
+      "vibe_ko": "고삐를 쥐고 — 거친 데이터를 — 통제하려는 중."
+    },
+    {
+      "word": "Coalescing",
+      "meaning_en": "Merging gradually into a single coherent whole.",
+      "meaning_ko": "흩어진 것들이 — 차츰 하나로 합쳐지는 일.",
+      "vibe_en": "Pieces finding each other and joining.",
+      "vibe_ko": "조각들이 — 서로를 찾아 합쳐지는 중."
+    },
+    {
+      "word": "Doing",
+      "meaning_en": "Taking action.",
+      "meaning_ko": "그냥 — 무언가를 하는 중.",
+      "vibe_en": "Maximum brevity — Claude is just doing.",
+      "vibe_ko": "최소한의 단어 — 그냥 하고 있는 중."
+    },
+    {
+      "word": "Cultivating",
+      "meaning_en": "Patiently growing something the way a gardener does.",
+      "meaning_ko": "정원사처럼 — 천천히 길러내는 일.",
+      "vibe_en": "Garden-pace patience — the answer is being grown, not built.",
+      "vibe_ko": "정원처럼 — 답을 천천히 키워내는 중."
+    },
+    {
+      "word": "Beaming",
+      "meaning_en": "Smiling brightly; also: transmitting like a beam of light.",
+      "meaning_ko": "환하게 웃거나, 빛처럼 무언가를 — 쏘아 보내는 일.",
+      "vibe_en": "Friendly transmission — answer incoming.",
+      "vibe_ko": "환한 미소로 — 답을 송신하는 중."
+    },
+    {
+      "word": "Beboppin'",
+      "meaning_en": "Moving with the lively swing of bebop jazz.",
+      "meaning_ko": "비밥 재즈의 — 경쾌한 리듬으로 움직이는 일.",
+      "vibe_en": "Snappy, rhythmic confidence.",
+      "vibe_ko": "리듬을 타며 — 경쾌하게 움직이는 중."
+    },
+    {
+      "word": "Boogieing",
+      "meaning_en": "Dancing with lively, casual fun.",
+      "meaning_ko": "신나게 — 가볍게 춤을 추는 일.",
+      "vibe_en": "Claude is having fun with the request.",
+      "vibe_ko": "요청에 — 신이 나서 움직이는 중."
+    },
+    {
+      "word": "Burrowing",
+      "meaning_en": "Digging a hole or going deep underground.",
+      "meaning_ko": "땅속으로 — 깊이 굴을 파고 들어가는 일.",
+      "vibe_en": "Going deep — Claude is mining into the details.",
+      "vibe_ko": "디테일 속으로 — 깊이 파고드는 중."
+    },
+    {
+      "word": "Cascading",
+      "meaning_en": "Falling in a series of small steps, like a waterfall.",
+      "meaning_ko": "물이 — 단을 이루며 흘러내리듯 — 연쇄적으로 일어나는 일.",
+      "vibe_en": "Effects rippling down the chain.",
+      "vibe_ko": "효과가 — 줄줄이 이어지는 폭포 같은 느낌."
+    },
+    {
+      "word": "Catapulting",
+      "meaning_en": "Hurling something forward with sudden force.",
+      "meaning_ko": "공성무기처럼 — 무언가를 — 단번에 멀리 날려보내는 일.",
+      "vibe_en": "Launching the answer with momentum.",
+      "vibe_ko": "기세 좋게 — 답을 — 멀리 던져내는 중."
+    },
+    {
+      "word": "Churning",
+      "meaning_en": "Stirring vigorously; also: a stomach that's working hard.",
+      "meaning_ko": "강하게 — 휘저으며 섞는 일 (또는 격렬한 처리).",
+      "vibe_en": "Heavy mixing — lots of work happening at once.",
+      "vibe_ko": "격렬히 — 휘저으며 처리하는 중."
+    },
+    {
+      "word": "Flowing",
+      "meaning_en": "Moving smoothly and continuously like water.",
+      "meaning_ko": "물처럼 — 부드럽게 이어 흐르는 일.",
+      "vibe_en": "Smooth, uninterrupted progression.",
+      "vibe_ko": "막힘 없이 — 부드럽게 이어지는 중."
+    },
+    {
+      "word": "Fluttering",
+      "meaning_en": "Moving with quick, light, irregular motions.",
+      "meaning_ko": "가볍고 빠르게 — 너풀거리는 움직임.",
+      "vibe_en": "Light, quick stirrings of thought.",
+      "vibe_ko": "생각이 — 가볍게 너풀거리는 중."
+    },
+    {
+      "word": "Frolicking",
+      "meaning_en": "Playing about merrily.",
+      "meaning_ko": "신나게 — 뛰놀듯이 움직이는 일.",
+      "vibe_en": "Playful energy in the process.",
+      "vibe_ko": "장난기 어린 — 들뜬 에너지로 처리하는 중."
+    },
+    {
+      "word": "Gallivanting",
+      "meaning_en": "Wandering about in search of fun.",
+      "meaning_ko": "재미를 찾아 — 여기저기 떠도는 일.",
+      "vibe_en": "Wandering through possibilities a bit playfully.",
+      "vibe_ko": "장난스럽게 — 가능성들을 떠도는 중."
+    },
+    {
+      "word": "Galloping",
+      "meaning_en": "Running fast like a horse.",
+      "meaning_ko": "말이 달리듯 — 빠르게 달려나가는 일.",
+      "vibe_en": "Full speed ahead.",
+      "vibe_ko": "전속력으로 — 달려나가는 중."
+    },
+    {
+      "word": "Hustling",
+      "meaning_en": "Working with quick, focused energy.",
+      "meaning_ko": "분주하게 — 잰걸음으로 일하는 모습.",
+      "vibe_en": "Busy-bee energy — Claude is hustling.",
+      "vibe_ko": "분주하게 — 부지런히 일하는 중."
+    },
+    {
+      "word": "Jiving",
+      "meaning_en": "Moving along with the rhythm of jive music.",
+      "meaning_ko": "재즈 리듬에 맞춰 — 신나게 움직이는 일.",
+      "vibe_en": "Snappy, rhythmic forward motion.",
+      "vibe_ko": "리듬을 타고 — 경쾌하게 나아가는 중."
+    },
+    {
+      "word": "Meandering",
+      "meaning_en": "Wandering casually along a winding path.",
+      "meaning_ko": "구불구불한 길을 — 한가로이 따라가는 일.",
+      "vibe_en": "Wandering through thoughts without rush.",
+      "vibe_ko": "느긋하게 — 생각의 길을 따라가는 중."
+    },
+    {
+      "word": "Moseying",
+      "meaning_en": "Strolling along leisurely.",
+      "meaning_ko": "느릿느릿 — 산책하듯 걷는 일.",
+      "vibe_en": "Casual stroll-pace through the question.",
+      "vibe_ko": "여유로이 — 산책하듯 처리하는 중."
+    },
+    {
+      "word": "Scampering",
+      "meaning_en": "Running with quick, light steps.",
+      "meaning_ko": "가볍고 — 잰걸음으로 — 종종 달리는 일.",
+      "vibe_en": "Quick little footsteps through the task.",
+      "vibe_ko": "잰걸음으로 — 종종 달려가는 중."
+    },
+    {
+      "word": "Scurrying",
+      "meaning_en": "Moving hurriedly with short, quick steps.",
+      "meaning_ko": "부산하게 — 잰걸음으로 — 서두르며 움직이는 일.",
+      "vibe_en": "Mouse-like quick darting energy.",
+      "vibe_ko": "다람쥐처럼 — 부산히 움직이는 중."
+    },
+    {
+      "word": "Shimmying",
+      "meaning_en": "Shaking shoulders or hips in a wiggling dance.",
+      "meaning_ko": "어깨나 허리를 — 흔드는 가벼운 춤동작.",
+      "vibe_en": "A little dance through the work.",
+      "vibe_ko": "춤추듯이 — 가볍게 흔들며 처리하는 중."
+    },
+    {
+      "word": "Skedaddling",
+      "meaning_en": "Running away quickly.",
+      "meaning_ko": "잽싸게 — 줄행랑치듯 달려나가는 일.",
+      "vibe_en": "Old-timey rush — Claude's hustling out.",
+      "vibe_ko": "옛날식 표현의 — 잰걸음 줄행랑."
+    },
+    {
+      "word": "Spelunking",
+      "meaning_en": "Exploring caves.",
+      "meaning_ko": "동굴 속을 — 탐험하는 일.",
+      "vibe_en": "Headlamp on — going deep into uncharted territory.",
+      "vibe_ko": "헬멧 등을 켜고 — 미지의 동굴 속으로 들어가는 중."
+    },
+    {
+      "word": "Spinning",
+      "meaning_en": "Rotating; also: weaving thread from raw fiber.",
+      "meaning_ko": "회전하거나 — 실을 짜내는 일.",
+      "vibe_en": "Wheels turning; thread emerging.",
+      "vibe_ko": "물레가 돌며 — 실이 뽑혀 나오는 중."
+    },
+    {
+      "word": "Unfurling",
+      "meaning_en": "Unrolling something that was folded — a flag, a sail.",
+      "meaning_ko": "말려 있던 깃발이나 돛을 — 펼치는 일.",
+      "vibe_en": "Unrolling the answer like a scroll.",
+      "vibe_ko": "두루마리를 — 펼쳐내는 중."
+    },
+    {
+      "word": "Waddling",
+      "meaning_en": "Walking with short steps and a side-to-side sway, like a duck.",
+      "meaning_ko": "뒤뚱뒤뚱 — 오리처럼 걷는 모습.",
+      "vibe_en": "Endearing slow progress.",
+      "vibe_ko": "느릿느릿 — 귀엽게 진행 중인 느낌."
+    },
+    {
+      "word": "Wandering",
+      "meaning_en": "Walking without a fixed destination.",
+      "meaning_ko": "정처 없이 — 떠도는 일.",
+      "vibe_en": "Free exploration of the space.",
+      "vibe_ko": "정처 없이 — 가능성을 탐색하는 중."
+    },
+    {
+      "word": "Zigzagging",
+      "meaning_en": "Moving in sharp turns left and right.",
+      "meaning_ko": "지그재그로 — 갈지자걸음으로 움직이는 일.",
+      "vibe_en": "Bouncing between approaches.",
+      "vibe_ko": "이쪽저쪽으로 — 접근 방식을 — 오가는 중."
+    },
+    {
+      "word": "Befuddling",
+      "meaning_en": "Confusing; making someone perplexed.",
+      "meaning_ko": "헷갈리게 만드는 — 어리둥절하게 하는 일.",
+      "vibe_en": "Self-deprecating — Claude admits it's a head-scratcher.",
+      "vibe_ko": "자조적으로 — 머리가 복잡한 상황임을 인정하는 느낌."
+    },
+    {
+      "word": "Billowing",
+      "meaning_en": "Swelling outward like smoke or sails in wind.",
+      "meaning_ko": "연기나 돛처럼 — 부풀어 오르며 퍼져나가는 일.",
+      "vibe_en": "Big, full, swelling shape.",
+      "vibe_ko": "크고 — 풍성하게 — 부풀어 오르는 중."
+    },
+    {
+      "word": "Bloviating",
+      "meaning_en": "Talking pompously and at length.",
+      "meaning_ko": "거창하게 — 길게 말을 늘어놓는 일.",
+      "vibe_en": "Self-aware wink — Claude knows it can over-explain.",
+      "vibe_ko": "자기 인식의 — 살짝 윙크: 길어질 수 있어요."
+    },
+    {
+      "word": "Boondoggling",
+      "meaning_en": "Doing work that looks busy but accomplishes little.",
+      "meaning_ko": "분주해 보이지만 — 실속 없는 일.",
+      "vibe_en": "Cheeky self-deprecating — 'might be busywork'.",
+      "vibe_ko": "장난스레 자조적인 — '쓸데없는 짓일지도'."
+    },
+    {
+      "word": "Booping",
+      "meaning_en": "Lightly touching, especially a nose, as a friendly tap.",
+      "meaning_ko": "코끝 같은 곳을 — 가볍게 톡 건드리는 일.",
+      "vibe_en": "Just a tiny touch — boop.",
+      "vibe_ko": "가볍게 — 톡, 건드리는 느낌."
+    },
+    {
+      "word": "Canoodling",
+      "meaning_en": "Cuddling affectionately.",
+      "meaning_ko": "다정하게 — 부둥켜안듯 어울리는 일.",
+      "vibe_en": "Cuddly closeness with the data.",
+      "vibe_ko": "데이터와 — 다정하게 어울리는 중."
+    },
+    {
+      "word": "Clauding",
+      "meaning_en": "(in-joke) doing the thing that Claude does.",
+      "meaning_ko": "(농담) Claude가 — Claude답게 하는 일.",
+      "vibe_en": "Self-referential wink.",
+      "vibe_ko": "자기 자신을 향한 — 농담조 표현."
+    },
+    {
+      "word": "Combobulating",
+      "meaning_en": "(playful inverse of discombobulating) sorting things out.",
+      "meaning_ko": "(장난스러운 단어) — 흐트러진 것을 — 다시 정리하는 일.",
+      "vibe_en": "Putting the pieces back where they belong.",
+      "vibe_ko": "흐트러진 조각들을 — 제자리에 돌려놓는 중."
+    },
+    {
+      "word": "Crunching",
+      "meaning_en": "Breaking down with force, like teeth on a hard snack.",
+      "meaning_ko": "딱딱한 것을 — 와그작 — 부수듯 처리하는 일.",
+      "vibe_en": "Heavy data being chewed through.",
+      "vibe_ko": "묵직한 데이터를 — 와그작 — 처리하는 중."
+    },
+    {
+      "word": "Dilly-dallying",
+      "meaning_en": "Wasting time or moving too slowly.",
+      "meaning_ko": "꾸물꾸물 — 시간을 — 끌고 있는 일.",
+      "vibe_en": "Self-aware — 'might be taking the long way'.",
+      "vibe_ko": "자조적인 — '돌아가고 있을지도 모르겠다'."
+    },
+    {
+      "word": "Discombobulating",
+      "meaning_en": "Confusing or upsetting; throwing things into disarray.",
+      "meaning_ko": "혼란스럽게 — 뒤죽박죽으로 만드는 일.",
+      "vibe_en": "Self-aware confusion — Claude is in the mess.",
+      "vibe_ko": "Claude 스스로 — 헝클어진 상태임을 인정하는 느낌."
+    },
+    {
+      "word": "Enchanting",
+      "meaning_en": "Casting a magic charm; delighting deeply.",
+      "meaning_ko": "마법의 주문을 — 거는 듯 — 매혹하는 일.",
+      "vibe_en": "A little fairy-tale magic in the process.",
+      "vibe_ko": "동화 속 — 작은 마법이 펼쳐지는 느낌."
+    },
+    {
+      "word": "Evaporating",
+      "meaning_en": "Turning from liquid to vapor and disappearing.",
+      "meaning_ko": "액체가 — 기체로 — 사라지는 일.",
+      "vibe_en": "Letting the unnecessary boil away.",
+      "vibe_ko": "불필요한 부분을 — 증발시켜 — 사라지게 하는 중."
+    },
+    {
+      "word": "Finagling",
+      "meaning_en": "Getting something through clever, mildly sneaky means.",
+      "meaning_ko": "약간 꼼수를 부려 — 무언가를 — 얻어내는 일.",
+      "vibe_en": "Wink-wink resourcefulness.",
+      "vibe_ko": "살짝 능청스러운 — 임기응변 같은 느낌."
+    },
+    {
+      "word": "Flibbertigibbeting",
+      "meaning_en": "Acting frivolous or flighty.",
+      "meaning_ko": "들떠서 — 가볍게 행동하는 일 (드문 단어).",
+      "vibe_en": "Pure word-play for its own sake.",
+      "vibe_ko": "단어 자체의 — 재미를 살린 표현."
+    },
+    {
+      "word": "Flummoxing",
+      "meaning_en": "Bewildering or stumping someone.",
+      "meaning_ko": "당황스럽게 — 혼란에 빠뜨리는 일.",
+      "vibe_en": "Honest 'this is tricky' moment.",
+      "vibe_ko": "솔직하게 — '어렵네' 하고 인정하는 느낌."
+    },
+    {
+      "word": "Germinating",
+      "meaning_en": "A seed beginning to sprout.",
+      "meaning_ko": "씨앗이 — 막 싹을 — 틔우는 일.",
+      "vibe_en": "An idea is just starting to grow.",
+      "vibe_ko": "아이디어가 — 막 싹을 — 틔우는 순간."
+    },
+    {
+      "word": "Herding",
+      "meaning_en": "Driving a group of animals together in one direction.",
+      "meaning_ko": "양 떼나 소 떼를 — 한 방향으로 모는 일.",
+      "vibe_en": "Wrangling a lot of scattered things into one line.",
+      "vibe_ko": "흩어진 것들을 — 한 줄로 — 몰아가는 중."
+    },
+    {
+      "word": "Honking",
+      "meaning_en": "Making a loud honk like a goose or car horn.",
+      "meaning_ko": "오리나 클락션처럼 — 빵! 하는 소리를 내는 일.",
+      "vibe_en": "Pure silliness — a friendly goose noise.",
+      "vibe_ko": "장난기 가득한 — 거위 소리 같은 느낌."
+    },
+    {
+      "word": "Incubating",
+      "meaning_en": "Keeping eggs warm so they hatch; letting an idea develop privately.",
+      "meaning_ko": "알을 따뜻하게 품어 — 부화시키는 일 (또는 아이디어를 — 내부에서 — 키우는 일).",
+      "vibe_en": "Warming the idea until it's ready.",
+      "vibe_ko": "준비될 때까지 — 따뜻하게 — 품고 있는 중."
+    },
+    {
+      "word": "Mustering",
+      "meaning_en": "Gathering force or resources together.",
+      "meaning_ko": "힘이나 자원을 — 한데 — 끌어모으는 일.",
+      "vibe_en": "Rallying the right pieces together.",
+      "vibe_ko": "필요한 것들을 — 한곳에 — 그러모으는 중."
+    },
+    {
+      "word": "Noodling",
+      "meaning_en": "Playing around with an idea or instrument casually.",
+      "meaning_ko": "악기나 아이디어를 — 가볍게 — 만지작거리는 일.",
+      "vibe_en": "Loose, exploratory jamming.",
+      "vibe_ko": "여유 있게 — 이리저리 — 만지작거리는 중."
+    },
+    {
+      "word": "Perusing",
+      "meaning_en": "Reading something carefully.",
+      "meaning_ko": "글이나 자료를 — 꼼꼼히 — 살펴 읽는 일.",
+      "vibe_en": "Eyes scanning, careful reading.",
+      "vibe_ko": "눈으로 — 꼼꼼히 — 훑어 읽는 중."
+    },
+    {
+      "word": "Pontificating",
+      "meaning_en": "Expressing opinions in a pompous, dogmatic way.",
+      "meaning_ko": "거창하게 — 의견을 — 늘어놓는 일.",
+      "vibe_en": "Self-aware wink — bigger words than needed.",
+      "vibe_ko": "자조적으로 — 거창하게 — 떠벌리는 느낌."
+    },
+    {
+      "word": "Puttering",
+      "meaning_en": "Doing small unhurried tasks around the house or garden.",
+      "meaning_ko": "별일 없이 — 소소한 일을 — 매만지는 일.",
+      "vibe_en": "Casual tinkering, no rush.",
+      "vibe_ko": "여유롭게 — 소소히 — 매만지는 중."
+    },
+    {
+      "word": "Reticulating",
+      "meaning_en": "Forming a net-like pattern; also: classic SimCity loading joke.",
+      "meaning_ko": "그물 같은 — 망 구조를 — 짜내는 일 (게임에서도 — 유명한 농담).",
+      "vibe_en": "Reticulating splines — the perennial gag.",
+      "vibe_ko": "심시티 시절의 — 전설적인 농담 — 'splines를 reticulating'."
+    },
+    {
+      "word": "Scheming",
+      "meaning_en": "Plotting a plan, sometimes a clever or mischievous one.",
+      "meaning_ko": "꾀를 내어 — 계획을 짜내는 일.",
+      "vibe_en": "Eyebrow-raise — a sly little plan.",
+      "vibe_ko": "눈썹을 들어올리는 — 살짝 능청스러운 — 계획 짜기."
+    },
+    {
+      "word": "Schlepping",
+      "meaning_en": "Hauling something heavy, with effort.",
+      "meaning_ko": "무거운 짐을 — 끌고 — 옮기는 일 (이디시어 어원).",
+      "vibe_en": "Honest grunt-work — moving things around.",
+      "vibe_ko": "묵묵히 — 무거운 짐을 — 옮기는 중."
+    },
+    {
+      "word": "Smooshing",
+      "meaning_en": "Pressing two soft things together.",
+      "meaning_ko": "부드러운 것들을 — 꾹 — 눌러 합치는 일.",
+      "vibe_en": "Squishing pieces into one.",
+      "vibe_ko": "조각들을 — 꾹 눌러 — 하나로 합치는 중."
+    },
+    {
+      "word": "Tinkering",
+      "meaning_en": "Making small adjustments to fix or improve something.",
+      "meaning_ko": "조금씩 — 만지작거리며 — 고치거나 다듬는 일.",
+      "vibe_en": "Small adjustments, careful and curious.",
+      "vibe_ko": "조금씩 — 호기심을 갖고 — 다듬는 중."
+    },
+    {
+      "word": "Tomfoolering",
+      "meaning_en": "Engaging in silly, foolish behavior.",
+      "meaning_ko": "장난기 가득한 — 까불대는 행동을 — 하는 일.",
+      "vibe_en": "Pure goofy charm.",
+      "vibe_ko": "장난기 — 듬뿍 담긴 표현."
+    },
+    {
+      "word": "Topsy-turvying",
+      "meaning_en": "Turning everything upside-down.",
+      "meaning_ko": "모든 것을 — 위아래로 — 뒤집어 놓는 일.",
+      "vibe_en": "Shaking up the assumptions.",
+      "vibe_ko": "기존 가정을 — 거꾸로 뒤집어 — 흔들어 보는 중."
+    },
+    {
+      "word": "Transmuting",
+      "meaning_en": "Changing something into a fundamentally different form, like lead into gold.",
+      "meaning_ko": "납을 금으로 바꾸듯 — 본질을 — 다른 것으로 — 변환하는 일 (연금술).",
+      "vibe_en": "Alchemical transformation — raw inputs becoming something new.",
+      "vibe_ko": "연금술처럼 — 원재료를 — 본질부터 바꾸는 중."
+    },
+    {
+      "word": "Unravelling",
+      "meaning_en": "Undoing tangled threads to see what's underneath.",
+      "meaning_ko": "엉킨 실을 — 풀어내어 — 안을 살피는 일.",
+      "vibe_en": "Untying the knot of the problem.",
+      "vibe_ko": "엉킨 매듭을 — 풀어내는 중."
+    },
+    {
+      "word": "Vibing",
+      "meaning_en": "Casually being in tune with the moment.",
+      "meaning_ko": "분위기나 흐름에 — 맞춰 — 자연스럽게 어울리는 일.",
+      "vibe_en": "Just going with the flow.",
+      "vibe_ko": "흐름에 맞춰 — 그냥 — 어울려가는 중."
+    },
+    {
+      "word": "Wibbling",
+      "meaning_en": "Wobbling slightly back and forth.",
+      "meaning_ko": "조금씩 — 흔들흔들 — 좌우로 — 일렁이는 모습.",
+      "vibe_en": "A tiny wobble of indecision.",
+      "vibe_ko": "살짝 — 흔들리는 — 갈팡질팡의 순간."
+    },
+    {
+      "word": "Wizarding",
+      "meaning_en": "Doing wizardly, magical work.",
+      "meaning_ko": "마법사처럼 — 마법을 — 부리는 일.",
+      "vibe_en": "Robes on, wand out — magic in progress.",
+      "vibe_ko": "로브를 입고 — 지팡이를 — 휘두르는 중."
+    }
+  ],
+  "history": []
+}
