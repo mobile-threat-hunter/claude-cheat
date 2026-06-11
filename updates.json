@@ -1,7 +1,9 @@
 {
-  "generated_at": "2026-06-11T18:59:24.901Z",
+  "generated_at": "2026-06-11T19:16:58.523Z",
   "sources": {
     "anthropic_news_count": 12,
+    "anthropic_research_count": 8,
+    "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
     "translated_ko": 11
   },
@@ -41,6 +43,15 @@
       "title": "Claude Code v2.1.172",
       "summary": "- Sub-agents can now spawn their own sub-agents (up to 5 levels deep)\n- Amazon Bedrock now reads the AWS region from `~/.aws` config files when `AWS_REGION` isn't set, matching AWS SDK precedence; `/status` shows where the region came from\n- Added a search bar when browsing a marketplace's plugins in `/plugin`\n- Added `model` attribute to the `claude_code.lines_of_code.count` OTEL metric\n- Fixed…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172"
+    },
+    {
+      "date": "2026-06-10",
+      "datetime": "2026-06-10T15:16:01.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Paving the way for agents in biology",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/agents-in-biology"
     },
     {
       "date": "2026-06-09",
@@ -95,6 +106,78 @@
       "title": "Claude Code v2.1.166",
       "summary": "- Added `fallbackModel` setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; `--fallback-model` now also applies to interactive sessions\n- Added glob pattern support in deny rule tool-name position (`\"*\"` denies all tools); allow rules reject non-MCP globs, and unknown tool names in deny rules warn at startup\n- Hardened cross-session…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166"
+    },
+    {
+      "date": "2026-06-06",
+      "datetime": "2026-06-06T00:28:16.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T20:13:40.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Making Claude a chemist",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T15:49:18.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Measuring AI agent autonomy in practice",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/measuring-agent-autonomy"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T15:38:54.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Values in the wild: Discovering and analyzing values in real-world language model interactions",
+      "summary": "An Anthropic research paper testing which values AI models express in the real world",
+      "url": "https://www.anthropic.com/research/values-wild"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T15:38:44.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How AI Is Transforming Work at Anthropic",
+      "summary": "How AI Is Transforming Work at Anthropic",
+      "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T15:37:12.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "The assistant axis: situating and stabilizing the character of large language models",
+      "summary": "Who is the Assistant? We investigate the character that most modern language models inhabit when interacting with users.",
+      "url": "https://www.anthropic.com/research/assistant-axis"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T15:36:49.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Emergent introspective awareness in large language models",
+      "summary": "Research from Anthropic on the ability of large language models to introspect",
+      "url": "https://www.anthropic.com/research/introspection"
+    },
+    {
+      "date": "2026-06-05",
+      "datetime": "2026-06-05T15:32:46.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Estimating AI productivity gains",
+      "summary": "Anthropic economic research on productivity gains",
+      "url": "https://www.anthropic.com/research/estimating-productivity-gains"
     },
     {
       "date": "2026-06-05",
@@ -243,6 +326,69 @@
       "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
       "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
       "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
+    },
+    {
+      "date": "2026-05-27",
+      "datetime": "2026-05-27T11:44:48.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode"
+    },
+    {
+      "date": "2026-04-30",
+      "datetime": "2026-04-30T21:34:23.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+    },
+    {
+      "date": "2026-04-24",
+      "datetime": "2026-04-24T14:21:28.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise"
+    },
+    {
+      "date": "2026-04-24",
+      "datetime": "2026-04-24T14:19:43.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/engineering/managed-agents"
+    },
+    {
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T14:39:01.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Equipping agents for the real world with Agent Skills",
+      "summary": "Discover how Anthropic builds AI agents with practical capabilities through modular skills, enabling them to handle complex real-world tasks more effectively and reliably.",
+      "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+    },
+    {
+      "date": "2026-04-13",
+      "datetime": "2026-04-13T17:46:47.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Building Effective AI Agents",
+      "summary": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents"
+    },
+    {
+      "date": "2026-03-24",
+      "datetime": "2026-03-24T16:23:08.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Harness design for long-running application development",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
     }
   ]
 }
