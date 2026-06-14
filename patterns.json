@@ -58,8 +58,8 @@
     },
     {
       "field": "allowed-tools",
-      "count": 80,
-      "pct": 13.9
+      "count": 81,
+      "pct": 14.0
     },
     {
       "field": "argument-hint",
@@ -107,7 +107,7 @@
       "p75": 12774,
       "p90": 22144,
       "max": 110236,
-      "mean": 10988.6
+      "mean": 10989.7
     },
     "heading_count": {
       "count": 577,
@@ -222,7 +222,7 @@
       "name": "ce-agent-native-audit",
       "description": "Run comprehensive agent-native architecture review with scored principles",
       "source": "github:EveryInc/compound-engineering-plugin@main",
-      "composite": 1.0
+      "composite": 0.999
     },
     {
       "id": "31e0e5cb7abdd603",

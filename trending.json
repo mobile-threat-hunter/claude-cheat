@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-13T10:21:19.821361+00:00",
+  "generated_at": "2026-06-14T11:16:51.511862+00:00",
   "total_corpus": 750,
   "window_size": 187,
   "windows": {
     "active": {
       "label": "Hot repos",
-      "criterion": "top 187 by recent push (≤ 0d)",
+      "criterion": "top 187 by recent push (≤ 1d)",
       "count": 187,
       "keywords": [
         {
           "term": "python library",
-          "df_trending": 22,
+          "df_trending": 24,
           "df_total": 24,
-          "lift": 3.68,
+          "lift": 4.01,
           "skill_ids": [
             "bc36dedb18798f73",
             "849472addcc99dea",
@@ -35,14 +35,16 @@
             "7db12d0cdd7d8359",
             "fd33944f5a4a13d6",
             "298ede883da6137f",
-            "bedbf4c6d94b3cd1"
+            "bedbf4c6d94b3cd1",
+            "767ccad45e05b8a9",
+            "988f5413ac40d669"
           ]
         },
         {
           "term": "scientific",
-          "df_trending": 28,
+          "df_trending": 30,
           "df_total": 30,
-          "lift": 3.74,
+          "lift": 4.01,
           "skill_ids": [
             "643f355194b64551",
             "e1ec43ef328630e2",
@@ -71,41 +73,71 @@
             "971ac914322a3cbd",
             "c5323bc67c0badb0",
             "cc91c6d51a8994e0",
-            "5b44f89633a70d44"
+            "5b44f89633a70d44",
+            "77ff20613720afb6",
+            "988f5413ac40d669"
           ]
         },
         {
-          "term": "toolkit",
+          "term": "stable",
           "df_trending": 19,
-          "df_total": 24,
-          "lift": 3.18,
+          "df_total": 19,
+          "lift": 4.01,
           "skill_ids": [
             "de895c64b96681e2",
-            "4aa1d75ff8f4eb09",
-            "b925893c82f0ffc8",
-            "f9f522dee6cd2844",
-            "8f4a50411f24843e",
-            "25b9fbe38088ae23",
-            "40f17711fba5d7fb",
-            "9a08cdaf276e2569",
-            "01c4f4d8bd3ecd3b",
-            "f414973d53960555",
-            "59ce338e8cb22413",
-            "a363274b93fc550e",
+            "0022aae7c8470d4b",
+            "2711f1d7e41cb967",
+            "901d0843d8de37cb",
+            "cf29475d0079ddca",
+            "79d655598e9e83c8",
+            "89e93a0e7ec4ec19",
             "7be476ec6c7a71c1",
-            "d0d0b6992a1326c5",
-            "8f457a723628d007",
-            "5df3043465fa1b3a",
+            "41ada7609ac75917",
+            "462fc96996757dd2",
+            "f03766e21d019255",
             "6d2734606c99a451",
-            "7db12d0cdd7d8359",
-            "298ede883da6137f"
+            "fd33944f5a4a13d6",
+            "8608c52be98c4994",
+            "231aa9f907781aba",
+            "bedbf4c6d94b3cd1",
+            "72fc911dcb285653",
+            "988f5413ac40d669",
+            "7b4dc0669721664d"
+          ]
+        },
+        {
+          "term": "installation",
+          "df_trending": 20,
+          "df_total": 23,
+          "lift": 3.49,
+          "skill_ids": [
+            "461ed63d4b2e76fc",
+            "c95a51413a0eda3b",
+            "251bd70e52e7d6da",
+            "37313440703feb02",
+            "1e6e2ba1631e1ae6",
+            "982bf092b8eed2f6",
+            "68939b1b0e23f764",
+            "89e93a0e7ec4ec19",
+            "7d4d784b74a394fa",
+            "6d2734606c99a451",
+            "fd33944f5a4a13d6",
+            "a938a1e9db84c92b",
+            "231aa9f907781aba",
+            "bedbf4c6d94b3cd1",
+            "53586b04d86e67f6",
+            "59bc5ad90d1a5de1",
+            "72fc911dcb285653",
+            "3b0fd6ce4e0fe864",
+            "767ccad45e05b8a9",
+            "169e4acf4adcb6a3"
           ]
         },
         {
           "term": "library",
-          "df_trending": 36,
+          "df_trending": 40,
           "df_total": 48,
-          "lift": 3.01,
+          "lift": 3.34,
           "skill_ids": [
             "bc36dedb18798f73",
             "849472addcc99dea",
@@ -140,103 +172,44 @@
           ]
         },
         {
-          "term": "platform",
-          "df_trending": 20,
-          "df_total": 27,
-          "lift": 2.97,
+          "term": "datasets",
+          "df_trending": 25,
+          "df_total": 31,
+          "lift": 3.23,
           "skill_ids": [
-            "ad081c6bc3f8b97d",
-            "8fa11515d593ecc9",
-            "90b0d1c807abdd04",
-            "7b172599b129fcd8",
-            "9f12e3103674c70a",
-            "c2a6b13db75773c3",
-            "dc668b3339d59044",
-            "2938f575a0d094d7",
-            "0022aae7c8470d4b",
-            "9b864d96a65e7679",
-            "a2a6e7ac543a7c07",
-            "51038cb4c69115ce",
-            "74d97f3e6a505c97",
+            "bc36dedb18798f73",
+            "f6119de5380c1782",
+            "2711f1d7e41cb967",
+            "c3902c3fff8c841e",
+            "cf29475d0079ddca",
+            "c95a51413a0eda3b",
+            "1e6e2ba1631e1ae6",
+            "ec5d127429200b64",
+            "982bf092b8eed2f6",
+            "a7eb66809940276b",
+            "b6146ae50331e2c2",
+            "18dced3868f6e9f1",
+            "a2a079704d107351",
+            "af8aff44a9aecc91",
             "16ba2e1cfea093c5",
             "e781ba9e2295272a",
-            "8b5b592a365126d7",
-            "bf299d001a80a9a2",
-            "07f39560c59bec3d",
-            "a2e29697a4fe4670",
-            "08abfae46662e637"
-          ]
-        },
-        {
-          "term": "research",
-          "df_trending": 38,
-          "df_total": 52,
-          "lift": 2.93,
-          "skill_ids": [
-            "369dd42467de01fb",
-            "ba31db3bbc00862c",
-            "9562727c53f03a2a",
-            "849472addcc99dea",
-            "7357b5c3316f27d9",
-            "f6119de5380c1782",
-            "e1ec43ef328630e2",
-            "8529bd631a04abf0",
-            "4fd44cc09f48dd0b",
-            "52b0313f60927e7a",
-            "31e0e5cb7abdd603",
-            "f9f522dee6cd2844",
-            "8f4a50411f24843e",
-            "a2a079704d107351",
-            "f04e3f4df686e5c3",
-            "51038cb4c69115ce",
-            "5d8da05f1b841100",
-            "fd93404127e029a4",
-            "365e7d6c58754379",
-            "9a08cdaf276e2569",
-            "1bb960bdf1f175a5",
-            "f651620675c1a11e",
-            "7f944efd9285b8d2",
-            "59ce338e8cb22413",
-            "efd8a6278cf4d4a6",
-            "6b742d5dcddbc7d6",
-            "7d4d784b74a394fa",
-            "5df3043465fa1b3a",
-            "074bf0734acd7886",
-            "054bd18a6df5bed7"
-          ]
-        },
-        {
-          "term": "stable",
-          "df_trending": 17,
-          "df_total": 20,
-          "lift": 3.41,
-          "skill_ids": [
-            "7b4dc0669721664d",
-            "de895c64b96681e2",
-            "0022aae7c8470d4b",
-            "2711f1d7e41cb967",
-            "901d0843d8de37cb",
-            "cf29475d0079ddca",
-            "79d655598e9e83c8",
-            "89e93a0e7ec4ec19",
+            "718e2f2e174e5909",
+            "a5011c4a3f097885",
             "7be476ec6c7a71c1",
-            "41ada7609ac75917",
-            "462fc96996757dd2",
-            "f03766e21d019255",
-            "6d2734606c99a451",
-            "fd33944f5a4a13d6",
-            "8608c52be98c4994",
-            "231aa9f907781aba",
-            "bedbf4c6d94b3cd1"
+            "8f457a723628d007",
+            "a2e29697a4fe4670",
+            "53586b04d86e67f6",
+            "f7da3ddea8052981",
+            "3b0fd6ce4e0fe864",
+            "767ccad45e05b8a9"
           ]
         },
         {
           "term": "overview",
-          "df_trending": 119,
+          "df_trending": 128,
           "df_total": 165,
-          "lift": 2.89,
+          "lift": 3.11,
           "skill_ids": [
-            "690bdadeafb0f413",
             "de895c64b96681e2",
             "564fe92207e0895c",
             "48c7187c31d0e48f",
@@ -265,43 +238,42 @@
             "4536de880883e127",
             "1d6a91254eb1a5d1",
             "8362003494a890c2",
-            "53dc683f76d43c5f"
+            "53dc683f76d43c5f",
+            "c95a51413a0eda3b"
           ]
         },
         {
-          "term": "datasets",
-          "df_trending": 21,
-          "df_total": 32,
-          "lift": 2.63,
+          "term": "toolkit",
+          "df_trending": 19,
+          "df_total": 24,
+          "lift": 3.18,
           "skill_ids": [
-            "bc36dedb18798f73",
-            "f6119de5380c1782",
-            "2711f1d7e41cb967",
-            "c3902c3fff8c841e",
-            "cf29475d0079ddca",
-            "c95a51413a0eda3b",
-            "1e6e2ba1631e1ae6",
-            "ec5d127429200b64",
-            "982bf092b8eed2f6",
-            "a7eb66809940276b",
-            "b6146ae50331e2c2",
-            "18dced3868f6e9f1",
-            "a2a079704d107351",
-            "af8aff44a9aecc91",
-            "16ba2e1cfea093c5",
-            "e781ba9e2295272a",
-            "718e2f2e174e5909",
-            "a5011c4a3f097885",
+            "de895c64b96681e2",
+            "4aa1d75ff8f4eb09",
+            "b925893c82f0ffc8",
+            "f9f522dee6cd2844",
+            "8f4a50411f24843e",
+            "25b9fbe38088ae23",
+            "40f17711fba5d7fb",
+            "9a08cdaf276e2569",
+            "01c4f4d8bd3ecd3b",
+            "f414973d53960555",
+            "59ce338e8cb22413",
+            "a363274b93fc550e",
             "7be476ec6c7a71c1",
+            "d0d0b6992a1326c5",
             "8f457a723628d007",
-            "a2e29697a4fe4670"
+            "5df3043465fa1b3a",
+            "6d2734606c99a451",
+            "7db12d0cdd7d8359",
+            "298ede883da6137f"
           ]
         },
         {
           "term": "protein",
-          "df_trending": 14,
+          "df_trending": 15,
           "df_total": 15,
-          "lift": 3.74,
+          "lift": 4.01,
           "skill_ids": [
             "67aba0e41c8fb637",
             "bb36161e25057b31",
@@ -316,7 +288,298 @@
             "07f39560c59bec3d",
             "a2e29697a4fe4670",
             "08abfae46662e637",
-            "7db12d0cdd7d8359"
+            "7db12d0cdd7d8359",
+            "f7da3ddea8052981"
+          ]
+        },
+        {
+          "term": "machine learning",
+          "df_trending": 12,
+          "df_total": 12,
+          "lift": 4.01,
+          "skill_ids": [
+            "de895c64b96681e2",
+            "cf29475d0079ddca",
+            "c95a51413a0eda3b",
+            "37313440703feb02",
+            "25b9fbe38088ae23",
+            "ed93a20f3732e50c",
+            "a363274b93fc550e",
+            "68939b1b0e23f764",
+            "fd33944f5a4a13d6",
+            "d68bdc62eee408a8",
+            "f7da3ddea8052981",
+            "767ccad45e05b8a9"
+          ]
+        },
+        {
+          "term": "learning",
+          "df_trending": 25,
+          "df_total": 34,
+          "lift": 2.95,
+          "skill_ids": [
+            "de895c64b96681e2",
+            "cf29475d0079ddca",
+            "5cc17e103ae22638",
+            "38e07651110f2f59",
+            "c95a51413a0eda3b",
+            "37313440703feb02",
+            "25b9fbe38088ae23",
+            "982bf092b8eed2f6",
+            "ed93a20f3732e50c",
+            "a363274b93fc550e",
+            "68939b1b0e23f764",
+            "551adb1495024a10",
+            "7be476ec6c7a71c1",
+            "f03766e21d019255",
+            "6d2734606c99a451",
+            "fd33944f5a4a13d6",
+            "8608c52be98c4994",
+            "d68bdc62eee408a8",
+            "231aa9f907781aba",
+            "751d49b7d7e7aa5c",
+            "f7da3ddea8052981",
+            "72fc911dcb285653",
+            "767ccad45e05b8a9",
+            "71eb73d1f01912da",
+            "7a4ef8573988e5e7"
+          ]
+        },
+        {
+          "term": "research",
+          "df_trending": 38,
+          "df_total": 52,
+          "lift": 2.93,
+          "skill_ids": [
+            "849472addcc99dea",
+            "7357b5c3316f27d9",
+            "f6119de5380c1782",
+            "e1ec43ef328630e2",
+            "8529bd631a04abf0",
+            "4fd44cc09f48dd0b",
+            "52b0313f60927e7a",
+            "31e0e5cb7abdd603",
+            "f9f522dee6cd2844",
+            "8f4a50411f24843e",
+            "a2a079704d107351",
+            "f04e3f4df686e5c3",
+            "51038cb4c69115ce",
+            "5d8da05f1b841100",
+            "fd93404127e029a4",
+            "365e7d6c58754379",
+            "9a08cdaf276e2569",
+            "1bb960bdf1f175a5",
+            "f651620675c1a11e",
+            "7f944efd9285b8d2",
+            "59ce338e8cb22413",
+            "efd8a6278cf4d4a6",
+            "6b742d5dcddbc7d6",
+            "7d4d784b74a394fa",
+            "5df3043465fa1b3a",
+            "074bf0734acd7886",
+            "054bd18a6df5bed7",
+            "9b1aeaa5bab671b3",
+            "a7882cd9e39d8e5c",
+            "67841ac9f8efdde2"
+          ]
+        },
+        {
+          "term": "https",
+          "df_trending": 21,
+          "df_total": 29,
+          "lift": 2.9,
+          "skill_ids": [
+            "67aba0e41c8fb637",
+            "de895c64b96681e2",
+            "bc36dedb18798f73",
+            "7357b5c3316f27d9",
+            "0022aae7c8470d4b",
+            "31e0e5cb7abdd603",
+            "8f4a50411f24843e",
+            "a2a6e7ac543a7c07",
+            "982bf092b8eed2f6",
+            "a2a079704d107351",
+            "39281b5ebb6ee83c",
+            "ba15e62dc8ab45ea",
+            "01c4f4d8bd3ecd3b",
+            "7be476ec6c7a71c1",
+            "f03766e21d019255",
+            "6b742d5dcddbc7d6",
+            "054bd18a6df5bed7",
+            "231aa9f907781aba",
+            "53586b04d86e67f6",
+            "3b0fd6ce4e0fe864",
+            "988f5413ac40d669"
+          ]
+        },
+        {
+          "term": "computing",
+          "df_trending": 15,
+          "df_total": 16,
+          "lift": 3.76,
+          "skill_ids": [
+            "c461a4ea21e6420e",
+            "c3902c3fff8c841e",
+            "4536de880883e127",
+            "ec5d127429200b64",
+            "ac6ef899c14702a4",
+            "7b89df8eb359564f",
+            "79d655598e9e83c8",
+            "7a9e61a25db48468",
+            "68939b1b0e23f764",
+            "7be476ec6c7a71c1",
+            "dac1e6f870df917a",
+            "7d4d784b74a394fa",
+            "d68bdc62eee408a8",
+            "cfb9eb547dc86cff",
+            "988f5413ac40d669"
+          ]
+        },
+        {
+          "term": "machine",
+          "df_trending": 14,
+          "df_total": 14,
+          "lift": 4.01,
+          "skill_ids": [
+            "de895c64b96681e2",
+            "c3902c3fff8c841e",
+            "cf29475d0079ddca",
+            "c95a51413a0eda3b",
+            "37313440703feb02",
+            "25b9fbe38088ae23",
+            "ed93a20f3732e50c",
+            "a363274b93fc550e",
+            "68939b1b0e23f764",
+            "fd33944f5a4a13d6",
+            "d68bdc62eee408a8",
+            "f7da3ddea8052981",
+            "767ccad45e05b8a9",
+            "7b4dc0669721664d"
+          ]
+        },
+        {
+          "term": "requires python",
+          "df_trending": 11,
+          "df_total": 11,
+          "lift": 4.01,
+          "skill_ids": [
+            "c95fc6ec8af481d0",
+            "cf29475d0079ddca",
+            "79d655598e9e83c8",
+            "68939b1b0e23f764",
+            "41ada7609ac75917",
+            "6d2734606c99a451",
+            "fd33944f5a4a13d6",
+            "bedbf4c6d94b3cd1",
+            "53586b04d86e67f6",
+            "59bc5ad90d1a5de1",
+            "72fc911dcb285653"
+          ]
+        },
+        {
+          "term": "pip install",
+          "df_trending": 11,
+          "df_total": 11,
+          "lift": 4.01,
+          "skill_ids": [
+            "c95a51413a0eda3b",
+            "37313440703feb02",
+            "1e6e2ba1631e1ae6",
+            "b6146ae50331e2c2",
+            "68939b1b0e23f764",
+            "89e93a0e7ec4ec19",
+            "7d4d784b74a394fa",
+            "53586b04d86e67f6",
+            "59bc5ad90d1a5de1",
+            "3b0fd6ce4e0fe864",
+            "767ccad45e05b8a9"
+          ]
+        },
+        {
+          "term": "modeling",
+          "df_trending": 15,
+          "df_total": 17,
+          "lift": 3.54,
+          "skill_ids": [
+            "c461a4ea21e6420e",
+            "52b0313f60927e7a",
+            "38e07651110f2f59",
+            "37313440703feb02",
+            "a7eb66809940276b",
+            "ed93a20f3732e50c",
+            "7be476ec6c7a71c1",
+            "41ada7609ac75917",
+            "08abfae46662e637",
+            "298ede883da6137f",
+            "38761fbdcace11ae",
+            "8608c52be98c4994",
+            "c31020064ff23f43",
+            "8c79675d863e0f9e",
+            "f7da3ddea8052981"
+          ]
+        },
+        {
+          "term": "models",
+          "df_trending": 33,
+          "df_total": 50,
+          "lift": 2.65,
+          "skill_ids": [
+            "564fe92207e0895c",
+            "52b0313f60927e7a",
+            "cf29475d0079ddca",
+            "5cc17e103ae22638",
+            "38e07651110f2f59",
+            "e29754d771e1d3fe",
+            "c95a51413a0eda3b",
+            "ec5d127429200b64",
+            "25b9fbe38088ae23",
+            "a7eb66809940276b",
+            "b6146ae50331e2c2",
+            "af8aff44a9aecc91",
+            "2ebadaa90e9df7fe",
+            "16ba2e1cfea093c5",
+            "ba15e62dc8ab45ea",
+            "ed93a20f3732e50c",
+            "a363274b93fc550e",
+            "68939b1b0e23f764",
+            "7e9b795c8c3512f4",
+            "7be476ec6c7a71c1",
+            "41ada7609ac75917",
+            "6d2734606c99a451",
+            "298ede883da6137f",
+            "8608c52be98c4994",
+            "d68bdc62eee408a8",
+            "eb20f7b9a2dac04b",
+            "db5354cc450c091c",
+            "8c79675d863e0f9e",
+            "53586b04d86e67f6",
+            "f7da3ddea8052981"
+          ]
+        },
+        {
+          "term": "install",
+          "df_trending": 18,
+          "df_total": 25,
+          "lift": 2.89,
+          "skill_ids": [
+            "461ed63d4b2e76fc",
+            "7357b5c3316f27d9",
+            "c95a51413a0eda3b",
+            "37313440703feb02",
+            "1e6e2ba1631e1ae6",
+            "982bf092b8eed2f6",
+            "b6146ae50331e2c2",
+            "7b89df8eb359564f",
+            "68939b1b0e23f764",
+            "7e9b795c8c3512f4",
+            "89e93a0e7ec4ec19",
+            "7d4d784b74a394fa",
+            "bedbf4c6d94b3cd1",
+            "53586b04d86e67f6",
+            "59bc5ad90d1a5de1",
+            "3b0fd6ce4e0fe864",
+            "767ccad45e05b8a9",
+            "7b4dc0669721664d"
           ]
         },
         {
@@ -346,86 +609,10 @@
           ]
         },
         {
-          "term": "https",
-          "df_trending": 19,
-          "df_total": 29,
-          "lift": 2.63,
-          "skill_ids": [
-            "e222fda8726265fb",
-            "67aba0e41c8fb637",
-            "de895c64b96681e2",
-            "bc36dedb18798f73",
-            "7357b5c3316f27d9",
-            "0022aae7c8470d4b",
-            "31e0e5cb7abdd603",
-            "8f4a50411f24843e",
-            "a2a6e7ac543a7c07",
-            "982bf092b8eed2f6",
-            "a2a079704d107351",
-            "39281b5ebb6ee83c",
-            "ba15e62dc8ab45ea",
-            "01c4f4d8bd3ecd3b",
-            "7be476ec6c7a71c1",
-            "f03766e21d019255",
-            "6b742d5dcddbc7d6",
-            "054bd18a6df5bed7",
-            "231aa9f907781aba"
-          ]
-        },
-        {
-          "term": "learning",
-          "df_trending": 21,
-          "df_total": 34,
-          "lift": 2.48,
-          "skill_ids": [
-            "7a4ef8573988e5e7",
-            "de895c64b96681e2",
-            "cf29475d0079ddca",
-            "5cc17e103ae22638",
-            "38e07651110f2f59",
-            "c95a51413a0eda3b",
-            "37313440703feb02",
-            "25b9fbe38088ae23",
-            "982bf092b8eed2f6",
-            "ed93a20f3732e50c",
-            "a363274b93fc550e",
-            "68939b1b0e23f764",
-            "551adb1495024a10",
-            "7be476ec6c7a71c1",
-            "f03766e21d019255",
-            "6d2734606c99a451",
-            "fd33944f5a4a13d6",
-            "8608c52be98c4994",
-            "d68bdc62eee408a8",
-            "231aa9f907781aba",
-            "751d49b7d7e7aa5c"
-          ]
-        },
-        {
-          "term": "searching",
-          "df_trending": 12,
-          "df_total": 12,
-          "lift": 4.01,
-          "skill_ids": [
-            "ba31db3bbc00862c",
-            "643f355194b64551",
-            "e1ec43ef328630e2",
-            "9b864d96a65e7679",
-            "ac6ef899c14702a4",
-            "ed93a20f3732e50c",
-            "1bb960bdf1f175a5",
-            "f651620675c1a11e",
-            "59ce338e8cb22413",
-            "bf299d001a80a9a2",
-            "6b742d5dcddbc7d6",
-            "5df3043465fa1b3a"
-          ]
-        },
-        {
           "term": "python",
-          "df_trending": 76,
+          "df_trending": 82,
           "df_total": 128,
-          "lift": 2.38,
+          "lift": 2.57,
           "skill_ids": [
             "67aba0e41c8fb637",
             "de895c64b96681e2",
@@ -460,49 +647,11 @@
           ]
         },
         {
-          "term": "models",
-          "df_trending": 29,
-          "df_total": 50,
-          "lift": 2.33,
-          "skill_ids": [
-            "16df36161aeffd21",
-            "564fe92207e0895c",
-            "52b0313f60927e7a",
-            "cf29475d0079ddca",
-            "5cc17e103ae22638",
-            "38e07651110f2f59",
-            "e29754d771e1d3fe",
-            "c95a51413a0eda3b",
-            "ec5d127429200b64",
-            "25b9fbe38088ae23",
-            "a7eb66809940276b",
-            "b6146ae50331e2c2",
-            "af8aff44a9aecc91",
-            "2ebadaa90e9df7fe",
-            "16ba2e1cfea093c5",
-            "ba15e62dc8ab45ea",
-            "ed93a20f3732e50c",
-            "a363274b93fc550e",
-            "68939b1b0e23f764",
-            "7e9b795c8c3512f4",
-            "7be476ec6c7a71c1",
-            "41ada7609ac75917",
-            "6d2734606c99a451",
-            "298ede883da6137f",
-            "8608c52be98c4994",
-            "d68bdc62eee408a8",
-            "eb20f7b9a2dac04b",
-            "db5354cc450c091c",
-            "8c79675d863e0f9e"
-          ]
-        },
-        {
           "term": "analyzing",
-          "df_trending": 22,
+          "df_trending": 23,
           "df_total": 38,
-          "lift": 2.32,
+          "lift": 2.43,
           "skill_ids": [
-            "16df36161aeffd21",
             "bc36dedb18798f73",
             "2711f1d7e41cb967",
             "b925893c82f0ffc8",
@@ -523,36 +672,130 @@
             "6d2734606c99a451",
             "8608c52be98c4994",
             "d68bdc62eee408a8",
-            "db5354cc450c091c"
+            "db5354cc450c091c",
+            "767ccad45e05b8a9",
+            "16df36161aeffd21"
           ]
         },
         {
-          "term": "modeling",
-          "df_trending": 14,
-          "df_total": 17,
-          "lift": 3.3,
+          "term": "searching",
+          "df_trending": 12,
+          "df_total": 12,
+          "lift": 4.01,
           "skill_ids": [
-            "c461a4ea21e6420e",
-            "52b0313f60927e7a",
-            "38e07651110f2f59",
-            "37313440703feb02",
-            "a7eb66809940276b",
+            "643f355194b64551",
+            "e1ec43ef328630e2",
+            "9b864d96a65e7679",
+            "ac6ef899c14702a4",
             "ed93a20f3732e50c",
-            "7be476ec6c7a71c1",
-            "41ada7609ac75917",
+            "1bb960bdf1f175a5",
+            "f651620675c1a11e",
+            "59ce338e8cb22413",
+            "bf299d001a80a9a2",
+            "6b742d5dcddbc7d6",
+            "5df3043465fa1b3a",
+            "ba31db3bbc00862c"
+          ]
+        },
+        {
+          "term": "molecular",
+          "df_trending": 12,
+          "df_total": 12,
+          "lift": 4.01,
+          "skill_ids": [
+            "4aa1d75ff8f4eb09",
+            "901d0843d8de37cb",
+            "cf29475d0079ddca",
+            "5cc17e103ae22638",
+            "39281b5ebb6ee83c",
+            "ba15e62dc8ab45ea",
+            "ed93a20f3732e50c",
+            "718e2f2e174e5909",
+            "a2e29697a4fe4670",
+            "5df3043465fa1b3a",
             "08abfae46662e637",
-            "298ede883da6137f",
-            "38761fbdcace11ae",
-            "8608c52be98c4994",
-            "c31020064ff23f43",
-            "8c79675d863e0f9e"
+            "f7da3ddea8052981"
+          ]
+        },
+        {
+          "term": "drug",
+          "df_trending": 12,
+          "df_total": 12,
+          "lift": 4.01,
+          "skill_ids": [
+            "8529bd631a04abf0",
+            "901d0843d8de37cb",
+            "cf29475d0079ddca",
+            "d868a4b397fc1951",
+            "5cc17e103ae22638",
+            "a7eb66809940276b",
+            "39281b5ebb6ee83c",
+            "ba15e62dc8ab45ea",
+            "7be476ec6c7a71c1",
+            "a2e29697a4fe4670",
+            "5df3043465fa1b3a",
+            "f7da3ddea8052981"
+          ]
+        },
+        {
+          "term": "platform",
+          "df_trending": 18,
+          "df_total": 27,
+          "lift": 2.67,
+          "skill_ids": [
+            "0022aae7c8470d4b",
+            "9b864d96a65e7679",
+            "a2a6e7ac543a7c07",
+            "51038cb4c69115ce",
+            "74d97f3e6a505c97",
+            "16ba2e1cfea093c5",
+            "e781ba9e2295272a",
+            "8b5b592a365126d7",
+            "bf299d001a80a9a2",
+            "07f39560c59bec3d",
+            "a2e29697a4fe4670",
+            "08abfae46662e637",
+            "c59b6eaa94a901af",
+            "169e4acf4adcb6a3",
+            "ad081c6bc3f8b97d",
+            "8fa11515d593ecc9",
+            "90b0d1c807abdd04",
+            "7b172599b129fcd8"
+          ]
+        },
+        {
+          "term": "generation",
+          "df_trending": 20,
+          "df_total": 34,
+          "lift": 2.36,
+          "skill_ids": [
+            "3e1cbd112986f8e7",
+            "38e07651110f2f59",
+            "e29754d771e1d3fe",
+            "25b9fbe38088ae23",
+            "b6146ae50331e2c2",
+            "18dced3868f6e9f1",
+            "f04e3f4df686e5c3",
+            "365e7d6c58754379",
+            "f414973d53960555",
+            "890d21b7b20bcd8a",
+            "a2e29697a4fe4670",
+            "5df3043465fa1b3a",
+            "08abfae46662e637",
+            "971ac914322a3cbd",
+            "bedbf4c6d94b3cd1",
+            "f7da3ddea8052981",
+            "59bc5ad90d1a5de1",
+            "16df36161aeffd21",
+            "96df51aa9ce7be8c",
+            "b9b10ad68ef55bae"
           ]
         },
         {
           "term": "processing",
-          "df_trending": 23,
+          "df_trending": 24,
           "df_total": 41,
-          "lift": 2.25,
+          "lift": 2.35,
           "skill_ids": [
             "849472addcc99dea",
             "4aa1d75ff8f4eb09",
@@ -576,7 +819,79 @@
             "89e93a0e7ec4ec19",
             "a5011c4a3f097885",
             "8f457a723628d007",
-            "7d4d784b74a394fa"
+            "7d4d784b74a394fa",
+            "767ccad45e05b8a9"
+          ]
+        },
+        {
+          "term": "workflows",
+          "df_trending": 37,
+          "df_total": 64,
+          "lift": 2.32,
+          "skill_ids": [
+            "564fe92207e0895c",
+            "849472addcc99dea",
+            "7357b5c3316f27d9",
+            "0022aae7c8470d4b",
+            "c95fc6ec8af481d0",
+            "c3902c3fff8c841e",
+            "cf29475d0079ddca",
+            "9b864d96a65e7679",
+            "38e07651110f2f59",
+            "37313440703feb02",
+            "43eed9900c6bff30",
+            "a2a6e7ac543a7c07",
+            "51038cb4c69115ce",
+            "74d97f3e6a505c97",
+            "ac6ef899c14702a4",
+            "9ea1b5a6b560b683",
+            "b161d627a60e831d",
+            "e781ba9e2295272a",
+            "8b5b592a365126d7",
+            "f414973d53960555",
+            "a363274b93fc550e",
+            "bf299d001a80a9a2",
+            "8c59687b76463a4d",
+            "a5011c4a3f097885",
+            "fadf190668260bd4",
+            "07f39560c59bec3d",
+            "f03766e21d019255",
+            "6b742d5dcddbc7d6",
+            "5df3043465fa1b3a",
+            "08abfae46662e637"
+          ]
+        },
+        {
+          "term": "search",
+          "df_trending": 25,
+          "df_total": 44,
+          "lift": 2.28,
+          "skill_ids": [
+            "de895c64b96681e2",
+            "48c7187c31d0e48f",
+            "643f355194b64551",
+            "e1ec43ef328630e2",
+            "bb36161e25057b31",
+            "8f4a50411f24843e",
+            "a7eb66809940276b",
+            "f04e3f4df686e5c3",
+            "af8aff44a9aecc91",
+            "fd93404127e029a4",
+            "1bb960bdf1f175a5",
+            "7a9e61a25db48468",
+            "f651620675c1a11e",
+            "59ce338e8cb22413",
+            "7e9b795c8c3512f4",
+            "cbd73e55d82c375d",
+            "bf299d001a80a9a2",
+            "5df3043465fa1b3a",
+            "054bd18a6df5bed7",
+            "9b1aeaa5bab671b3",
+            "5b44f89633a70d44",
+            "3b0fd6ce4e0fe864",
+            "7354a4708c33f567",
+            "169e4acf4adcb6a3",
+            "90b0d1c807abdd04"
           ]
         },
         {
@@ -604,23 +919,28 @@
           ]
         },
         {
-          "term": "says",
-          "df_trending": 12,
-          "df_total": 13,
-          "lift": 3.7,
+          "term": "standard",
+          "df_trending": 17,
+          "df_total": 26,
+          "lift": 2.62,
           "skill_ids": [
-            "92793cc88e87dea3",
-            "c2f2c32cae6a1b49",
-            "ad081c6bc3f8b97d",
-            "15e1d11aa05c7f95",
-            "d757be6ad7a41169",
-            "ba31db3bbc00862c",
-            "236dabea61f987be",
-            "bb308285ec3030ed",
-            "7b4dc0669721664d",
-            "9562727c53f03a2a",
-            "b2495323afb4cd82",
-            "d9ed288d50dee258"
+            "de895c64b96681e2",
+            "f6119de5380c1782",
+            "901d0843d8de37cb",
+            "8362003494a890c2",
+            "3a22e7ff260eca9b",
+            "98971f616f27021d",
+            "718e2f2e174e5909",
+            "efd8a6278cf4d4a6",
+            "551adb1495024a10",
+            "a5011c4a3f097885",
+            "5df3043465fa1b3a",
+            "6d2734606c99a451",
+            "8608c52be98c4994",
+            "c31020064ff23f43",
+            "231aa9f907781aba",
+            "53586b04d86e67f6",
+            "7c4446e0a5b74450"
           ]
         },
         {
@@ -644,6 +964,26 @@
           ]
         },
         {
+          "term": "academic",
+          "df_trending": 12,
+          "df_total": 13,
+          "lift": 3.7,
+          "skill_ids": [
+            "e1ec43ef328630e2",
+            "8f4a50411f24843e",
+            "5d8da05f1b841100",
+            "fd93404127e029a4",
+            "f651620675c1a11e",
+            "59ce338e8cb22413",
+            "efd8a6278cf4d4a6",
+            "9b1aeaa5bab671b3",
+            "a7882cd9e39d8e5c",
+            "c5323bc67c0badb0",
+            "eb20f7b9a2dac04b",
+            "77ff20613720afb6"
+          ]
+        },
+        {
           "term": "expression",
           "df_trending": 11,
           "df_total": 11,
@@ -663,132 +1003,73 @@
           ]
         },
         {
-          "term": "workflows",
-          "df_trending": 35,
-          "df_total": 64,
-          "lift": 2.19,
+          "term": "biological",
+          "df_trending": 11,
+          "df_total": 11,
+          "lift": 4.01,
           "skill_ids": [
-            "92793cc88e87dea3",
-            "8ce7c0b06cda58c1",
-            "ba31db3bbc00862c",
-            "564fe92207e0895c",
-            "849472addcc99dea",
-            "7357b5c3316f27d9",
-            "0022aae7c8470d4b",
+            "4aa1d75ff8f4eb09",
             "c95fc6ec8af481d0",
-            "c3902c3fff8c841e",
-            "cf29475d0079ddca",
-            "9b864d96a65e7679",
-            "38e07651110f2f59",
+            "f9f522dee6cd2844",
+            "af8aff44a9aecc91",
+            "79d655598e9e83c8",
+            "98971f616f27021d",
+            "718e2f2e174e5909",
+            "cbd73e55d82c375d",
+            "971ac914322a3cbd",
+            "7db12d0cdd7d8359",
+            "f7da3ddea8052981"
+          ]
+        },
+        {
+          "term": "visualization",
+          "df_trending": 15,
+          "df_total": 21,
+          "lift": 2.86,
+          "skill_ids": [
+            "de895c64b96681e2",
+            "b925893c82f0ffc8",
+            "f9f522dee6cd2844",
             "37313440703feb02",
-            "43eed9900c6bff30",
-            "a2a6e7ac543a7c07",
-            "51038cb4c69115ce",
+            "3a22e7ff260eca9b",
+            "7b89df8eb359564f",
+            "9ea1b5a6b560b683",
+            "718e2f2e174e5909",
+            "8c59687b76463a4d",
+            "5df3043465fa1b3a",
+            "6d2734606c99a451",
+            "cc91c6d51a8994e0",
+            "a938a1e9db84c92b",
+            "72fc911dcb285653",
+            "767ccad45e05b8a9"
+          ]
+        },
+        {
+          "term": "pipelines",
+          "df_trending": 20,
+          "df_total": 38,
+          "lift": 2.11,
+          "skill_ids": [
+            "4aa1d75ff8f4eb09",
+            "8362003494a890c2",
+            "982bf092b8eed2f6",
             "74d97f3e6a505c97",
             "ac6ef899c14702a4",
-            "9ea1b5a6b560b683",
             "b161d627a60e831d",
-            "e781ba9e2295272a",
-            "8b5b592a365126d7",
-            "f414973d53960555",
-            "a363274b93fc550e",
-            "bf299d001a80a9a2",
-            "8c59687b76463a4d",
-            "a5011c4a3f097885",
-            "fadf190668260bd4",
-            "07f39560c59bec3d",
-            "f03766e21d019255"
-          ]
-        },
-        {
-          "term": "search",
-          "df_trending": 24,
-          "df_total": 44,
-          "lift": 2.19,
-          "skill_ids": [
-            "90b0d1c807abdd04",
-            "113eed07ebd050f5",
-            "9562727c53f03a2a",
-            "de895c64b96681e2",
-            "48c7187c31d0e48f",
-            "643f355194b64551",
-            "e1ec43ef328630e2",
-            "bb36161e25057b31",
-            "8f4a50411f24843e",
-            "a7eb66809940276b",
-            "f04e3f4df686e5c3",
-            "af8aff44a9aecc91",
-            "fd93404127e029a4",
-            "1bb960bdf1f175a5",
             "7a9e61a25db48468",
-            "f651620675c1a11e",
-            "59ce338e8cb22413",
-            "7e9b795c8c3512f4",
-            "cbd73e55d82c375d",
-            "bf299d001a80a9a2",
-            "5df3043465fa1b3a",
-            "054bd18a6df5bed7",
-            "9b1aeaa5bab671b3",
-            "5b44f89633a70d44"
-          ]
-        },
-        {
-          "term": "computing",
-          "df_trending": 13,
-          "df_total": 16,
-          "lift": 3.26,
-          "skill_ids": [
-            "c461a4ea21e6420e",
-            "c3902c3fff8c841e",
-            "4536de880883e127",
-            "ec5d127429200b64",
-            "ac6ef899c14702a4",
-            "7b89df8eb359564f",
-            "79d655598e9e83c8",
-            "7a9e61a25db48468",
-            "68939b1b0e23f764",
             "7be476ec6c7a71c1",
-            "dac1e6f870df917a",
-            "7d4d784b74a394fa",
-            "d68bdc62eee408a8"
-          ]
-        },
-        {
-          "term": "machine learning",
-          "df_trending": 10,
-          "df_total": 12,
-          "lift": 3.34,
-          "skill_ids": [
-            "de895c64b96681e2",
-            "cf29475d0079ddca",
-            "c95a51413a0eda3b",
-            "37313440703feb02",
-            "25b9fbe38088ae23",
-            "ed93a20f3732e50c",
-            "a363274b93fc550e",
-            "68939b1b0e23f764",
+            "07f39560c59bec3d",
+            "8f457a723628d007",
+            "f03766e21d019255",
+            "08abfae46662e637",
             "fd33944f5a4a13d6",
-            "d68bdc62eee408a8"
-          ]
-        },
-        {
-          "term": "machine",
-          "df_trending": 12,
-          "df_total": 14,
-          "lift": 3.44,
-          "skill_ids": [
-            "7b4dc0669721664d",
-            "de895c64b96681e2",
-            "c3902c3fff8c841e",
-            "cf29475d0079ddca",
-            "c95a51413a0eda3b",
-            "37313440703feb02",
-            "25b9fbe38088ae23",
-            "ed93a20f3732e50c",
-            "a363274b93fc550e",
-            "68939b1b0e23f764",
-            "fd33944f5a4a13d6",
-            "d68bdc62eee408a8"
+            "8608c52be98c4994",
+            "59bc5ad90d1a5de1",
+            "767ccad45e05b8a9",
+            "3a78e97e28c0b5d3",
+            "988f5413ac40d669",
+            "c59b6eaa94a901af",
+            "169e4acf4adcb6a3"
           ]
         },
         {
@@ -810,222 +1091,6 @@
             "fd33944f5a4a13d6",
             "231aa9f907781aba"
           ]
-        },
-        {
-          "term": "whenever",
-          "df_trending": 15,
-          "df_total": 22,
-          "lift": 2.73,
-          "skill_ids": [
-            "b2495323afb4cd82",
-            "67aba0e41c8fb637",
-            "48c7187c31d0e48f",
-            "ae6ed386eee0439c",
-            "d9ed288d50dee258",
-            "3e1cbd112986f8e7",
-            "4536de880883e127",
-            "b161d627a60e831d",
-            "7a9e61a25db48468",
-            "59ce338e8cb22413",
-            "98971f616f27021d",
-            "032742a16b779d89",
-            "058d2a6a9a35ae2d",
-            "7be476ec6c7a71c1",
-            "db5354cc450c091c"
-          ]
-        },
-        {
-          "term": "python package",
-          "df_trending": 9,
-          "df_total": 10,
-          "lift": 3.61,
-          "skill_ids": [
-            "564fe92207e0895c",
-            "849472addcc99dea",
-            "c95fc6ec8af481d0",
-            "c95a51413a0eda3b",
-            "43eed9900c6bff30",
-            "a2a079704d107351",
-            "79d655598e9e83c8",
-            "a5011c4a3f097885",
-            "38761fbdcace11ae"
-          ]
-        },
-        {
-          "term": "molecular",
-          "df_trending": 11,
-          "df_total": 12,
-          "lift": 3.68,
-          "skill_ids": [
-            "4aa1d75ff8f4eb09",
-            "901d0843d8de37cb",
-            "cf29475d0079ddca",
-            "5cc17e103ae22638",
-            "39281b5ebb6ee83c",
-            "ba15e62dc8ab45ea",
-            "ed93a20f3732e50c",
-            "718e2f2e174e5909",
-            "a2e29697a4fe4670",
-            "5df3043465fa1b3a",
-            "08abfae46662e637"
-          ]
-        },
-        {
-          "term": "drug",
-          "df_trending": 11,
-          "df_total": 12,
-          "lift": 3.68,
-          "skill_ids": [
-            "8529bd631a04abf0",
-            "901d0843d8de37cb",
-            "cf29475d0079ddca",
-            "d868a4b397fc1951",
-            "5cc17e103ae22638",
-            "a7eb66809940276b",
-            "39281b5ebb6ee83c",
-            "ba15e62dc8ab45ea",
-            "7be476ec6c7a71c1",
-            "a2e29697a4fe4670",
-            "5df3043465fa1b3a"
-          ]
-        },
-        {
-          "term": "compound",
-          "df_trending": 10,
-          "df_total": 10,
-          "lift": 4.01,
-          "skill_ids": [
-            "92793cc88e87dea3",
-            "7a4ef8573988e5e7",
-            "369dd42467de01fb",
-            "7b172599b129fcd8",
-            "9f12e3103674c70a",
-            "b2495323afb4cd82",
-            "bb36161e25057b31",
-            "d868a4b397fc1951",
-            "ac6ef899c14702a4",
-            "39281b5ebb6ee83c"
-          ]
-        },
-        {
-          "term": "note target",
-          "df_trending": 8,
-          "df_total": 8,
-          "lift": 4.01,
-          "skill_ids": [
-            "de895c64b96681e2",
-            "0022aae7c8470d4b",
-            "c95fc6ec8af481d0",
-            "52b0313f60927e7a",
-            "901d0843d8de37cb",
-            "cf29475d0079ddca",
-            "4e1f9d15eb58856d",
-            "39281b5ebb6ee83c"
-          ]
-        },
-        {
-          "term": "version note",
-          "df_trending": 8,
-          "df_total": 8,
-          "lift": 4.01,
-          "skill_ids": [
-            "de895c64b96681e2",
-            "0022aae7c8470d4b",
-            "c95fc6ec8af481d0",
-            "52b0313f60927e7a",
-            "901d0843d8de37cb",
-            "cf29475d0079ddca",
-            "4e1f9d15eb58856d",
-            "39281b5ebb6ee83c"
-          ]
-        },
-        {
-          "term": "comprehensive python",
-          "df_trending": 8,
-          "df_total": 8,
-          "lift": 4.01,
-          "skill_ids": [
-            "cf29475d0079ddca",
-            "ed93a20f3732e50c",
-            "9a08cdaf276e2569",
-            "a363274b93fc550e",
-            "d0d0b6992a1326c5",
-            "462fc96996757dd2",
-            "7db12d0cdd7d8359",
-            "8608c52be98c4994"
-          ]
-        },
-        {
-          "term": "deep learning",
-          "df_trending": 8,
-          "df_total": 8,
-          "lift": 4.01,
-          "skill_ids": [
-            "5cc17e103ae22638",
-            "982bf092b8eed2f6",
-            "ed93a20f3732e50c",
-            "a363274b93fc550e",
-            "7be476ec6c7a71c1",
-            "f03766e21d019255",
-            "6d2734606c99a451",
-            "d68bdc62eee408a8"
-          ]
-        },
-        {
-          "term": "covers",
-          "df_trending": 17,
-          "df_total": 29,
-          "lift": 2.35,
-          "skill_ids": [
-            "7a7d1a5e2597afc5",
-            "ae6ed386eee0439c",
-            "4fd44cc09f48dd0b",
-            "bb36161e25057b31",
-            "8f4a50411f24843e",
-            "1d6a91254eb1a5d1",
-            "a2a6e7ac543a7c07",
-            "af8aff44a9aecc91",
-            "ba15e62dc8ab45ea",
-            "01c4f4d8bd3ecd3b",
-            "7a9e61a25db48468",
-            "f651620675c1a11e",
-            "59ce338e8cb22413",
-            "98971f616f27021d",
-            "032742a16b779d89",
-            "718e2f2e174e5909",
-            "db5354cc450c091c"
-          ]
-        },
-        {
-          "term": "integration",
-          "df_trending": 23,
-          "df_total": 47,
-          "lift": 1.96,
-          "skill_ids": [
-            "c2a6b13db75773c3",
-            "0022aae7c8470d4b",
-            "4aa1d75ff8f4eb09",
-            "8529bd631a04abf0",
-            "c3902c3fff8c841e",
-            "9b864d96a65e7679",
-            "1e6e2ba1631e1ae6",
-            "b6146ae50331e2c2",
-            "51038cb4c69115ce",
-            "74d97f3e6a505c97",
-            "5d8da05f1b841100",
-            "365e7d6c58754379",
-            "9a08cdaf276e2569",
-            "e781ba9e2295272a",
-            "8b5b592a365126d7",
-            "68939b1b0e23f764",
-            "efd8a6278cf4d4a6",
-            "bf299d001a80a9a2",
-            "551adb1495024a10",
-            "8c59687b76463a4d",
-            "d0d0b6992a1326c5",
-            "8608c52be98c4994",
-            "a938a1e9db84c92b"
-          ]
         }
       ],
       "top_skills": [
@@ -1034,55 +1099,10 @@
           "name": "ce-agent-native-audit",
           "description": "Run comprehensive agent-native architecture review with scored principles",
           "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 1.0,
+          "composite": 0.999,
           "categories": [
             "security",
             "design"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "53b32bc2e0c89ff0",
-          "name": "ce-work",
-          "description": "Execute work efficiently while maintaining quality and finishing features",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 1.0,
-          "categories": [
-            "development"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "c2f2c32cae6a1b49",
-          "name": "ce-clean-gone-branches",
-          "description": "Clean up local branches whose remote tracking branch is gone. Use when the user says \"clean up branches\", \"delete gone branches\", \"prune local branches\", \"clean gone\", or wants to ",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.992,
-          "categories": [
-            "development"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "bb308285ec3030ed",
-          "name": "ce-promote",
-          "description": "Draft user-facing announcement and marketing copy for a feature that just shipped — an X post or thread, a changelog blurb, a LinkedIn post, an email, a blog intro, or a short demo",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.992,
-          "categories": [
-            "docs",
-            "design"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "9f12e3103674c70a",
-          "name": "ce-setup",
-          "description": "Diagnose and configure compound-engineering environment. Checks CLI dependencies, plugin version, and repo-local config. Offers guided installation for missing tools. Use when trou",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.992,
-          "categories": [
-            "uncategorized"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -1110,25 +1130,25 @@
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "369dd42467de01fb",
-          "name": "ce-compound",
-          "description": "Document a recently solved problem to compound your team's knowledge or CONCEPTS.md, the project's shared domain vocabulary.",
+          "id": "c2f2c32cae6a1b49",
+          "name": "ce-clean-gone-branches",
+          "description": "Clean up local branches whose remote tracking branch is gone. Use when the user says \"clean up branches\", \"delete gone branches\", \"prune local branches\", \"clean gone\", or wants to ",
           "source": "github:EveryInc/compound-engineering-plugin@main",
           "composite": 0.991,
           "categories": [
-            "docs",
-            "search"
+            "development"
           ],
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "fe0e03b27cd253a5",
-          "name": "ce-work-beta",
-          "description": "[BETA] Execute work with external delegate support. Same as ce-work but includes experimental Codex delegation mode for token-conserving code implementation.",
+          "id": "bb308285ec3030ed",
+          "name": "ce-promote",
+          "description": "Draft user-facing announcement and marketing copy for a feature that just shipped — an X post or thread, a changelog blurb, a LinkedIn post, an email, a blog intro, or a short demo",
           "source": "github:EveryInc/compound-engineering-plugin@main",
           "composite": 0.991,
           "categories": [
-            "uncategorized"
+            "docs",
+            "design"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -1145,48 +1165,26 @@
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "7890adc125c4a405",
-          "name": "ce-dogfood-beta",
-          "description": "[BETA] Dogfood the active branch end-to-end as a QA engineer. Diffs the branch against main, builds an exhaustive browser test matrix of every change (full user journeys, not just ",
+          "id": "369dd42467de01fb",
+          "name": "ce-compound",
+          "description": "Document a recently solved problem to compound your team's knowledge or CONCEPTS.md, the project's shared domain vocabulary.",
           "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.988,
+          "composite": 0.99,
           "categories": [
-            "testing",
-            "development"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "96df51aa9ce7be8c",
-          "name": "ce-gemini-imagegen",
-          "description": "This skill should be used when generating and editing images using the Gemini API (Nano Banana Pro). It applies when creating images from text prompts, editing existing images, app",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.986,
-          "categories": [
-            "development"
-          ],
-          "awesome_class": "Agent Skills"
-        },
-        {
-          "id": "c2a6b13db75773c3",
-          "name": "ce-test-browser",
-          "description": "Run browser tests on pages affected by current PR or branch",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.986,
-          "categories": [
-            "testing",
+            "docs",
             "search"
           ],
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "dc668b3339d59044",
-          "name": "ce-test-xcode",
-          "description": "Build and test iOS apps on simulator using XcodeBuildMCP. Use after making iOS code changes, before creating a PR, or when verifying app behavior and checking for crashes on simula",
+          "id": "7890adc125c4a405",
+          "name": "ce-dogfood-beta",
+          "description": "[BETA] Dogfood the active branch end-to-end as a QA engineer. Diffs the branch against main, builds an exhaustive browser test matrix of every change (full user journeys, not just ",
           "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.986,
+          "composite": 0.987,
           "categories": [
-            "design"
+            "testing",
+            "development"
           ],
           "awesome_class": "Agent Skills"
         },
@@ -1298,26 +1296,95 @@
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "2938f575a0d094d7",
-          "name": "lfg",
-          "description": "Run the full autonomous engineering pipeline end-to-end (plan, work, code review, test, commit, push, open PR, watch CI, fix CI failures until green). Use only when the user explic",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.984,
+          "id": "3b0fd6ce4e0fe864",
+          "name": "usfiscaldata",
+          "description": "Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.986,
           "categories": [
-            "testing",
-            "review"
+            "development",
+            "data"
           ],
           "awesome_class": "Agent Skills"
         },
         {
-          "id": "92793cc88e87dea3",
-          "name": "ce-brainstorm",
-          "description": "Explore requirements and approaches through collaborative dialogue, then write a right-sized requirements document. Use when the user says \"let's brainstorm\", \"what should we build",
-          "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.981,
+          "id": "988f5413ac40d669",
+          "name": "zarr-python",
+          "description": "Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelin",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.986,
           "categories": [
-            "design",
             "development"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "96df51aa9ce7be8c",
+          "name": "ce-gemini-imagegen",
+          "description": "This skill should be used when generating and editing images using the Gemini API (Nano Banana Pro). It applies when creating images from text prompts, editing existing images, app",
+          "source": "github:EveryInc/compound-engineering-plugin@main",
+          "composite": 0.985,
+          "categories": [
+            "development"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "d9ed288d50dee258",
+          "name": "consciousness-council",
+          "description": "Run a multi-perspective Mind Council deliberation on any question, decision, or creative challenge. Use this skill whenever the user wants diverse viewpoints, needs help making a t",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.98,
+          "categories": [
+            "search"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "38e07651110f2f59",
+          "name": "esm",
+          "description": "Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.98,
+          "categories": [
+            "development",
+            "design"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "53dc683f76d43c5f",
+          "name": "fluidsim",
+          "description": "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations,",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.98,
+          "categories": [
+            "development",
+            "devops"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "25b9fbe38088ae23",
+          "name": "gtars",
+          "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenizat",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.98,
+          "categories": [
+            "development",
+            "docs"
+          ],
+          "awesome_class": "Agent Skills"
+        },
+        {
+          "id": "efd8a6278cf4d4a6",
+          "name": "pptx-posters",
+          "description": "Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY when the user explicitly requests PowerPoint/PPTX poster format. For standard resear",
+          "source": "github:K-Dense-AI/claude-scientific-skills@main",
+          "composite": 0.98,
+          "categories": [
+            "search",
+            "design"
           ],
           "awesome_class": "Agent Skills"
         }
@@ -1325,7 +1392,7 @@
     },
     "newcomer": {
       "label": "New entrants",
-      "criterion": "top 187 by most-recent first_seen (≤ 15d ago)",
+      "criterion": "top 187 by most-recent first_seen (≤ 16d ago)",
       "count": 187,
       "keywords": [
         {
@@ -2391,35 +2458,35 @@
           ]
         },
         {
-          "term": "scripts cli",
-          "df_trending": 6,
-          "df_total": 6,
-          "lift": 4.01,
-          "skill_ids": [
-            "7c416268ba517ee4",
-            "a969a9a677485155",
-            "2ed0d398f9c3dbf1",
-            "4e6d5774e7a999a6",
-            "2224b0b6dabfe80d",
-            "89628cd50390fbf4"
-          ]
-        },
-        {
-          "term": "mcp use_mcp_tool",
-          "df_trending": 6,
-          "df_total": 6,
-          "lift": 4.01,
-          "skill_ids": [
-            "7c416268ba517ee4",
-            "a969a9a677485155",
-            "2ed0d398f9c3dbf1",
-            "4e6d5774e7a999a6",
-            "2224b0b6dabfe80d",
-            "89628cd50390fbf4"
-          ]
-        },
-        {
           "term": "cli xiaohongshu-mcp",
+          "df_trending": 6,
+          "df_total": 6,
+          "lift": 4.01,
+          "skill_ids": [
+            "7c416268ba517ee4",
+            "a969a9a677485155",
+            "2ed0d398f9c3dbf1",
+            "4e6d5774e7a999a6",
+            "2224b0b6dabfe80d",
+            "89628cd50390fbf4"
+          ]
+        },
+        {
+          "term": "xiaohongshu-mcp mcp",
+          "df_trending": 6,
+          "df_total": 6,
+          "lift": 4.01,
+          "skill_ids": [
+            "7c416268ba517ee4",
+            "a969a9a677485155",
+            "2ed0d398f9c3dbf1",
+            "4e6d5774e7a999a6",
+            "2224b0b6dabfe80d",
+            "89628cd50390fbf4"
+          ]
+        },
+        {
+          "term": "scripts cli",
           "df_trending": 6,
           "df_total": 6,
           "lift": 4.01,
@@ -2439,7 +2506,7 @@
           "name": "ce-promote",
           "description": "Draft user-facing announcement and marketing copy for a feature that just shipped — an X post or thread, a changelog blurb, a LinkedIn post, an email, a blog intro, or a short demo",
           "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.992,
+          "composite": 0.991,
           "categories": [
             "docs",
             "design"
@@ -2487,7 +2554,7 @@
           "name": "ce-polish",
           "description": "Start the dev server, open the feature in a browser, and iterate on improvements together. Manual invocation only — type /ce-polish to run it.",
           "source": "github:EveryInc/compound-engineering-plugin@main",
-          "composite": 0.95,
+          "composite": 0.949,
           "categories": [
             "docs"
           ],
