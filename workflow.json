@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:21:56.490455+00:00",
+  "generated_at": "2026-06-15T17:34:00.617246+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -33,19 +33,6 @@
                   "skill_name": "ce-brainstorm",
                   "skill_dir": "plugins/compound-engineering/skills/ce-brainstorm",
                   "composite": 0.981
-                },
-                {
-                  "concept": "Scaffold + opinionated setup",
-                  "why": "Gets the boring initial work right: .gitignore, CI stub, README skeleton, project conventions. Turns 'set up day' into 'set up hour'.",
-                  "example_id": "9f12e3103674c70a",
-                  "example_label": "ce-setup",
-                  "source_repo": "EveryInc/compound-engineering-plugin",
-                  "source_ref": "main",
-                  "source_path": "plugins/compound-engineering/skills/ce-setup/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-setup/SKILL.md",
-                  "skill_name": "ce-setup",
-                  "skill_dir": "plugins/compound-engineering/skills/ce-setup",
-                  "composite": 0.992
                 },
                 {
                   "concept": "Codebase audit (when joining an existing project)",
@@ -101,21 +88,8 @@
               "summary": "Small loops, deterministic outputs, frequent checkpoints. Trust the spec from the plan phase.",
               "picks": [
                 {
-                  "concept": "Compound work cycle",
-                  "why": "Splits big tasks across many subagents working in parallel. Keeps individual changes small and reviewable instead of one mega-diff.",
-                  "example_id": "53b32bc2e0c89ff0",
-                  "example_label": "ce-work",
-                  "source_repo": "EveryInc/compound-engineering-plugin",
-                  "source_ref": "main",
-                  "source_path": "plugins/compound-engineering/skills/ce-work/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-work/SKILL.md",
-                  "skill_name": "ce-work",
-                  "skill_dir": "plugins/compound-engineering/skills/ce-work",
-                  "composite": 1.0
-                },
-                {
                   "concept": "Execution-phase playbook",
-                  "why": "Translates the plan into concrete, ordered steps with verification between each. The discipline pays off in late-stage debugging.",
+                  "why": "Translates the plan into concrete, ordered steps: worktree isolation, TDD scaffolding, level-based parallel agents, quality-gate smoke tests, PR creation through merge. Subsumes the lighter 'compound work cycle' pattern by adding explicit checkpoints between phases.",
                   "example_id": "ff2302c9929565bd",
                   "example_label": "plan-pipeline-execute",
                   "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",

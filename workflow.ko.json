@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:21:56.589944+00:00",
+  "generated_at": "2026-06-15T17:34:00.716500+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -33,19 +33,6 @@
                   "skill_name": "ce-brainstorm",
                   "skill_dir": "plugins/compound-engineering/skills/ce-brainstorm",
                   "composite": 0.981
-                },
-                {
-                  "concept": "스캐폴드 + 의견 있는 셋업",
-                  "why": ".gitignore, CI 스텁, README 골격, 프로젝트 컨벤션 등 지루한 초기 작업을 한 번에. 'set up day'를 'set up hour'로.",
-                  "example_id": "9f12e3103674c70a",
-                  "example_label": "ce-setup",
-                  "source_repo": "EveryInc/compound-engineering-plugin",
-                  "source_ref": "main",
-                  "source_path": "plugins/compound-engineering/skills/ce-setup/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-setup/SKILL.md",
-                  "skill_name": "ce-setup",
-                  "skill_dir": "plugins/compound-engineering/skills/ce-setup",
-                  "composite": 0.992
                 },
                 {
                   "concept": "코드베이스 진단 (기존 프로젝트에 합류할 때)",
@@ -101,21 +88,8 @@
               "summary": "작은 루프, 결정론적 출력, 잦은 체크포인트. 설계 단계의 스펙을 믿고 갑니다.",
               "picks": [
                 {
-                  "concept": "Compound 작업 사이클",
-                  "why": "큰 작업을 수십~수백 서브에이전트로 쪼개 병렬 처리. 한 번에 거대한 diff 대신 작고 리뷰 가능한 변경으로 유지.",
-                  "example_id": "53b32bc2e0c89ff0",
-                  "example_label": "ce-work",
-                  "source_repo": "EveryInc/compound-engineering-plugin",
-                  "source_ref": "main",
-                  "source_path": "plugins/compound-engineering/skills/ce-work/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-work/SKILL.md",
-                  "skill_name": "ce-work",
-                  "skill_dir": "plugins/compound-engineering/skills/ce-work",
-                  "composite": 1.0
-                },
-                {
                   "concept": "실행 단계 플레이북",
-                  "why": "계획을 구체적인 순서 있는 단계로 옮기고, 각 단계 사이에 검증을 끼웁니다. 후반 디버깅에서 효과가 나옵니다.",
+                  "why": "계획을 구체적·순서 있는 단계로 옮깁니다: worktree 격리, TDD 스캐폴드, 레벨별 병렬 에이전트, 품질 게이트 스모크 테스트, PR 생성에서 머지까지. 가벼운 'compound 작업 사이클' 패턴을 명시적 체크포인트로 흡수합니다.",
                   "example_id": "ff2302c9929565bd",
                   "example_label": "plan-pipeline-execute",
                   "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
