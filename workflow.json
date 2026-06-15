@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:03:33.882233+00:00",
+  "generated_at": "2026-06-15T17:13:52.621045+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -25,19 +25,37 @@
                   "concept": "Structured brainstorming",
                   "why": "Forces you to articulate constraints, non-goals, and 'when NOT to use it' before any code. Saves hours of mid-implementation pivots.",
                   "example_id": "92793cc88e87dea3",
-                  "example_label": "ce-brainstorm"
+                  "example_label": "ce-brainstorm",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-brainstorm/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-brainstorm/SKILL.md",
+                  "skill_name": "ce-brainstorm",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-brainstorm"
                 },
                 {
                   "concept": "Scaffold + opinionated setup",
                   "why": "Gets the boring initial work right: .gitignore, CI stub, README skeleton, project conventions. Turns 'set up day' into 'set up hour'.",
                   "example_id": "9f12e3103674c70a",
-                  "example_label": "ce-setup"
+                  "example_label": "ce-setup",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-setup/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-setup/SKILL.md",
+                  "skill_name": "ce-setup",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-setup"
                 },
                 {
                   "concept": "Codebase audit (when joining an existing project)",
                   "why": "Maps the landscape — modules, hot spots, conventions — before you touch anything. Prevents naive edits that violate hidden invariants.",
                   "example_id": "5c89a45c8eb28015",
-                  "example_label": "audit-codebase"
+                  "example_label": "audit-codebase",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/audit-codebase/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/audit-codebase/SKILL.md",
+                  "skill_name": "audit-codebase",
+                  "skill_dir": "examples/skills/audit-codebase"
                 }
               ]
             },
@@ -50,13 +68,25 @@
                   "concept": "Multi-phase planning pipeline",
                   "why": "PRD → design review → tech decisions → research → metrics. Each gate forces clarity before the next. Half the bugs are killed before they exist.",
                   "example_id": "154b81b53317025e",
-                  "example_label": "plan-pipeline-start"
+                  "example_label": "plan-pipeline-start",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/plan-pipeline/start/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/start/SKILL.md",
+                  "skill_name": "plan-pipeline-start",
+                  "skill_dir": "examples/skills/plan-pipeline/start"
                 },
                 {
                   "concept": "Agent-native architecture audit",
                   "why": "Scores the design against principles like 'action parity' and 'tools as primitives'. Catches anti-patterns before they're load-bearing.",
                   "example_id": "7b67e3b6c1975c9a",
-                  "example_label": "ce-agent-native-audit"
+                  "example_label": "ce-agent-native-audit",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-agent-native-audit/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-agent-native-audit/SKILL.md",
+                  "skill_name": "ce-agent-native-audit",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-agent-native-audit"
                 }
               ]
             },
@@ -69,13 +99,25 @@
                   "concept": "Compound work cycle",
                   "why": "Splits big tasks across many subagents working in parallel. Keeps individual changes small and reviewable instead of one mega-diff.",
                   "example_id": "53b32bc2e0c89ff0",
-                  "example_label": "ce-work"
+                  "example_label": "ce-work",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-work/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-work/SKILL.md",
+                  "skill_name": "ce-work",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-work"
                 },
                 {
                   "concept": "Execution-phase playbook",
                   "why": "Translates the plan into concrete, ordered steps with verification between each. The discipline pays off in late-stage debugging.",
                   "example_id": "ff2302c9929565bd",
-                  "example_label": "plan-pipeline-execute"
+                  "example_label": "plan-pipeline-execute",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/plan-pipeline/execute/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/execute/SKILL.md",
+                  "skill_name": "plan-pipeline-execute",
+                  "skill_dir": "examples/skills/plan-pipeline/execute"
                 }
               ]
             },
@@ -88,13 +130,25 @@
                   "concept": "Multi-angle code review",
                   "why": "Looks at correctness bugs AND reuse / simplification / efficiency in one pass. Faster than waiting for a human review round-trip.",
                   "example_id": "74b5118b5bfd2e92",
-                  "example_label": "code-review-excellence"
+                  "example_label": "code-review-excellence",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+                  "skill_name": "code-review-excellence",
+                  "skill_dir": "plugins/developer-essentials/skills/code-review-excellence"
                 },
                 {
                   "concept": "Browser E2E smoke check",
                   "why": "Hits the user-facing flow after each meaningful change. Catches integration regressions that unit tests miss by design.",
                   "example_id": "c2a6b13db75773c3",
-                  "example_label": "ce-test-browser"
+                  "example_label": "ce-test-browser",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-test-browser/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-test-browser/SKILL.md",
+                  "skill_name": "ce-test-browser",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-test-browser"
                 }
               ]
             },
@@ -107,19 +161,37 @@
                   "concept": "Branch + working-tree hygiene",
                   "why": "Prunes stale branches and clarifies what's in flight. A clean repo is faster to navigate the next morning.",
                   "example_id": "c2f2c32cae6a1b49",
-                  "example_label": "ce-clean-gone-branches"
+                  "example_label": "ce-clean-gone-branches",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-clean-gone-branches/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-clean-gone-branches/SKILL.md",
+                  "skill_name": "ce-clean-gone-branches",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-clean-gone-branches"
                 },
                 {
                   "concept": "Documentation + diagrams",
                   "why": "Markdown + Mermaid for architecture, flows, decision trees. Future-you and your teammates will thank present-you.",
                   "example_id": "3a22e7ff260eca9b",
-                  "example_label": "markdown-mermaid-writing"
+                  "example_label": "markdown-mermaid-writing",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/markdown-mermaid-writing/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
+                  "skill_name": "markdown-mermaid-writing",
+                  "skill_dir": "skills/markdown-mermaid-writing"
                 },
                 {
                   "concept": "Demo reel for the PR",
                   "why": "GIF / terminal recording / screenshots showing the change actually works. Reviewers grok intent in 5 seconds vs reading 500 lines.",
                   "example_id": "2f37d938ada8d651",
-                  "example_label": "ce-demo-reel"
+                  "example_label": "ce-demo-reel",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-demo-reel/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-demo-reel/SKILL.md",
+                  "skill_name": "ce-demo-reel",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-demo-reel"
                 }
               ]
             },
@@ -132,13 +204,25 @@
                   "concept": "Post-deploy canary watch",
                   "why": "Tails the relevant dashboards and alerts for N minutes after deploy. Catches the regression while you still remember what changed.",
                   "example_id": "bca8848e50dc2529",
-                  "example_label": "canary-watch"
+                  "example_label": "canary-watch",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/canary-watch/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/canary-watch/SKILL.md",
+                  "skill_name": "canary-watch",
+                  "skill_dir": "skills/canary-watch"
                 },
                 {
                   "concept": "Product pulse / window report",
                   "why": "Periodically summarizes what users experienced, how the product performed, and which signals deserve a closer look. Stops bugs from compounding silently.",
                   "example_id": "236dabea61f987be",
-                  "example_label": "ce-product-pulse"
+                  "example_label": "ce-product-pulse",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-product-pulse/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-product-pulse/SKILL.md",
+                  "skill_name": "ce-product-pulse",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-product-pulse"
                 }
               ]
             }
@@ -159,13 +243,25 @@
                   "concept": "Language + framework decision",
                   "why": "Node / Python / Go / Java / Rust each carry different tradeoffs in team skills, latency profile, deployment story, and ecosystem maturity for your domain. Pick deliberately and capture the reasoning in an ADR.",
                   "example_id": "1bd536a8f0a07453",
-                  "example_label": "flox-environments"
+                  "example_label": "flox-environments",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/flox-environments/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/flox-environments/SKILL.md",
+                  "skill_name": "flox-environments",
+                  "skill_dir": "skills/flox-environments"
                 },
                 {
                   "concept": "Deployment target decision",
                   "why": "Serverless vs containers vs VMs vs managed PaaS determines CI shape, observability tooling, scaling story, and cost model. Decide before writing the Dockerfile or serverless.yml.",
                   "example_id": "421182cd40e5af7e",
-                  "example_label": "cost-aware-llm-pipeline"
+                  "example_label": "cost-aware-llm-pipeline",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/cost-aware-llm-pipeline/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/cost-aware-llm-pipeline/SKILL.md",
+                  "skill_name": "cost-aware-llm-pipeline",
+                  "skill_dir": "skills/cost-aware-llm-pipeline"
                 }
               ]
             },
@@ -178,13 +274,25 @@
                   "concept": "API contract first",
                   "why": "Define OpenAPI / gRPC proto / SDL schema before writing handlers. Server and client codegen plus contract tests all build on this single source.",
                   "example_id": "8c8f07c89378d3a7",
-                  "example_label": "openapi-spec-generation"
+                  "example_label": "openapi-spec-generation",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md",
+                  "skill_name": "openapi-spec-generation",
+                  "skill_dir": "plugins/documentation-generation/skills/openapi-spec-generation"
                 },
                 {
                   "concept": "Database schema design",
                   "why": "Tables, relationships, indexes — and most importantly access patterns — drawn out before any migration runs. Prevents expensive late-stage rewrites.",
                   "example_id": "febe8613467d9134",
-                  "example_label": "design-patterns"
+                  "example_label": "design-patterns",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/design-patterns/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/design-patterns/SKILL.md",
+                  "skill_name": "design-patterns",
+                  "skill_dir": "examples/skills/design-patterns"
                 }
               ]
             },
@@ -197,13 +305,25 @@
                   "concept": "Migration discipline",
                   "why": "Additive-only migrations (add column → backfill → switch reads → remove old). Every migration must have a rollback path. Never DROP in the same release as the read switch.",
                   "example_id": "fd01f844f27bb37d",
-                  "example_label": "database-migrations"
+                  "example_label": "database-migrations",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": ".kiro/skills/database-migrations/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/.kiro/skills/database-migrations/SKILL.md",
+                  "skill_name": "database-migrations",
+                  "skill_dir": ".kiro/skills/database-migrations"
                 },
                 {
                   "concept": "Strict request validation",
                   "why": "Schema-validate every inbound request (Zod / Pydantic / proto). Reject early with clear errors instead of letting bad data leak into the persistence layer.",
                   "example_id": "7c2b1530f5df4053",
-                  "example_label": "plan-pipeline-validate"
+                  "example_label": "plan-pipeline-validate",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/plan-pipeline/validate/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/validate/SKILL.md",
+                  "skill_name": "plan-pipeline-validate",
+                  "skill_dir": "examples/skills/plan-pipeline/validate"
                 }
               ]
             },
@@ -216,13 +336,25 @@
                   "concept": "Load test the hot endpoints",
                   "why": "k6 / Locust / wrk against staging with a realistic traffic shape. Measure p95/p99 latency, tail behaviour, and connection-pool exhaustion before production traffic hits.",
                   "example_id": "aeecdc96cd82488e",
-                  "example_label": "latency-critical-systems"
+                  "example_label": "latency-critical-systems",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/latency-critical-systems/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/latency-critical-systems/SKILL.md",
+                  "skill_name": "latency-critical-systems",
+                  "skill_dir": "skills/latency-critical-systems"
                 },
                 {
                   "concept": "Contract testing",
                   "why": "Diff the actual implementation against the API contract on every PR. Catches breaking changes before clients see them.",
                   "example_id": "5249f2319db750f4",
-                  "example_label": "ai-regression-testing"
+                  "example_label": "ai-regression-testing",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/ai-regression-testing/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/ai-regression-testing/SKILL.md",
+                  "skill_name": "ai-regression-testing",
+                  "skill_dir": "skills/ai-regression-testing"
                 }
               ]
             },
@@ -235,13 +367,25 @@
                   "concept": "Structured logging + tracing",
                   "why": "JSON logs with request_id plus OpenTelemetry spans across services. Without them, root-causing a production incident is effectively guessing.",
                   "example_id": "68d982d963f6be75",
-                  "example_label": "distributed-tracing"
+                  "example_label": "distributed-tracing",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/observability-monitoring/skills/distributed-tracing/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/observability-monitoring/skills/distributed-tracing/SKILL.md",
+                  "skill_name": "distributed-tracing",
+                  "skill_dir": "plugins/observability-monitoring/skills/distributed-tracing"
                 },
                 {
                   "concept": "SLO + error-budget tracking",
                   "why": "Separate user-visible errors from internal noise. Burn-rate alerts on the SLO surface real problems and silence background flakes.",
                   "example_id": "0d819836f5a3f85e",
-                  "example_label": "error-handling"
+                  "example_label": "error-handling",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/error-handling/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/error-handling/SKILL.md",
+                  "skill_name": "error-handling",
+                  "skill_dir": "skills/error-handling"
                 }
               ]
             }
@@ -262,7 +406,13 @@
                   "concept": "Design system audit",
                   "why": "List every existing token, primitive, and pattern before creating new ones. 80% of 'new components' should be assemblies of existing primitives.",
                   "example_id": "2a65f4dc0d0b5858",
-                  "example_label": "design-system-patterns"
+                  "example_label": "design-system-patterns",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/ui-design/skills/design-system-patterns/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/skills/design-system-patterns/SKILL.md",
+                  "skill_name": "design-system-patterns",
+                  "skill_dir": "plugins/ui-design/skills/design-system-patterns"
                 }
               ]
             },
@@ -275,13 +425,25 @@
                   "concept": "Wireframe → prototype loop",
                   "why": "Clickable, low-fidelity prototype before any component code. Faster to throw away when the UX is wrong.",
                   "example_id": "8ce7c0b06cda58c1",
-                  "example_label": "ce-code-review"
+                  "example_label": "ce-code-review",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-code-review/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-code-review/SKILL.md",
+                  "skill_name": "ce-code-review",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-code-review"
                 },
                 {
                   "concept": "Component API design",
                   "why": "Props, slots, controlled vs uncontrolled — sketched on paper before TypeScript. Sane defaults > more options.",
                   "example_id": "1b6d62e811d8ecc0",
-                  "example_label": "api-design"
+                  "example_label": "api-design",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/api-design/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/api-design/SKILL.md",
+                  "skill_name": "api-design",
+                  "skill_dir": "skills/api-design"
                 }
               ]
             },
@@ -294,7 +456,13 @@
                   "concept": "Component-driven (Storybook)",
                   "why": "Develop each component against its stories, not by tabbing to the live app. Smaller feedback loop = faster iteration.",
                   "example_id": "ea306db55938c7fb",
-                  "example_label": "subagent-driven-development"
+                  "example_label": "subagent-driven-development",
+                  "source_repo": "NeoLabHQ/context-engineering-kit",
+                  "source_ref": "master",
+                  "source_path": "plugins/sadd/skills/subagent-driven-development/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/subagent-driven-development/SKILL.md",
+                  "skill_name": "subagent-driven-development",
+                  "skill_dir": "plugins/sadd/skills/subagent-driven-development"
                 }
               ]
             },
@@ -307,19 +475,37 @@
                   "concept": "Visual regression",
                   "why": "Snapshot diff (Percy / Chromatic / Playwright) catches the 'we accidentally broke the header on mobile' bug before users do.",
                   "example_id": "5249f2319db750f4",
-                  "example_label": "ai-regression-testing"
+                  "example_label": "ai-regression-testing",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/ai-regression-testing/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/ai-regression-testing/SKILL.md",
+                  "skill_name": "ai-regression-testing",
+                  "skill_dir": "skills/ai-regression-testing"
                 },
                 {
                   "concept": "Accessibility audit",
                   "why": "axe / pa11y in CI + manual keyboard / screen reader pass before launch. Roughly 15% of users benefit; 100% of code reviews should require it.",
                   "example_id": "39407e48a88b2ea6",
-                  "example_label": "screen-reader-testing"
+                  "example_label": "screen-reader-testing",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md",
+                  "skill_name": "screen-reader-testing",
+                  "skill_dir": "plugins/accessibility-compliance/skills/screen-reader-testing"
                 },
                 {
                   "concept": "Browser E2E (covered in Common)",
                   "why": "Same Playwright/Cypress suite from Common; for frontend work this is where most regressions surface.",
                   "example_id": "c2a6b13db75773c3",
-                  "example_label": "ce-test-browser"
+                  "example_label": "ce-test-browser",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-test-browser/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-test-browser/SKILL.md",
+                  "skill_name": "ce-test-browser",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-test-browser"
                 }
               ]
             },
@@ -332,7 +518,13 @@
                   "concept": "Bundle + Lighthouse audit",
                   "why": "Track bundle size budget per route. Lighthouse perf/a11y/SEO scores in CI. Regressions blocked at PR time.",
                   "example_id": "cfc5142d60187082",
-                  "example_label": "audit-agents-skills"
+                  "example_label": "audit-agents-skills",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/audit-agents-skills/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/audit-agents-skills/SKILL.md",
+                  "skill_name": "audit-agents-skills",
+                  "skill_dir": "examples/skills/audit-agents-skills"
                 }
               ]
             },
@@ -345,13 +537,25 @@
                   "concept": "Frontend error tracking",
                   "why": "Sentry / LogRocket capturing JS errors + session replay. Source maps uploaded so stacks are readable. Cumulative Layout Shift alerts too.",
                   "example_id": "0d819836f5a3f85e",
-                  "example_label": "error-handling"
+                  "example_label": "error-handling",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/error-handling/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/error-handling/SKILL.md",
+                  "skill_name": "error-handling",
+                  "skill_dir": "skills/error-handling"
                 },
                 {
                   "concept": "Core Web Vitals monitoring",
                   "why": "RUM (real user monitoring) for LCP, INP, CLS by route. Lab numbers can mislead; real-user p75s are the source of truth.",
                   "example_id": "59ce338e8cb22413",
-                  "example_label": "parallel-web"
+                  "example_label": "parallel-web",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/parallel-web/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/parallel-web/SKILL.md",
+                  "skill_name": "parallel-web",
+                  "skill_dir": "skills/parallel-web"
                 }
               ]
             }
@@ -372,13 +576,25 @@
                   "concept": "Platform priority decision",
                   "why": "iOS-first / Android-first / parity carries real cost implications. Most indie launches pick one and iterate; enterprise typically needs parity. Decide explicitly with a written rationale.",
                   "example_id": "5bcd5a0a21806963",
-                  "example_label": "architecture-decision-records"
+                  "example_label": "architecture-decision-records",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/architecture-decision-records/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/architecture-decision-records/SKILL.md",
+                  "skill_name": "architecture-decision-records",
+                  "skill_dir": "skills/architecture-decision-records"
                 },
                 {
                   "concept": "Developer account + certificate setup",
                   "why": "Apple Developer ($99/yr) + Google Play Console ($25 one-time), signing certificates, provisioning profiles, push notification certs. Many teams discover these are missing at submission time, which delays launch by days.",
                   "example_id": "9f12e3103674c70a",
-                  "example_label": "ce-setup"
+                  "example_label": "ce-setup",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-setup/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-setup/SKILL.md",
+                  "skill_name": "ce-setup",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-setup"
                 }
               ]
             },
@@ -391,7 +607,13 @@
                   "concept": "Native vs cross-platform decision",
                   "why": "Write an ADR. Key constraints: team skills, performance ceiling, OS-specific features needed, time-to-market. Avoid drifting into one approach by momentum.",
                   "example_id": "4f71bd710335c6df",
-                  "example_label": "maintain-cross-platform"
+                  "example_label": "maintain-cross-platform",
+                  "source_repo": "avifenesh/agentsys",
+                  "source_ref": "main",
+                  "source_path": "meta/skills/maintain-cross-platform/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/avifenesh/agentsys/main/meta/skills/maintain-cross-platform/SKILL.md",
+                  "skill_name": "maintain-cross-platform",
+                  "skill_dir": "meta/skills/maintain-cross-platform"
                 }
               ]
             },
@@ -404,7 +626,13 @@
                   "concept": "Simulator build automation",
                   "why": "One command to build, boot the simulator, install, launch, and tail logs. Removes the 30-second context switch on every iteration.",
                   "example_id": "dc668b3339d59044",
-                  "example_label": "ce-test-xcode"
+                  "example_label": "ce-test-xcode",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-test-xcode/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-test-xcode/SKILL.md",
+                  "skill_name": "ce-test-xcode",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-test-xcode"
                 }
               ]
             },
@@ -417,7 +645,13 @@
                   "concept": "Device matrix testing",
                   "why": "iPhone SE through iPhone Pro Max, Pixel 4a through Galaxy S24, OS N-2 through N. Cloud device farms (BrowserStack / Sauce) for breadth; physical devices for touch feel.",
                   "example_id": "a2a6e7ac543a7c07",
-                  "example_label": "ginkgo-cloud-lab"
+                  "example_label": "ginkgo-cloud-lab",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/ginkgo-cloud-lab/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/ginkgo-cloud-lab/SKILL.md",
+                  "skill_name": "ginkgo-cloud-lab",
+                  "skill_dir": "skills/ginkgo-cloud-lab"
                 }
               ]
             },
@@ -430,7 +664,13 @@
                   "concept": "Store submission checklist",
                   "why": "Privacy manifest, permission justifications, age rating, screenshots for every device class, release notes, what's-new copy. Treat the checklist as a deploy artifact.",
                   "example_id": "060764d06d103753",
-                  "example_label": "release-notes-generator"
+                  "example_label": "release-notes-generator",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/release-notes-generator/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/release-notes-generator/SKILL.md",
+                  "skill_name": "release-notes-generator",
+                  "skill_dir": "examples/skills/release-notes-generator"
                 }
               ]
             },
@@ -443,7 +683,13 @@
                   "concept": "Crashlytics + funnel analytics",
                   "why": "Crash-free rate per app version. Funnel analytics for critical user paths. A forced-update gate for unfixable older versions.",
                   "example_id": "b2495323afb4cd82",
-                  "example_label": "ce-update"
+                  "example_label": "ce-update",
+                  "source_repo": "EveryInc/compound-engineering-plugin",
+                  "source_ref": "main",
+                  "source_path": "plugins/compound-engineering/skills/ce-update/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/EveryInc/compound-engineering-plugin/main/plugins/compound-engineering/skills/ce-update/SKILL.md",
+                  "skill_name": "ce-update",
+                  "skill_dir": "plugins/compound-engineering/skills/ce-update"
                 }
               ]
             }
@@ -464,7 +710,13 @@
                   "concept": "Data exploration + schema discovery",
                   "why": "Read the actual schema, sample rows, distributions. Nulls, encoding, time-zone bugs, label imbalance — these become 80% of project pain if found late.",
                   "example_id": "8d885c652c021b4e",
-                  "example_label": "data-throughput-accelerator"
+                  "example_label": "data-throughput-accelerator",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/data-throughput-accelerator/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/data-throughput-accelerator/SKILL.md",
+                  "skill_name": "data-throughput-accelerator",
+                  "skill_dir": "skills/data-throughput-accelerator"
                 }
               ]
             },
@@ -477,7 +729,13 @@
                   "concept": "Eval set design (before any modeling!)",
                   "why": "Held-out test set + slices for sub-populations + the dumb-baseline number. If you can't articulate the metric and how it's measured, you're not ready to train.",
                   "example_id": "4536de880883e127",
-                  "example_label": "experimental-design"
+                  "example_label": "experimental-design",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/experimental-design/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/experimental-design/SKILL.md",
+                  "skill_name": "experimental-design",
+                  "skill_dir": "skills/experimental-design"
                 }
               ]
             },
@@ -490,13 +748,25 @@
                   "concept": "Reproducible notebook → script pipeline",
                   "why": "Once a notebook 'works', extract into a script with locked seeds, pinned deps, deterministic outputs. The notebook stays for exploration; the script is what runs in CI.",
                   "example_id": "cfb9eb547dc86cff",
-                  "example_label": "what-if-oracle"
+                  "example_label": "what-if-oracle",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/what-if-oracle/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/what-if-oracle/SKILL.md",
+                  "skill_name": "what-if-oracle",
+                  "skill_dir": "skills/what-if-oracle"
                 },
                 {
                   "concept": "Domain-specific scientific skills",
                   "why": "K-Dense-AI's collection covers most common ground (zarr for chunked arrays, geomaster for geospatial, fluidsim for CFD, etc.). Reuse before reinventing.",
                   "example_id": "988f5413ac40d669",
-                  "example_label": "zarr-python"
+                  "example_label": "zarr-python",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/zarr-python/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/zarr-python/SKILL.md",
+                  "skill_name": "zarr-python",
+                  "skill_dir": "skills/zarr-python"
                 }
               ]
             },
@@ -509,13 +779,25 @@
                   "concept": "Baseline comparison",
                   "why": "Random / most-frequent-class / last-value-carried-forward — your model must beat the dumb baseline on every metric and slice. If it doesn't, you have a bug.",
                   "example_id": "48c7187c31d0e48f",
-                  "example_label": "arbor"
+                  "example_label": "arbor",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/arbor/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/arbor/SKILL.md",
+                  "skill_name": "arbor",
+                  "skill_dir": "skills/arbor"
                 },
                 {
                   "concept": "Distribution drift detection",
                   "why": "Compare train vs prod feature distributions periodically. PSI / KL-divergence alerts on the inputs catch silent degradation before metrics tank.",
                   "example_id": "644bb1346363fb84",
-                  "example_label": "parallel-feature-development"
+                  "example_label": "parallel-feature-development",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/agent-teams/skills/parallel-feature-development/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/agent-teams/skills/parallel-feature-development/SKILL.md",
+                  "skill_name": "parallel-feature-development",
+                  "skill_dir": "plugins/agent-teams/skills/parallel-feature-development"
                 }
               ]
             },
@@ -528,13 +810,25 @@
                   "concept": "Model card / data card",
                   "why": "What was trained on what data, with what splits, evaluated how, with which limitations. Future-you and your auditors both need this.",
                   "example_id": "cfb9eb547dc86cff",
-                  "example_label": "what-if-oracle"
+                  "example_label": "what-if-oracle",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/what-if-oracle/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/what-if-oracle/SKILL.md",
+                  "skill_name": "what-if-oracle",
+                  "skill_dir": "skills/what-if-oracle"
                 },
                 {
                   "concept": "Diagram-driven documentation",
                   "why": "Pipeline diagrams (data → features → model → output) make a system reviewable. Mermaid is enough; you don't need draw.io.",
                   "example_id": "3a22e7ff260eca9b",
-                  "example_label": "markdown-mermaid-writing"
+                  "example_label": "markdown-mermaid-writing",
+                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "source_ref": "main",
+                  "source_path": "skills/markdown-mermaid-writing/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
+                  "skill_name": "markdown-mermaid-writing",
+                  "skill_dir": "skills/markdown-mermaid-writing"
                 }
               ]
             },
@@ -547,7 +841,13 @@
                   "concept": "Inference latency + cost monitor",
                   "why": "Tokens per request, p95/p99 latency, cost per query. Especially with LLM-backed features, cost can spike from a single prompt regression.",
                   "example_id": "421182cd40e5af7e",
-                  "example_label": "cost-aware-llm-pipeline"
+                  "example_label": "cost-aware-llm-pipeline",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/cost-aware-llm-pipeline/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/cost-aware-llm-pipeline/SKILL.md",
+                  "skill_name": "cost-aware-llm-pipeline",
+                  "skill_dir": "skills/cost-aware-llm-pipeline"
                 }
               ]
             }
@@ -568,13 +868,25 @@
                   "concept": "Threat model (STRIDE / data flow)",
                   "why": "Map trust boundaries, data flows, and threat actors. Ninety minutes here prevents weeks of retrofitted patches. STRIDE (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) is a good starting checklist.",
                   "example_id": "f0f72ffa5d8ca2c8",
-                  "example_label": "stride-analysis-patterns"
+                  "example_label": "stride-analysis-patterns",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/security-scanning/skills/stride-analysis-patterns/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/security-scanning/skills/stride-analysis-patterns/SKILL.md",
+                  "skill_name": "stride-analysis-patterns",
+                  "skill_dir": "plugins/security-scanning/skills/stride-analysis-patterns"
                 },
                 {
                   "concept": "Compliance scope",
                   "why": "Identify whether PCI-DSS, HIPAA, GDPR, SOC2, or any industry-specific regulation applies. Data residency, retention, audit logging, and encryption defaults all follow from this scope.",
                   "example_id": "a7e30b6001b55ec7",
-                  "example_label": "pci-compliance"
+                  "example_label": "pci-compliance",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/payment-processing/skills/pci-compliance/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/payment-processing/skills/pci-compliance/SKILL.md",
+                  "skill_name": "pci-compliance",
+                  "skill_dir": "plugins/payment-processing/skills/pci-compliance"
                 }
               ]
             },
@@ -587,13 +899,25 @@
                   "concept": "Auth / authz model design",
                   "why": "Sessions vs JWT vs OAuth vs SAML; RBAC vs ABAC vs ReBAC. Decide the model and where session state lives before the first login screen. Swapping mid-project breaks everything that touched auth.",
                   "example_id": "be0b8aaefdd01b1f",
-                  "example_label": "auth-implementation-patterns"
+                  "example_label": "auth-implementation-patterns",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md",
+                  "skill_name": "auth-implementation-patterns",
+                  "skill_dir": "plugins/developer-essentials/skills/auth-implementation-patterns"
                 },
                 {
                   "concept": "Data classification + encryption design",
                   "why": "Classify every data type as public, internal, PII, or secret. Per class, define encryption at rest, encryption in transit, retention period, and access roles. The matrix drives schema, storage, and access-control decisions.",
                   "example_id": "dffa4ecc5bececc7",
-                  "example_label": "healthcare-phi-compliance"
+                  "example_label": "healthcare-phi-compliance",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/healthcare-phi-compliance/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/healthcare-phi-compliance/SKILL.md",
+                  "skill_name": "healthcare-phi-compliance",
+                  "skill_dir": "skills/healthcare-phi-compliance"
                 }
               ]
             },
@@ -606,19 +930,37 @@
                   "concept": "Secrets management",
                   "why": "Vault / AWS Secrets Manager / GCP Secret Manager / Doppler. Never commit credentials to git, never echo them in logs. Rotate on a schedule. Prefer short-lived tokens over long-lived API keys where possible.",
                   "example_id": "531201d0a4a13bf3",
-                  "example_label": "secrets-management"
+                  "example_label": "secrets-management",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/cicd-automation/skills/secrets-management/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/cicd-automation/skills/secrets-management/SKILL.md",
+                  "skill_name": "secrets-management",
+                  "skill_dir": "plugins/cicd-automation/skills/secrets-management"
                 },
                 {
                   "concept": "Dependency vulnerability scanning",
                   "why": "Dependabot / Snyk / pip-audit / npm audit / cargo audit in CI. Block PRs introducing known CVEs. Pin transitive dependencies to known-good versions.",
                   "example_id": "6dd4a8773adb7956",
-                  "example_label": "dependency-upgrade"
+                  "example_label": "dependency-upgrade",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
+                  "skill_name": "dependency-upgrade",
+                  "skill_dir": "plugins/framework-migration/skills/dependency-upgrade"
                 },
                 {
                   "concept": "Input / output sanitization",
                   "why": "Parameterized queries against SQL injection. HTML-escape for XSS. Content-Security-Policy headers. Allowlist over denylist. Validate at trust boundaries, not only at the edge.",
                   "example_id": "6fd639e63d0db17d",
-                  "example_label": "perl-security"
+                  "example_label": "perl-security",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/perl-security/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/perl-security/SKILL.md",
+                  "skill_name": "perl-security",
+                  "skill_dir": "skills/perl-security"
                 }
               ]
             },
@@ -631,19 +973,37 @@
                   "concept": "Security audit pass",
                   "why": "A scored posture assessment across authn, authz, data handling, dependency hygiene, and infrastructure. Run on every release candidate.",
                   "example_id": "5657281efa45ff77",
-                  "example_label": "security-audit"
+                  "example_label": "security-audit",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/security-audit/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-audit/SKILL.md",
+                  "skill_name": "security-audit",
+                  "skill_dir": "examples/skills/security-audit"
                 },
                 {
                   "concept": "OWASP Top 10 sweep",
                   "why": "Focused review against injection, broken access control, identification failures, security misconfiguration, and the rest of the OWASP Top 10. Faster than a full audit; catches the most common classes.",
                   "example_id": "5657281efa45ff77",
-                  "example_label": "security-audit"
+                  "example_label": "security-audit",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/security-audit/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-audit/SKILL.md",
+                  "skill_name": "security-audit",
+                  "skill_dir": "examples/skills/security-audit"
                 },
                 {
                   "concept": "Configuration security check",
                   "why": "Quick scan of the configuration surface against known threats: leaked tokens, weak defaults, overly permissive CORS, exposed admin endpoints. Run in CI on config changes.",
                   "example_id": "207e3fde5e33aa35",
-                  "example_label": "security-check"
+                  "example_label": "security-check",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/security-check/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-check/SKILL.md",
+                  "skill_name": "security-check",
+                  "skill_dir": "examples/skills/security-check"
                 }
               ]
             },
@@ -656,13 +1016,25 @@
                   "concept": "SBOM generation",
                   "why": "Software Bill of Materials in CycloneDX or SPDX format. Lists every dependency with version and license. Required for many procurement processes; essential for fast incident response when a CVE drops.",
                   "example_id": "6dd4a8773adb7956",
-                  "example_label": "dependency-upgrade"
+                  "example_label": "dependency-upgrade",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
+                  "skill_name": "dependency-upgrade",
+                  "skill_dir": "plugins/framework-migration/skills/dependency-upgrade"
                 },
                 {
                   "concept": "Signed releases / artifact integrity",
                   "why": "Sigstore / cosign / GPG-signed releases. Downstream consumers verify the binary they received was actually built by your CI. Critical for supply-chain integrity.",
                   "example_id": "3de3ce0fb2dccf23",
-                  "example_label": "review-renovate"
+                  "example_label": "review-renovate",
+                  "source_repo": "backnotprop/plannotator",
+                  "source_ref": "main",
+                  "source_path": ".agents/skills/review-renovate/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.agents/skills/review-renovate/SKILL.md",
+                  "skill_name": "review-renovate",
+                  "skill_dir": ".agents/skills/review-renovate"
                 }
               ]
             },
@@ -675,19 +1047,37 @@
                   "concept": "Audit logging",
                   "why": "Capture authentication events, privileged actions, and data access. Append-only, tamper-evident storage. Retention aligned with compliance scope. Searchable during incident response.",
                   "example_id": "dffa4ecc5bececc7",
-                  "example_label": "healthcare-phi-compliance"
+                  "example_label": "healthcare-phi-compliance",
+                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_ref": "main",
+                  "source_path": "skills/healthcare-phi-compliance/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/healthcare-phi-compliance/SKILL.md",
+                  "skill_name": "healthcare-phi-compliance",
+                  "skill_dir": "skills/healthcare-phi-compliance"
                 },
                 {
                   "concept": "Incident response runbook",
                   "why": "Documented procedure: who to page, how to communicate internally and externally, how to scope blast radius, how to rotate credentials. Tabletop-exercise it quarterly.",
                   "example_id": "528819a445512047",
-                  "example_label": "incident-runbook-templates"
+                  "example_label": "incident-runbook-templates",
+                  "source_repo": "wshobson/agents",
+                  "source_ref": "main",
+                  "source_path": "plugins/incident-response/skills/incident-runbook-templates/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/incident-response/skills/incident-runbook-templates/SKILL.md",
+                  "skill_name": "incident-runbook-templates",
+                  "skill_dir": "plugins/incident-response/skills/incident-runbook-templates"
                 },
                 {
                   "concept": "Threat intelligence feed",
                   "why": "Track relevant CVE feeds, vendor advisories, and AI-agent-specific threat patterns. Translate alerts into action items rather than reading them passively.",
                   "example_id": "a503a03e65711df4",
-                  "example_label": "update-threat-db"
+                  "example_label": "update-threat-db",
+                  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+                  "source_ref": "main",
+                  "source_path": "examples/skills/update-threat-db/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/update-threat-db/SKILL.md",
+                  "skill_name": "update-threat-db",
+                  "skill_dir": "examples/skills/update-threat-db"
                 }
               ]
             }
