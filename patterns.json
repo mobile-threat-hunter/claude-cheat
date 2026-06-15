@@ -1,5 +1,5 @@
 {
-  "sample_size": 1366,
+  "sample_size": 1378,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,28 +8,28 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1312,
-      "pct": 96.0
+      "count": 1324,
+      "pct": 96.1
     },
     {
       "field": "name",
-      "count": 1311,
+      "count": 1323,
       "pct": 96.0
     },
     {
       "field": "origin",
-      "count": 688,
-      "pct": 50.4
+      "count": 441,
+      "pct": 32.0
     },
     {
       "field": "metadata",
-      "count": 195,
-      "pct": 14.3
+      "count": 437,
+      "pct": 31.7
     },
     {
       "field": "license",
       "count": 169,
-      "pct": 12.4
+      "pct": 12.3
     },
     {
       "field": "version",
@@ -37,24 +37,24 @@
       "pct": 7.8
     },
     {
-      "field": "allowed-tools",
-      "count": 89,
-      "pct": 6.5
+      "field": "argument-hint",
+      "count": 88,
+      "pct": 6.4
     },
     {
-      "field": "argument-hint",
-      "count": 87,
+      "field": "allowed-tools",
+      "count": 88,
       "pct": 6.4
     },
     {
       "field": "compatibility",
       "count": 54,
-      "pct": 4.0
+      "pct": 3.9
     },
     {
       "field": "required_environment_variables",
       "count": 31,
-      "pct": 2.3
+      "pct": 2.2
     },
     {
       "field": "tools",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 1366,
+      "count": 1378,
       "min": 8,
       "p25": 89,
-      "median": 161,
-      "p75": 242,
-      "p90": 357,
+      "median": 162,
+      "p75": 245,
+      "p90": 358,
       "max": 1214,
-      "mean": 193.3
+      "mean": 194.6
     },
-    "has_trigger_phrase_pct": 32.7,
+    "has_trigger_phrase_pct": 32.8,
     "has_quoted_user_phrase_pct": 3.1,
-    "short_pct_lt_120": 35.1,
-    "long_pct_gt_300": 16.5
+    "short_pct_lt_120": 34.8,
+    "long_pct_gt_300": 17.1
   },
   "body": {
     "length_chars": {
-      "count": 1366,
+      "count": 1378,
       "min": 610,
-      "p25": 3335,
-      "median": 6918,
-      "p75": 11892,
+      "p25": 3360,
+      "median": 6963,
+      "p75": 11889,
       "p90": 19182,
       "max": 110236,
-      "mean": 9336.8
+      "mean": 9344.0
     },
     "heading_count": {
-      "count": 1366,
+      "count": 1378,
       "min": 0,
       "p25": 12,
       "median": 22,
       "p75": 39,
-      "p90": 61,
+      "p90": 60,
       "max": 237,
-      "mean": 29.0
+      "mean": 28.9
     },
     "code_block_count": {
-      "count": 1366,
+      "count": 1378,
       "min": 0,
       "p25": 2,
       "median": 7,
@@ -129,15 +129,15 @@
       "max": 77,
       "mean": 9.6
     },
-    "has_numbered_list_pct": 63.6,
+    "has_numbered_list_pct": 63.8,
     "has_bullet_list_pct": 99.3,
-    "has_table_pct": 48.9,
-    "has_code_block_pct": 89.5
+    "has_table_pct": 49.2,
+    "has_code_block_pct": 89.3
   },
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 257
+      "count": 258
     },
     {
       "label": "when to use this",
@@ -149,7 +149,7 @@
     },
     {
       "label": "when to activate",
-      "count": 186
+      "count": 198
     },
     {
       "label": "overview",
@@ -157,7 +157,7 @@
     },
     {
       "label": "examples",
-      "count": 128
+      "count": 130
     },
     {
       "label": "how it works",
@@ -165,7 +165,7 @@
     },
     {
       "label": "core concepts",
-      "count": 117
+      "count": 118
     },
     {
       "label": "quick start",
@@ -173,11 +173,11 @@
     },
     {
       "label": "related skills",
-      "count": 89
+      "count": 100
     },
     {
       "label": "anti-patterns",
-      "count": 77
+      "count": 87
     },
     {
       "label": "resources",
@@ -189,7 +189,7 @@
     },
     {
       "label": "workflow",
-      "count": 72
+      "count": 73
     },
     {
       "label": "troubleshooting",

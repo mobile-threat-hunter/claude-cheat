@@ -1,13 +1,33 @@
 {
-  "generated_at": "2026-06-14T11:12:46.430Z",
+  "generated_at": "2026-06-15T18:18:41.538Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 33
+    "translated_ko": 32
   },
   "items": [
+    {
+      "date": "2026-06-15",
+      "datetime": "2026-06-15T12:21:25.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Emotion concepts and their function in a large language model",
+      "summary": "All modern language models sometimes act like they have emotions. What’s behind these behaviors? Our interpretability team investigates.",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function"
+    },
+    {
+      "date": "2026-06-15",
+      "datetime": "2026-06-15T09:24:09.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Making Claude a chemist",
+      "summary": "We’re working with world-class synthetic, computational, and analytical chemists to make Claude better at chemistry. In this post, we share our first work as part of this effort.",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "title_ko": "Claude를 화학자로 만들기",
+      "summary_ko": "Claude가 화학 문제 풀이와 합성 경로 설계 같은 전문 화학 업무를 수행하도록 훈련·평가한 Anthropic의 연구."
+    },
     {
       "date": "2026-06-13",
       "datetime": "2026-06-13T02:30:15.000Z",
@@ -63,17 +83,6 @@
       "title": "Results from first Anthropic Public Record",
       "summary": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
       "url": "https://www.anthropic.com/news/anthropic-public-record"
-    },
-    {
-      "date": "2026-06-12",
-      "datetime": "2026-06-12T13:24:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Making Claude a chemist",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-      "title_ko": "Claude를 화학자로 만들기",
-      "summary_ko": "Claude가 화학 문제 풀이와 합성 경로 설계 같은 전문 화학 업무를 수행하도록 훈련·평가한 Anthropic의 연구."
     },
     {
       "date": "2026-06-12",
@@ -268,17 +277,6 @@
       "url": "https://www.anthropic.com/research/introspection",
       "title_ko": "대형 언어 모델의 발현적 내성 인식",
       "summary_ko": "대형 언어 모델이 자신의 내부 상태나 추론 과정을 어디까지 자각·보고할 수 있는지 검증한 Anthropic 연구."
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T15:32:46.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Estimating AI productivity gains",
-      "summary": "Anthropic economic research on productivity gains",
-      "url": "https://www.anthropic.com/research/estimating-productivity-gains",
-      "title_ko": "AI가 가져올 생산성 향상 추정",
-      "summary_ko": "AI 도입이 가져올 생산성 향상을 경제학적으로 추정한 Anthropic의 연구."
     },
     {
       "date": "2026-06-05",
