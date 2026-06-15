@@ -1,5 +1,5 @@
 {
-  "sample_size": 570,
+  "sample_size": 451,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,192 +8,151 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 552,
-      "pct": 96.8
+      "count": 438,
+      "pct": 97.1
     },
     {
       "field": "name",
-      "count": 551,
-      "pct": 96.7
-    },
-    {
-      "field": "compatibility",
-      "count": 156,
-      "pct": 27.4
+      "count": 437,
+      "pct": 96.9
     },
     {
       "field": "metadata",
-      "count": 155,
-      "pct": 27.2
+      "count": 157,
+      "pct": 34.8
     },
     {
       "field": "license",
-      "count": 153,
-      "pct": 26.8
-    },
-    {
-      "field": "role",
-      "count": 106,
-      "pct": 18.6
-    },
-    {
-      "field": "toolkit",
-      "count": 106,
-      "pct": 18.6
-    },
-    {
-      "field": "api_version",
-      "count": 106,
-      "pct": 18.6
-    },
-    {
-      "field": "graphql_operations",
-      "count": 106,
-      "pct": 18.6
-    },
-    {
-      "field": "status",
-      "count": 106,
-      "pct": 18.6
+      "count": 156,
+      "pct": 34.6
     },
     {
       "field": "allowed-tools",
-      "count": 76,
-      "pct": 13.3
+      "count": 80,
+      "pct": 17.7
     },
     {
       "field": "argument-hint",
-      "count": 69,
-      "pct": 12.1
+      "count": 68,
+      "pct": 15.1
+    },
+    {
+      "field": "compatibility",
+      "count": 54,
+      "pct": 12.0
+    },
+    {
+      "field": "required_environment_variables",
+      "count": 30,
+      "pct": 6.7
     },
     {
       "field": "version",
-      "count": 26,
-      "pct": 4.6
+      "count": 21,
+      "pct": 4.7
     },
     {
       "field": "disable-model-invocation",
-      "count": 11,
-      "pct": 1.9
+      "count": 10,
+      "pct": 2.2
+    },
+    {
+      "field": "ce_platforms",
+      "count": 1,
+      "pct": 0.2
     },
     {
       "field": "author",
-      "count": 2,
-      "pct": 0.4
+      "count": 1,
+      "pct": 0.2
+    },
+    {
+      "field": "model",
+      "count": 1,
+      "pct": 0.2
+    },
+    {
+      "field": "github",
+      "count": 1,
+      "pct": 0.2
     }
   ],
   "description": {
     "length": {
-      "count": 570,
+      "count": 451,
       "min": 13,
-      "p25": 140,
-      "median": 211,
-      "p75": 324,
-      "p90": 459,
+      "p25": 187,
+      "median": 244,
+      "p75": 355,
+      "p90": 486,
       "max": 1068,
-      "mean": 250.9
+      "mean": 287.4
     },
-    "has_trigger_phrase_pct": 48.2,
-    "has_quoted_user_phrase_pct": 4.6,
-    "short_pct_lt_120": 19.3,
-    "long_pct_gt_300": 29.6
+    "has_trigger_phrase_pct": 60.8,
+    "has_quoted_user_phrase_pct": 5.8,
+    "short_pct_lt_120": 12.6,
+    "long_pct_gt_300": 37.9
   },
   "body": {
     "length_chars": {
-      "count": 570,
+      "count": 451,
       "min": 629,
-      "p25": 4727,
-      "median": 6962,
-      "p75": 12774,
-      "p90": 22375,
+      "p25": 4356,
+      "median": 7843,
+      "p75": 14639,
+      "p90": 25694,
       "max": 110236,
-      "mean": 10982.7
+      "mean": 12344.7
     },
     "heading_count": {
-      "count": 570,
+      "count": 451,
       "min": 0,
-      "p25": 11,
-      "median": 18,
-      "p75": 39,
-      "p90": 67,
+      "p25": 12,
+      "median": 23,
+      "p75": 45,
+      "p90": 76,
       "max": 237,
-      "mean": 29.3
+      "mean": 33.6
     },
     "code_block_count": {
-      "count": 570,
+      "count": 451,
       "min": 0,
-      "p25": 3,
+      "p25": 2,
       "median": 6,
-      "p75": 11,
-      "p90": 21,
+      "p75": 14,
+      "p90": 24,
       "max": 77,
-      "mean": 8.8
+      "mean": 9.4
     },
-    "has_numbered_list_pct": 78.9,
+    "has_numbered_list_pct": 74.1,
     "has_bullet_list_pct": 99.1,
-    "has_table_pct": 57.0,
-    "has_code_block_pct": 93.0
+    "has_table_pct": 46.8,
+    "has_code_block_pct": 91.8
   },
   "common_section_headings_h2": [
     {
-      "label": "best practices",
-      "count": 276
+      "label": "when to use this",
+      "count": 227
     },
     {
-      "label": "when to use this",
-      "count": 226
+      "label": "best practices",
+      "count": 168
     },
     {
       "label": "overview",
-      "count": 157
-    },
-    {
-      "label": "purpose",
-      "count": 125
-    },
-    {
-      "label": "output format",
-      "count": 118
-    },
-    {
-      "label": "error handling",
-      "count": 118
-    },
-    {
-      "label": "prerequisites",
-      "count": 113
-    },
-    {
-      "label": "workflow steps",
-      "count": 109
-    },
-    {
-      "label": "parameters",
-      "count": 106
-    },
-    {
-      "label": "graphql operations",
-      "count": 106
-    },
-    {
-      "label": "session tracking",
-      "count": 106
+      "count": 158
     },
     {
       "label": "core concepts",
-      "count": 99
+      "count": 98
     },
     {
       "label": "quick start",
-      "count": 94
-    },
-    {
-      "label": "safety",
-      "count": 94
+      "count": 93
     },
     {
       "label": "core capabilities",
-      "count": 68
+      "count": 66
     },
     {
       "label": "detailed patterns and worked",
@@ -204,16 +163,52 @@
       "count": 56
     },
     {
+      "label": "resources",
+      "count": 55
+    },
+    {
       "label": "installation",
       "count": 55
     },
     {
-      "label": "resources",
-      "count": 54
-    },
-    {
       "label": "additional resources",
       "count": 39
+    },
+    {
+      "label": "common pitfalls",
+      "count": 33
+    },
+    {
+      "label": "instructions",
+      "count": 33
+    },
+    {
+      "label": "common workflows",
+      "count": 31
+    },
+    {
+      "label": "related skills",
+      "count": 28
+    },
+    {
+      "label": "examples",
+      "count": 25
+    },
+    {
+      "label": "quick reference",
+      "count": 22
+    },
+    {
+      "label": "reference files",
+      "count": 22
+    },
+    {
+      "label": "context",
+      "count": 21
+    },
+    {
+      "label": "when to use",
+      "count": 20
     }
   ],
   "exemplars": [
@@ -236,7 +231,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.898
+      "composite": 0.9
     },
     {
       "id": "2270e331920f0d67",
@@ -250,14 +245,14 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.889
+      "composite": 0.887
     },
     {
       "id": "9fb6b861ee0bf92a",
       "name": "web-access",
       "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
       "source": "github:eze-is/web-access@main",
-      "composite": 0.857
+      "composite": 0.856
     }
   ]
 }
