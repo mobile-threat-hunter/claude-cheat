@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:13:52.719925+00:00",
+  "generated_at": "2026-06-15T17:18:24.491652+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -304,14 +304,14 @@
                 {
                   "concept": "마이그레이션 규율",
                   "why": "additive-only 마이그레이션 (컬럼 추가 → 백필 → read 전환 → 옛 컬럼 제거). 모든 마이그레이션은 rollback 경로가 필수입니다. read 전환과 같은 릴리스에서 DROP 절대 금지.",
-                  "example_id": "fd01f844f27bb37d",
+                  "example_id": "b9d7ad07faae182c",
                   "example_label": "database-migrations",
                   "source_repo": "affaan-m/everything-claude-code",
                   "source_ref": "main",
-                  "source_path": ".kiro/skills/database-migrations/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/.kiro/skills/database-migrations/SKILL.md",
+                  "source_path": "skills/database-migrations/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/database-migrations/SKILL.md",
                   "skill_name": "database-migrations",
-                  "skill_dir": ".kiro/skills/database-migrations"
+                  "skill_dir": "skills/database-migrations"
                 },
                 {
                   "concept": "엄격한 request 검증",
@@ -436,14 +436,14 @@
                 {
                   "concept": "컴포넌트 API 설계",
                   "why": "Props · slots · controlled vs uncontrolled — TypeScript 전에 종이에 스케치. 옵션 많은 것보다 합리적인 default가 낫습니다.",
-                  "example_id": "1b6d62e811d8ecc0",
+                  "example_id": "4e19051e6da8d06d",
                   "example_label": "api-design",
                   "source_repo": "affaan-m/everything-claude-code",
                   "source_ref": "main",
-                  "source_path": "skills/api-design/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/api-design/SKILL.md",
+                  "source_path": ".agents/skills/api-design/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/.agents/skills/api-design/SKILL.md",
                   "skill_name": "api-design",
-                  "skill_dir": "skills/api-design"
+                  "skill_dir": ".agents/skills/api-design"
                 }
               ]
             },
@@ -575,14 +575,14 @@
                 {
                   "concept": "플랫폼 우선순위 결정",
                   "why": "iOS 우선 · Android 우선 · 양쪽 동시 중 무엇이냐는 비용에 직결됩니다. 인디 런칭은 보통 하나를 골라 반복하고, 엔터프라이즈는 보통 양쪽 동시. 명시적으로 결정하고 근거를 문서화합니다.",
-                  "example_id": "5bcd5a0a21806963",
+                  "example_id": "e92eda40bdbe43c6",
                   "example_label": "architecture-decision-records",
-                  "source_repo": "affaan-m/everything-claude-code",
+                  "source_repo": "wshobson/agents",
                   "source_ref": "main",
-                  "source_path": "skills/architecture-decision-records/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/architecture-decision-records/SKILL.md",
+                  "source_path": "plugins/documentation-generation/skills/architecture-decision-records/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md",
                   "skill_name": "architecture-decision-records",
-                  "skill_dir": "skills/architecture-decision-records"
+                  "skill_dir": "plugins/documentation-generation/skills/architecture-decision-records"
                 },
                 {
                   "concept": "개발자 계정 + 인증서 셋업",
@@ -809,14 +809,14 @@
                 {
                   "concept": "Model card / Data card",
                   "why": "어떤 데이터로 · 어떤 split으로 · 어떻게 평가했고 · 어떤 한계가 있는지. 미래의 나와 audit 양쪽 모두 필요.",
-                  "example_id": "cfb9eb547dc86cff",
-                  "example_label": "what-if-oracle",
-                  "source_repo": "K-Dense-AI/claude-scientific-skills",
+                  "example_id": "d133f035ecc9e44f",
+                  "example_label": "prediction-market-oracle-research",
+                  "source_repo": "affaan-m/everything-claude-code",
                   "source_ref": "main",
-                  "source_path": "skills/what-if-oracle/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/what-if-oracle/SKILL.md",
-                  "skill_name": "what-if-oracle",
-                  "skill_dir": "skills/what-if-oracle"
+                  "source_path": "skills/prediction-market-oracle-research/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/prediction-market-oracle-research/SKILL.md",
+                  "skill_name": "prediction-market-oracle-research",
+                  "skill_dir": "skills/prediction-market-oracle-research"
                 },
                 {
                   "concept": "다이어그램 기반 문서화",
@@ -984,14 +984,14 @@
                 {
                   "concept": "OWASP Top 10 스윕",
                   "why": "Injection · 깨진 접근 제어 · 식별 실패 · 보안 설정 오류 등 OWASP Top 10에 초점을 둔 리뷰. 전체 감사보다 빠르고 가장 흔한 클래스를 잡아냅니다.",
-                  "example_id": "5657281efa45ff77",
-                  "example_label": "security-audit",
+                  "example_id": "49e9ab43ec7ce259",
+                  "example_label": "security",
                   "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
                   "source_ref": "main",
-                  "source_path": "examples/skills/security-audit/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-audit/SKILL.md",
-                  "skill_name": "security-audit",
-                  "skill_dir": "examples/skills/security-audit"
+                  "source_path": "examples/skills/security/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security/SKILL.md",
+                  "skill_name": "security",
+                  "skill_dir": "examples/skills/security"
                 },
                 {
                   "concept": "설정 보안 체크",
@@ -1015,14 +1015,14 @@
                 {
                   "concept": "SBOM (Software Bill of Materials) 생성",
                   "why": "CycloneDX 또는 SPDX 형식. 모든 의존성을 버전과 라이선스와 함께 나열합니다. 많은 조달 프로세스에서 필수, CVE가 터졌을 때 incident response 속도에 결정적.",
-                  "example_id": "6dd4a8773adb7956",
-                  "example_label": "dependency-upgrade",
-                  "source_repo": "wshobson/agents",
+                  "example_id": "87aabc040b6baa51",
+                  "example_label": "release-plannotator",
+                  "source_repo": "backnotprop/plannotator",
                   "source_ref": "main",
-                  "source_path": "plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
-                  "skill_name": "dependency-upgrade",
-                  "skill_dir": "plugins/framework-migration/skills/dependency-upgrade"
+                  "source_path": ".agents/skills/release/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.agents/skills/release/SKILL.md",
+                  "skill_name": "release-plannotator",
+                  "skill_dir": ".agents/skills/release"
                 },
                 {
                   "concept": "서명된 릴리스 / 아티팩트 무결성",
@@ -1046,14 +1046,14 @@
                 {
                   "concept": "감사 로깅",
                   "why": "auth 이벤트 · 권한 작업 · 데이터 접근을 캡처합니다. append-only · tamper-evident 저장소. 컴플라이언스 범위에 맞는 보관 기간. incident response에서 검색 가능해야 합니다.",
-                  "example_id": "dffa4ecc5bececc7",
-                  "example_label": "healthcare-phi-compliance",
+                  "example_id": "2e07a62e98444585",
+                  "example_label": "hipaa-compliance",
                   "source_repo": "affaan-m/everything-claude-code",
                   "source_ref": "main",
-                  "source_path": "skills/healthcare-phi-compliance/SKILL.md",
-                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/healthcare-phi-compliance/SKILL.md",
-                  "skill_name": "healthcare-phi-compliance",
-                  "skill_dir": "skills/healthcare-phi-compliance"
+                  "source_path": "skills/hipaa-compliance/SKILL.md",
+                  "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/hipaa-compliance/SKILL.md",
+                  "skill_name": "hipaa-compliance",
+                  "skill_dir": "skills/hipaa-compliance"
                 },
                 {
                   "concept": "Incident response 런북",
