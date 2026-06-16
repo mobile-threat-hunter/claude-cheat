@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-06-15T18:18:41.538Z",
+  "generated_at": "2026-06-16T00:46:29.305Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 32
+    "translated_ko": 40
   },
   "items": [
+    {
+      "date": "2026-06-15",
+      "datetime": "2026-06-15T21:35:55Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.178",
+      "summary": "- Added `Tool(param:value)` syntax for permission rules to match a tool's input parameters (with `*` wildcard), e.g. `Agent(model:opus)` to block Opus subagents\n- Skills in nested `.claude/skills` directories now load when working on files there; on a name clash, the nested skill appears as `<dir>:<name>` so both stay available\n- Nested `.claude/` directories: the agent, workflow, and…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
+      "title_ko": "Claude Code v2.1.178",
+      "summary_ko": "- 권한 규칙에 `Tool(param:value)` 문법 추가 — 도구의 입력 파라미터를 매칭할 수 있습니다 (`*` 와일드카드 지원). 예: `Agent(model:opus)`로 Opus 서브에이전트 차단\n- 중첩 `.claude/skills` 디렉터리의 스킬이 해당 위치 파일 작업 시 로드됨; 이름 충돌이 발생하면 중첩 스킬이 `<dir>:<name>`으로 표시되어 둘 다 사용 가능\n- 중첩 `.claude/` 디렉터리에서 agent, workflow…"
+    },
     {
       "date": "2026-06-15",
       "datetime": "2026-06-15T12:21:25.000Z",
@@ -15,7 +26,9 @@
       "source_label": "Anthropic Research",
       "title": "Emotion concepts and their function in a large language model",
       "summary": "All modern language models sometimes act like they have emotions. What’s behind these behaviors? Our interpretability team investigates.",
-      "url": "https://www.anthropic.com/research/emotion-concepts-function"
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "title_ko": "대형 언어 모델의 감정 개념과 그 기능",
+      "summary_ko": "최신 언어 모델은 때때로 감정을 가진 것처럼 행동합니다. 그 뒤에는 무엇이 있을까요? Anthropic 해석가능성(interpretability) 팀이 모델 내부에서 감정 개념이 어떻게 표현되고 동작하는지 파헤칩니다."
     },
     {
       "date": "2026-06-15",
@@ -46,7 +59,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.177",
       "summary": "",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+      "title_ko": "Claude Code v2.1.177",
+      "summary_ko": "- 내부 인프라 개선 (사용자에게 노출되는 변경 사항 없음)"
     },
     {
       "date": "2026-06-13",
@@ -55,7 +70,9 @@
       "source_label": "Anthropic News",
       "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
       "summary": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States.",
-      "url": "https://www.anthropic.com/news/fable-mythos-access"
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "title_ko": "Fable 5 · Mythos 5 접근 중단에 대한 미국 정부 지시 — 입장문",
+      "summary_ko": "미국 정부가 수출 통제 지시를 통해 미국 안팎의 모든 외국 국적자에 대한 Fable 5 · Mythos 5 접근을 중단하도록 했습니다. Anthropic은 해당 조치를 이행한다는 공식 입장을 밝힙니다."
     },
     {
       "date": "2026-06-12",
@@ -64,7 +81,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.176",
       "summary": "- Session titles are now generated in the language of your conversation (set the `language` setting to pin a specific language)\n- Added `footerLinksRegexes` setting for regex-matched link badges in the footer row, configurable via user or managed settings\n- Improved Bedrock credential caching: credentials from `awsCredentialExport` are now cached until their `Expiration` instead of a fixed 1 hour\n…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "title_ko": "Claude Code v2.1.176",
+      "summary_ko": "- 세션 제목이 대화 언어로 생성됩니다 (특정 언어로 고정하려면 `language` 설정 사용)\n- `footerLinksRegexes` 설정 추가 — 푸터 줄에 정규식 매칭 링크 배지를 표시 (사용자/관리 설정에서 구성 가능)\n- Bedrock 자격증명 캐시 개선: `awsCredentialExport`로 받은 자격증명을 고정 1시간이 아니라 `Expiration` 시각까지 캐시…"
     },
     {
       "date": "2026-06-12",
@@ -73,7 +92,9 @@
       "source_label": "Anthropic News",
       "title": "TCS and Anthropic partner to bring Claude to regulated industries",
       "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "title_ko": "TCS와 Anthropic, 규제 산업에 Claude 도입 위해 파트너십 체결",
+      "summary_ko": "Tata Consultancy Services(TCS)와 파트너십을 발표합니다. TCS는 56개국 5만 명 자사 임직원에게 Claude를 제공하고, 금융·헬스케어·공공 등 규제 산업 고객을 위한 Claude 기반 제품을 구축하며, Claude Partner Network에 합류합니다."
     },
     {
       "date": "2026-06-12",
@@ -82,7 +103,9 @@
       "source_label": "Anthropic News",
       "title": "Results from first Anthropic Public Record",
       "summary": "Anthropic Public Record is a national survey of attitudes and opinions towards AI.",
-      "url": "https://www.anthropic.com/news/anthropic-public-record"
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "title_ko": "첫 'Anthropic Public Record' 결과 발표",
+      "summary_ko": "AI에 대한 태도와 견해를 묻는 전국 단위 여론 조사 'Anthropic Public Record'의 첫 결과를 공개합니다."
     },
     {
       "date": "2026-06-12",
@@ -91,7 +114,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.175",
       "summary": "- Added `enforceAvailableModels` managed setting — when enabled, the `availableModels` allowlist also constrains the Default model (a Default that would resolve to a disallowed model now falls back to the first allowed model), and user or project settings can no longer widen a managed `availableModels` list",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
+      "title_ko": "Claude Code v2.1.175",
+      "summary_ko": "- `enforceAvailableModels` 관리 설정 추가 — 활성화 시 `availableModels` 허용 목록이 Default 모델에도 적용 (허용되지 않은 모델로 풀릴 Default는 첫 허용 모델로 대체). 사용자/프로젝트 설정이 관리되는 `availableModels` 목록을 넓히지 못합니다"
     },
     {
       "date": "2026-06-12",
@@ -100,7 +125,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.174",
       "summary": "- Added `wheelScrollAccelerationEnabled` setting to disable mouse-wheel scroll acceleration in fullscreen mode\n- Fixed the `/model` picker hiding the model family that Default resolves to — Opus now appears as its own row on Max/Team Premium/Enterprise plans, Sonnet on Pro/Team plans, and Opus on pay-as-you-go API accounts\n- Fixed `/model` picker showing a hardcoded Sonnet version label when…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
+      "title_ko": "Claude Code v2.1.174",
+      "summary_ko": "- 풀스크린 모드에서 마우스 휠 스크롤 가속을 비활성화하는 `wheelScrollAccelerationEnabled` 설정 추가\n- `/model` 피커가 Default가 풀리는 모델 패밀리를 숨기던 문제 수정 — Max/Team Premium/Enterprise는 Opus, Pro/Team은 Sonnet, pay-as-you-go API는 Opus가 각각 별도 행으로 표시됩니다\n- `/model` 피커가 하드코딩된 Sonnet 버전 라벨을 보여주던 문제 수정…"
     },
     {
       "date": "2026-06-11",
@@ -299,17 +326,6 @@
       "url": "https://www.anthropic.com/news/widening-conversation-ai",
       "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
       "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T05:45:06Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.165",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
-      "title_ko": "Claude Code v2.1.165",
-      "summary_ko": "- 버그 수정 및 안정성 개선"
     },
     {
       "date": "2026-06-03",
