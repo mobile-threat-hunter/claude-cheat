@@ -1,13 +1,33 @@
 {
-  "generated_at": "2026-06-16T00:46:29.305Z",
+  "generated_at": "2026-06-16T18:24:37.596Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 40
+    "translated_ko": 39
   },
   "items": [
+    {
+      "date": "2026-06-16",
+      "datetime": "2026-06-16T14:35:47.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "title_ko": "TCS와 Anthropic, 규제 산업에 Claude 도입 위해 파트너십 체결",
+      "summary_ko": "Tata Consultancy Services(TCS)와 파트너십을 발표합니다. TCS는 56개국 5만 명 자사 임직원에게 Claude를 제공하고, 금융·헬스케어·공공 등 규제 산업 고객을 위한 Claude 기반 제품을 구축하며, Claude Partner Network에 합류합니다."
+    },
+    {
+      "date": "2026-06-16",
+      "datetime": "2026-06-16T09:51:16.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Core views on AI safety: When, why, what, and how",
+      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
+    },
     {
       "date": "2026-06-15",
       "datetime": "2026-06-15T21:35:55Z",
@@ -84,17 +104,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
       "title_ko": "Claude Code v2.1.176",
       "summary_ko": "- 세션 제목이 대화 언어로 생성됩니다 (특정 언어로 고정하려면 `language` 설정 사용)\n- `footerLinksRegexes` 설정 추가 — 푸터 줄에 정규식 매칭 링크 배지를 표시 (사용자/관리 설정에서 구성 가능)\n- Bedrock 자격증명 캐시 개선: `awsCredentialExport`로 받은 자격증명을 고정 1시간이 아니라 `Expiration` 시각까지 캐시…"
-    },
-    {
-      "date": "2026-06-12",
-      "datetime": "2026-06-12T17:59:27.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-      "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.",
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "title_ko": "TCS와 Anthropic, 규제 산업에 Claude 도입 위해 파트너십 체결",
-      "summary_ko": "Tata Consultancy Services(TCS)와 파트너십을 발표합니다. TCS는 56개국 5만 명 자사 임직원에게 Claude를 제공하고, 금융·헬스케어·공공 등 규제 산업 고객을 위한 Claude 기반 제품을 구축하며, Claude Partner Network에 합류합니다."
     },
     {
       "date": "2026-06-12",
@@ -359,17 +368,6 @@
       "url": "https://www.anthropic.com/news/expanding-project-glasswing",
       "title_ko": "Project Glasswing 확장",
       "summary_ko": "Project Glasswing을 15개국 이상의 신규 조직 약 150곳으로 확장합니다."
-    },
-    {
-      "date": "2026-06-01",
-      "datetime": "2026-06-01T15:59:13.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic confidentially submits draft S-1 to the SEC",
-      "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "title_ko": "Anthropic, SEC에 기밀 S-1 초안 제출",
-      "summary_ko": "Anthropic이 미국 증권거래위원회(SEC)에 S-1 등록신고서 초안을 기밀로 제출했습니다. S-1은 기업공개(IPO)를 위한 필수 서류로, 이번 제출은 향후 상장 가능성을 가늠하는 단계입니다."
     },
     {
       "date": "2026-05-27",

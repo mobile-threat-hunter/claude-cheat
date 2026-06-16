@@ -1,5 +1,5 @@
 {
-  "sample_size": 1366,
+  "sample_size": 1381,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,53 +8,53 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1312,
-      "pct": 96.0
+      "count": 1327,
+      "pct": 96.1
     },
     {
       "field": "name",
-      "count": 1311,
+      "count": 1326,
       "pct": 96.0
     },
     {
       "field": "origin",
-      "count": 688,
-      "pct": 50.4
+      "count": 441,
+      "pct": 31.9
     },
     {
       "field": "metadata",
-      "count": 195,
-      "pct": 14.3
+      "count": 438,
+      "pct": 31.7
     },
     {
       "field": "license",
-      "count": 169,
-      "pct": 12.4
+      "count": 170,
+      "pct": 12.3
     },
     {
       "field": "version",
-      "count": 107,
+      "count": 108,
       "pct": 7.8
     },
     {
       "field": "allowed-tools",
       "count": 89,
-      "pct": 6.5
+      "pct": 6.4
     },
     {
       "field": "argument-hint",
-      "count": 87,
+      "count": 88,
       "pct": 6.4
     },
     {
       "field": "compatibility",
       "count": 54,
-      "pct": 4.0
+      "pct": 3.9
     },
     {
       "field": "required_environment_variables",
       "count": 31,
-      "pct": 2.3
+      "pct": 2.2
     },
     {
       "field": "tools",
@@ -63,13 +63,13 @@
     },
     {
       "field": "homepage",
-      "count": 12,
-      "pct": 0.9
+      "count": 14,
+      "pct": 1.0
     },
     {
       "field": "disable-model-invocation",
-      "count": 10,
-      "pct": 0.7
+      "count": 11,
+      "pct": 0.8
     },
     {
       "field": "author",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 1366,
+      "count": 1381,
       "min": 8,
       "p25": 89,
-      "median": 161,
-      "p75": 242,
-      "p90": 357,
-      "max": 1214,
-      "mean": 193.3
+      "median": 162,
+      "p75": 245,
+      "p90": 359,
+      "max": 1068,
+      "mean": 194.0
     },
     "has_trigger_phrase_pct": 32.7,
     "has_quoted_user_phrase_pct": 3.1,
-    "short_pct_lt_120": 35.1,
-    "long_pct_gt_300": 16.5
+    "short_pct_lt_120": 34.7,
+    "long_pct_gt_300": 17.2
   },
   "body": {
     "length_chars": {
-      "count": 1366,
+      "count": 1381,
       "min": 610,
-      "p25": 3335,
-      "median": 6918,
-      "p75": 11892,
+      "p25": 3360,
+      "median": 6946,
+      "p75": 11889,
       "p90": 19182,
       "max": 110236,
-      "mean": 9336.8
+      "mean": 9349.9
     },
     "heading_count": {
-      "count": 1366,
+      "count": 1381,
       "min": 0,
       "p25": 12,
       "median": 22,
       "p75": 39,
-      "p90": 61,
+      "p90": 60,
       "max": 237,
-      "mean": 29.0
+      "mean": 28.9
     },
     "code_block_count": {
-      "count": 1366,
+      "count": 1381,
       "min": 0,
       "p25": 2,
       "median": 7,
@@ -129,15 +129,15 @@
       "max": 77,
       "mean": 9.6
     },
-    "has_numbered_list_pct": 63.6,
+    "has_numbered_list_pct": 63.7,
     "has_bullet_list_pct": 99.3,
-    "has_table_pct": 48.9,
-    "has_code_block_pct": 89.5
+    "has_table_pct": 49.2,
+    "has_code_block_pct": 89.3
   },
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 257
+      "count": 258
     },
     {
       "label": "when to use this",
@@ -149,7 +149,7 @@
     },
     {
       "label": "when to activate",
-      "count": 186
+      "count": 199
     },
     {
       "label": "overview",
@@ -157,15 +157,15 @@
     },
     {
       "label": "examples",
-      "count": 128
+      "count": 132
     },
     {
       "label": "how it works",
-      "count": 121
+      "count": 122
     },
     {
       "label": "core concepts",
-      "count": 117
+      "count": 118
     },
     {
       "label": "quick start",
@@ -173,11 +173,11 @@
     },
     {
       "label": "related skills",
-      "count": 89
+      "count": 100
     },
     {
       "label": "anti-patterns",
-      "count": 77
+      "count": 87
     },
     {
       "label": "resources",
@@ -189,7 +189,7 @@
     },
     {
       "label": "workflow",
-      "count": 72
+      "count": 73
     },
     {
       "label": "troubleshooting",
@@ -225,18 +225,18 @@
       "composite": 1.0
     },
     {
+      "id": "bb36161e25057b31",
+      "name": "database-lookup",
+      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
+      "source": "github:K-Dense-AI/claude-scientific-skills@main",
+      "composite": 1.0
+    },
+    {
       "id": "dbd394a69a50430a",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
       "composite": 1.0
-    },
-    {
-      "id": "31e0e5cb7abdd603",
-      "name": "dhdna-profiler",
-      "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
-      "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.992
     },
     {
       "id": "d06d6b81bdf90ceb",
