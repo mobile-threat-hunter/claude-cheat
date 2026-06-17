@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T18:34:03.638047+00:00",
+  "generated_at": "2026-06-17T14:35:22.971011+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -164,7 +164,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
                   "skill_name": "markdown-mermaid-writing",
                   "skill_dir": "skills/markdown-mermaid-writing",
-                  "composite": 0.992
+                  "composite": 0.991
                 },
                 {
                   "concept": "Demo reel for the PR",
@@ -482,7 +482,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/experimental-design/SKILL.md",
                   "skill_name": "experimental-design",
                   "skill_dir": "skills/experimental-design",
-                  "composite": 0.962
+                  "composite": 0.961
                 }
               ]
             },
@@ -502,7 +502,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/zarr-python/SKILL.md",
                   "skill_name": "zarr-python",
                   "skill_dir": "skills/zarr-python",
-                  "composite": 0.986
+                  "composite": 0.985
                 }
               ]
             },
@@ -528,7 +528,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
                   "skill_name": "markdown-mermaid-writing",
                   "skill_dir": "skills/markdown-mermaid-writing",
-                  "composite": 0.992
+                  "composite": 0.991
                 }
               ]
             },

@@ -1,5 +1,5 @@
 {
-  "sample_size": 1381,
+  "sample_size": 1386,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,23 +8,23 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1327,
-      "pct": 96.1
+      "count": 1330,
+      "pct": 96.0
     },
     {
       "field": "name",
-      "count": 1326,
-      "pct": 96.0
+      "count": 1329,
+      "pct": 95.9
     },
     {
       "field": "origin",
       "count": 441,
-      "pct": 31.9
+      "pct": 31.8
     },
     {
       "field": "metadata",
       "count": 438,
-      "pct": 31.7
+      "pct": 31.6
     },
     {
       "field": "license",
@@ -44,7 +44,7 @@
     {
       "field": "argument-hint",
       "count": 88,
-      "pct": 6.4
+      "pct": 6.3
     },
     {
       "field": "compatibility",
@@ -84,33 +84,33 @@
   ],
   "description": {
     "length": {
-      "count": 1381,
+      "count": 1386,
       "min": 8,
       "p25": 89,
       "median": 162,
       "p75": 245,
-      "p90": 359,
+      "p90": 364,
       "max": 1068,
-      "mean": 194.0
+      "mean": 194.2
     },
     "has_trigger_phrase_pct": 32.7,
     "has_quoted_user_phrase_pct": 3.1,
     "short_pct_lt_120": 34.7,
-    "long_pct_gt_300": 17.2
+    "long_pct_gt_300": 17.3
   },
   "body": {
     "length_chars": {
-      "count": 1381,
+      "count": 1386,
       "min": 610,
-      "p25": 3360,
-      "median": 6946,
-      "p75": 11889,
+      "p25": 3348,
+      "median": 6944,
+      "p75": 11892,
       "p90": 19182,
       "max": 110236,
-      "mean": 9349.9
+      "mean": 9347.7
     },
     "heading_count": {
-      "count": 1381,
+      "count": 1386,
       "min": 0,
       "p25": 12,
       "median": 22,
@@ -120,7 +120,7 @@
       "mean": 28.9
     },
     "code_block_count": {
-      "count": 1381,
+      "count": 1386,
       "min": 0,
       "p25": 2,
       "median": 7,
@@ -129,10 +129,10 @@
       "max": 77,
       "mean": 9.6
     },
-    "has_numbered_list_pct": 63.7,
+    "has_numbered_list_pct": 63.8,
     "has_bullet_list_pct": 99.3,
     "has_table_pct": 49.2,
-    "has_code_block_pct": 89.3
+    "has_code_block_pct": 89.2
   },
   "common_section_headings_h2": [
     {
@@ -141,7 +141,7 @@
     },
     {
       "label": "when to use this",
-      "count": 249
+      "count": 250
     },
     {
       "label": "when to use",
@@ -189,19 +189,19 @@
     },
     {
       "label": "workflow",
-      "count": 73
+      "count": 74
     },
     {
       "label": "troubleshooting",
       "count": 68
     },
     {
-      "label": "output format",
+      "label": "installation",
       "count": 66
     },
     {
-      "label": "installation",
-      "count": 65
+      "label": "output format",
+      "count": 66
     },
     {
       "label": "何时激活",
@@ -225,18 +225,18 @@
       "composite": 1.0
     },
     {
-      "id": "bb36161e25057b31",
-      "name": "database-lookup",
-      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
-      "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 1.0
-    },
-    {
       "id": "dbd394a69a50430a",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
       "composite": 1.0
+    },
+    {
+      "id": "bb36161e25057b31",
+      "name": "database-lookup",
+      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
+      "source": "github:K-Dense-AI/claude-scientific-skills@main",
+      "composite": 0.999
     },
     {
       "id": "d06d6b81bdf90ceb",
@@ -250,14 +250,14 @@
       "name": "setup-codemap-cli",
       "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.892
+      "composite": 0.893
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.887
+      "composite": 0.886
     }
   ]
 }
