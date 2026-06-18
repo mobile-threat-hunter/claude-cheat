@@ -1,21 +1,111 @@
 {
-  "generated_at": "2026-06-17T14:21:17.317Z",
+  "generated_at": "2026-06-18T12:38:12.132Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 37
+    "translated_ko": 27
   },
   "items": [
     {
+      "date": "2026-06-18",
+      "datetime": "2026-06-18T03:57:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "summary": "Anthropic opens Seoul and announces new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem"
+    },
+    {
       "date": "2026-06-17",
-      "datetime": "2026-06-17T00:50:18.000Z",
+      "datetime": "2026-06-17T22:07:41Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.181",
+      "summary": "- Added `/config key=value` syntax to set any setting from the prompt (e.g. `/config thinking=false`) — works in interactive, `-p`, and Remote Control\n- Added `sandbox.allowAppleEvents` opt-in setting that lets sandboxed commands send Apple Events on macOS\n- Added `CLAUDE_CLIENT_PRESENCE_FILE` environment variable: point it at a marker file to suppress mobile push notifications while you're at…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T17:03:48.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
-      "title": "Agentic coding and persistent returns to expertise",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/claude-code-expertise"
+      "title": "Frontier Red Team",
+      "summary": "Anthropic&#x27;s Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems.",
+      "url": "https://www.anthropic.com/research/team/frontier-red-team"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:59:28.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+      "summary": "Claude Mythos Preview is a new general-purpose language model that is strikingly capable at computer security tasks. This post provides technical details for researchers and practitioners who want to understand exactly how we have been testing this model, and what we have found over the past month.",
+      "url": "https://www.anthropic.com/research/mythos-preview"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:54:35.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Developing Nuclear Safeguards for AI",
+      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with high accuracy in preliminary testing.",
+      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:51:58.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Measuring LLMs&#x27; impact on N-day exploits",
+      "summary": "In cybersecurity, a large fraction of real-world harm comes from N-days: vulnerabilities that have already been publicly disclosed, but only patched on some devices. In this post, we evaluate how much large language models can accelerate and automate the process of developing N-day exploits.",
+      "url": "https://www.anthropic.com/research/n-days"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:51:10.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator",
+      "summary": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&amp;CK framework, a database of tactics and techniques used by cyberattackers. ",
+      "url": "https://www.anthropic.com/research/attack-navigator"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:50:51.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Measuring LLMs’ ability to develop exploits",
+      "summary": "We&#x27;ve developed two new, challenging academic benchmarks measuring AI models’ ability to develop exploits, and an updated version of the benchmark measuring smart contract exploitation.",
+      "url": "https://www.anthropic.com/research/exploit-evals"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:50:37.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Reverse engineering Claude&#x27;s CVE-2026-2796 exploit",
+      "summary": "This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in Firefox.",
+      "url": "https://www.anthropic.com/research/exploit"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:50:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "LLM-discovered 0 days",
+      "summary": "AI models can now find high-severity vulnerabilities at scale. This is a moment to empower defenders. We&#x27;re now using Claude to find and help fix vulnerabilities in open source software.",
+      "url": "https://www.anthropic.com/research/zero-days"
+    },
+    {
+      "date": "2026-06-17",
+      "datetime": "2026-06-17T16:48:41.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Developing nuclear safeguards for AI through public-private partnership",
+      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with 96% accuracy in preliminary testing.",
+      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership"
     },
     {
       "date": "2026-06-16",
@@ -56,28 +146,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "title_ko": "Claude Code v2.1.178",
       "summary_ko": "- 권한 규칙에 `Tool(param:value)` 문법 추가 — 도구의 입력 파라미터를 매칭할 수 있습니다 (`*` 와일드카드 지원). 예: `Agent(model:opus)`로 Opus 서브에이전트 차단\n- 중첩 `.claude/skills` 디렉터리의 스킬이 해당 위치 파일 작업 시 로드됨; 이름 충돌이 발생하면 중첩 스킬이 `<dir>:<name>`으로 표시되어 둘 다 사용 가능\n- 중첩 `.claude/` 디렉터리에서 agent, workflow…"
-    },
-    {
-      "date": "2026-06-15",
-      "datetime": "2026-06-15T12:21:25.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Emotion concepts and their function in a large language model",
-      "summary": "All modern language models sometimes act like they have emotions. What’s behind these behaviors? Our interpretability team investigates.",
-      "url": "https://www.anthropic.com/research/emotion-concepts-function",
-      "title_ko": "대형 언어 모델의 감정 개념과 그 기능",
-      "summary_ko": "최신 언어 모델은 때때로 감정을 가진 것처럼 행동합니다. 그 뒤에는 무엇이 있을까요? Anthropic 해석가능성(interpretability) 팀이 모델 내부에서 감정 개념이 어떻게 표현되고 동작하는지 파헤칩니다."
-    },
-    {
-      "date": "2026-06-15",
-      "datetime": "2026-06-15T09:24:09.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Making Claude a chemist",
-      "summary": "We’re working with world-class synthetic, computational, and analytical chemists to make Claude better at chemistry. In this post, we share our first work as part of this effort.",
-      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-      "title_ko": "Claude를 화학자로 만들기",
-      "summary_ko": "Claude가 화학 문제 풀이와 합성 경로 설계 같은 전문 화학 업무를 수행하도록 훈련·평가한 Anthropic의 연구."
     },
     {
       "date": "2026-06-13",
@@ -201,17 +269,6 @@
       "summary_ko": "- 서브에이전트가 자체 서브에이전트를 생성할 수 있게 됨 (최대 5단계 중첩)\n- Amazon Bedrock이 `AWS_REGION` 미설정 시 `~/.aws` 설정에서 리전을 읽어옴 (AWS SDK와 동일한 우선순위); `/status`에 리전 출처 표시\n- `/plugin` 마켓플레이스 탐색에 검색 바 추가\n- OTEL 메트릭 `claude_code.lines_of_code.count`에 `model` 속성 추가"
     },
     {
-      "date": "2026-06-10",
-      "datetime": "2026-06-10T15:16:01.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Paving the way for agents in biology",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/agents-in-biology",
-      "title_ko": "생물학 분야에서 AI 에이전트의 길을 열다",
-      "summary_ko": "생물학 연구·실험 워크플로우에 AI 에이전트가 어떻게 활용될 수 있는지, 그 방향과 안전 고려사항을 짚는 Anthropic의 연구."
-    },
-    {
       "date": "2026-06-09",
       "datetime": "2026-06-09T17:23:09Z",
       "source": "claude-code",
@@ -246,17 +303,6 @@
     },
     {
       "date": "2026-06-06",
-      "datetime": "2026-06-06T01:33:35Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.167",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
-      "title_ko": "Claude Code v2.1.167",
-      "summary_ko": "- 버그 수정 및 안정성 개선"
-    },
-    {
-      "date": "2026-06-06",
       "datetime": "2026-06-06T00:28:16.000Z",
       "source": "anthropic-engineering",
       "source_label": "Anthropic Engineering",
@@ -265,50 +311,6 @@
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "title_ko": "Anthropic이 제품 전반에서 Claude를 어떻게 통제하는가",
       "summary_ko": "Anthropic의 다양한 제품에서 Claude의 행동을 안전하게 제한·격리하는 방식을 설명하는 엔지니어링 글."
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T15:49:18.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Measuring AI agent autonomy in practice",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-      "title_ko": "실전에서 AI 에이전트의 자율성 측정하기",
-      "summary_ko": "AI 에이전트가 실제 환경에서 얼마나 자율적으로 행동하는지 정량화하는 방법론과 측정 결과를 다룬 Anthropic의 연구."
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T15:38:54.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Values in the wild: Discovering and analyzing values in real-world language model interactions",
-      "summary": "An Anthropic research paper testing which values AI models express in the real world",
-      "url": "https://www.anthropic.com/research/values-wild",
-      "title_ko": "세상 속의 가치 — 실제 언어 모델 상호작용에서 가치를 찾고 분석하기",
-      "summary_ko": "실제 사용자 대화에서 AI 모델이 어떤 가치를 표현하는지 분석한 Anthropic 연구 논문."
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T15:38:44.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How AI Is Transforming Work at Anthropic",
-      "summary": "How AI Is Transforming Work at Anthropic",
-      "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
-      "title_ko": "Anthropic 내부에서 AI가 업무를 어떻게 바꾸고 있는가",
-      "summary_ko": "Anthropic 직원들이 일상 업무에서 AI를 어떻게 활용하고 있는지, 그로 인한 업무 방식의 변화를 정리한 연구."
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T15:37:12.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "The assistant axis: situating and stabilizing the character of large language models",
-      "summary": "Who is the Assistant? We investigate the character that most modern language models inhabit when interacting with users.",
-      "url": "https://www.anthropic.com/research/assistant-axis",
-      "title_ko": "어시스턴트 축 — 대형 언어 모델 캐릭터의 위치와 안정화",
-      "summary_ko": "현대 언어 모델이 사용자와 상호작용할 때 자리잡는 '어시스턴트' 캐릭터의 본질을 탐구한 연구."
     },
     {
       "date": "2026-06-05",
@@ -342,28 +344,6 @@
       "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
       "title_ko": "1년간의 AI 기반 사이버 위협을 매핑하며 배운 것",
       "summary_ko": "AI가 사이버 공격의 양상과 수법을 바꾸는 가운데, 기존 보안 커뮤니티의 기법·프레임워크가 얼마나 잘 버티는지 새 보고서로 정리했습니다."
-    },
-    {
-      "date": "2026-06-03",
-      "datetime": "2026-06-03T15:30:11.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-      "summary": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.",
-      "url": "https://www.anthropic.com/news/services-track-partner-hub",
-      "title_ko": "Claude Partner Network의 Services Track과 Partner Hub 공개",
-      "summary_ko": "지난 3월 출범한 Claude Partner Network에 두 가지 새 구성 요소를 추가합니다. Services Track과 Partner Hub로, 기업 고객이 Claude 도입을 도와줄 파트너를 더 쉽게 찾을 수 있게 됐습니다."
-    },
-    {
-      "date": "2026-06-02",
-      "datetime": "2026-06-02T14:03:15.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Expanding Project Glasswing",
-      "summary": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "title_ko": "Project Glasswing 확장",
-      "summary_ko": "Project Glasswing을 15개국 이상의 신규 조직 약 150곳으로 확장합니다."
     },
     {
       "date": "2026-05-27",
