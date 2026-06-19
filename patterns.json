@@ -1,5 +1,5 @@
 {
-  "sample_size": 1388,
+  "sample_size": 1492,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,68 +8,68 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1332,
-      "pct": 96.0
+      "count": 1379,
+      "pct": 92.4
     },
     {
       "field": "name",
-      "count": 1331,
-      "pct": 95.9
+      "count": 1378,
+      "pct": 92.4
     },
     {
       "field": "origin",
       "count": 441,
-      "pct": 31.8
+      "pct": 29.6
     },
     {
       "field": "metadata",
-      "count": 438,
-      "pct": 31.6
+      "count": 439,
+      "pct": 29.4
     },
     {
       "field": "license",
       "count": 170,
-      "pct": 12.2
-    },
-    {
-      "field": "version",
-      "count": 108,
-      "pct": 7.8
+      "pct": 11.4
     },
     {
       "field": "allowed-tools",
-      "count": 91,
-      "pct": 6.6
+      "count": 135,
+      "pct": 9.0
+    },
+    {
+      "field": "version",
+      "count": 110,
+      "pct": 7.4
     },
     {
       "field": "argument-hint",
       "count": 88,
-      "pct": 6.3
+      "pct": 5.9
     },
     {
       "field": "compatibility",
       "count": 54,
-      "pct": 3.9
+      "pct": 3.6
     },
     {
       "field": "required_environment_variables",
       "count": 31,
-      "pct": 2.2
+      "pct": 2.1
     },
     {
       "field": "tools",
       "count": 25,
-      "pct": 1.8
+      "pct": 1.7
     },
     {
       "field": "homepage",
       "count": 14,
-      "pct": 1.0
+      "pct": 0.9
     },
     {
       "field": "disable-model-invocation",
       "count": 11,
-      "pct": 0.8
+      "pct": 0.7
     },
     {
       "field": "author",
@@ -84,68 +84,68 @@
   ],
   "description": {
     "length": {
-      "count": 1388,
+      "count": 1492,
       "min": 8,
-      "p25": 89,
-      "median": 162,
-      "p75": 246,
-      "p90": 368,
+      "p25": 85,
+      "median": 155,
+      "p75": 239,
+      "p90": 355,
       "max": 1068,
-      "mean": 194.9
+      "mean": 187.8
     },
-    "has_trigger_phrase_pct": 32.8,
-    "has_quoted_user_phrase_pct": 3.2,
-    "short_pct_lt_120": 34.7,
-    "long_pct_gt_300": 17.4
+    "has_trigger_phrase_pct": 31.2,
+    "has_quoted_user_phrase_pct": 3.1,
+    "short_pct_lt_120": 37.5,
+    "long_pct_gt_300": 16.3
   },
   "body": {
     "length_chars": {
-      "count": 1388,
+      "count": 1492,
       "min": 610,
-      "p25": 3359,
-      "median": 6944,
-      "p75": 11893,
-      "p90": 19182,
+      "p25": 3250,
+      "median": 6738,
+      "p75": 11749,
+      "p90": 18610,
       "max": 110236,
-      "mean": 9358.7
+      "mean": 9109.8
     },
     "heading_count": {
-      "count": 1388,
+      "count": 1492,
       "min": 0,
       "p25": 12,
       "median": 22,
-      "p75": 39,
-      "p90": 61,
+      "p75": 37,
+      "p90": 59,
       "max": 237,
-      "mean": 28.9
+      "mean": 28.3
     },
     "code_block_count": {
-      "count": 1388,
+      "count": 1492,
       "min": 0,
       "p25": 2,
       "median": 7,
       "p75": 15,
       "p90": 22,
       "max": 77,
-      "mean": 9.6
+      "mean": 9.4
     },
-    "has_numbered_list_pct": 63.8,
-    "has_bullet_list_pct": 99.2,
-    "has_table_pct": 49.3,
-    "has_code_block_pct": 89.3
+    "has_numbered_list_pct": 62.9,
+    "has_bullet_list_pct": 97.2,
+    "has_table_pct": 51.5,
+    "has_code_block_pct": 89.0
   },
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 258
+      "count": 260
     },
     {
       "label": "when to use this",
-      "count": 250
+      "count": 251
     },
     {
       "label": "when to use",
-      "count": 210
+      "count": 213
     },
     {
       "label": "when to activate",
@@ -153,31 +153,31 @@
     },
     {
       "label": "overview",
-      "count": 183
+      "count": 194
     },
     {
       "label": "examples",
-      "count": 132
+      "count": 131
     },
     {
       "label": "how it works",
-      "count": 122
+      "count": 124
     },
     {
       "label": "core concepts",
       "count": 118
     },
     {
-      "label": "quick start",
-      "count": 100
+      "label": "related skills",
+      "count": 105
     },
     {
-      "label": "related skills",
-      "count": 100
+      "label": "quick start",
+      "count": 101
     },
     {
       "label": "anti-patterns",
-      "count": 87
+      "count": 90
     },
     {
       "label": "resources",
@@ -236,7 +236,7 @@
       "name": "database-lookup",
       "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.999
+      "composite": 0.998
     },
     {
       "id": "d06d6b81bdf90ceb",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T12:45:27.721678+00:00",
+  "generated_at": "2026-06-19T13:13:32.349555+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -164,7 +164,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
                   "skill_name": "markdown-mermaid-writing",
                   "skill_dir": "skills/markdown-mermaid-writing",
-                  "composite": 0.991
+                  "composite": 0.99
                 },
                 {
                   "concept": "PR용 데모 릴",
@@ -482,7 +482,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/experimental-design/SKILL.md",
                   "skill_name": "experimental-design",
                   "skill_dir": "skills/experimental-design",
-                  "composite": 0.961
+                  "composite": 0.96
                 }
               ]
             },
@@ -502,7 +502,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/zarr-python/SKILL.md",
                   "skill_name": "zarr-python",
                   "skill_dir": "skills/zarr-python",
-                  "composite": 0.985
+                  "composite": 0.984
                 }
               ]
             },
@@ -528,7 +528,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
                   "skill_name": "markdown-mermaid-writing",
                   "skill_dir": "skills/markdown-mermaid-writing",
-                  "composite": 0.991
+                  "composite": 0.99
                 }
               ]
             },
@@ -701,7 +701,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-check/SKILL.md",
                   "skill_name": "security-check",
                   "skill_dir": "examples/skills/security-check",
-                  "composite": 0.917
+                  "composite": 0.953
                 }
               ]
             },

@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-18T12:38:12.132Z",
+  "generated_at": "2026-06-19T13:03:31.020Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 27
+    "translated_ko": 26
   },
   "items": [
+    {
+      "date": "2026-06-19",
+      "datetime": "2026-06-19T04:10:32.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Agentic coding and persistent returns to expertise",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/claude-code-expertise"
+    },
+    {
+      "date": "2026-06-19",
+      "datetime": "2026-06-19T01:20:50Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.183",
+      "summary": "- Improved auto mode safety: destructive git commands (`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) are now blocked when you didn't ask to discard local work, `git commit --amend` is blocked when the commit wasn't made by the agent this session, and `terraform destroy`/`pulumi destroy`/`cdk destroy` are blocked unless you asked for the specific stack\n- Added a…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183"
+    },
+    {
+      "date": "2026-06-18",
+      "datetime": "2026-06-18T18:56:26.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+    },
+    {
+      "date": "2026-06-18",
+      "datetime": "2026-06-18T18:44:44.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Project Fetch: Phase two",
+      "summary": "We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.",
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two"
+    },
     {
       "date": "2026-06-18",
       "datetime": "2026-06-18T03:57:50.000Z",
@@ -70,33 +106,6 @@
       "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator",
       "summary": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&amp;CK framework, a database of tactics and techniques used by cyberattackers. ",
       "url": "https://www.anthropic.com/research/attack-navigator"
-    },
-    {
-      "date": "2026-06-17",
-      "datetime": "2026-06-17T16:50:51.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Measuring LLMs’ ability to develop exploits",
-      "summary": "We&#x27;ve developed two new, challenging academic benchmarks measuring AI models’ ability to develop exploits, and an updated version of the benchmark measuring smart contract exploitation.",
-      "url": "https://www.anthropic.com/research/exploit-evals"
-    },
-    {
-      "date": "2026-06-17",
-      "datetime": "2026-06-17T16:50:37.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Reverse engineering Claude&#x27;s CVE-2026-2796 exploit",
-      "summary": "This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in Firefox.",
-      "url": "https://www.anthropic.com/research/exploit"
-    },
-    {
-      "date": "2026-06-17",
-      "datetime": "2026-06-17T16:50:14.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "LLM-discovered 0 days",
-      "summary": "AI models can now find high-severity vulnerabilities at scale. This is a moment to empower defenders. We&#x27;re now using Claude to find and help fix vulnerabilities in open source software.",
-      "url": "https://www.anthropic.com/research/zero-days"
     },
     {
       "date": "2026-06-17",
@@ -289,17 +298,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
       "title_ko": "Claude Code v2.1.169",
       "summary_ko": "- `--safe-mode` 플래그(+ `CLAUDE_CODE_SAFE_MODE`) 추가 — 모든 커스터마이즈(CLAUDE.md, 플러그인, 스킬, 훅, MCP)를 비활성화한 상태로 트러블슈팅 가능\n- `/cd` 명령 추가 — 세션 중에 작업 디렉토리를 바꾸되 프롬프트 캐시를 깨지 않음\n- `disableBundledSkills` 설정과 `CLAUDE_CODE_DISABLE_BUNDLED_SKILLS` 환경변수 추가"
-    },
-    {
-      "date": "2026-06-06",
-      "datetime": "2026-06-06T23:41:53Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.168",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
-      "title_ko": "Claude Code v2.1.168",
-      "summary_ko": "- 버그 수정 및 안정성 개선"
     },
     {
       "date": "2026-06-06",
