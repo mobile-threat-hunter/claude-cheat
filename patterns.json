@@ -107,7 +107,7 @@
       "p75": 11749,
       "p90": 18610,
       "max": 110236,
-      "mean": 9109.8
+      "mean": 9110.6
     },
     "heading_count": {
       "count": 1492,
@@ -229,7 +229,7 @@
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 1.0
+      "composite": 0.999
     },
     {
       "id": "bb36161e25057b31",
@@ -243,21 +243,21 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "composite": 0.898
     },
     {
       "id": "2270e331920f0d67",
       "name": "setup-codemap-cli",
       "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.893
+      "composite": 0.892
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.885
+      "composite": 0.884
     }
   ]
 }
