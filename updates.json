@@ -1,13 +1,22 @@
 {
-  "generated_at": "2026-06-20T10:23:55.039Z",
+  "generated_at": "2026-06-21T11:36:38.709Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 26
+    "translated_ko": 25
   },
   "items": [
+    {
+      "date": "2026-06-20",
+      "datetime": "2026-06-20T20:59:19Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.185",
+      "summary": "- The stream-stall hint now reads \"Waiting for API response · will retry in …\" instead of \"No response from API · Retrying in …\", and triggers after 20s of silence instead of 10s",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185"
+    },
     {
       "date": "2026-06-19",
       "datetime": "2026-06-19T04:10:32.000Z",
@@ -287,17 +296,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "title_ko": "Claude Code v2.1.170",
       "summary_ko": "- Claude Fable 5 공개 — 일반 사용자가 안전하게 쓸 수 있는 Mythos 클래스 모델. 2.1.170으로 업데이트하면 사용 가능. 출시 글: anthropic.com/news/claude-fable-5-mythos-5\n- VS Code 통합 터미널에서 실행 시 세션 트랜스크립트가 저장되지 않아 `--resume` 목록에 안 보이던 문제 수정"
-    },
-    {
-      "date": "2026-06-08",
-      "datetime": "2026-06-08T21:57:18Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.169",
-      "summary": "- Added `--safe-mode` flag (and `CLAUDE_CODE_SAFE_MODE`) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP servers) disabled for troubleshooting\n- Added `/cd` command to move a session to a new working directory without breaking the prompt cache mid-session\n- Added a `disableBundledSkills` setting and `CLAUDE_CODE_DISABLE_BUNDLED_SKILLS` environment variable to…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
-      "title_ko": "Claude Code v2.1.169",
-      "summary_ko": "- `--safe-mode` 플래그(+ `CLAUDE_CODE_SAFE_MODE`) 추가 — 모든 커스터마이즈(CLAUDE.md, 플러그인, 스킬, 훅, MCP)를 비활성화한 상태로 트러블슈팅 가능\n- `/cd` 명령 추가 — 세션 중에 작업 디렉토리를 바꾸되 프롬프트 캐시를 깨지 않음\n- `disableBundledSkills` 설정과 `CLAUDE_CODE_DISABLE_BUNDLED_SKILLS` 환경변수 추가"
     },
     {
       "date": "2026-06-06",

@@ -1,5 +1,5 @@
 {
-  "sample_size": 1492,
+  "sample_size": 1494,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1379,
+      "count": 1381,
       "pct": 92.4
     },
     {
       "field": "name",
-      "count": 1378,
+      "count": 1380,
       "pct": 92.4
     },
     {
       "field": "origin",
       "count": 441,
-      "pct": 29.6
+      "pct": 29.5
     },
     {
       "field": "metadata",
@@ -43,8 +43,8 @@
     },
     {
       "field": "argument-hint",
-      "count": 88,
-      "pct": 5.9
+      "count": 89,
+      "pct": 6.0
     },
     {
       "field": "compatibility",
@@ -84,33 +84,33 @@
   ],
   "description": {
     "length": {
-      "count": 1492,
+      "count": 1494,
       "min": 8,
       "p25": 85,
       "median": 155,
-      "p75": 239,
+      "p75": 238,
       "p90": 355,
       "max": 1068,
-      "mean": 187.8
+      "mean": 187.7
     },
-    "has_trigger_phrase_pct": 31.2,
+    "has_trigger_phrase_pct": 31.1,
     "has_quoted_user_phrase_pct": 3.1,
     "short_pct_lt_120": 37.5,
     "long_pct_gt_300": 16.3
   },
   "body": {
     "length_chars": {
-      "count": 1492,
+      "count": 1494,
       "min": 610,
       "p25": 3250,
-      "median": 6738,
+      "median": 6755,
       "p75": 11749,
       "p90": 18610,
       "max": 110236,
-      "mean": 9110.6
+      "mean": 9116.1
     },
     "heading_count": {
-      "count": 1492,
+      "count": 1494,
       "min": 0,
       "p25": 12,
       "median": 22,
@@ -120,7 +120,7 @@
       "mean": 28.3
     },
     "code_block_count": {
-      "count": 1492,
+      "count": 1494,
       "min": 0,
       "p25": 2,
       "median": 7,
@@ -131,7 +131,7 @@
     },
     "has_numbered_list_pct": 62.9,
     "has_bullet_list_pct": 97.2,
-    "has_table_pct": 51.5,
+    "has_table_pct": 51.6,
     "has_code_block_pct": 89.0
   },
   "common_section_headings_h2": [
@@ -157,7 +157,7 @@
     },
     {
       "label": "examples",
-      "count": 131
+      "count": 132
     },
     {
       "label": "how it works",
@@ -229,28 +229,28 @@
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 0.999
+      "composite": 1.0
     },
     {
       "id": "bb36161e25057b31",
       "name": "database-lookup",
       "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.998
+      "composite": 0.997
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.898
+      "composite": 0.9
     },
     {
-      "id": "2270e331920f0d67",
-      "name": "setup-codemap-cli",
-      "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
+      "id": "3cf385577bf18e79",
+      "name": "load-pr-comments",
+      "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.892
+      "composite": 0.894
     },
     {
       "id": "067a3d6a62a691f5",
