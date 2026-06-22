@@ -1,5 +1,5 @@
 {
-  "sample_size": 1494,
+  "sample_size": 1366,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,67 +8,67 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1381,
-      "pct": 92.4
+      "count": 1312,
+      "pct": 96.0
     },
     {
       "field": "name",
-      "count": 1380,
-      "pct": 92.4
+      "count": 1311,
+      "pct": 96.0
     },
     {
       "field": "origin",
-      "count": 441,
-      "pct": 29.5
+      "count": 688,
+      "pct": 50.4
     },
     {
       "field": "metadata",
-      "count": 439,
-      "pct": 29.4
+      "count": 195,
+      "pct": 14.3
     },
     {
       "field": "license",
-      "count": 170,
-      "pct": 11.4
-    },
-    {
-      "field": "allowed-tools",
-      "count": 135,
-      "pct": 9.0
+      "count": 169,
+      "pct": 12.4
     },
     {
       "field": "version",
-      "count": 110,
-      "pct": 7.4
+      "count": 107,
+      "pct": 7.8
+    },
+    {
+      "field": "allowed-tools",
+      "count": 89,
+      "pct": 6.5
     },
     {
       "field": "argument-hint",
-      "count": 89,
-      "pct": 6.0
+      "count": 87,
+      "pct": 6.4
     },
     {
       "field": "compatibility",
       "count": 54,
-      "pct": 3.6
+      "pct": 4.0
     },
     {
       "field": "required_environment_variables",
       "count": 31,
-      "pct": 2.1
+      "pct": 2.3
     },
     {
       "field": "tools",
       "count": 25,
-      "pct": 1.7
+      "pct": 1.8
     },
     {
       "field": "homepage",
-      "count": 14,
+      "count": 12,
       "pct": 0.9
     },
     {
       "field": "disable-model-invocation",
-      "count": 11,
+      "count": 10,
       "pct": 0.7
     },
     {
@@ -84,100 +84,100 @@
   ],
   "description": {
     "length": {
-      "count": 1494,
+      "count": 1366,
       "min": 8,
-      "p25": 85,
-      "median": 155,
-      "p75": 238,
-      "p90": 355,
-      "max": 1068,
-      "mean": 187.7
+      "p25": 89,
+      "median": 161,
+      "p75": 242,
+      "p90": 357,
+      "max": 1214,
+      "mean": 193.3
     },
-    "has_trigger_phrase_pct": 31.1,
+    "has_trigger_phrase_pct": 32.7,
     "has_quoted_user_phrase_pct": 3.1,
-    "short_pct_lt_120": 37.5,
-    "long_pct_gt_300": 16.3
+    "short_pct_lt_120": 35.1,
+    "long_pct_gt_300": 16.5
   },
   "body": {
     "length_chars": {
-      "count": 1494,
+      "count": 1366,
       "min": 610,
-      "p25": 3250,
-      "median": 6755,
-      "p75": 11749,
-      "p90": 18610,
+      "p25": 3335,
+      "median": 6918,
+      "p75": 11892,
+      "p90": 19182,
       "max": 110236,
-      "mean": 9116.1
+      "mean": 9336.8
     },
     "heading_count": {
-      "count": 1494,
+      "count": 1366,
       "min": 0,
       "p25": 12,
       "median": 22,
-      "p75": 37,
-      "p90": 59,
+      "p75": 39,
+      "p90": 61,
       "max": 237,
-      "mean": 28.3
+      "mean": 29.0
     },
     "code_block_count": {
-      "count": 1494,
+      "count": 1366,
       "min": 0,
       "p25": 2,
       "median": 7,
       "p75": 15,
       "p90": 22,
       "max": 77,
-      "mean": 9.4
+      "mean": 9.6
     },
-    "has_numbered_list_pct": 62.9,
-    "has_bullet_list_pct": 97.2,
-    "has_table_pct": 51.6,
-    "has_code_block_pct": 89.0
+    "has_numbered_list_pct": 63.6,
+    "has_bullet_list_pct": 99.3,
+    "has_table_pct": 48.9,
+    "has_code_block_pct": 89.5
   },
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 260
+      "count": 257
     },
     {
       "label": "when to use this",
-      "count": 251
+      "count": 249
     },
     {
       "label": "when to use",
-      "count": 213
+      "count": 210
     },
     {
       "label": "when to activate",
-      "count": 199
+      "count": 186
     },
     {
       "label": "overview",
-      "count": 194
+      "count": 183
     },
     {
       "label": "examples",
-      "count": 132
+      "count": 128
     },
     {
       "label": "how it works",
-      "count": 124
+      "count": 121
     },
     {
       "label": "core concepts",
-      "count": 118
-    },
-    {
-      "label": "related skills",
-      "count": 105
+      "count": 117
     },
     {
       "label": "quick start",
-      "count": 101
+      "count": 100
+    },
+    {
+      "label": "related skills",
+      "count": 89
     },
     {
       "label": "anti-patterns",
-      "count": 90
+      "count": 77
     },
     {
       "label": "resources",
@@ -189,19 +189,19 @@
     },
     {
       "label": "workflow",
-      "count": 74
+      "count": 72
     },
     {
       "label": "troubleshooting",
       "count": 68
     },
     {
-      "label": "installation",
+      "label": "output format",
       "count": 66
     },
     {
-      "label": "output format",
-      "count": 66
+      "label": "installation",
+      "count": 65
     },
     {
       "label": "何时激活",
@@ -232,11 +232,11 @@
       "composite": 1.0
     },
     {
-      "id": "bb36161e25057b31",
-      "name": "database-lookup",
-      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
+      "id": "31e0e5cb7abdd603",
+      "name": "dhdna-profiler",
+      "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.997
+      "composite": 0.992
     },
     {
       "id": "d06d6b81bdf90ceb",
@@ -246,18 +246,18 @@
       "composite": 0.9
     },
     {
-      "id": "3cf385577bf18e79",
-      "name": "load-pr-comments",
-      "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
+      "id": "2270e331920f0d67",
+      "name": "setup-codemap-cli",
+      "description": "Guide for setup Codemap CLI for intelligent codebase visualization and navigation",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.894
+      "composite": 0.892
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.884
+      "composite": 0.887
     }
   ]
 }
