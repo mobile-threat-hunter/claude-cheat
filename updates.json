@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T11:36:38.709Z",
+  "generated_at": "2026-06-22T18:07:49.551Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,6 +9,26 @@
   },
   "items": [
     {
+      "date": "2026-06-22",
+      "datetime": "2026-06-22T12:56:39.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic forms $200 million partnership with the Gates Foundation",
+      "summary": "We’re partnering with the Gates Foundation to commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobility over the next four years.",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "title_ko": "Anthropic, Gates Foundation과 2억 달러 규모 파트너십 체결",
+      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
+    },
+    {
+      "date": "2026-06-22",
+      "datetime": "2026-06-22T09:16:36.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Agentic coding and persistent returns to expertise",
+      "summary": "This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.",
+      "url": "https://www.anthropic.com/research/claude-code-expertise"
+    },
+    {
       "date": "2026-06-20",
       "datetime": "2026-06-20T20:59:19Z",
       "source": "claude-code",
@@ -16,15 +36,6 @@
       "title": "Claude Code v2.1.185",
       "summary": "- The stream-stall hint now reads \"Waiting for API response · will retry in …\" instead of \"No response from API · Retrying in …\", and triggers after 20s of silence instead of 10s",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185"
-    },
-    {
-      "date": "2026-06-19",
-      "datetime": "2026-06-19T04:10:32.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Agentic coding and persistent returns to expertise",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/claude-code-expertise"
     },
     {
       "date": "2026-06-19",
@@ -329,17 +340,6 @@
       "url": "https://www.anthropic.com/news/widening-conversation-ai",
       "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
       "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
-    },
-    {
-      "date": "2026-06-03",
-      "datetime": "2026-06-03T16:18:23.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
-      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. ",
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "title_ko": "1년간의 AI 기반 사이버 위협을 매핑하며 배운 것",
-      "summary_ko": "AI가 사이버 공격의 양상과 수법을 바꾸는 가운데, 기존 보안 커뮤니티의 기법·프레임워크가 얼마나 잘 버티는지 새 보고서로 정리했습니다."
     },
     {
       "date": "2026-05-27",
