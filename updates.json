@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-23T00:53:36.290Z",
+  "generated_at": "2026-06-23T00:55:27.292Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 39
+    "translated_ko": 40
   },
   "items": [
     {
@@ -26,7 +26,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.186",
       "summary": "- Added `claude mcp login <name>` and `claude mcp logout <name>` to authenticate MCP servers from the CLI without opening the interactive `/mcp` menu, with `--no-browser` stdin redirect support for completing over SSH\n- Added status filtering (press `f`) to the `/workflows` agent detail view\n- Added a \"Skills\" section to the `/plugin` Installed tab\n- Added `teammateMode: \"iterm2\"` setting with a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
+      "title_ko": "Claude Code v2.1.186",
+      "summary_ko": "- `claude mcp login <name>` / `claude mcp logout <name>` 추가 — 인터랙티브 `/mcp` 메뉴 안 열고 CLI에서 MCP 서버 인증. `--no-browser` stdin 리디렉트로 SSH 위에서도 완료 가능\n- `/workflows` 에이전트 상세 뷰에 상태 필터 추가 (`f` 키)\n- `/plugin` Installed 탭에 \"Skills\" 섹션 추가\n- `teammateMode: \"iterm2\"` 설정 추가…"
     },
     {
       "date": "2026-06-22",
