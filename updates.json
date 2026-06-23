@@ -1,13 +1,33 @@
 {
-  "generated_at": "2026-06-22T18:07:49.551Z",
+  "generated_at": "2026-06-23T00:53:36.290Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 25
+    "translated_ko": 39
   },
   "items": [
+    {
+      "date": "2026-06-22",
+      "datetime": "2026-06-22T21:50:13.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Agentic coding and persistent returns to expertise",
+      "summary": "This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "title_ko": "에이전트형 코딩과 전문성의 지속적 수익",
+      "summary_ko": "2025년 10월~2026년 4월 사이 23만 5천여 명이 만든 약 40만 개의 인터랙티브 세션을 프라이버시 보존 방식으로 분석해, 실제 현장에서 Claude Code가 어떻게 사용되는지 그 양상과 전문성의 가치를 정리한 보고서."
+    },
+    {
+      "date": "2026-06-22",
+      "datetime": "2026-06-22T20:37:34Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.186",
+      "summary": "- Added `claude mcp login <name>` and `claude mcp logout <name>` to authenticate MCP servers from the CLI without opening the interactive `/mcp` menu, with `--no-browser` stdin redirect support for completing over SSH\n- Added status filtering (press `f`) to the `/workflows` agent detail view\n- Added a \"Skills\" section to the `/plugin` Installed tab\n- Added `teammateMode: \"iterm2\"` setting with a…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186"
+    },
     {
       "date": "2026-06-22",
       "datetime": "2026-06-22T12:56:39.000Z",
@@ -20,22 +40,15 @@
       "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
     },
     {
-      "date": "2026-06-22",
-      "datetime": "2026-06-22T09:16:36.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Agentic coding and persistent returns to expertise",
-      "summary": "This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.",
-      "url": "https://www.anthropic.com/research/claude-code-expertise"
-    },
-    {
       "date": "2026-06-20",
       "datetime": "2026-06-20T20:59:19Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.185",
       "summary": "- The stream-stall hint now reads \"Waiting for API response · will retry in …\" instead of \"No response from API · Retrying in …\", and triggers after 20s of silence instead of 10s",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+      "title_ko": "Claude Code v2.1.185",
+      "summary_ko": "- 스트림 정체 안내 문구를 \"Waiting for API response · will retry in …\" 로 변경 (이전 \"No response from API · Retrying in …\") + 트리거 시간을 10초 → 20초로 완화"
     },
     {
       "date": "2026-06-19",
@@ -44,7 +57,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.183",
       "summary": "- Improved auto mode safety: destructive git commands (`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) are now blocked when you didn't ask to discard local work, `git commit --amend` is blocked when the commit wasn't made by the agent this session, and `terraform destroy`/`pulumi destroy`/`cdk destroy` are blocked unless you asked for the specific stack\n- Added a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "title_ko": "Claude Code v2.1.183",
+      "summary_ko": "- Auto 모드 안전성 강화: 사용자가 명시적으로 요청하지 않은 파괴적 git 명령(`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) 차단. 에이전트가 만든 커밋이 아닐 때 `git commit --amend` 차단. 특정 스택 지정 없으면 `terraform destroy`/`pulumi destroy`/`cdk destroy` 차단\n- 그 외 안전 가드 추가…"
     },
     {
       "date": "2026-06-18",
@@ -53,7 +68,9 @@
       "source_label": "Anthropic Research",
       "title": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+      "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "title_ko": "BioMysteryBench으로 Claude의 생물정보학 연구 능력 평가",
+      "summary_ko": "생물정보학 연구 워크플로우를 모사한 BioMysteryBench 벤치마크로 Claude의 추론·분석·도구 사용 능력을 평가한 연구."
     },
     {
       "date": "2026-06-18",
@@ -62,7 +79,9 @@
       "source_label": "Anthropic Research",
       "title": "Project Fetch: Phase two",
       "summary": "We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.",
-      "url": "https://www.anthropic.com/research/project-fetch-phase-two"
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "title_ko": "Project Fetch — 2단계 결과 발표",
+      "summary_ko": "Claude가 Anthropic 직원의 정교한 로봇 작업을 도울 수 있는지 검증한 후속 실험. Claude Opus 4.7이 사람 도움 없이도 1년 전 인간 팀이 완료한 모든 작업을 가장 빠른 인간 팀 대비 약 20배 빠른 속도로 수행."
     },
     {
       "date": "2026-06-18",
@@ -71,7 +90,9 @@
       "source_label": "Anthropic News",
       "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
       "summary": "Anthropic opens Seoul and announces new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem"
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "title_ko": "Anthropic 서울 사무소 개소 + 한국 AI 생태계 신규 파트너십 발표",
+      "summary_ko": "Anthropic이 서울 사무소를 열고, Claude를 가장 야심차게 도입한 한국의 기업·스타트업·연구자들과 새로운 파트너십을 발표합니다."
     },
     {
       "date": "2026-06-17",
@@ -80,7 +101,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.181",
       "summary": "- Added `/config key=value` syntax to set any setting from the prompt (e.g. `/config thinking=false`) — works in interactive, `-p`, and Remote Control\n- Added `sandbox.allowAppleEvents` opt-in setting that lets sandboxed commands send Apple Events on macOS\n- Added `CLAUDE_CLIENT_PRESENCE_FILE` environment variable: point it at a marker file to suppress mobile push notifications while you're at…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
+      "title_ko": "Claude Code v2.1.181",
+      "summary_ko": "- 프롬프트에서 어떤 설정이든 바꿀 수 있는 `/config key=value` 문법 추가 (예: `/config thinking=false`). 인터랙티브 · `-p` · Remote Control 모두에서 작동\n- macOS에서 샌드박스 명령이 Apple Events를 보낼 수 있도록 하는 `sandbox.allowAppleEvents` opt-in 설정 추가\n- `CLAUDE_CLIENT_PRESENCE_FILE` 환경변수 추가: 마커 파일을 지정하면 사용자가 단말 앞에 있을 때 모바일 푸시 알림 억제…"
     },
     {
       "date": "2026-06-17",
@@ -89,7 +112,9 @@
       "source_label": "Anthropic Research",
       "title": "Frontier Red Team",
       "summary": "Anthropic&#x27;s Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems.",
-      "url": "https://www.anthropic.com/research/team/frontier-red-team"
+      "url": "https://www.anthropic.com/research/team/frontier-red-team",
+      "title_ko": "Frontier Red Team",
+      "summary_ko": "Anthropic의 Frontier Red Team이 AI 시스템을 스트레스 테스트해 현재 역량의 전체 범위를 파악하고 다음에 올 변화를 예측. 사이버보안 · 국가안보 · 자율 시스템 측면에서 AI의 함의를 근거 기반으로 분석합니다."
     },
     {
       "date": "2026-06-17",
@@ -98,7 +123,9 @@
       "source_label": "Anthropic Research",
       "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
       "summary": "Claude Mythos Preview is a new general-purpose language model that is strikingly capable at computer security tasks. This post provides technical details for researchers and practitioners who want to understand exactly how we have been testing this model, and what we have found over the past month.",
-      "url": "https://www.anthropic.com/research/mythos-preview"
+      "url": "https://www.anthropic.com/research/mythos-preview",
+      "title_ko": "Claude Mythos Preview의 사이버보안 역량 평가",
+      "summary_ko": "Claude Mythos Preview는 컴퓨터 보안 작업에서 두드러진 능력을 보이는 신규 범용 언어모델. 지난 한 달간의 테스트 방법론과 발견 결과를 연구자·실무자를 위해 기술적으로 정리."
     },
     {
       "date": "2026-06-17",
@@ -107,7 +134,9 @@
       "source_label": "Anthropic Research",
       "title": "Developing Nuclear Safeguards for AI",
       "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with high accuracy in preliminary testing.",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai"
+      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+      "title_ko": "AI를 위한 핵 안전장치(Nuclear Safeguards) 개발",
+      "summary_ko": "NNSA 및 DOE 국립연구소와 공동으로 분류기(AI 시스템)를 개발 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 자동 구분, 초기 테스트에서 높은 정확도를 보였습니다."
     },
     {
       "date": "2026-06-17",
@@ -116,7 +145,9 @@
       "source_label": "Anthropic Research",
       "title": "Measuring LLMs&#x27; impact on N-day exploits",
       "summary": "In cybersecurity, a large fraction of real-world harm comes from N-days: vulnerabilities that have already been publicly disclosed, but only patched on some devices. In this post, we evaluate how much large language models can accelerate and automate the process of developing N-day exploits.",
-      "url": "https://www.anthropic.com/research/n-days"
+      "url": "https://www.anthropic.com/research/n-days",
+      "title_ko": "LLM이 N-day 익스플로잇에 미치는 영향 측정",
+      "summary_ko": "사이버보안 피해의 상당 부분은 N-day(공개됐지만 일부 단말에만 패치된 취약점)에서 발생. 대형 언어모델이 N-day 익스플로잇 개발을 얼마나 가속·자동화하는지를 평가합니다."
     },
     {
       "date": "2026-06-17",
@@ -125,7 +156,9 @@
       "source_label": "Anthropic Research",
       "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator",
       "summary": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&amp;CK framework, a database of tactics and techniques used by cyberattackers. ",
-      "url": "https://www.anthropic.com/research/attack-navigator"
+      "url": "https://www.anthropic.com/research/attack-navigator",
+      "title_ko": "AI 기반 사이버 위협 매핑 — LLM ATT&CK Navigator의 통찰",
+      "summary_ko": "지난 1년간 위협 행위자들이 AI를 사이버 작전에 어떻게 무기화했는지 조사한 결과를, 공격자 전술·기법 데이터베이스 MITRE ATT&CK 프레임워크에 매핑한 분석을 공개합니다."
     },
     {
       "date": "2026-06-17",
@@ -134,7 +167,9 @@
       "source_label": "Anthropic News",
       "title": "Developing nuclear safeguards for AI through public-private partnership",
       "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with 96% accuracy in preliminary testing.",
-      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership"
+      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+      "title_ko": "민관 파트너십을 통한 AI용 핵 안전장치 개발",
+      "summary_ko": "NNSA 및 DOE 국립연구소와 공동 개발한 분류기 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 96% 정확도(초기 테스트)로 자동 구분합니다."
     },
     {
       "date": "2026-06-16",
@@ -143,7 +178,9 @@
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.179",
       "summary": "- Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"\n- Fixed mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code (regression in 2.1.172)\n- Fixed a sandbox `denyRead`/`allowRead` glob over a large directory tree making the Bash tool description enormous and the session unusable…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179"
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
+      "title_ko": "Claude Code v2.1.179",
+      "summary_ko": "- 스트림 도중 연결 끊김 수정: raw 에러 대신 부분 응답을 유지하고, 스피너가 \"running tool\"에 멈춰있는 현상 해결\n- WSL2의 Windows Terminal·VS Code에서 마우스 휠 스크롤 수정 (2.1.172에서 회귀했던 버그)\n- 대형 디렉토리 트리에 sandbox `denyRead`/`allowRead` glob을 걸면 Bash 도구 설명이 폭증해 세션을 못 쓰게 되던 문제 수정…"
     },
     {
       "date": "2026-06-16",
@@ -163,7 +200,9 @@
       "source_label": "Anthropic News",
       "title": "Core views on AI safety: When, why, what, and how",
       "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety"
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "title_ko": "AI 안전성에 대한 핵심 견해 — 언제·왜·무엇을·어떻게",
+      "summary_ko": "AI 발전은 향후 10년 내 변혁적 AI 시스템으로 이어질 수 있지만, 그러한 시스템을 안전하게 만들고 인간 가치와 정렬하는 방법은 아직 모릅니다. 이를 위해 Anthropic이 추구하는 여러 연구 방향을 정리한 문서."
     },
     {
       "date": "2026-06-15",
@@ -296,17 +335,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "title_ko": "Claude Code v2.1.172",
       "summary_ko": "- 서브에이전트가 자체 서브에이전트를 생성할 수 있게 됨 (최대 5단계 중첩)\n- Amazon Bedrock이 `AWS_REGION` 미설정 시 `~/.aws` 설정에서 리전을 읽어옴 (AWS SDK와 동일한 우선순위); `/status`에 리전 출처 표시\n- `/plugin` 마켓플레이스 탐색에 검색 바 추가\n- OTEL 메트릭 `claude_code.lines_of_code.count`에 `model` 속성 추가"
-    },
-    {
-      "date": "2026-06-09",
-      "datetime": "2026-06-09T17:23:09Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.170",
-      "summary": "- Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally available. Update to version 2.1.170 for access. https://www.anthropic.com/news/claude-fable-5-mythos-5\n- Fixed sessions not saving transcripts (and not appearing in --resume) when launched from the VS Code integrated terminal or any…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
-      "title_ko": "Claude Code v2.1.170",
-      "summary_ko": "- Claude Fable 5 공개 — 일반 사용자가 안전하게 쓸 수 있는 Mythos 클래스 모델. 2.1.170으로 업데이트하면 사용 가능. 출시 글: anthropic.com/news/claude-fable-5-mythos-5\n- VS Code 통합 터미널에서 실행 시 세션 트랜스크립트가 저장되지 않아 `--resume` 목록에 안 보이던 문제 수정"
     },
     {
       "date": "2026-06-06",
