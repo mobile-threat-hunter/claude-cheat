@@ -107,7 +107,7 @@
       "p75": 11696,
       "p90": 18886,
       "max": 110236,
-      "mean": 9185.3
+      "mean": 9186.1
     },
     "heading_count": {
       "count": 1576,
@@ -236,14 +236,14 @@
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 1.0
+      "composite": 0.999
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "3cf385577bf18e79",
