@@ -1,13 +1,31 @@
 {
-  "generated_at": "2026-06-23T11:50:35.035Z",
+  "generated_at": "2026-06-24T11:26:25.403Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 40
+    "translated_ko": 38
   },
   "items": [
+    {
+      "date": "2026-06-23",
+      "datetime": "2026-06-23T21:03:48Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.187",
+      "summary": "- Added `sandbox.credentials` setting to block sandboxed commands from reading credential files and secret environment variables\n- Added org-configured model restrictions to the model picker, `--model`, `/model`, and `ANTHROPIC_MODEL`, with a \"restricted by your organization's settings\" message when a restricted model is selected\n- Added mouse click support to select menus (permission prompts,…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187"
+    },
+    {
+      "date": "2026-06-23",
+      "datetime": "2026-06-23T19:22:44.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Tag",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag"
+    },
     {
       "date": "2026-06-22",
       "datetime": "2026-06-22T21:50:13.000Z",
@@ -328,17 +346,6 @@
       "summary_ko": "- Fable 5 모델명에 붙던 `[1m]` 접미사를 자동으로 떼내도록 수정 (Fable 5는 기본 1M 컨텍스트라 접미사가 중복)\n- Windows에서 sandbox 사용 시 시작 경고 'sandbox dependencies missing'이 잘못 뜨던 문제 수정"
     },
     {
-      "date": "2026-06-10",
-      "datetime": "2026-06-10T20:44:15Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.172",
-      "summary": "- Sub-agents can now spawn their own sub-agents (up to 5 levels deep)\n- Amazon Bedrock now reads the AWS region from `~/.aws` config files when `AWS_REGION` isn't set, matching AWS SDK precedence; `/status` shows where the region came from\n- Added a search bar when browsing a marketplace's plugins in `/plugin`\n- Added `model` attribute to the `claude_code.lines_of_code.count` OTEL metric\n- Fixed…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
-      "title_ko": "Claude Code v2.1.172",
-      "summary_ko": "- 서브에이전트가 자체 서브에이전트를 생성할 수 있게 됨 (최대 5단계 중첩)\n- Amazon Bedrock이 `AWS_REGION` 미설정 시 `~/.aws` 설정에서 리전을 읽어옴 (AWS SDK와 동일한 우선순위); `/status`에 리전 출처 표시\n- `/plugin` 마켓플레이스 탐색에 검색 바 추가\n- OTEL 메트릭 `claude_code.lines_of_code.count`에 `model` 속성 추가"
-    },
-    {
       "date": "2026-06-06",
       "datetime": "2026-06-06T00:28:16.000Z",
       "source": "anthropic-engineering",
@@ -359,17 +366,6 @@
       "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
       "title_ko": "Anthropic 공동창업자 Chris Olah, 교황 레오 14세의 회칙 'Magnifica humanitas'에 대한 발언",
       "summary_ko": "AI에 관한 교황의 회칙에 대해 Chris Olah가 남긴 발언 전문"
-    },
-    {
-      "date": "2026-06-05",
-      "datetime": "2026-06-05T14:40:24.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Widening the conversation on frontier AI",
-      "summary": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI. ",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "title_ko": "프론티어 AI에 관한 논의를 더 넓게",
-      "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
     },
     {
       "date": "2026-05-27",

@@ -28,12 +28,12 @@
     },
     {
       "field": "license",
-      "count": 171,
+      "count": 172,
       "pct": 10.9
     },
     {
       "field": "allowed-tools",
-      "count": 138,
+      "count": 139,
       "pct": 8.8
     },
     {
@@ -91,7 +91,7 @@
       "p75": 238,
       "p90": 357,
       "max": 1068,
-      "mean": 186.3
+      "mean": 186.4
     },
     "has_trigger_phrase_pct": 30.9,
     "has_quoted_user_phrase_pct": 3.3,
@@ -102,12 +102,12 @@
     "length_chars": {
       "count": 1576,
       "min": 610,
-      "p25": 3236,
-      "median": 6554,
+      "p25": 3238,
+      "median": 6561,
       "p75": 11696,
       "p90": 18886,
       "max": 110236,
-      "mean": 9186.1
+      "mean": 9192.1
     },
     "heading_count": {
       "count": 1576,
@@ -117,7 +117,7 @@
       "p75": 37,
       "p90": 58,
       "max": 237,
-      "mean": 27.4
+      "mean": 27.5
     },
     "code_block_count": {
       "count": 1576,
@@ -131,7 +131,7 @@
     },
     "has_numbered_list_pct": 62.9,
     "has_bullet_list_pct": 97.3,
-    "has_table_pct": 50.0,
+    "has_table_pct": 50.1,
     "has_code_block_pct": 88.8
   },
   "common_section_headings_h2": [
@@ -250,14 +250,14 @@
       "name": "load-pr-comments",
       "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.894
+      "composite": 0.893
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.883
+      "composite": 0.882
     }
   ]
 }
