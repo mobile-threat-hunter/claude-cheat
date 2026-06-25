@@ -1,13 +1,51 @@
 {
-  "generated_at": "2026-06-24T11:26:25.403Z",
+  "generated_at": "2026-06-25T11:13:27.832Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 38
+    "translated_ko": 35
   },
   "items": [
+    {
+      "date": "2026-06-24",
+      "datetime": "2026-06-24T21:58:12Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.191",
+      "summary": "- Added `/rewind` support for resuming a conversation from before `/clear` was run\n- Fixed scroll position jumping to the bottom while reading earlier output during a streaming response\n- Fixed background agents resurrecting after being stopped — stopping an agent from the tasks panel is now permanent\n- Fixed `/voice` showing a generic \"not available\" message when disabled by an organization's…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191"
+    },
+    {
+      "date": "2026-06-24",
+      "datetime": "2026-06-24T15:53:56Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.190",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190"
+    },
+    {
+      "date": "2026-06-24",
+      "datetime": "2026-06-24T14:21:03.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Developing Nuclear Safeguards for AI",
+      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with high accuracy in preliminary testing.",
+      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+      "title_ko": "AI를 위한 핵 안전장치(Nuclear Safeguards) 개발",
+      "summary_ko": "NNSA 및 DOE 국립연구소와 공동으로 분류기(AI 시스템)를 개발 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 자동 구분, 초기 테스트에서 높은 정확도를 보였습니다."
+    },
+    {
+      "date": "2026-06-24",
+      "datetime": "2026-06-24T12:15:51.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "What 81,000 people told us about the economics of AI",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/81k-economics"
+    },
     {
       "date": "2026-06-23",
       "datetime": "2026-06-23T21:03:48Z",
@@ -149,17 +187,6 @@
     },
     {
       "date": "2026-06-17",
-      "datetime": "2026-06-17T16:54:35.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Developing Nuclear Safeguards for AI",
-      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with high accuracy in preliminary testing.",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-      "title_ko": "AI를 위한 핵 안전장치(Nuclear Safeguards) 개발",
-      "summary_ko": "NNSA 및 DOE 국립연구소와 공동으로 분류기(AI 시스템)를 개발 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 자동 구분, 초기 테스트에서 높은 정확도를 보였습니다."
-    },
-    {
-      "date": "2026-06-17",
       "datetime": "2026-06-17T16:51:58.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
@@ -168,17 +195,6 @@
       "url": "https://www.anthropic.com/research/n-days",
       "title_ko": "LLM이 N-day 익스플로잇에 미치는 영향 측정",
       "summary_ko": "사이버보안 피해의 상당 부분은 N-day(공개됐지만 일부 단말에만 패치된 취약점)에서 발생. 대형 언어모델이 N-day 익스플로잇 개발을 얼마나 가속·자동화하는지를 평가합니다."
-    },
-    {
-      "date": "2026-06-17",
-      "datetime": "2026-06-17T16:51:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&amp;CK Navigator",
-      "summary": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&amp;CK framework, a database of tactics and techniques used by cyberattackers. ",
-      "url": "https://www.anthropic.com/research/attack-navigator",
-      "title_ko": "AI 기반 사이버 위협 매핑 — LLM ATT&CK Navigator의 통찰",
-      "summary_ko": "지난 1년간 위협 행위자들이 AI를 사이버 작전에 어떻게 무기화했는지 조사한 결과를, 공격자 전술·기법 데이터베이스 MITRE ATT&CK 프레임워크에 매핑한 분석을 공개합니다."
     },
     {
       "date": "2026-06-17",
@@ -302,17 +318,6 @@
       "summary_ko": "- `enforceAvailableModels` 관리 설정 추가 — 활성화 시 `availableModels` 허용 목록이 Default 모델에도 적용 (허용되지 않은 모델로 풀릴 Default는 첫 허용 모델로 대체). 사용자/프로젝트 설정이 관리되는 `availableModels` 목록을 넓히지 못합니다"
     },
     {
-      "date": "2026-06-12",
-      "datetime": "2026-06-12T01:16:36Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.174",
-      "summary": "- Added `wheelScrollAccelerationEnabled` setting to disable mouse-wheel scroll acceleration in fullscreen mode\n- Fixed the `/model` picker hiding the model family that Default resolves to — Opus now appears as its own row on Max/Team Premium/Enterprise plans, Sonnet on Pro/Team plans, and Opus on pay-as-you-go API accounts\n- Fixed `/model` picker showing a hardcoded Sonnet version label when…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
-      "title_ko": "Claude Code v2.1.174",
-      "summary_ko": "- 풀스크린 모드에서 마우스 휠 스크롤 가속을 비활성화하는 `wheelScrollAccelerationEnabled` 설정 추가\n- `/model` 피커가 Default가 풀리는 모델 패밀리를 숨기던 문제 수정 — Max/Team Premium/Enterprise는 Opus, Pro/Team은 Sonnet, pay-as-you-go API는 Opus가 각각 별도 행으로 표시됩니다\n- `/model` 피커가 하드코딩된 Sonnet 버전 라벨을 보여주던 문제 수정…"
-    },
-    {
       "date": "2026-06-11",
       "datetime": "2026-06-11T18:00:23.000Z",
       "source": "anthropic-news",
@@ -333,17 +338,6 @@
       "url": "https://www.anthropic.com/news/claude-corps",
       "title_ko": "Claude Corps 출범",
       "summary_ko": "AI의 혜택을 미국 전역 지역사회로 확장하는 데 관심 있는 초년 경력자를 위한 국가 펠로우십 프로그램 'Claude Corps'를 시작합니다."
-    },
-    {
-      "date": "2026-06-11",
-      "datetime": "2026-06-11T05:41:54Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.173",
-      "summary": "- Fixed Fable 5 model names with a `[1m]` suffix not being normalized — Fable 5 includes 1M context by default, so the suffix is now stripped automatically\n- Fixed a spurious \"sandbox dependencies missing\" startup warning on Windows when sandbox was enabled in settings",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
-      "title_ko": "Claude Code v2.1.173",
-      "summary_ko": "- Fable 5 모델명에 붙던 `[1m]` 접미사를 자동으로 떼내도록 수정 (Fable 5는 기본 1M 컨텍스트라 접미사가 중복)\n- Windows에서 sandbox 사용 시 시작 경고 'sandbox dependencies missing'이 잘못 뜨던 문제 수정"
     },
     {
       "date": "2026-06-06",

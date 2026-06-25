@@ -1,5 +1,5 @@
 {
-  "sample_size": 1576,
+  "sample_size": 1581,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,23 +8,23 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1462,
-      "pct": 92.8
+      "count": 1466,
+      "pct": 92.7
     },
     {
       "field": "name",
-      "count": 1461,
+      "count": 1465,
       "pct": 92.7
     },
     {
       "field": "metadata",
       "count": 445,
-      "pct": 28.2
+      "pct": 28.1
     },
     {
       "field": "origin",
       "count": 441,
-      "pct": 28.0
+      "pct": 27.9
     },
     {
       "field": "license",
@@ -63,8 +63,8 @@
     },
     {
       "field": "disable-model-invocation",
-      "count": 16,
-      "pct": 1.0
+      "count": 19,
+      "pct": 1.2
     },
     {
       "field": "homepage",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 1576,
+      "count": 1581,
       "min": 8,
-      "p25": 81,
-      "median": 152,
-      "p75": 238,
-      "p90": 357,
+      "p25": 80,
+      "median": 151,
+      "p75": 234,
+      "p90": 349,
       "max": 1068,
-      "mean": 186.4
+      "mean": 183.9
     },
-    "has_trigger_phrase_pct": 30.9,
-    "has_quoted_user_phrase_pct": 3.3,
-    "short_pct_lt_120": 39.0,
-    "long_pct_gt_300": 16.6
+    "has_trigger_phrase_pct": 30.5,
+    "has_quoted_user_phrase_pct": 3.0,
+    "short_pct_lt_120": 39.3,
+    "long_pct_gt_300": 15.6
   },
   "body": {
     "length_chars": {
-      "count": 1576,
+      "count": 1581,
       "min": 610,
-      "p25": 3238,
-      "median": 6561,
-      "p75": 11696,
-      "p90": 18886,
+      "p25": 3232,
+      "median": 6558,
+      "p75": 11617,
+      "p90": 18765,
       "max": 110236,
-      "mean": 9192.1
+      "mean": 9182.9
     },
     "heading_count": {
-      "count": 1576,
+      "count": 1581,
       "min": 0,
       "p25": 11,
       "median": 20,
-      "p75": 37,
+      "p75": 36,
       "p90": 58,
       "max": 237,
-      "mean": 27.5
+      "mean": 27.4
     },
     "code_block_count": {
-      "count": 1576,
+      "count": 1581,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -131,8 +131,8 @@
     },
     "has_numbered_list_pct": 62.9,
     "has_bullet_list_pct": 97.3,
-    "has_table_pct": 50.1,
-    "has_code_block_pct": 88.8
+    "has_table_pct": 50.0,
+    "has_code_block_pct": 88.7
   },
   "common_section_headings_h2": [
     {
@@ -141,11 +141,11 @@
     },
     {
       "label": "when to use this",
-      "count": 251
+      "count": 252
     },
     {
       "label": "when to use",
-      "count": 214
+      "count": 215
     },
     {
       "label": "when to activate",
@@ -197,7 +197,7 @@
     },
     {
       "label": "output format",
-      "count": 68
+      "count": 69
     },
     {
       "label": "installation",
@@ -218,9 +218,9 @@
   ],
   "exemplars": [
     {
-      "id": "1b5d8f3f271c587b",
-      "name": "ce-work",
-      "description": "Execute work efficiently while maintaining quality and finishing features",
+      "id": "f8c90ff5b8a57083",
+      "name": "ce-dogfood-beta",
+      "description": "[BETA] Hands-off end-to-end branch dogfood pass with browser testing, auto-fixes, regression tests, and fix commits.",
       "source": "github:EveryInc/compound-engineering-plugin@main",
       "composite": 1.0
     },
@@ -229,21 +229,21 @@
       "name": "database-lookup",
       "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 1.0
+      "composite": 0.999
     },
     {
       "id": "dbd394a69a50430a",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 0.999
+      "composite": 0.998
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "composite": 0.9
     },
     {
       "id": "3cf385577bf18e79",
