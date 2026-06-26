@@ -1,13 +1,22 @@
 {
-  "generated_at": "2026-06-25T11:13:27.832Z",
+  "generated_at": "2026-06-26T11:31:40.567Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 35
+    "translated_ko": 34
   },
   "items": [
+    {
+      "date": "2026-06-25",
+      "datetime": "2026-06-25T21:45:57Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.193",
+      "summary": "- Added `autoMode.classifyAllShell` setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution patterns\n- Added auto-mode denial reasons to the transcript, the denial toast, and `/permissions` recent denials\n- Added `claude_code.assistant_response` OpenTelemetry log event containing the model's response text. Redacted unless…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193"
+    },
     {
       "date": "2026-06-24",
       "datetime": "2026-06-24T21:58:12Z",
@@ -305,17 +314,6 @@
       "url": "https://www.anthropic.com/news/anthropic-public-record",
       "title_ko": "첫 'Anthropic Public Record' 결과 발표",
       "summary_ko": "AI에 대한 태도와 견해를 묻는 전국 단위 여론 조사 'Anthropic Public Record'의 첫 결과를 공개합니다."
-    },
-    {
-      "date": "2026-06-12",
-      "datetime": "2026-06-12T04:23:51Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.175",
-      "summary": "- Added `enforceAvailableModels` managed setting — when enabled, the `availableModels` allowlist also constrains the Default model (a Default that would resolve to a disallowed model now falls back to the first allowed model), and user or project settings can no longer widen a managed `availableModels` list",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
-      "title_ko": "Claude Code v2.1.175",
-      "summary_ko": "- `enforceAvailableModels` 관리 설정 추가 — 활성화 시 `availableModels` 허용 목록이 Default 모델에도 적용 (허용되지 않은 모델로 풀릴 Default는 첫 허용 모델로 대체). 사용자/프로젝트 설정이 관리되는 `availableModels` 목록을 넓히지 못합니다"
     },
     {
       "date": "2026-06-11",

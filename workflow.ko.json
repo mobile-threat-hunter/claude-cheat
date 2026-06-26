@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T11:26:33.695678+00:00",
+  "generated_at": "2026-06-26T11:38:26.003917+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-06",
   "snapshots": [
@@ -197,7 +197,7 @@
                   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/canary-watch/SKILL.md",
                   "skill_name": "canary-watch",
                   "skill_dir": "skills/canary-watch",
-                  "composite": 0.942
+                  "composite": 0.944
                 },
                 {
                   "concept": "프로덕트 펄스 / 윈도우 리포트",
@@ -264,7 +264,7 @@
                   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/database-migrations/SKILL.md",
                   "skill_name": "database-migrations",
                   "skill_dir": "skills/database-migrations",
-                  "composite": 0.984
+                  "composite": 0.986
                 }
               ]
             },
@@ -284,7 +284,7 @@
                   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/latency-critical-systems/SKILL.md",
                   "skill_name": "latency-critical-systems",
                   "skill_dir": "skills/latency-critical-systems",
-                  "composite": 0.966
+                  "composite": 0.968
                 }
               ]
             },
@@ -548,7 +548,7 @@
                   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/cost-aware-llm-pipeline/SKILL.md",
                   "skill_name": "cost-aware-llm-pipeline",
                   "skill_dir": "skills/cost-aware-llm-pipeline",
-                  "composite": 0.908
+                  "composite": 0.91
                 }
               ]
             }
@@ -622,7 +622,7 @@
                   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/healthcare-phi-compliance/SKILL.md",
                   "skill_name": "healthcare-phi-compliance",
                   "skill_dir": "skills/healthcare-phi-compliance",
-                  "composite": 0.942
+                  "composite": 0.944
                 }
               ]
             },
@@ -741,7 +741,7 @@
                   "raw_url": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/skills/hipaa-compliance/SKILL.md",
                   "skill_name": "hipaa-compliance",
                   "skill_dir": "skills/hipaa-compliance",
-                  "composite": 0.974
+                  "composite": 0.976
                 },
                 {
                   "concept": "Incident response 런북",

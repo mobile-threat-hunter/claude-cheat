@@ -1,5 +1,5 @@
 {
-  "sample_size": 1581,
+  "sample_size": 1582,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1466,
+      "count": 1467,
       "pct": 92.7
     },
     {
       "field": "name",
-      "count": 1465,
+      "count": 1466,
       "pct": 92.7
     },
     {
       "field": "metadata",
-      "count": 445,
-      "pct": 28.1
+      "count": 446,
+      "pct": 28.2
     },
     {
       "field": "origin",
@@ -84,33 +84,33 @@
   ],
   "description": {
     "length": {
-      "count": 1581,
+      "count": 1582,
       "min": 8,
       "p25": 80,
       "median": 151,
       "p75": 234,
       "p90": 349,
       "max": 1068,
-      "mean": 183.9
+      "mean": 184.1
     },
     "has_trigger_phrase_pct": 30.5,
-    "has_quoted_user_phrase_pct": 3.0,
+    "has_quoted_user_phrase_pct": 3.1,
     "short_pct_lt_120": 39.3,
-    "long_pct_gt_300": 15.6
+    "long_pct_gt_300": 15.7
   },
   "body": {
     "length_chars": {
-      "count": 1581,
+      "count": 1582,
       "min": 610,
       "p25": 3232,
-      "median": 6558,
+      "median": 6554,
       "p75": 11617,
       "p90": 18765,
       "max": 110236,
-      "mean": 9182.9
+      "mean": 9180.3
     },
     "heading_count": {
-      "count": 1581,
+      "count": 1582,
       "min": 0,
       "p25": 11,
       "median": 20,
@@ -120,7 +120,7 @@
       "mean": 27.4
     },
     "code_block_count": {
-      "count": 1581,
+      "count": 1582,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -129,7 +129,7 @@
       "max": 77,
       "mean": 9.1
     },
-    "has_numbered_list_pct": 62.9,
+    "has_numbered_list_pct": 63.0,
     "has_bullet_list_pct": 97.3,
     "has_table_pct": 50.0,
     "has_code_block_pct": 88.7
@@ -225,18 +225,18 @@
       "composite": 1.0
     },
     {
+      "id": "dbd394a69a50430a",
+      "name": "continuous-learning-v2",
+      "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
+      "source": "github:affaan-m/everything-claude-code@main",
+      "composite": 1.0
+    },
+    {
       "id": "bb36161e25057b31",
       "name": "database-lookup",
       "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
       "composite": 0.999
-    },
-    {
-      "id": "dbd394a69a50430a",
-      "name": "continuous-learning-v2",
-      "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
-      "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 0.998
     },
     {
       "id": "d06d6b81bdf90ceb",
@@ -250,14 +250,14 @@
       "name": "load-pr-comments",
       "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.893
+      "composite": 0.892
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.882
+      "composite": 0.881
     }
   ]
 }
