@@ -102,12 +102,12 @@
     "length_chars": {
       "count": 1582,
       "min": 610,
-      "p25": 3232,
+      "p25": 3236,
       "median": 6554,
       "p75": 11617,
-      "p90": 18765,
+      "p90": 18886,
       "max": 110236,
-      "mean": 9180.3
+      "mean": 9211.0
     },
     "heading_count": {
       "count": 1582,
@@ -229,21 +229,21 @@
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 1.0
+      "composite": 0.999
     },
     {
       "id": "bb36161e25057b31",
       "name": "database-lookup",
       "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.999
+      "composite": 0.998
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "3cf385577bf18e79",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.881
+      "composite": 0.89
     }
   ]
 }
