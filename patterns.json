@@ -1,5 +1,5 @@
 {
-  "sample_size": 1582,
+  "sample_size": 1593,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,42 +8,42 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1467,
-      "pct": 92.7
+      "count": 1475,
+      "pct": 92.6
     },
     {
       "field": "name",
-      "count": 1466,
-      "pct": 92.7
+      "count": 1474,
+      "pct": 92.5
     },
     {
       "field": "metadata",
-      "count": 446,
-      "pct": 28.2
+      "count": 447,
+      "pct": 28.1
     },
     {
       "field": "origin",
       "count": 441,
-      "pct": 27.9
+      "pct": 27.7
     },
     {
       "field": "license",
       "count": 172,
-      "pct": 10.9
+      "pct": 10.8
     },
     {
       "field": "allowed-tools",
-      "count": 139,
-      "pct": 8.8
-    },
-    {
-      "field": "version",
-      "count": 110,
-      "pct": 7.0
+      "count": 143,
+      "pct": 9.0
     },
     {
       "field": "argument-hint",
-      "count": 110,
+      "count": 114,
+      "pct": 7.2
+    },
+    {
+      "field": "version",
+      "count": 112,
       "pct": 7.0
     },
     {
@@ -54,12 +54,12 @@
     {
       "field": "required_environment_variables",
       "count": 31,
-      "pct": 2.0
+      "pct": 1.9
     },
     {
       "field": "tools",
-      "count": 25,
-      "pct": 1.6
+      "count": 27,
+      "pct": 1.7
     },
     {
       "field": "disable-model-invocation",
@@ -73,54 +73,54 @@
     },
     {
       "field": "author",
-      "count": 7,
-      "pct": 0.4
+      "count": 8,
+      "pct": 0.5
     },
     {
-      "field": "category",
+      "field": "model",
       "count": 4,
       "pct": 0.3
     }
   ],
   "description": {
     "length": {
-      "count": 1582,
+      "count": 1593,
       "min": 8,
-      "p25": 80,
+      "p25": 81,
       "median": 151,
       "p75": 234,
       "p90": 349,
       "max": 1068,
-      "mean": 184.1
+      "mean": 184.0
     },
-    "has_trigger_phrase_pct": 30.5,
+    "has_trigger_phrase_pct": 30.3,
     "has_quoted_user_phrase_pct": 3.1,
-    "short_pct_lt_120": 39.3,
+    "short_pct_lt_120": 39.2,
     "long_pct_gt_300": 15.7
   },
   "body": {
     "length_chars": {
-      "count": 1582,
+      "count": 1593,
       "min": 610,
-      "p25": 3236,
-      "median": 6554,
-      "p75": 11617,
+      "p25": 3243,
+      "median": 6565,
+      "p75": 11610,
       "p90": 18886,
       "max": 110236,
-      "mean": 9229.4
+      "mean": 9227.0
     },
     "heading_count": {
-      "count": 1582,
+      "count": 1593,
       "min": 0,
       "p25": 11,
       "median": 20,
       "p75": 36,
-      "p90": 58,
+      "p90": 57,
       "max": 237,
       "mean": 27.4
     },
     "code_block_count": {
-      "count": 1582,
+      "count": 1593,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -132,7 +132,7 @@
     "has_numbered_list_pct": 63.0,
     "has_bullet_list_pct": 97.3,
     "has_table_pct": 50.0,
-    "has_code_block_pct": 88.7
+    "has_code_block_pct": 88.8
   },
   "common_section_headings_h2": [
     {
@@ -181,7 +181,7 @@
     },
     {
       "label": "workflow",
-      "count": 87
+      "count": 88
     },
     {
       "label": "resources",
@@ -192,11 +192,11 @@
       "count": 74
     },
     {
-      "label": "troubleshooting",
-      "count": 69
+      "label": "output format",
+      "count": 72
     },
     {
-      "label": "output format",
+      "label": "troubleshooting",
       "count": 69
     },
     {
@@ -229,35 +229,35 @@
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 0.999
+      "composite": 1.0
     },
     {
       "id": "bb36161e25057b31",
       "name": "database-lookup",
       "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.998
+      "composite": 0.997
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "composite": 0.9
     },
     {
       "id": "3cf385577bf18e79",
       "name": "load-pr-comments",
       "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.892
+      "composite": 0.891
     },
     {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.89
+      "composite": 0.889
     }
   ]
 }
