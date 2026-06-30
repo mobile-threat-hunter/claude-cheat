@@ -1,5 +1,5 @@
 {
-  "sample_size": 1593,
+  "sample_size": 1603,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,53 +8,53 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1475,
+      "count": 1484,
       "pct": 92.6
     },
     {
       "field": "name",
-      "count": 1474,
+      "count": 1483,
       "pct": 92.5
     },
     {
       "field": "metadata",
-      "count": 447,
+      "count": 451,
       "pct": 28.1
     },
     {
       "field": "origin",
-      "count": 441,
+      "count": 444,
       "pct": 27.7
     },
     {
       "field": "license",
-      "count": 172,
-      "pct": 10.8
+      "count": 174,
+      "pct": 10.9
     },
     {
       "field": "allowed-tools",
-      "count": 143,
+      "count": 144,
       "pct": 9.0
     },
     {
       "field": "argument-hint",
-      "count": 114,
-      "pct": 7.2
+      "count": 117,
+      "pct": 7.3
     },
     {
       "field": "version",
-      "count": 112,
-      "pct": 7.0
+      "count": 115,
+      "pct": 7.2
     },
     {
       "field": "compatibility",
-      "count": 54,
-      "pct": 3.4
+      "count": 56,
+      "pct": 3.5
     },
     {
       "field": "required_environment_variables",
-      "count": 31,
-      "pct": 1.9
+      "count": 32,
+      "pct": 2.0
     },
     {
       "field": "tools",
@@ -63,7 +63,7 @@
     },
     {
       "field": "disable-model-invocation",
-      "count": 19,
+      "count": 20,
       "pct": 1.2
     },
     {
@@ -73,54 +73,54 @@
     },
     {
       "field": "author",
-      "count": 8,
-      "pct": 0.5
+      "count": 9,
+      "pct": 0.6
     },
     {
       "field": "model",
       "count": 4,
-      "pct": 0.3
+      "pct": 0.2
     }
   ],
   "description": {
     "length": {
-      "count": 1593,
+      "count": 1603,
       "min": 8,
       "p25": 81,
-      "median": 151,
-      "p75": 234,
-      "p90": 349,
+      "median": 152,
+      "p75": 236,
+      "p90": 355,
       "max": 1068,
-      "mean": 184.0
+      "mean": 185.7
     },
-    "has_trigger_phrase_pct": 30.3,
-    "has_quoted_user_phrase_pct": 3.1,
-    "short_pct_lt_120": 39.2,
-    "long_pct_gt_300": 15.7
+    "has_trigger_phrase_pct": 30.7,
+    "has_quoted_user_phrase_pct": 3.2,
+    "short_pct_lt_120": 38.8,
+    "long_pct_gt_300": 16.0
   },
   "body": {
     "length_chars": {
-      "count": 1593,
+      "count": 1603,
       "min": 610,
-      "p25": 3243,
-      "median": 6565,
-      "p75": 11610,
-      "p90": 18886,
+      "p25": 3250,
+      "median": 6568,
+      "p75": 11707,
+      "p90": 18922,
       "max": 110236,
-      "mean": 9227.0
+      "mean": 9263.4
     },
     "heading_count": {
-      "count": 1593,
+      "count": 1603,
       "min": 0,
       "p25": 11,
       "median": 20,
       "p75": 36,
       "p90": 57,
       "max": 237,
-      "mean": 27.4
+      "mean": 27.3
     },
     "code_block_count": {
-      "count": 1593,
+      "count": 1603,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -129,27 +129,27 @@
       "max": 77,
       "mean": 9.1
     },
-    "has_numbered_list_pct": 63.0,
+    "has_numbered_list_pct": 63.1,
     "has_bullet_list_pct": 97.3,
-    "has_table_pct": 50.0,
-    "has_code_block_pct": 88.8
+    "has_table_pct": 50.2,
+    "has_code_block_pct": 88.9
   },
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 260
+      "count": 262
     },
     {
       "label": "when to use this",
-      "count": 252
+      "count": 253
     },
     {
       "label": "when to use",
-      "count": 215
+      "count": 216
     },
     {
       "label": "when to activate",
-      "count": 199
+      "count": 203
     },
     {
       "label": "overview",
@@ -157,31 +157,31 @@
     },
     {
       "label": "examples",
-      "count": 136
+      "count": 138
     },
     {
       "label": "how it works",
-      "count": 124
+      "count": 125
     },
     {
       "label": "core concepts",
-      "count": 118
-    },
-    {
-      "label": "quick start",
-      "count": 105
+      "count": 120
     },
     {
       "label": "related skills",
-      "count": 105
+      "count": 107
+    },
+    {
+      "label": "quick start",
+      "count": 106
     },
     {
       "label": "anti-patterns",
-      "count": 90
+      "count": 93
     },
     {
       "label": "workflow",
-      "count": 88
+      "count": 89
     },
     {
       "label": "resources",
@@ -218,10 +218,10 @@
   ],
   "exemplars": [
     {
-      "id": "f8c90ff5b8a57083",
-      "name": "ce-dogfood-beta",
-      "description": "[BETA] Hands-off end-to-end branch dogfood pass with browser testing, auto-fixes, regression tests, and fix commits.",
-      "source": "github:EveryInc/compound-engineering-plugin@main",
+      "id": "bb36161e25057b31",
+      "name": "database-lookup",
+      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
+      "source": "github:K-Dense-AI/claude-scientific-skills@main",
       "composite": 1.0
     },
     {
@@ -232,25 +232,25 @@
       "composite": 1.0
     },
     {
-      "id": "bb36161e25057b31",
-      "name": "database-lookup",
-      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
-      "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.997
+      "id": "f8c90ff5b8a57083",
+      "name": "ce-dogfood-beta",
+      "description": "[BETA] Hands-off end-to-end branch dogfood pass with browser testing, auto-fixes, regression tests, and fix commits.",
+      "source": "github:EveryInc/compound-engineering-plugin@main",
+      "composite": 1.0
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "3cf385577bf18e79",
       "name": "load-pr-comments",
       "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.891
+      "composite": 0.896
     },
     {
       "id": "067a3d6a62a691f5",
