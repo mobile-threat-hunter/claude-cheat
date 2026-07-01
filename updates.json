@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T05:07:04.874Z",
+  "generated_at": "2026-07-01T12:21:17.132Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -10,7 +10,7 @@
   "items": [
     {
       "date": "2026-07-01",
-      "datetime": "2026-07-01T03:16:50.000Z",
+      "datetime": "2026-07-01T08:59:07.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Redeploying Claude Fable 5",

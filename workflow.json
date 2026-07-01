@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T05:19:29.279462+00:00",
+  "generated_at": "2026-07-01T12:29:54.561218+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-07",
   "snapshots": [
@@ -45,7 +45,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/audit-codebase/SKILL.md",
                   "skill_name": "audit-codebase",
                   "skill_dir": "examples/skills/audit-codebase",
-                  "composite": 0.954
+                  "composite": 0.955
                 }
               ]
             },
@@ -65,7 +65,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/start/SKILL.md",
                   "skill_name": "plan-pipeline-start",
                   "skill_dir": "examples/skills/plan-pipeline/start",
-                  "composite": 0.954
+                  "composite": 0.955
                 },
                 {
                   "concept": "Agent-native architecture audit",
@@ -98,7 +98,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/execute/SKILL.md",
                   "skill_name": "plan-pipeline-execute",
                   "skill_dir": "examples/skills/plan-pipeline/execute",
-                  "composite": 0.958
+                  "composite": 0.959
                 }
               ]
             },
@@ -675,7 +675,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-audit/SKILL.md",
                   "skill_name": "security-audit",
                   "skill_dir": "examples/skills/security-audit",
-                  "composite": 0.936
+                  "composite": 0.937
                 },
                 {
                   "concept": "OWASP Top 10 sweep",
@@ -688,7 +688,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security/SKILL.md",
                   "skill_name": "security",
                   "skill_dir": "examples/skills/security",
-                  "composite": 0.918
+                  "composite": 0.919
                 },
                 {
                   "concept": "Configuration security check",
@@ -701,7 +701,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-check/SKILL.md",
                   "skill_name": "security-check",
                   "skill_dir": "examples/skills/security-check",
-                  "composite": 0.954
+                  "composite": 0.955
                 }
               ]
             },
@@ -767,7 +767,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/update-threat-db/SKILL.md",
                   "skill_name": "update-threat-db",
                   "skill_dir": "examples/skills/update-threat-db",
-                  "composite": 0.918
+                  "composite": 0.919
                 }
               ]
             }

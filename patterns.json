@@ -1,5 +1,5 @@
 {
-  "sample_size": 1604,
+  "sample_size": 1605,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -9,7 +9,7 @@
     {
       "field": "description",
       "count": 1485,
-      "pct": 92.6
+      "pct": 92.5
     },
     {
       "field": "name",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 1604,
+      "count": 1605,
       "min": 8,
       "p25": 81,
       "median": 152,
-      "p75": 236,
+      "p75": 235,
       "p90": 355,
       "max": 1068,
       "mean": 185.8
     },
     "has_trigger_phrase_pct": 30.7,
     "has_quoted_user_phrase_pct": 3.2,
-    "short_pct_lt_120": 38.8,
+    "short_pct_lt_120": 38.9,
     "long_pct_gt_300": 16.0
   },
   "body": {
     "length_chars": {
-      "count": 1604,
+      "count": 1605,
       "min": 610,
       "p25": 3250,
-      "median": 6593,
-      "p75": 11716,
+      "median": 6568,
+      "p75": 11707,
       "p90": 18922,
       "max": 110236,
-      "mean": 9267.4
+      "mean": 9279.2
     },
     "heading_count": {
-      "count": 1604,
+      "count": 1605,
       "min": 0,
       "p25": 11,
       "median": 20,
       "p75": 36,
       "p90": 57,
       "max": 237,
-      "mean": 27.4
+      "mean": 27.3
     },
     "code_block_count": {
-      "count": 1604,
+      "count": 1605,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -132,7 +132,7 @@
     "has_numbered_list_pct": 63.1,
     "has_bullet_list_pct": 97.3,
     "has_table_pct": 50.2,
-    "has_code_block_pct": 88.9
+    "has_code_block_pct": 88.8
   },
   "common_section_headings_h2": [
     {
@@ -218,17 +218,17 @@
   ],
   "exemplars": [
     {
+      "id": "da8ef09c9ec86bf6",
+      "name": "ce-debug",
+      "description": "Diagnosis loop for bugs and failing behavior. Use for errors, stack traces, regressions, failed tests, issue-tracker bugs, stuck investigations after failed fixes, or asks to debug/fix a bug.",
+      "source": "github:EveryInc/compound-engineering-plugin@main",
+      "composite": 1.0
+    },
+    {
       "id": "dbd394a69a50430a",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 1.0
-    },
-    {
-      "id": "f8c90ff5b8a57083",
-      "name": "ce-dogfood-beta",
-      "description": "[BETA] Hands-off end-to-end branch dogfood pass with browser testing, auto-fixes, regression tests, and fix commits.",
-      "source": "github:EveryInc/compound-engineering-plugin@main",
       "composite": 1.0
     },
     {
