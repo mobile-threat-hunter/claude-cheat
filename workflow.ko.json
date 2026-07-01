@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-30T04:58:48.134983+00:00",
+  "generated_at": "2026-07-01T05:19:29.425667+00:00",
   "current_model": "opus-4.8",
-  "current_month": "2026-06",
+  "current_month": "2026-07",
   "snapshots": [
     {
       "model": "opus-4.8",
-      "month": "2026-06",
-      "label": "2026-06 · opus-4.8",
+      "month": "2026-07",
+      "label": "2026-07 · opus-4.8",
       "title": "클로드 모델이 추천하는 개발 워크플로우",
       "subtitle": "코드 프로젝트를 시작부터 운영까지 진행할 때 클로드가 깔아두고 싶은 스킬을 단계별로 정리했습니다! Common(공통)을 기본으로 깔고, Backend/Frontend/Mobile/Data·ML 트랙을 필요에 따라 얹어 사용하세요!",
       "note": "각 카드는 코퍼스 내 실제 예시 스킬을 인용합니다 (있을 때). 클릭하면 원본을 볼 수 있어요.",
@@ -45,7 +45,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/audit-codebase/SKILL.md",
                   "skill_name": "audit-codebase",
                   "skill_dir": "examples/skills/audit-codebase",
-                  "composite": 0.955
+                  "composite": 0.954
                 }
               ]
             },
@@ -65,7 +65,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/start/SKILL.md",
                   "skill_name": "plan-pipeline-start",
                   "skill_dir": "examples/skills/plan-pipeline/start",
-                  "composite": 0.955
+                  "composite": 0.954
                 },
                 {
                   "concept": "Agent-native 아키텍처 감사",
@@ -98,7 +98,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/plan-pipeline/execute/SKILL.md",
                   "skill_name": "plan-pipeline-execute",
                   "skill_dir": "examples/skills/plan-pipeline/execute",
-                  "composite": 0.959
+                  "composite": 0.958
                 }
               ]
             },
@@ -164,7 +164,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
                   "skill_name": "markdown-mermaid-writing",
                   "skill_dir": "skills/markdown-mermaid-writing",
-                  "composite": 0.992
+                  "composite": 0.991
                 },
                 {
                   "concept": "PR용 데모 릴",
@@ -482,7 +482,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/experimental-design/SKILL.md",
                   "skill_name": "experimental-design",
                   "skill_dir": "skills/experimental-design",
-                  "composite": 0.962
+                  "composite": 0.961
                 }
               ]
             },
@@ -502,7 +502,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/zarr-python/SKILL.md",
                   "skill_name": "zarr-python",
                   "skill_dir": "skills/zarr-python",
-                  "composite": 0.986
+                  "composite": 0.985
                 }
               ]
             },
@@ -528,7 +528,7 @@
                   "raw_url": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/skills/markdown-mermaid-writing/SKILL.md",
                   "skill_name": "markdown-mermaid-writing",
                   "skill_dir": "skills/markdown-mermaid-writing",
-                  "composite": 0.992
+                  "composite": 0.991
                 }
               ]
             },
@@ -675,7 +675,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-audit/SKILL.md",
                   "skill_name": "security-audit",
                   "skill_dir": "examples/skills/security-audit",
-                  "composite": 0.937
+                  "composite": 0.936
                 },
                 {
                   "concept": "OWASP Top 10 스윕",
@@ -688,7 +688,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security/SKILL.md",
                   "skill_name": "security",
                   "skill_dir": "examples/skills/security",
-                  "composite": 0.919
+                  "composite": 0.918
                 },
                 {
                   "concept": "설정 보안 체크",
@@ -701,7 +701,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/security-check/SKILL.md",
                   "skill_name": "security-check",
                   "skill_dir": "examples/skills/security-check",
-                  "composite": 0.955
+                  "composite": 0.954
                 }
               ]
             },
@@ -767,7 +767,7 @@
                   "raw_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/update-threat-db/SKILL.md",
                   "skill_name": "update-threat-db",
                   "skill_dir": "examples/skills/update-threat-db",
-                  "composite": 0.919
+                  "composite": 0.918
                 }
               ]
             }

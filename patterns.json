@@ -1,5 +1,5 @@
 {
-  "sample_size": 1603,
+  "sample_size": 1604,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1484,
+      "count": 1485,
       "pct": 92.6
     },
     {
       "field": "name",
-      "count": 1483,
+      "count": 1484,
       "pct": 92.5
     },
     {
       "field": "metadata",
-      "count": 451,
-      "pct": 28.1
+      "count": 452,
+      "pct": 28.2
     },
     {
       "field": "origin",
@@ -29,7 +29,7 @@
     {
       "field": "license",
       "count": 174,
-      "pct": 10.9
+      "pct": 10.8
     },
     {
       "field": "allowed-tools",
@@ -43,7 +43,7 @@
     },
     {
       "field": "version",
-      "count": 115,
+      "count": 116,
       "pct": 7.2
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "field": "homepage",
-      "count": 14,
+      "count": 15,
       "pct": 0.9
     },
     {
@@ -84,14 +84,14 @@
   ],
   "description": {
     "length": {
-      "count": 1603,
+      "count": 1604,
       "min": 8,
       "p25": 81,
       "median": 152,
       "p75": 236,
       "p90": 355,
       "max": 1068,
-      "mean": 185.7
+      "mean": 185.8
     },
     "has_trigger_phrase_pct": 30.7,
     "has_quoted_user_phrase_pct": 3.2,
@@ -100,27 +100,27 @@
   },
   "body": {
     "length_chars": {
-      "count": 1603,
+      "count": 1604,
       "min": 610,
       "p25": 3250,
-      "median": 6568,
-      "p75": 11707,
+      "median": 6593,
+      "p75": 11716,
       "p90": 18922,
       "max": 110236,
-      "mean": 9263.4
+      "mean": 9267.4
     },
     "heading_count": {
-      "count": 1603,
+      "count": 1604,
       "min": 0,
       "p25": 11,
       "median": 20,
       "p75": 36,
       "p90": 57,
       "max": 237,
-      "mean": 27.3
+      "mean": 27.4
     },
     "code_block_count": {
-      "count": 1603,
+      "count": 1604,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -218,13 +218,6 @@
   ],
   "exemplars": [
     {
-      "id": "bb36161e25057b31",
-      "name": "database-lookup",
-      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
-      "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 1.0
-    },
-    {
       "id": "dbd394a69a50430a",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
@@ -237,6 +230,13 @@
       "description": "[BETA] Hands-off end-to-end branch dogfood pass with browser testing, auto-fixes, regression tests, and fix commits.",
       "source": "github:EveryInc/compound-engineering-plugin@main",
       "composite": 1.0
+    },
+    {
+      "id": "bb36161e25057b31",
+      "name": "database-lookup",
+      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
+      "source": "github:K-Dense-AI/claude-scientific-skills@main",
+      "composite": 0.999
     },
     {
       "id": "d06d6b81bdf90ceb",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.889
+      "composite": 0.89
     }
   ]
 }
