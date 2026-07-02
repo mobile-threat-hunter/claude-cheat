@@ -1,5 +1,5 @@
 {
-  "sample_size": 1605,
+  "sample_size": 1606,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,32 +8,32 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1485,
+      "count": 1486,
       "pct": 92.5
     },
     {
       "field": "name",
-      "count": 1484,
+      "count": 1485,
       "pct": 92.5
     },
     {
       "field": "metadata",
-      "count": 452,
+      "count": 453,
       "pct": 28.2
     },
     {
       "field": "origin",
       "count": 444,
-      "pct": 27.7
+      "pct": 27.6
     },
     {
       "field": "license",
-      "count": 174,
-      "pct": 10.8
+      "count": 175,
+      "pct": 10.9
     },
     {
       "field": "allowed-tools",
-      "count": 144,
+      "count": 145,
       "pct": 9.0
     },
     {
@@ -78,49 +78,49 @@
     },
     {
       "field": "model",
-      "count": 4,
-      "pct": 0.2
+      "count": 5,
+      "pct": 0.3
     }
   ],
   "description": {
     "length": {
-      "count": 1605,
+      "count": 1606,
       "min": 8,
       "p25": 81,
       "median": 152,
-      "p75": 235,
-      "p90": 355,
+      "p75": 236,
+      "p90": 352,
       "max": 1068,
       "mean": 185.8
     },
     "has_trigger_phrase_pct": 30.7,
     "has_quoted_user_phrase_pct": 3.2,
     "short_pct_lt_120": 38.9,
-    "long_pct_gt_300": 16.0
+    "long_pct_gt_300": 15.9
   },
   "body": {
     "length_chars": {
-      "count": 1605,
+      "count": 1606,
       "min": 610,
       "p25": 3250,
-      "median": 6568,
-      "p75": 11707,
-      "p90": 18922,
+      "median": 6593,
+      "p75": 11716,
+      "p90": 18980,
       "max": 110236,
-      "mean": 9279.2
+      "mean": 9307.5
     },
     "heading_count": {
-      "count": 1605,
+      "count": 1606,
       "min": 0,
       "p25": 11,
       "median": 20,
       "p75": 36,
-      "p90": 57,
+      "p90": 58,
       "max": 237,
-      "mean": 27.3
+      "mean": 27.4
     },
     "code_block_count": {
-      "count": 1605,
+      "count": 1606,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -132,7 +132,7 @@
     "has_numbered_list_pct": 63.1,
     "has_bullet_list_pct": 97.3,
     "has_table_pct": 50.2,
-    "has_code_block_pct": 88.8
+    "has_code_block_pct": 88.9
   },
   "common_section_headings_h2": [
     {
@@ -169,15 +169,15 @@
     },
     {
       "label": "related skills",
-      "count": 107
+      "count": 108
     },
     {
       "label": "quick start",
-      "count": 106
+      "count": 107
     },
     {
       "label": "anti-patterns",
-      "count": 93
+      "count": 94
     },
     {
       "label": "workflow",
@@ -229,28 +229,28 @@
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
       "source": "github:affaan-m/everything-claude-code@main",
-      "composite": 1.0
+      "composite": 0.999
     },
     {
-      "id": "bb36161e25057b31",
-      "name": "database-lookup",
-      "description": "Deterministically query 78 public scientific, biomedical, materials science, regulatory, finance, and demographics databases through documented REST APIs. Use for reproducible lookups of compounds, ge",
+      "id": "31e0e5cb7abdd603",
+      "name": "dhdna-profiler",
+      "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, co",
       "source": "github:K-Dense-AI/claude-scientific-skills@main",
-      "composite": 0.999
+      "composite": 0.992
     },
     {
       "id": "d06d6b81bdf90ceb",
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "composite": 0.898
     },
     {
       "id": "3cf385577bf18e79",
       "name": "load-pr-comments",
       "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
       "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.896
+      "composite": 0.895
     },
     {
       "id": "067a3d6a62a691f5",
