@@ -1,20 +1,47 @@
 {
-  "generated_at": "2026-07-02T04:41:34.226Z",
+  "generated_at": "2026-07-03T04:26:54.545Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 24
+    "translated_ko": 22
   },
   "items": [
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T01:20:09.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T00:07:08.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "summary": "What is and isn&#x27;t blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
+    },
+    {
+      "date": "2026-07-02",
+      "datetime": "2026-07-02T23:35:18Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.199",
+      "summary": "- Stacked slash-skill invocations like `/skill-a /skill-b do XYZ` now load all leading skills (up to 5), not just the first\n- Fixed SSL certificate errors (TLS-inspecting proxies, missing `NODE_EXTRA_CA_CERTS`, expired certs) burning retries before showing actionable guidance — they now fail immediately with the fix hint\n- Fixed streaming responses being discarded when the API emits a mid-stream…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199"
+    },
     {
       "date": "2026-07-01",
       "datetime": "2026-07-01T20:45:36Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.198",
-      "summary": "- Claude in Chrome is now generally available\n- Added background agent notifications in `claude agents` — sessions that need input or finish now fire the `Notification` hook (`agent_needs_input` / `agent_completed`)\n- Added `/dataviz` skill for chart and dashboard design guidance with a runnable color-palette validator\n- Gateway: added Claude Platform on AWS (anthropicAws) as an upstream…",
+      "summary": "- Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)\n- Claude in Chrome is now generally available\n- Added background agent notifications in `claude agents` — sessions that need input or finish now fire the `Notification` hook (`agent_needs_input` / `agent_completed`)\n- Added `/dataviz` skill for…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198"
     },
     {
@@ -45,15 +72,6 @@
       "title": "Claude Science, an AI workbench for scientists",
       "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
       "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
-    },
-    {
-      "date": "2026-06-30",
-      "datetime": "2026-06-30T21:20:30.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
       "date": "2026-06-30",
@@ -305,28 +323,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
       "title_ko": "Claude Code v2.1.183",
       "summary_ko": "- Auto 모드 안전성 강화: 사용자가 명시적으로 요청하지 않은 파괴적 git 명령(`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) 차단. 에이전트가 만든 커밋이 아닐 때 `git commit --amend` 차단. 특정 스택 지정 없으면 `terraform destroy`/`pulumi destroy`/`cdk destroy` 차단\n- 그 외 안전 가드 추가…"
-    },
-    {
-      "date": "2026-06-17",
-      "datetime": "2026-06-17T22:07:41Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.181",
-      "summary": "- Added `/config key=value` syntax to set any setting from the prompt (e.g. `/config thinking=false`) — works in interactive, `-p`, and Remote Control\n- Added `sandbox.allowAppleEvents` opt-in setting that lets sandboxed commands send Apple Events on macOS\n- Added `CLAUDE_CLIENT_PRESENCE_FILE` environment variable: point it at a marker file to suppress mobile push notifications while you're at…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
-      "title_ko": "Claude Code v2.1.181",
-      "summary_ko": "- 프롬프트에서 어떤 설정이든 바꿀 수 있는 `/config key=value` 문법 추가 (예: `/config thinking=false`). 인터랙티브 · `-p` · Remote Control 모두에서 작동\n- macOS에서 샌드박스 명령이 Apple Events를 보낼 수 있도록 하는 `sandbox.allowAppleEvents` opt-in 설정 추가\n- `CLAUDE_CLIENT_PRESENCE_FILE` 환경변수 추가: 마커 파일을 지정하면 사용자가 단말 앞에 있을 때 모바일 푸시 알림 억제…"
-    },
-    {
-      "date": "2026-06-17",
-      "datetime": "2026-06-17T16:48:41.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Developing nuclear safeguards for AI through public-private partnership",
-      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with 96% accuracy in preliminary testing.",
-      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
-      "title_ko": "민관 파트너십을 통한 AI용 핵 안전장치 개발",
-      "summary_ko": "NNSA 및 DOE 국립연구소와 공동 개발한 분류기 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 96% 정확도(초기 테스트)로 자동 구분합니다."
     },
     {
       "date": "2026-06-06",
