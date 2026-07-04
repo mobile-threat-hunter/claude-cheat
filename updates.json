@@ -1,13 +1,58 @@
 {
-  "generated_at": "2026-07-03T04:26:54.545Z",
+  "generated_at": "2026-07-04T04:12:55.334Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 22
+    "translated_ko": 19
   },
   "items": [
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T23:50:35Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.201",
+      "summary": "- Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
+    },
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T16:52:33Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.200",
+      "summary": "- Changed `AskUserQuestion` dialogs to no longer auto-continue by default; opt into an idle timeout via `/config`\n- Changed the \"default\" permission mode to \"Manual\" across the CLI, `--help`, VS Code, and JetBrains; `--permission-mode manual` and `\"defaultMode\": \"manual\"` are accepted alongside `default`\n- Fixed a crash at startup when `disabledMcpServers` or `enabledMcpServers` in `.claude.json`…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
+    },
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T10:15:42.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude&#x27;s extended thinking",
+      "summary": "Discussing Claude&#x27;s new thought process",
+      "url": "https://www.anthropic.com/news/visible-extended-thinking"
+    },
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T10:15:38.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Announcing Anthropic&#x27;s Responsible Scaling Policy",
+      "summary": "We’re publishing our Responsible Scaling Policy—a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems.",
+      "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy"
+    },
+    {
+      "date": "2026-07-03",
+      "datetime": "2026-07-03T10:14:45.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "summary": "What is and isn&#x27;t blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
+    },
     {
       "date": "2026-07-03",
       "datetime": "2026-07-03T01:20:09.000Z",
@@ -16,15 +61,6 @@
       "title": "Introducing Claude Sonnet 5",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T00:07:08.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "summary": "What is and isn&#x27;t blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
     },
     {
       "date": "2026-07-02",
@@ -236,26 +272,6 @@
       "summary_ko": "Anthropic은 신뢰할 수 있고, 해석 가능하며, 제어 가능한 AI 시스템 구축을 목표로 하는 AI 안전 · 연구 회사입니다."
     },
     {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:27:32.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic opens Seoul office",
-      "summary": "Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "title_ko": "Anthropic 서울 사무소 개소 + 한국 AI 생태계 신규 파트너십 발표",
-      "summary_ko": "Anthropic이 서울 사무소를 열고, Claude를 가장 야심차게 도입한 한국의 기업·스타트업·연구자들과 새로운 파트너십을 발표합니다."
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:23:43.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Tag",
-      "summary": "Claude Tag is a new way for teams to work with Claude.",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag"
-    },
-    {
       "date": "2026-06-25",
       "datetime": "2026-06-25T21:45:57Z",
       "source": "claude-code",
@@ -301,28 +317,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
       "title_ko": "Claude Code v2.1.186",
       "summary_ko": "- `claude mcp login <name>` / `claude mcp logout <name>` 추가 — 인터랙티브 `/mcp` 메뉴 안 열고 CLI에서 MCP 서버 인증. `--no-browser` stdin 리디렉트로 SSH 위에서도 완료 가능\n- `/workflows` 에이전트 상세 뷰에 상태 필터 추가 (`f` 키)\n- `/plugin` Installed 탭에 \"Skills\" 섹션 추가\n- `teammateMode: \"iterm2\"` 설정 추가…"
-    },
-    {
-      "date": "2026-06-20",
-      "datetime": "2026-06-20T20:59:19Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.185",
-      "summary": "- The stream-stall hint now reads \"Waiting for API response · will retry in …\" instead of \"No response from API · Retrying in …\", and triggers after 20s of silence instead of 10s",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
-      "title_ko": "Claude Code v2.1.185",
-      "summary_ko": "- 스트림 정체 안내 문구를 \"Waiting for API response · will retry in …\" 로 변경 (이전 \"No response from API · Retrying in …\") + 트리거 시간을 10초 → 20초로 완화"
-    },
-    {
-      "date": "2026-06-19",
-      "datetime": "2026-06-19T01:20:50Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.183",
-      "summary": "- Improved auto mode safety: destructive git commands (`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) are now blocked when you didn't ask to discard local work, `git commit --amend` is blocked when the commit wasn't made by the agent this session, and `terraform destroy`/`pulumi destroy`/`cdk destroy` are blocked unless you asked for the specific stack\n- Added a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-      "title_ko": "Claude Code v2.1.183",
-      "summary_ko": "- Auto 모드 안전성 강화: 사용자가 명시적으로 요청하지 않은 파괴적 git 명령(`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) 차단. 에이전트가 만든 커밋이 아닐 때 `git commit --amend` 차단. 특정 스택 지정 없으면 `terraform destroy`/`pulumi destroy`/`cdk destroy` 차단\n- 그 외 안전 가드 추가…"
     },
     {
       "date": "2026-06-06",
