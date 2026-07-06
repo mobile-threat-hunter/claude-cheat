@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T04:43:14.540280+00:00",
+  "generated_at": "2026-07-06T04:54:10.238932+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-07",
   "snapshots": [
@@ -118,7 +118,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
                   "skill_name": "code-review-excellence",
                   "skill_dir": "plugins/developer-essentials/skills/code-review-excellence",
-                  "composite": 0.877
+                  "composite": 0.88
                 },
                 {
                   "concept": "Browser E2E smoke check",
@@ -244,7 +244,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md",
                   "skill_name": "openapi-spec-generation",
                   "skill_dir": "plugins/documentation-generation/skills/openapi-spec-generation",
-                  "composite": 0.873
+                  "composite": 0.876
                 }
               ]
             },
@@ -304,7 +304,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/observability-monitoring/skills/distributed-tracing/SKILL.md",
                   "skill_name": "distributed-tracing",
                   "skill_dir": "plugins/observability-monitoring/skills/distributed-tracing",
-                  "composite": 0.861
+                  "composite": 0.864
                 }
               ]
             }
@@ -332,7 +332,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/skills/design-system-patterns/SKILL.md",
                   "skill_name": "design-system-patterns",
                   "skill_dir": "plugins/ui-design/skills/design-system-patterns",
-                  "composite": 0.857
+                  "composite": 0.86
                 }
               ]
             },
@@ -364,7 +364,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md",
                   "skill_name": "screen-reader-testing",
                   "skill_dir": "plugins/accessibility-compliance/skills/screen-reader-testing",
-                  "composite": 0.834
+                  "composite": 0.837
                 }
               ]
             },
@@ -404,7 +404,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md",
                   "skill_name": "architecture-decision-records",
                   "skill_dir": "plugins/documentation-generation/skills/architecture-decision-records",
-                  "composite": 0.877
+                  "composite": 0.88
                 }
               ]
             },
@@ -576,7 +576,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/security-scanning/skills/stride-analysis-patterns/SKILL.md",
                   "skill_name": "stride-analysis-patterns",
                   "skill_dir": "plugins/security-scanning/skills/stride-analysis-patterns",
-                  "composite": 0.861
+                  "composite": 0.864
                 },
                 {
                   "concept": "Compliance scope",
@@ -589,7 +589,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/payment-processing/skills/pci-compliance/SKILL.md",
                   "skill_name": "pci-compliance",
                   "skill_dir": "plugins/payment-processing/skills/pci-compliance",
-                  "composite": 0.855
+                  "composite": 0.858
                 }
               ]
             },
@@ -609,7 +609,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md",
                   "skill_name": "auth-implementation-patterns",
                   "skill_dir": "plugins/developer-essentials/skills/auth-implementation-patterns",
-                  "composite": 0.864
+                  "composite": 0.867
                 },
                 {
                   "concept": "Data classification + encryption design",
@@ -642,7 +642,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/cicd-automation/skills/secrets-management/SKILL.md",
                   "skill_name": "secrets-management",
                   "skill_dir": "plugins/cicd-automation/skills/secrets-management",
-                  "composite": 0.843
+                  "composite": 0.846
                 },
                 {
                   "concept": "Dependency vulnerability scanning",
@@ -655,7 +655,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/framework-migration/skills/dependency-upgrade/SKILL.md",
                   "skill_name": "dependency-upgrade",
                   "skill_dir": "plugins/framework-migration/skills/dependency-upgrade",
-                  "composite": 0.877
+                  "composite": 0.88
                 }
               ]
             },
@@ -754,7 +754,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/incident-response/skills/incident-runbook-templates/SKILL.md",
                   "skill_name": "incident-runbook-templates",
                   "skill_dir": "plugins/incident-response/skills/incident-runbook-templates",
-                  "composite": 0.823
+                  "composite": 0.826
                 },
                 {
                   "concept": "Threat intelligence feed",

@@ -1,5 +1,5 @@
 {
-  "sample_size": 1610,
+  "sample_size": 1611,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1490,
-      "pct": 92.5
+      "count": 1491,
+      "pct": 92.6
     },
     {
       "field": "name",
-      "count": 1489,
+      "count": 1490,
       "pct": 92.5
     },
     {
@@ -84,14 +84,14 @@
   ],
   "description": {
     "length": {
-      "count": 1610,
+      "count": 1611,
       "min": 8,
       "p25": 81,
       "median": 152,
       "p75": 236,
-      "p90": 356,
+      "p90": 355,
       "max": 1068,
-      "mean": 186.5
+      "mean": 186.4
     },
     "has_trigger_phrase_pct": 30.8,
     "has_quoted_user_phrase_pct": 3.3,
@@ -100,27 +100,27 @@
   },
   "body": {
     "length_chars": {
-      "count": 1610,
+      "count": 1611,
       "min": 610,
       "p25": 3270,
-      "median": 6637,
+      "median": 6618,
       "p75": 11755,
-      "p90": 19160,
+      "p90": 19145,
       "max": 110236,
-      "mean": 9329.8
+      "mean": 9325.6
     },
     "heading_count": {
-      "count": 1610,
+      "count": 1611,
       "min": 0,
       "p25": 11,
       "median": 20,
       "p75": 36,
-      "p90": 58,
+      "p90": 57,
       "max": 237,
-      "mean": 27.4
+      "mean": 27.3
     },
     "code_block_count": {
-      "count": 1610,
+      "count": 1611,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -129,7 +129,7 @@
       "max": 77,
       "mean": 9.1
     },
-    "has_numbered_list_pct": 63.2,
+    "has_numbered_list_pct": 63.1,
     "has_bullet_list_pct": 97.3,
     "has_table_pct": 50.2,
     "has_code_block_pct": 88.8
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.897
+      "composite": 0.9
     },
     {
       "id": "3cf385577bf18e79",
