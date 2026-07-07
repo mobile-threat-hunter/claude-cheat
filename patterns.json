@@ -1,5 +1,5 @@
 {
-  "sample_size": 1611,
+  "sample_size": 1612,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1491,
+      "count": 1492,
       "pct": 92.6
     },
     {
       "field": "name",
-      "count": 1490,
+      "count": 1491,
       "pct": 92.5
     },
     {
@@ -24,7 +24,7 @@
     {
       "field": "origin",
       "count": 444,
-      "pct": 27.6
+      "pct": 27.5
     },
     {
       "field": "license",
@@ -38,7 +38,7 @@
     },
     {
       "field": "version",
-      "count": 117,
+      "count": 118,
       "pct": 7.3
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "field": "author",
-      "count": 9,
+      "count": 10,
       "pct": 0.6
     },
     {
@@ -84,7 +84,7 @@
   ],
   "description": {
     "length": {
-      "count": 1611,
+      "count": 1612,
       "min": 8,
       "p25": 81,
       "median": 152,
@@ -100,17 +100,17 @@
   },
   "body": {
     "length_chars": {
-      "count": 1611,
+      "count": 1612,
       "min": 610,
       "p25": 3270,
-      "median": 6618,
+      "median": 6593,
       "p75": 11755,
       "p90": 19145,
       "max": 110236,
-      "mean": 9325.6
+      "mean": 9322.2
     },
     "heading_count": {
-      "count": 1611,
+      "count": 1612,
       "min": 0,
       "p25": 11,
       "median": 20,
@@ -120,7 +120,7 @@
       "mean": 27.3
     },
     "code_block_count": {
-      "count": 1611,
+      "count": 1612,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -129,7 +129,7 @@
       "max": 77,
       "mean": 9.1
     },
-    "has_numbered_list_pct": 63.1,
+    "has_numbered_list_pct": 63.2,
     "has_bullet_list_pct": 97.3,
     "has_table_pct": 50.2,
     "has_code_block_pct": 88.8
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "3cf385577bf18e79",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.888
+      "composite": 0.887
     }
   ]
 }
