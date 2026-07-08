@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T04:34:25.055Z",
+  "generated_at": "2026-07-08T03:55:59.753Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,42 @@
     "translated_ko": 15
   },
   "items": [
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T00:27:50Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.204",
+      "summary": "- Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204"
+    },
+    {
+      "date": "2026-07-07",
+      "datetime": "2026-07-07T21:06:12Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.203",
+      "summary": "- Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted\n- Added a grey ⏸ badge to the footer when in manual permission mode, making the active mode always visible\n- Added the session's additional working directories to MCP `roots/list`, with `notifications/roots/list_changed` sent when the set changes\n- Fixed opening or switching…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203"
+    },
+    {
+      "date": "2026-07-07",
+      "datetime": "2026-07-07T17:07:52.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "2026-07-07",
+      "datetime": "2026-07-07T09:25:55.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "A global workspace in language models",
+      "summary": "Interpretability research on Claude&#x27;s internal thoughts.",
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
     {
       "date": "2026-07-06",
       "datetime": "2026-07-06T23:47:46.000Z",
@@ -43,15 +79,6 @@
       "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
       "summary": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
       "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
-    },
-    {
-      "date": "2026-07-06",
-      "datetime": "2026-07-06T18:06:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "A global workspace in language models",
-      "summary": "Interpretability research on Claude&#x27;s internal thoughts.",
-      "url": "https://www.anthropic.com/research/global-workspace"
     },
     {
       "date": "2026-07-03",
@@ -97,15 +124,6 @@
       "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
       "summary": "What is and isn&#x27;t blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
       "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
-    },
-    {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T01:20:09.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
       "date": "2026-07-02",
@@ -291,24 +309,6 @@
       "title": "Claude Code v2.1.191",
       "summary": "- Added `/rewind` support for resuming a conversation from before `/clear` was run\n- Fixed scroll position jumping to the bottom while reading earlier output during a streaming response\n- Fixed background agents resurrecting after being stopped — stopping an agent from the tasks panel is now permanent\n- Fixed `/voice` showing a generic \"not available\" message when disabled by an organization's…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191"
-    },
-    {
-      "date": "2026-06-24",
-      "datetime": "2026-06-24T15:53:56Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.190",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190"
-    },
-    {
-      "date": "2026-06-23",
-      "datetime": "2026-06-23T21:03:48Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.187",
-      "summary": "- Added `sandbox.credentials` setting to block sandboxed commands from reading credential files and secret environment variables\n- Added org-configured model restrictions to the model picker, `--model`, `/model`, and `ANTHROPIC_MODEL`, with a \"restricted by your organization's settings\" message when a restricted model is selected\n- Added mouse click support to select menus (permission prompts,…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187"
     },
     {
       "date": "2026-06-06",
