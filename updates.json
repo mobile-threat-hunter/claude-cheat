@@ -1,13 +1,141 @@
 {
-  "generated_at": "2026-07-08T03:55:59.753Z",
+  "generated_at": "2026-07-09T04:31:44.409Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 15
+    "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:56:51.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An off switch for dual use knowledge in AI models",
+      "summary": "New results on a method of controlling access to potentially dangerous AI capabilities",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:43:38.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Progress from our Frontier Red Team",
+      "summary": "In this post, we are sharing what we have learned about the trajectory of potential national security risks from frontier AI models, along with some of our thoughts about challenges and best practices in evaluating these risks. ",
+      "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:43:16.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Preparing for AI’s economic impact: exploring policy responses",
+      "summary": "We’ve asked economists and researchers to explore policy responses to the potential economic effects of powerful AI. We share some of the initial ideas and feedback we’ve received.",
+      "url": "https://www.anthropic.com/research/economic-policy-responses"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:42:47.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Agentic misalignment: How LLMs could be insider threats",
+      "summary": "New research on simulated blackmail, industrial espionage, and other misaligned behaviors in LLMs",
+      "url": "https://www.anthropic.com/research/agentic-misalignment"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:42:17.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Frontier threats red teaming for AI safety",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:41:45.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Charting a path to AI accountability",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:30:56.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Anthropic Economic Index report: Economic primitives",
+      "summary": "This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.",
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:23:46.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic&#x27;s core views on AI safety",
+      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "title_ko": "AI 안전성에 대한 핵심 견해 — 언제·왜·무엇을·어떻게",
+      "summary_ko": "AI 발전은 향후 10년 내 변혁적 AI 시스템으로 이어질 수 있지만, 그러한 시스템을 안전하게 만들고 인간 가치와 정렬하는 방법은 아직 모릅니다. 이를 위해 Anthropic이 추구하는 여러 연구 방향을 정리한 문서."
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:16:10.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Tracing the thoughts of a large language model",
+      "summary": "Anthropic&#x27;s latest interpretability research: a new microscope to understand Claude&#x27;s internal mechanisms",
+      "url": "https://www.anthropic.com/research/tracing-thoughts-language-model"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:15:12.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Alignment faking in large language models",
+      "summary": "A paper from Anthropic&#x27;s Alignment Science team on Alignment Faking in AI large language models",
+      "url": "https://www.anthropic.com/research/alignment-faking"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:14:20.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Anthropic Education Report: The AI Fluency Index",
+      "summary": "Anthropic&#x27;s AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.",
+      "url": "https://www.anthropic.com/research/AI-fluency-index"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T22:13:34.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "2028: Two scenarios for global AI leadership",
+      "summary": "Our views on the AI competition between the US and China.",
+      "url": "https://www.anthropic.com/research/2028-ai-leadership"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T21:22:06Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.205",
+      "summary": "- Added an auto mode rule that blocks tampering with session transcript files\n- Fixed `--json-schema` silently producing unstructured output when the schema was invalid, and schemas using the `format` keyword being rejected\n- Fixed a message sent while Claude was working being silently lost when the turn ended at the `--max-turns` limit\n- Fixed Windows worktree removal deleting files outside the…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205"
+    },
+    {
+      "date": "2026-07-08",
+      "datetime": "2026-07-08T20:08:28.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Golden Gate Claude",
+      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
+      "url": "https://www.anthropic.com/news/golden-gate-claude"
+    },
     {
       "date": "2026-07-08",
       "datetime": "2026-07-08T00:27:50Z",
@@ -34,24 +162,6 @@
       "title": "Introducing Claude Sonnet 5",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-07-07",
-      "datetime": "2026-07-07T09:25:55.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "A global workspace in language models",
-      "summary": "Interpretability research on Claude&#x27;s internal thoughts.",
-      "url": "https://www.anthropic.com/research/global-workspace"
-    },
-    {
-      "date": "2026-07-06",
-      "datetime": "2026-07-06T23:47:46.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How people ask Claude for personal guidance",
-      "summary": "We look at what types of guidance people ask of Claude, and describe how this research shaped the training of our newest models.",
-      "url": "https://www.anthropic.com/research/claude-personal-guidance"
     },
     {
       "date": "2026-07-06",
@@ -153,26 +263,6 @@
       "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
-      "date": "2026-07-01",
-      "datetime": "2026-07-01T19:34:43.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude Fable 5 and Claude Mythos 5",
-      "summary": "Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "title_ko": "Claude Fable 5와 Claude Mythos 5 공개",
-      "summary_ko": "오늘 일반 사용자도 안전하게 쓸 수 있도록 다듬은 Mythos 클래스 모델 Claude Fable 5를 출시합니다."
-    },
-    {
-      "date": "2026-07-01",
-      "datetime": "2026-07-01T17:37:46.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude Science, an AI workbench for scientists",
-      "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
-    },
-    {
       "date": "2026-06-30",
       "datetime": "2026-06-30T17:56:37Z",
       "source": "claude-code",
@@ -180,17 +270,6 @@
       "title": "Claude Code v2.1.197",
       "summary": "- Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. Update to version 2.1.197 for access. https://www.anthropic.com/news/claude-sonnet-5",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197"
-    },
-    {
-      "date": "2026-06-30",
-      "datetime": "2026-06-30T08:57:47.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Frontier Red Team",
-      "summary": "Anthropic&#x27;s Frontier Red Team stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next. We provide evidence-based analysis about AI’s implications for cybersecurity, national security, and autonomous systems.",
-      "url": "https://www.anthropic.com/research/team/frontier-red-team",
-      "title_ko": "Frontier Red Team",
-      "summary_ko": "Anthropic의 Frontier Red Team이 AI 시스템을 스트레스 테스트해 현재 역량의 전체 범위를 파악하고 다음에 올 변화를 예측. 사이버보안 · 국가안보 · 자율 시스템 측면에서 AI의 함의를 근거 기반으로 분석합니다."
     },
     {
       "date": "2026-06-29",
@@ -203,94 +282,12 @@
     },
     {
       "date": "2026-06-26",
-      "datetime": "2026-06-26T23:50:17.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Anthropic Economic Index report: Cadences",
-      "summary": "In the latest Anthropic Economic Index report, we look at when people come to Claude, what they produce with it, and how they perceive AI’s impact on their work.",
-      "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
-    },
-    {
-      "date": "2026-06-26",
       "datetime": "2026-06-26T21:29:42Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.195",
       "summary": "- Added `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll\n- Fixed hook matchers with hyphenated identifiers (e.g. `code-reviewer`, `mcp__brave-search`) accidentally substring-matching — they now exact-match. Use `mcp__brave-search__.*` to match all tools from a hyphenated MCP server.\n- Fixed voice dictation on macOS capturing…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195"
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:35:41.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Paving the way for AI agents in biology",
-      "summary": "In this Anthropic Science post, Laura Luebbert argues that we need to make biological data infrastructure more agent-friendly.",
-      "url": "https://www.anthropic.com/research/agents-in-biology",
-      "title_ko": "생물학 분야에서 AI 에이전트의 길을 열다",
-      "summary_ko": "생물학 연구·실험 워크플로우에 AI 에이전트가 어떻게 활용될 수 있는지, 그 방향과 안전 고려사항을 짚는 Anthropic의 연구."
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:35:06.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Making Claude a chemist",
-      "summary": "Anthropic is working with world-class synthetic, computational, and analytical chemists to make Claude better at chemistry. In this post, we share our first work as part of this effort.",
-      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-      "title_ko": "Claude를 화학자로 만들기",
-      "summary_ko": "Claude가 화학 문제 풀이와 합성 경로 설계 같은 전문 화학 업무를 수행하도록 훈련·평가한 Anthropic의 연구."
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:34:51.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic&#x27;s core views on AI safety",
-      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-      "title_ko": "AI 안전성에 대한 핵심 견해 — 언제·왜·무엇을·어떻게",
-      "summary_ko": "AI 발전은 향후 10년 내 변혁적 AI 시스템으로 이어질 수 있지만, 그러한 시스템을 안전하게 만들고 인간 가치와 정렬하는 방법은 아직 모릅니다. 이를 위해 Anthropic이 추구하는 여러 연구 방향을 정리한 문서."
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:34:02.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "AI to defend critical infrastructure",
-      "summary": "AI could help defenders of critical infrastructure identify the vulnerabilities that attackers might exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the potential of AI-accelerated defense and the value of public-private partnerships in harnessing AI for natio",
-      "url": "https://www.anthropic.com/research/critical-infrastructure-defense"
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:33:25.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Reverse engineering Claude&#x27;s CVE-2026-2796 exploit",
-      "summary": "This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in Firefox.",
-      "url": "https://www.anthropic.com/research/exploit"
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:32:44.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Corps",
-      "summary": "Anthropic is launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "title_ko": "Claude Corps 출범",
-      "summary_ko": "AI의 혜택을 미국 전역 지역사회로 확장하는 데 관심 있는 초년 경력자를 위한 국가 펠로우십 프로그램 'Claude Corps'를 시작합니다."
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T12:32:30.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "DXC integrates Claude into systems regulated industries rely on",
-      "summary": "Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "title_ko": "DXC와 글로벌 제휴 — 은행·항공 등 규제 산업에 Claude 통합",
-      "summary_ko": "세계 최대 IT 서비스 기업 중 하나인 DXC Technology와 다년 글로벌 제휴를 체결합니다. 은행, 항공사 등 규제가 강한 산업의 기존 시스템에 Claude를 통합하는 것이 목표입니다."
     },
     {
       "date": "2026-06-25",
@@ -300,15 +297,6 @@
       "title": "Claude Code v2.1.193",
       "summary": "- Added `autoMode.classifyAllShell` setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution patterns\n- Added auto-mode denial reasons to the transcript, the denial toast, and `/permissions` recent denials\n- Added `claude_code.assistant_response` OpenTelemetry log event containing the model's response text. Redacted unless…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193"
-    },
-    {
-      "date": "2026-06-24",
-      "datetime": "2026-06-24T21:58:12Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.191",
-      "summary": "- Added `/rewind` support for resuming a conversation from before `/clear` was run\n- Fixed scroll position jumping to the bottom while reading earlier output during a streaming response\n- Fixed background agents resurrecting after being stopped — stopping an agent from the tasks panel is now permanent\n- Fixed `/voice` showing a generic \"not available\" message when disabled by an organization's…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191"
     },
     {
       "date": "2026-06-06",

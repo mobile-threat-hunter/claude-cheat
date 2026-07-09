@@ -1,5 +1,5 @@
 {
-  "sample_size": 1617,
+  "sample_size": 1618,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,28 +8,28 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1497,
+      "count": 1498,
       "pct": 92.6
     },
     {
       "field": "name",
-      "count": 1496,
+      "count": 1497,
       "pct": 92.5
     },
     {
       "field": "metadata",
-      "count": 453,
-      "pct": 28.0
+      "count": 454,
+      "pct": 28.1
     },
     {
       "field": "origin",
       "count": 444,
-      "pct": 27.5
+      "pct": 27.4
     },
     {
       "field": "license",
-      "count": 175,
-      "pct": 10.8
+      "count": 176,
+      "pct": 10.9
     },
     {
       "field": "allowed-tools",
@@ -84,33 +84,33 @@
   ],
   "description": {
     "length": {
-      "count": 1617,
+      "count": 1618,
       "min": 8,
       "p25": 81,
       "median": 153,
-      "p75": 237,
-      "p90": 356,
+      "p75": 238,
+      "p90": 357,
       "max": 1068,
-      "mean": 186.7
+      "mean": 186.9
     },
     "has_trigger_phrase_pct": 30.9,
     "has_quoted_user_phrase_pct": 3.3,
     "short_pct_lt_120": 38.7,
-    "long_pct_gt_300": 16.3
+    "long_pct_gt_300": 16.4
   },
   "body": {
     "length_chars": {
-      "count": 1617,
+      "count": 1618,
       "min": 610,
       "p25": 3270,
-      "median": 6618,
+      "median": 6593,
       "p75": 11755,
       "p90": 19145,
       "max": 110236,
-      "mean": 9315.7
+      "mean": 9312.7
     },
     "heading_count": {
-      "count": 1617,
+      "count": 1618,
       "min": 0,
       "p25": 11,
       "median": 20,
@@ -120,7 +120,7 @@
       "mean": 27.3
     },
     "code_block_count": {
-      "count": 1617,
+      "count": 1618,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -137,11 +137,11 @@
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 262
+      "count": 263
     },
     {
       "label": "when to use this",
-      "count": 253
+      "count": 254
     },
     {
       "label": "when to use",
@@ -181,7 +181,7 @@
     },
     {
       "label": "workflow",
-      "count": 91
+      "count": 92
     },
     {
       "label": "resources",
@@ -193,11 +193,11 @@
     },
     {
       "label": "output format",
-      "count": 72
+      "count": 73
     },
     {
       "label": "troubleshooting",
-      "count": 69
+      "count": 70
     },
     {
       "label": "installation",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.887
+      "composite": 0.886
     }
   ]
 }
