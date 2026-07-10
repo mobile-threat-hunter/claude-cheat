@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T04:31:44.409Z",
+  "generated_at": "2026-07-10T04:34:11.744Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,71 @@
   },
   "items": [
     {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:56:51.000Z",
+      "date": "2026-07-10",
+      "datetime": "2026-07-10T01:45:26Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.206",
+      "summary": "- Added directory path suggestions to `/cd`, matching `/add-dir` behavior\n- Added a `/doctor` check that proposes trimming checked-in `CLAUDE.md` files by cutting content Claude could derive from the codebase\n- `/commit-push-pr` now auto-allows `git push` to the repo's configured push remote (`remote.pushDefault`, or the sole remote when only one is configured) in addition to `origin`\n- Gateway:…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206"
+    },
+    {
+      "date": "2026-07-10",
+      "datetime": "2026-07-10T00:37:25.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "UST is bringing Claude to physical AI",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/ust-claude"
+    },
+    {
+      "date": "2026-07-09",
+      "datetime": "2026-07-09T20:02:16.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Golden Gate Claude",
+      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
+      "url": "https://www.anthropic.com/news/golden-gate-claude"
+    },
+    {
+      "date": "2026-07-09",
+      "datetime": "2026-07-09T19:21:35.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "The Long-Term Benefit Trust",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-07-09",
+      "datetime": "2026-07-09T18:07:20.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/ben-bernanke"
+    },
+    {
+      "date": "2026-07-09",
+      "datetime": "2026-07-09T17:28:23.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Inviting hard questions",
+      "summary": "We&#x27;re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+      "url": "https://www.anthropic.com/news/hard-questions"
+    },
+    {
+      "date": "2026-07-09",
+      "datetime": "2026-07-09T14:22:03.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "A new way to reflect on how you use Claude",
+      "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals. ",
+      "url": "https://www.anthropic.com/news/reflect-with-claude"
+    },
+    {
+      "date": "2026-07-09",
+      "datetime": "2026-07-09T12:42:20.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "An off switch for dual use knowledge in AI models",
@@ -129,15 +192,6 @@
     },
     {
       "date": "2026-07-08",
-      "datetime": "2026-07-08T20:08:28.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Golden Gate Claude",
-      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
-      "url": "https://www.anthropic.com/news/golden-gate-claude"
-    },
-    {
-      "date": "2026-07-08",
       "datetime": "2026-07-08T00:27:50Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -182,15 +236,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
     },
     {
-      "date": "2026-07-06",
-      "datetime": "2026-07-06T19:00:35.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
-      "summary": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
-      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
-    },
-    {
       "date": "2026-07-03",
       "datetime": "2026-07-03T23:50:35Z",
       "source": "claude-code",
@@ -209,33 +254,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
     },
     {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T10:15:42.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude&#x27;s extended thinking",
-      "summary": "Discussing Claude&#x27;s new thought process",
-      "url": "https://www.anthropic.com/news/visible-extended-thinking"
-    },
-    {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T10:15:38.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Announcing Anthropic&#x27;s Responsible Scaling Policy",
-      "summary": "We’re publishing our Responsible Scaling Policy—a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems.",
-      "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy"
-    },
-    {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T10:14:45.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "summary": "What is and isn&#x27;t blocked by our cyber classifiers, and a first draft of our jailbreak severity framework",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
-    },
-    {
       "date": "2026-07-02",
       "datetime": "2026-07-02T23:35:18Z",
       "source": "claude-code",
@@ -252,15 +270,6 @@
       "title": "Claude Code v2.1.198",
       "summary": "- Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)\n- Claude in Chrome is now generally available\n- Added background agent notifications in `claude agents` — sessions that need input or finish now fire the `Notification` hook (`agent_needs_input` / `agent_completed`)\n- Added `/dataviz` skill for…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198"
-    },
-    {
-      "date": "2026-07-01",
-      "datetime": "2026-07-01T19:40:52.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Redeploying Claude Fable 5",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "2026-06-30",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.195",
       "summary": "- Added `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll\n- Fixed hook matchers with hyphenated identifiers (e.g. `code-reviewer`, `mcp__brave-search`) accidentally substring-matching — they now exact-match. Use `mcp__brave-search__.*` to match all tools from a hyphenated MCP server.\n- Fixed voice dictation on macOS capturing…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195"
-    },
-    {
-      "date": "2026-06-25",
-      "datetime": "2026-06-25T21:45:57Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.193",
-      "summary": "- Added `autoMode.classifyAllShell` setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution patterns\n- Added auto-mode denial reasons to the transcript, the denial toast, and `/permissions` recent denials\n- Added `claude_code.assistant_response` OpenTelemetry log event containing the model's response text. Redacted unless…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193"
     },
     {
       "date": "2026-06-06",
