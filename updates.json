@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T04:34:11.744Z",
+  "generated_at": "2026-07-11T03:52:55.602Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-11",
+      "datetime": "2026-07-11T00:52:10Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.207",
+      "summary": "- Auto mode is now available without `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in on Bedrock, Vertex AI, and Foundry; disable via `disableAutoMode` in settings\n- Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks\n- Fixed remote managed settings from a non-interactive run (`claude -p`, the SDK) being permanently…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207"
+    },
     {
       "date": "2026-07-10",
       "datetime": "2026-07-10T01:45:26Z",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.196",
       "summary": "- Added support for organization default models — admins set it in the org console; it shows as \"Org default\" (or \"Role default\") in `/model` when you haven't picked one yourself\n- Added readable default names for sessions at start, making them easier to identify and message\n- Added clickable file attachments in chat — Cmd/Ctrl-click reveals the file in Finder/Explorer\n- Security: `claude mcp…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196"
-    },
-    {
-      "date": "2026-06-26",
-      "datetime": "2026-06-26T21:29:42Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.195",
-      "summary": "- Added `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll\n- Fixed hook matchers with hyphenated identifiers (e.g. `code-reviewer`, `mcp__brave-search`) accidentally substring-matching — they now exact-match. Use `mcp__brave-search__.*` to match all tools from a hyphenated MCP server.\n- Fixed voice dictation on macOS capturing…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195"
     },
     {
       "date": "2026-06-06",
