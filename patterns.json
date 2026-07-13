@@ -1,5 +1,5 @@
 {
-  "sample_size": 1662,
+  "sample_size": 1663,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1531,
+      "count": 1532,
       "pct": 92.1
     },
     {
       "field": "name",
-      "count": 1520,
+      "count": 1521,
       "pct": 91.5
     },
     {
       "field": "metadata",
       "count": 458,
-      "pct": 27.6
+      "pct": 27.5
     },
     {
       "field": "origin",
@@ -28,7 +28,7 @@
     },
     {
       "field": "license",
-      "count": 179,
+      "count": 180,
       "pct": 10.8
     },
     {
@@ -84,7 +84,7 @@
   ],
   "description": {
     "length": {
-      "count": 1662,
+      "count": 1663,
       "min": 8,
       "p25": 82,
       "median": 155,
@@ -93,24 +93,24 @@
       "max": 1068,
       "mean": 188.0
     },
-    "has_trigger_phrase_pct": 31.5,
+    "has_trigger_phrase_pct": 31.4,
     "has_quoted_user_phrase_pct": 3.8,
     "short_pct_lt_120": 38.1,
     "long_pct_gt_300": 16.5
   },
   "body": {
     "length_chars": {
-      "count": 1662,
+      "count": 1663,
       "min": 610,
       "p25": 3215,
-      "median": 6554,
-      "p75": 11707,
+      "median": 6550,
+      "p75": 11716,
       "p90": 19160,
       "max": 110236,
-      "mean": 9252.5
+      "mean": 9252.3
     },
     "heading_count": {
-      "count": 1662,
+      "count": 1663,
       "min": 0,
       "p25": 11,
       "median": 20,
@@ -120,7 +120,7 @@
       "mean": 27.0
     },
     "code_block_count": {
-      "count": 1662,
+      "count": 1663,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -131,8 +131,8 @@
     },
     "has_numbered_list_pct": 62.9,
     "has_bullet_list_pct": 97.1,
-    "has_table_pct": 50.2,
-    "has_code_block_pct": 88.1
+    "has_table_pct": 50.3,
+    "has_code_block_pct": 88.2
   },
   "common_section_headings_h2": [
     {
