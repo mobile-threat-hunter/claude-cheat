@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T04:09:51.301Z",
+  "generated_at": "2026-07-14T03:46:23.444Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,80 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T01:10:42Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.208",
+      "summary": "- Added screen reader mode: opt-in plain-text rendering for screen reader users. Run `claude --ax-screen-reader`, set CLAUDE_AX_SCREEN_READER=1, or add \"axScreenReader\": true to settings.\n- Added `vimInsertModeRemaps` setting: map two-key insert-mode sequences like `jj` to Escape in vim mode\n- Added `CLAUDE_CODE_PROCESS_WRAPPER`: agent view and the background service now honor a corporate…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208"
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T21:10:45.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude&#x27;s values vary by model and language",
+      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages"
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T18:27:52.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Agentic misalignment: How LLMs could be insider threats",
+      "summary": "New research on simulated blackmail, industrial espionage, and other misaligned behaviors in LLMs",
+      "url": "https://www.anthropic.com/research/agentic-misalignment"
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T17:54:21.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude Performs on Robotics Tasks",
+      "summary": "Do language models’ strengths transfer to robotics? Can a model perceive a scene, understand a particular robot’s state, and issue actions that reliably effect change in the physical world? We ran tests to find out.",
+      "url": "https://www.anthropic.com/research/claude-plays-robotics"
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T15:46:07.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude for Creative Work",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work"
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T15:41:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic Sydney office",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T15:41:00.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
+      "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
+    },
+    {
+      "date": "2026-07-13",
+      "datetime": "2026-07-13T12:08:40.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "A global workspace in language models",
+      "summary": "Interpretability research on Claude&#x27;s internal thoughts.",
+      "url": "https://www.anthropic.com/research/global-workspace"
+    },
     {
       "date": "2026-07-11",
       "datetime": "2026-07-11T00:52:10Z",
@@ -109,15 +183,6 @@
     },
     {
       "date": "2026-07-08",
-      "datetime": "2026-07-08T22:42:47.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Agentic misalignment: How LLMs could be insider threats",
-      "summary": "New research on simulated blackmail, industrial espionage, and other misaligned behaviors in LLMs",
-      "url": "https://www.anthropic.com/research/agentic-misalignment"
-    },
-    {
-      "date": "2026-07-08",
       "datetime": "2026-07-08T22:42:17.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -145,50 +210,12 @@
     },
     {
       "date": "2026-07-08",
-      "datetime": "2026-07-08T22:23:46.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic&#x27;s core views on AI safety",
-      "summary": "AI progress may lead to transformative AI systems in the next decade, but we do not yet understand how to make such systems safe and aligned with human values. In response, we are pursuing a variety of research directions aimed at better understanding, evaluating, and aligning AI systems.",
-      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-      "title_ko": "AI 안전성에 대한 핵심 견해 — 언제·왜·무엇을·어떻게",
-      "summary_ko": "AI 발전은 향후 10년 내 변혁적 AI 시스템으로 이어질 수 있지만, 그러한 시스템을 안전하게 만들고 인간 가치와 정렬하는 방법은 아직 모릅니다. 이를 위해 Anthropic이 추구하는 여러 연구 방향을 정리한 문서."
-    },
-    {
-      "date": "2026-07-08",
       "datetime": "2026-07-08T22:16:10.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Tracing the thoughts of a large language model",
       "summary": "Anthropic&#x27;s latest interpretability research: a new microscope to understand Claude&#x27;s internal mechanisms",
       "url": "https://www.anthropic.com/research/tracing-thoughts-language-model"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:15:12.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Alignment faking in large language models",
-      "summary": "A paper from Anthropic&#x27;s Alignment Science team on Alignment Faking in AI large language models",
-      "url": "https://www.anthropic.com/research/alignment-faking"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:14:20.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Anthropic Education Report: The AI Fluency Index",
-      "summary": "Anthropic&#x27;s AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.",
-      "url": "https://www.anthropic.com/research/AI-fluency-index"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:13:34.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "2028: Two scenarios for global AI leadership",
-      "summary": "Our views on the AI competition between the US and China.",
-      "url": "https://www.anthropic.com/research/2028-ai-leadership"
     },
     {
       "date": "2026-07-08",
@@ -216,24 +243,6 @@
       "title": "Claude Code v2.1.203",
       "summary": "- Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted\n- Added a grey ⏸ badge to the footer when in manual permission mode, making the active mode always visible\n- Added the session's additional working directories to MCP `roots/list`, with `notifications/roots/list_changed` sent when the set changes\n- Fixed opening or switching…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203"
-    },
-    {
-      "date": "2026-07-07",
-      "datetime": "2026-07-07T17:07:52.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-07-06",
-      "datetime": "2026-07-06T23:32:01.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Building safeguards for Claude",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
     },
     {
       "date": "2026-07-06",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.197",
       "summary": "- Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. Update to version 2.1.197 for access. https://www.anthropic.com/news/claude-sonnet-5",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197"
-    },
-    {
-      "date": "2026-06-29",
-      "datetime": "2026-06-29T23:27:32Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.196",
-      "summary": "- Added support for organization default models — admins set it in the org console; it shows as \"Org default\" (or \"Role default\") in `/model` when you haven't picked one yourself\n- Added readable default names for sessions at start, making them easier to identify and message\n- Added clickable file attachments in chat — Cmd/Ctrl-click reveals the file in Finder/Explorer\n- Security: `claude mcp…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196"
     },
     {
       "date": "2026-06-06",
