@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T03:46:23.444Z",
+  "generated_at": "2026-07-15T03:46:03.117Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,51 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T23:45:25Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.210",
+      "summary": "- Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck\n- Added a startup warning for `Write(path)`, `NotebookEdit(path)`, and `Glob(path)` permission rules — use `Edit(path)` or `Read(path)` instead\n- Fixed `isolation: 'worktree'` subagents being able to run git-mutating commands against the main repo checkout…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210"
+    },
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T17:50:04.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude for Teachers",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-for-teachers"
+    },
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T16:33:29.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
+      "url": "https://www.anthropic.com/news/canadian-ai-research"
+    },
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T16:33:01.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Canada uses Claude",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/how-canada-uses-claude"
+    },
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T06:36:28Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.209",
+      "summary": "- Fixed /model and other dialogs being blocked in `claude agents` background sessions (reverts an overly broad guard)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209"
+    },
     {
       "date": "2026-07-14",
       "datetime": "2026-07-14T01:10:42Z",
@@ -183,39 +228,12 @@
     },
     {
       "date": "2026-07-08",
-      "datetime": "2026-07-08T22:42:17.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Frontier threats red teaming for AI safety",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:41:45.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Charting a path to AI accountability",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability"
-    },
-    {
-      "date": "2026-07-08",
       "datetime": "2026-07-08T22:30:56.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Anthropic Economic Index report: Economic primitives",
       "summary": "This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.",
       "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:16:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Tracing the thoughts of a large language model",
-      "summary": "Anthropic&#x27;s latest interpretability research: a new microscope to understand Claude&#x27;s internal mechanisms",
-      "url": "https://www.anthropic.com/research/tracing-thoughts-language-model"
     },
     {
       "date": "2026-07-08",
@@ -279,24 +297,6 @@
       "title": "Claude Code v2.1.199",
       "summary": "- Stacked slash-skill invocations like `/skill-a /skill-b do XYZ` now load all leading skills (up to 5), not just the first\n- Fixed SSL certificate errors (TLS-inspecting proxies, missing `NODE_EXTRA_CA_CERTS`, expired certs) burning retries before showing actionable guidance — they now fail immediately with the fix hint\n- Fixed streaming responses being discarded when the API emits a mid-stream…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199"
-    },
-    {
-      "date": "2026-07-01",
-      "datetime": "2026-07-01T20:45:36Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.198",
-      "summary": "- Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)\n- Claude in Chrome is now generally available\n- Added background agent notifications in `claude agents` — sessions that need input or finish now fire the `Notification` hook (`agent_needs_input` / `agent_completed`)\n- Added `/dataviz` skill for…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198"
-    },
-    {
-      "date": "2026-06-30",
-      "datetime": "2026-06-30T17:56:37Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.197",
-      "summary": "- Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. Update to version 2.1.197 for access. https://www.anthropic.com/news/claude-sonnet-5",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197"
     },
     {
       "date": "2026-06-06",
