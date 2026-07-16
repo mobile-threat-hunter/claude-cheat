@@ -86,16 +86,16 @@
     "length": {
       "count": 1685,
       "min": 8,
-      "p25": 82,
+      "p25": 83,
       "median": 156,
       "p75": 242,
       "p90": 357,
       "max": 1068,
-      "mean": 188.5
+      "mean": 188.6
     },
     "has_trigger_phrase_pct": 31.9,
     "has_quoted_user_phrase_pct": 3.7,
-    "short_pct_lt_120": 37.9,
+    "short_pct_lt_120": 37.8,
     "long_pct_gt_300": 16.4
   },
   "body": {
@@ -107,7 +107,7 @@
       "p75": 11617,
       "p90": 19145,
       "max": 110236,
-      "mean": 9246.4
+      "mean": 9248.1
     },
     "heading_count": {
       "count": 1685,
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "3cf385577bf18e79",

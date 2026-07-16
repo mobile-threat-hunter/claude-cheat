@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:46:03.117Z",
+  "generated_at": "2026-07-16T03:48:16.853Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,17 +9,35 @@
   },
   "items": [
     {
-      "date": "2026-07-14",
-      "datetime": "2026-07-14T23:45:25Z",
+      "date": "2026-07-15",
+      "datetime": "2026-07-15T23:02:35Z",
       "source": "claude-code",
       "source_label": "Claude Code",
-      "title": "Claude Code v2.1.210",
-      "summary": "- Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck\n- Added a startup warning for `Write(path)`, `NotebookEdit(path)`, and `Glob(path)` permission rules — use `Edit(path)` or `Read(path)` instead\n- Fixed `isolation: 'worktree'` subagents being able to run git-mutating commands against the main repo checkout…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210"
+      "title": "Claude Code v2.1.211",
+      "summary": "- Added `--forward-subagent-text` flag and `CLAUDE_CODE_FORWARD_SUBAGENT_TEXT` environment variable to include subagent text and thinking in stream-json output\n- Fixed permission previews relayed to chat channels not neutralizing bidirectional-override, zero-width, and look-alike quote characters, so tool inputs cannot visually alter the approval message\n- Fixed auto mode overriding a PreToolUse…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211"
     },
     {
-      "date": "2026-07-14",
-      "datetime": "2026-07-14T17:50:04.000Z",
+      "date": "2026-07-15",
+      "datetime": "2026-07-15T22:12:10.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Tag",
+      "summary": "Claude Tag is a new way for teams to work with Claude.",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag"
+    },
+    {
+      "date": "2026-07-15",
+      "datetime": "2026-07-15T21:16:19.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Agents for financial services",
+      "summary": "We&#x27;re releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
+      "url": "https://www.anthropic.com/news/finance-agents"
+    },
+    {
+      "date": "2026-07-15",
+      "datetime": "2026-07-15T16:22:29.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Introducing Claude for Teachers",
@@ -27,13 +45,22 @@
       "url": "https://www.anthropic.com/news/claude-for-teachers"
     },
     {
-      "date": "2026-07-14",
-      "datetime": "2026-07-14T16:33:29.000Z",
+      "date": "2026-07-15",
+      "datetime": "2026-07-15T09:21:26.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Anthropic commits $10 million to Canadian AI research",
       "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
       "url": "https://www.anthropic.com/news/canadian-ai-research"
+    },
+    {
+      "date": "2026-07-14",
+      "datetime": "2026-07-14T23:45:25Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.210",
+      "summary": "- Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck\n- Added a startup warning for `Write(path)`, `NotebookEdit(path)`, and `Glob(path)` permission rules — use `Edit(path)` or `Read(path)` instead\n- Fixed `isolation: 'worktree'` subagents being able to run git-mutating commands against the main repo checkout…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210"
     },
     {
       "date": "2026-07-14",
@@ -192,30 +219,12 @@
     },
     {
       "date": "2026-07-09",
-      "datetime": "2026-07-09T14:22:03.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "A new way to reflect on how you use Claude",
-      "summary": "Introducing a new way to reflect on and refine how you use Claude. It lets you easily track and visualize how you use Claude, and decide whether that time aligns with your goals. ",
-      "url": "https://www.anthropic.com/news/reflect-with-claude"
-    },
-    {
-      "date": "2026-07-09",
       "datetime": "2026-07-09T12:42:20.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "An off switch for dual use knowledge in AI models",
       "summary": "New results on a method of controlling access to potentially dangerous AI capabilities",
       "url": "https://www.anthropic.com/research/off-switch-dual-use"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:43:38.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Progress from our Frontier Red Team",
-      "summary": "In this post, we are sharing what we have learned about the trajectory of potential national security risks from frontier AI models, along with some of our thoughts about challenges and best practices in evaluating these risks. ",
-      "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team"
     },
     {
       "date": "2026-07-08",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.200",
       "summary": "- Changed `AskUserQuestion` dialogs to no longer auto-continue by default; opt into an idle timeout via `/config`\n- Changed the \"default\" permission mode to \"Manual\" across the CLI, `--help`, VS Code, and JetBrains; `--permission-mode manual` and `\"defaultMode\": \"manual\"` are accepted alongside `default`\n- Fixed a crash at startup when `disabledMcpServers` or `enabledMcpServers` in `.claude.json`…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
-    },
-    {
-      "date": "2026-07-02",
-      "datetime": "2026-07-02T23:35:18Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.199",
-      "summary": "- Stacked slash-skill invocations like `/skill-a /skill-b do XYZ` now load all leading skills (up to 5), not just the first\n- Fixed SSL certificate errors (TLS-inspecting proxies, missing `NODE_EXTRA_CA_CERTS`, expired certs) burning retries before showing actionable guidance — they now fail immediately with the fix hint\n- Fixed streaming responses being discarded when the API emits a mid-stream…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199"
     },
     {
       "date": "2026-06-06",
