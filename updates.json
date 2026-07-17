@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T03:48:16.853Z",
+  "generated_at": "2026-07-17T03:48:07.564Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-17",
+      "datetime": "2026-07-17T00:26:27Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.212",
+      "summary": "- `/fork` now copies your conversation into a new background session (its own row in `claude agents`) while you keep working; the in-session subagent it used to launch is now `/subtask`\n- Added `claude auto-mode reset` to restore the default auto-mode configuration, with a confirmation prompt (pass `--yes` to skip)\n- Added a session-wide limit on WebSearch tool calls (default 200, tunable via…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212"
+    },
     {
       "date": "2026-07-15",
       "datetime": "2026-07-15T23:02:35Z",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.201",
       "summary": "- Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
-    },
-    {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T16:52:33Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.200",
-      "summary": "- Changed `AskUserQuestion` dialogs to no longer auto-continue by default; opt into an idle timeout via `/config`\n- Changed the \"default\" permission mode to \"Manual\" across the CLI, `--help`, VS Code, and JetBrains; `--permission-mode manual` and `\"defaultMode\": \"manual\"` are accepted alongside `default`\n- Fixed a crash at startup when `disabledMcpServers` or `enabledMcpServers` in `.claude.json`…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
     },
     {
       "date": "2026-06-06",
