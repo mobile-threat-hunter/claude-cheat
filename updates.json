@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:48:07.564Z",
+  "generated_at": "2026-07-18T03:43:54.319Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-18",
+      "datetime": "2026-07-18T01:20:30Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.214",
+      "summary": "- Fixed single-segment `dir/**` allow rules like `Edit(src/**)` auto-approving writes to nested `dir/` directories anywhere in the tree instead of only `<cwd>/dir`\n- Fixed a permission-check bypass affecting commands run in Windows PowerShell 5.1 sessions\n- Fixed Bash permission checks to fail closed on file-descriptor redirect forms that bash parses differently than the permission analyzer\n-…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214"
+    },
     {
       "date": "2026-07-17",
       "datetime": "2026-07-17T00:26:27Z",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.202",
       "summary": "- Added a \"Dynamic workflow size\" setting in `/config` for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) — an advisory guideline, not an enforced cap\n- Added `workflow.run_id` and `workflow.name` OpenTelemetry attributes to telemetry emitted by workflow-spawned agents, so a workflow run's activity can be reconstructed from OTel data\n- Fixed a…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
-    },
-    {
-      "date": "2026-07-03",
-      "datetime": "2026-07-03T23:50:35Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.201",
-      "summary": "- Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
     },
     {
       "date": "2026-06-06",
