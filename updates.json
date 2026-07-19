@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T03:43:54.319Z",
+  "generated_at": "2026-07-19T04:04:39.077Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-19",
+      "datetime": "2026-07-19T02:56:01Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.215",
+      "summary": "- Claude no longer runs the `/verify` and `/code-review` skills on its own; invoke them with `/verify` or `/code-review` when you want them",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215"
+    },
     {
       "date": "2026-07-18",
       "datetime": "2026-07-18T01:20:30Z",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.203",
       "summary": "- Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted\n- Added a grey ⏸ badge to the footer when in manual permission mode, making the active mode always visible\n- Added the session's additional working directories to MCP `roots/list`, with `notifications/roots/list_changed` sent when the set changes\n- Fixed opening or switching…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203"
-    },
-    {
-      "date": "2026-07-06",
-      "datetime": "2026-07-06T22:51:16Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.202",
-      "summary": "- Added a \"Dynamic workflow size\" setting in `/config` for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) — an advisory guideline, not an enforced cap\n- Added `workflow.run_id` and `workflow.name` OpenTelemetry attributes to telemetry emitted by workflow-spawned agents, so a workflow run's activity can be reconstructed from OTel data\n- Fixed a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
     },
     {
       "date": "2026-06-06",
