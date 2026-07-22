@@ -91,7 +91,7 @@
       "p75": 242,
       "p90": 357,
       "max": 1068,
-      "mean": 188.7
+      "mean": 188.6
     },
     "has_trigger_phrase_pct": 32.1,
     "has_quoted_user_phrase_pct": 3.8,
@@ -107,7 +107,7 @@
       "p75": 11610,
       "p90": 19145,
       "max": 110236,
-      "mean": 9244.7
+      "mean": 9245.0
     },
     "heading_count": {
       "count": 1693,
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.888
+      "composite": 0.887
     }
   ]
 }

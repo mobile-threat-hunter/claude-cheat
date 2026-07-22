@@ -1,13 +1,136 @@
 {
-  "generated_at": "2026-07-21T03:57:36.570Z",
+  "generated_at": "2026-07-22T03:58:57.781Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 9
+    "translated_ko": 11
   },
   "items": [
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:28:45.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 4.8",
+      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "title_ko": "Claude Opus 4.8 출시",
+      "summary_ko": "신규 모델 Claude Opus 4.8은 Opus 계열의 업그레이드로, 코딩 · 에이전트 작업 · 전문 업무 전반에서 성능이 향상되었으며 장기 실행 작업을 일관되게 처리합니다."
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:28:08.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 4.5",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:26:31.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 4.7",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. ",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:20:28.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:16:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Agent Skills | Claude by Anthropic",
+      "summary": "",
+      "url": "https://www.anthropic.com/news/skills"
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:13:43.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Sonnet 4.5",
+      "summary": "Claude Sonnet 4.5 is the best coding model in the world, strongest model for building complex agents, and best model at using computers. ",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:05:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Haiku 4.5",
+      "summary": "Claude Haiku 4.5, our latest small model, is available today to all users.",
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T01:02:08.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
+      "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T00:59:47.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude for Small Business",
+      "summary": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "title_ko": "'Claude for Small Business' 출시",
+      "summary_ko": "Claude for Small Business를 출시합니다. 소상공인이 매일 사용하는 도구 안에 Claude를 넣어주는 커넥터와 즉시 실행 가능한 워크플로우 패키지입니다."
+    },
+    {
+      "date": "2026-07-22",
+      "datetime": "2026-07-22T00:06:14.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude Opus 4.6",
+      "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin. ",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "date": "2026-07-21",
+      "datetime": "2026-07-21T23:52:43.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Sonnet 4.6",
+      "summary": "Claude Sonnet 4.6 is a full upgrade of the model’s skills across coding, computer use, long-reasoning, agent planning, knowledge work, and design. ",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+    },
+    {
+      "date": "2026-07-21",
+      "datetime": "2026-07-21T23:43:25.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude for Teachers",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-for-teachers"
+    },
+    {
+      "date": "2026-07-21",
+      "datetime": "2026-07-21T21:35:10Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.217",
+      "summary": "- Added emoji shortcode autocomplete in the prompt input: type `:heart:` to insert ❤️, or `:hea` for suggestions — disable with the `emojiCompletionEnabled` setting\n- Added warnings when transcript writes are failing (e.g. disk full) or when session saving is off due to an inherited environment variable, instead of losing transcripts silently\n- Fixed a memory leak where truncated MCP tool outputs…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217"
+    },
     {
       "date": "2026-07-20",
       "datetime": "2026-07-20T22:14:00Z",
@@ -16,15 +139,6 @@
       "title": "Claude Code v2.1.216",
       "summary": "- Added `sandbox.filesystem.disabled` setting to skip filesystem isolation while keeping network egress control\n- Fixed a slowdown in long sessions where message normalization cost grew quadratically with the number of turns, causing multi-second stalls and slow resumes\n- Fixed auto mode denying commands with \"HTTP 401\" classifier errors after the OAuth token expired or rotated mid-session\n-…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216"
-    },
-    {
-      "date": "2026-07-20",
-      "datetime": "2026-07-20T17:36:28.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Apply for Anthropic’s AI for Science rare disease research grants",
-      "summary": "Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease. ",
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
     },
     {
       "date": "2026-07-19",
@@ -61,42 +175,6 @@
       "title": "Claude Code v2.1.211",
       "summary": "- Added `--forward-subagent-text` flag and `CLAUDE_CODE_FORWARD_SUBAGENT_TEXT` environment variable to include subagent text and thinking in stream-json output\n- Fixed permission previews relayed to chat channels not neutralizing bidirectional-override, zero-width, and look-alike quote characters, so tool inputs cannot visually alter the approval message\n- Fixed auto mode overriding a PreToolUse…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211"
-    },
-    {
-      "date": "2026-07-15",
-      "datetime": "2026-07-15T22:12:10.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Tag",
-      "summary": "Claude Tag is a new way for teams to work with Claude.",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag"
-    },
-    {
-      "date": "2026-07-15",
-      "datetime": "2026-07-15T21:16:19.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Agents for financial services",
-      "summary": "We&#x27;re releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
-      "url": "https://www.anthropic.com/news/finance-agents"
-    },
-    {
-      "date": "2026-07-15",
-      "datetime": "2026-07-15T16:22:29.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude for Teachers",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/claude-for-teachers"
-    },
-    {
-      "date": "2026-07-15",
-      "datetime": "2026-07-15T09:21:26.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic commits $10 million to Canadian AI research",
-      "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
-      "url": "https://www.anthropic.com/news/canadian-ai-research"
     },
     {
       "date": "2026-07-14",
@@ -163,35 +241,6 @@
     },
     {
       "date": "2026-07-13",
-      "datetime": "2026-07-13T15:46:07.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude for Creative Work",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work"
-    },
-    {
-      "date": "2026-07-13",
-      "datetime": "2026-07-13T15:41:50.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic Sydney office",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
-    },
-    {
-      "date": "2026-07-13",
-      "datetime": "2026-07-13T15:41:00.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
-      "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
-    },
-    {
-      "date": "2026-07-13",
       "datetime": "2026-07-13T12:08:40.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
@@ -216,42 +265,6 @@
       "title": "Claude Code v2.1.206",
       "summary": "- Added directory path suggestions to `/cd`, matching `/add-dir` behavior\n- Added a `/doctor` check that proposes trimming checked-in `CLAUDE.md` files by cutting content Claude could derive from the codebase\n- `/commit-push-pr` now auto-allows `git push` to the repo's configured push remote (`remote.pushDefault`, or the sole remote when only one is configured) in addition to `origin`\n- Gateway:…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206"
-    },
-    {
-      "date": "2026-07-10",
-      "datetime": "2026-07-10T00:37:25.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "UST is bringing Claude to physical AI",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/ust-claude"
-    },
-    {
-      "date": "2026-07-09",
-      "datetime": "2026-07-09T20:02:16.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Golden Gate Claude",
-      "summary": "When we turn up the strength of the “Golden Gate Bridge” feature, Claude’s responses begin to focus on the Golden Gate Bridge. For a short time, we’re making this model available for everyone to interact with.",
-      "url": "https://www.anthropic.com/news/golden-gate-claude"
-    },
-    {
-      "date": "2026-07-09",
-      "datetime": "2026-07-09T19:21:35.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "The Long-Term Benefit Trust",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
-    },
-    {
-      "date": "2026-07-09",
-      "datetime": "2026-07-09T18:07:20.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/ben-bernanke"
     },
     {
       "date": "2026-07-09",
@@ -288,15 +301,6 @@
       "title": "Claude Code v2.1.205",
       "summary": "- Added an auto mode rule that blocks tampering with session transcript files\n- Fixed `--json-schema` silently producing unstructured output when the schema was invalid, and schemas using the `format` keyword being rejected\n- Fixed a message sent while Claude was working being silently lost when the turn ended at the `--max-turns` limit\n- Fixed Windows worktree removal deleting files outside the…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T00:27:50Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.204",
-      "summary": "- Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204"
     },
     {
       "date": "2026-06-06",
