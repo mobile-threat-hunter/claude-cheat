@@ -1,13 +1,40 @@
 {
-  "generated_at": "2026-07-23T03:56:21.062Z",
+  "generated_at": "2026-07-24T03:54:29.821Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 11
+    "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-07-23",
+      "datetime": "2026-07-23T20:11:00.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "[dev] Claude for Creative Work",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work-dev"
+    },
+    {
+      "date": "2026-07-23",
+      "datetime": "2026-07-23T04:19:56.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 4.7",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. ",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "2026-07-23",
+      "datetime": "2026-07-23T04:09:31.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 4.5",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
     {
       "date": "2026-07-22",
       "datetime": "2026-07-22T21:24:56Z",
@@ -57,24 +84,6 @@
     },
     {
       "date": "2026-07-22",
-      "datetime": "2026-07-22T01:28:08.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 4.5",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-5"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T01:26:31.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 4.7",
-      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. ",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "date": "2026-07-22",
       "datetime": "2026-07-22T01:20:28.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -119,17 +128,6 @@
       "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
       "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
       "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T00:59:47.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude for Small Business",
-      "summary": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "title_ko": "'Claude for Small Business' 출시",
-      "summary_ko": "Claude for Small Business를 출시합니다. 소상공인이 매일 사용하는 도구 안에 Claude를 넣어주는 커넥터와 즉시 실행 가능한 워크플로우 패키지입니다."
     },
     {
       "date": "2026-07-21",
