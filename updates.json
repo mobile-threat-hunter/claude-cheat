@@ -1,13 +1,58 @@
 {
-  "generated_at": "2026-07-24T03:54:29.821Z",
+  "generated_at": "2026-07-25T03:48:24.378Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 10
+    "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-25",
+      "datetime": "2026-07-25T02:03:36.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Opus 5",
+      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "date": "2026-07-25",
+      "datetime": "2026-07-25T01:35:55Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.220",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220"
+    },
+    {
+      "date": "2026-07-24",
+      "datetime": "2026-07-24T18:46:48.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+    },
+    {
+      "date": "2026-07-24",
+      "datetime": "2026-07-24T17:14:23Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.219",
+      "summary": "- Added Claude Opus 5 (`claude-opus-5`), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok\n- Added `sandbox.network.strictAllowlist` setting to deny non-allowlisted hosts for sandboxed commands without prompting\n- Added `DirectoryAdded` hook that fires after `/add-dir` or the SDK `register_repo_root` control request registers a new working directory mid-session\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219"
+    },
+    {
+      "date": "2026-07-24",
+      "datetime": "2026-07-24T15:38:58.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Project Pilot: Can AI models fly drones?",
+      "summary": "We worked with Andon Labs on Drone-Bench, a new benchmark testing whether AI models can autonomously fly a drone to locate and follow a person.",
+      "url": "https://www.anthropic.com/research/project-pilot"
+    },
     {
       "date": "2026-07-23",
       "datetime": "2026-07-23T20:11:00.000Z",
@@ -52,15 +97,6 @@
       "title": "The Anthropic Economic Index connector",
       "summary": "We&#x27;re launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
       "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T17:35:00.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
-      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
-      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
     },
     {
       "date": "2026-07-22",
@@ -117,17 +153,6 @@
       "title": "Introducing Claude Haiku 4.5",
       "summary": "Claude Haiku 4.5, our latest small model, is available today to all users.",
       "url": "https://www.anthropic.com/news/claude-haiku-4-5"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T01:02:08.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "title_ko": "Anthropic Labs의 새 제품 'Claude Design' 출시",
-      "summary_ko": "오늘 Anthropic Labs의 신제품 Claude Design을 출시합니다. Claude와 협업해 디자인, 프로토타입, 슬라이드, 원페이저 등 완성도 높은 시각 작업물을 만들 수 있는 도구입니다."
     },
     {
       "date": "2026-07-21",
@@ -256,24 +281,6 @@
       "url": "https://www.anthropic.com/research/global-workspace"
     },
     {
-      "date": "2026-07-11",
-      "datetime": "2026-07-11T00:52:10Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.207",
-      "summary": "- Auto mode is now available without `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in on Bedrock, Vertex AI, and Foundry; disable via `disableAutoMode` in settings\n- Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks\n- Fixed remote managed settings from a non-interactive run (`claude -p`, the SDK) being permanently…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207"
-    },
-    {
-      "date": "2026-07-10",
-      "datetime": "2026-07-10T01:45:26Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.206",
-      "summary": "- Added directory path suggestions to `/cd`, matching `/add-dir` behavior\n- Added a `/doctor` check that proposes trimming checked-in `CLAUDE.md` files by cutting content Claude could derive from the codebase\n- `/commit-push-pr` now auto-allows `git push` to the repo's configured push remote (`remote.pushDefault`, or the sole remote when only one is configured) in addition to `origin`\n- Gateway:…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206"
-    },
-    {
       "date": "2026-07-09",
       "datetime": "2026-07-09T12:42:20.000Z",
       "source": "anthropic-research",
@@ -290,15 +297,6 @@
       "title": "Preparing for AI’s economic impact: exploring policy responses",
       "summary": "We’ve asked economists and researchers to explore policy responses to the potential economic effects of powerful AI. We share some of the initial ideas and feedback we’ve received.",
       "url": "https://www.anthropic.com/research/economic-policy-responses"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:30:56.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Anthropic Economic Index report: Economic primitives",
-      "summary": "This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.",
-      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
     },
     {
       "date": "2026-06-06",
