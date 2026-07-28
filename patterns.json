@@ -1,5 +1,5 @@
 {
-  "sample_size": 1693,
+  "sample_size": 1694,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1558,
+      "count": 1559,
       "pct": 92.0
     },
     {
       "field": "name",
-      "count": 1547,
+      "count": 1548,
       "pct": 91.4
     },
     {
@@ -23,8 +23,8 @@
     },
     {
       "field": "origin",
-      "count": 444,
-      "pct": 26.2
+      "count": 445,
+      "pct": 26.3
     },
     {
       "field": "license",
@@ -38,7 +38,7 @@
     },
     {
       "field": "version",
-      "count": 120,
+      "count": 121,
       "pct": 7.1
     },
     {
@@ -73,44 +73,44 @@
     },
     {
       "field": "author",
-      "count": 10,
+      "count": 11,
       "pct": 0.6
     },
     {
-      "field": "model",
-      "count": 5,
-      "pct": 0.3
+      "field": "tags",
+      "count": 6,
+      "pct": 0.4
     }
   ],
   "description": {
     "length": {
-      "count": 1693,
+      "count": 1694,
       "min": 8,
       "p25": 83,
       "median": 156,
       "p75": 242,
       "p90": 357,
       "max": 1068,
-      "mean": 188.6
+      "mean": 189.0
     },
     "has_trigger_phrase_pct": 32.1,
     "has_quoted_user_phrase_pct": 3.8,
     "short_pct_lt_120": 37.7,
-    "long_pct_gt_300": 16.4
+    "long_pct_gt_300": 16.5
   },
   "body": {
     "length_chars": {
-      "count": 1693,
+      "count": 1694,
       "min": 610,
       "p25": 3215,
       "median": 6565,
-      "p75": 11617,
-      "p90": 19145,
+      "p75": 11696,
+      "p90": 19160,
       "max": 110236,
-      "mean": 9246.0
+      "mean": 9251.9
     },
     "heading_count": {
-      "count": 1693,
+      "count": 1694,
       "min": 0,
       "p25": 11,
       "median": 19,
@@ -120,7 +120,7 @@
       "mean": 26.7
     },
     "code_block_count": {
-      "count": 1693,
+      "count": 1694,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -131,13 +131,13 @@
     },
     "has_numbered_list_pct": 62.9,
     "has_bullet_list_pct": 97.1,
-    "has_table_pct": 50.4,
+    "has_table_pct": 50.5,
     "has_code_block_pct": 88.0
   },
   "common_section_headings_h2": [
     {
       "label": "best practices",
-      "count": 263
+      "count": 264
     },
     {
       "label": "when to use this",
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.898
+      "composite": 0.897
     },
     {
       "id": "3cf385577bf18e79",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.889
+      "composite": 0.888
     }
   ]
 }

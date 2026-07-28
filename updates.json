@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T04:13:09.110Z",
+  "generated_at": "2026-07-28T03:46:34.328Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-27",
+      "datetime": "2026-07-27T21:55:20.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Our position on open-weights models",
+      "summary": "Anthropic CEO Dario Amodei on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models"
+    },
+    {
+      "date": "2026-07-27",
+      "datetime": "2026-07-27T15:34:00.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Expanding our partnership with Cognizant | Anthropic",
+      "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic"
+    },
     {
       "date": "2026-07-25",
       "datetime": "2026-07-25T02:03:36.000Z",
@@ -52,15 +70,6 @@
       "title": "Project Pilot: Can AI models fly drones?",
       "summary": "We worked with Andon Labs on Drone-Bench, a new benchmark testing whether AI models can autonomously fly a drone to locate and follow a person.",
       "url": "https://www.anthropic.com/research/project-pilot"
-    },
-    {
-      "date": "2026-07-23",
-      "datetime": "2026-07-23T20:11:00.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "[dev] Claude for Creative Work",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work-dev"
     },
     {
       "date": "2026-07-23",
@@ -144,15 +153,6 @@
       "title": "Introducing Claude Sonnet 4.5",
       "summary": "Claude Sonnet 4.5 is the best coding model in the world, strongest model for building complex agents, and best model at using computers. ",
       "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T01:05:15.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Haiku 4.5",
-      "summary": "Claude Haiku 4.5, our latest small model, is available today to all users.",
-      "url": "https://www.anthropic.com/news/claude-haiku-4-5"
     },
     {
       "date": "2026-07-21",
