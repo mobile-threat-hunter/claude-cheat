@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T03:46:34.328Z",
+  "generated_at": "2026-07-29T03:49:46.411Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,17 @@
   },
   "items": [
     {
-      "date": "2026-07-27",
-      "datetime": "2026-07-27T21:55:20.000Z",
+      "date": "2026-07-28",
+      "datetime": "2026-07-28T17:18:46.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+    },
+    {
+      "date": "2026-07-28",
+      "datetime": "2026-07-28T15:25:50.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Our position on open-weights models",
@@ -288,15 +297,6 @@
       "title": "An off switch for dual use knowledge in AI models",
       "summary": "New results on a method of controlling access to potentially dangerous AI capabilities",
       "url": "https://www.anthropic.com/research/off-switch-dual-use"
-    },
-    {
-      "date": "2026-07-08",
-      "datetime": "2026-07-08T22:43:16.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Preparing for AI’s economic impact: exploring policy responses",
-      "summary": "We’ve asked economists and researchers to explore policy responses to the potential economic effects of powerful AI. We share some of the initial ideas and feedback we’ve received.",
-      "url": "https://www.anthropic.com/research/economic-policy-responses"
     },
     {
       "date": "2026-06-06",
