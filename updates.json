@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T03:41:19.096Z",
+  "generated_at": "2026-07-31T04:00:18.925Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-07-30",
+      "datetime": "2026-07-30T23:14:55.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+    },
     {
       "date": "2026-07-29",
       "datetime": "2026-07-29T14:10:25.000Z",
@@ -153,15 +162,6 @@
       "title": "Introducing Agent Skills | Claude by Anthropic",
       "summary": "",
       "url": "https://www.anthropic.com/news/skills"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T01:13:43.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Sonnet 4.5",
-      "summary": "Claude Sonnet 4.5 is the best coding model in the world, strongest model for building complex agents, and best model at using computers. ",
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
     },
     {
       "date": "2026-07-21",
