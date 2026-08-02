@@ -88,10 +88,10 @@
       "min": 8,
       "p25": 83,
       "median": 156,
-      "p75": 242,
+      "p75": 244,
       "p90": 357,
       "max": 1068,
-      "mean": 189.0
+      "mean": 189.1
     },
     "has_trigger_phrase_pct": 32.1,
     "has_quoted_user_phrase_pct": 3.8,
@@ -104,10 +104,10 @@
       "min": 610,
       "p25": 3215,
       "median": 6565,
-      "p75": 11696,
+      "p75": 11707,
       "p90": 19160,
       "max": 110236,
-      "mean": 9251.9
+      "mean": 9256.5
     },
     "heading_count": {
       "count": 1694,
@@ -239,13 +239,6 @@
       "composite": 0.992
     },
     {
-      "id": "d06d6b81bdf90ceb",
-      "name": "competitive-landscape",
-      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
-      "source": "github:wshobson/agents@main",
-      "composite": 0.895
-    },
-    {
       "id": "3cf385577bf18e79",
       "name": "load-pr-comments",
       "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
@@ -253,11 +246,18 @@
       "composite": 0.895
     },
     {
+      "id": "d06d6b81bdf90ceb",
+      "name": "competitive-landscape",
+      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
+      "source": "github:wshobson/agents@main",
+      "composite": 0.894
+    },
+    {
       "id": "067a3d6a62a691f5",
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.886
+      "composite": 0.885
     }
   ]
 }
