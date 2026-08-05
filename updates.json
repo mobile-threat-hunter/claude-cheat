@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T03:48:05.322Z",
+  "generated_at": "2026-08-05T03:43:33.511Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-08-04",
+      "datetime": "2026-08-04T22:39:55Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.222",
+      "summary": "- Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash in every session type\n- Fixed PreToolUse auto-allow hooks bypassing tool restrictions in background agent tasks (summaries, compaction, renames)\n- Fixed `/usage-credits` on Team and Enterprise showing \"you've already sent a usage…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222"
+    },
+    {
+      "date": "2026-08-04",
+      "datetime": "2026-08-04T17:40:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/tino-cuellar"
+    },
     {
       "date": "2026-08-04",
       "datetime": "2026-08-04T00:14:23Z",
@@ -164,15 +182,6 @@
       "summary_ko": "신규 모델 Claude Opus 4.8은 Opus 계열의 업그레이드로, 코딩 · 에이전트 작업 · 전문 업무 전반에서 성능이 향상되었으며 장기 실행 작업을 일관되게 처리합니다."
     },
     {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T01:20:28.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
       "date": "2026-07-21",
       "datetime": "2026-07-21T21:35:10Z",
       "source": "claude-code",
@@ -243,15 +252,6 @@
       "title": "How Canada uses Claude",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/research/how-canada-uses-claude"
-    },
-    {
-      "date": "2026-07-14",
-      "datetime": "2026-07-14T06:36:28Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.209",
-      "summary": "- Fixed /model and other dialogs being blocked in `claude agents` background sessions (reverts an overly broad guard)",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209"
     },
     {
       "date": "2026-07-13",
