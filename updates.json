@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:43:33.511Z",
+  "generated_at": "2026-08-06T03:49:02.439Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-08-06",
+      "datetime": "2026-08-06T00:52:37Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.223",
+      "summary": "- Added owner wildcard entries (`\"owner/*\"`) to the `strictKnownMarketplaces` and `blockedMarketplaces` managed settings for allowing or blocking all marketplace repos under a GitHub org\n- Added a warning when workflow agents, forked skills, slash commands, or resumed background agents' requested subagent model is restricted and the parent model runs instead\n- Added a `/teleport` hint in cloud…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223"
+    },
     {
       "date": "2026-08-04",
       "datetime": "2026-08-04T22:39:55Z",
@@ -234,15 +243,6 @@
       "title": "Claude Code v2.1.211",
       "summary": "- Added `--forward-subagent-text` flag and `CLAUDE_CODE_FORWARD_SUBAGENT_TEXT` environment variable to include subagent text and thinking in stream-json output\n- Fixed permission previews relayed to chat channels not neutralizing bidirectional-override, zero-width, and look-alike quote characters, so tool inputs cannot visually alter the approval message\n- Fixed auto mode overriding a PreToolUse…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211"
-    },
-    {
-      "date": "2026-07-14",
-      "datetime": "2026-07-14T23:45:25Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.210",
-      "summary": "- Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck\n- Added a startup warning for `Write(path)`, `NotebookEdit(path)`, and `Glob(path)` permission rules — use `Edit(path)` or `Read(path)` instead\n- Fixed `isolation: 'worktree'` subagents being able to run git-mutating commands against the main repo checkout…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210"
     },
     {
       "date": "2026-07-14",
