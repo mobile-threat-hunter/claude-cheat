@@ -1,13 +1,22 @@
 {
-  "generated_at": "2026-08-06T03:49:02.439Z",
+  "generated_at": "2026-08-07T03:27:50.457Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 9
+    "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-07",
+      "datetime": "2026-08-07T03:05:42.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Improving Fable 5 Safeguards",
+      "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+    },
     {
       "date": "2026-08-06",
       "datetime": "2026-08-06T00:52:37Z",
@@ -178,17 +187,6 @@
       "title": "Donating another $20 million to Public First Action",
       "summary": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
       "url": "https://www.anthropic.com/news/donation-public-first-action"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T01:28:45.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 4.8",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "title_ko": "Claude Opus 4.8 출시",
-      "summary_ko": "신규 모델 Claude Opus 4.8은 Opus 계열의 업그레이드로, 코딩 · 에이전트 작업 · 전문 업무 전반에서 성능이 향상되었으며 장기 실행 작업을 일관되게 처리합니다."
     },
     {
       "date": "2026-07-21",
