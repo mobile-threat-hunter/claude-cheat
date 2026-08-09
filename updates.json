@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T02:28:21.906Z",
+  "generated_at": "2026-08-09T02:35:14.700Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-08",
+      "datetime": "2026-08-08T02:48:05Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.226",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226"
+    },
     {
       "date": "2026-08-08",
       "datetime": "2026-08-08T01:09:26Z",
@@ -232,15 +241,6 @@
       "title": "Claude Code v2.1.215",
       "summary": "- Claude no longer runs the `/verify` and `/code-review` skills on its own; invoke them with `/verify` or `/code-review` when you want them",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215"
-    },
-    {
-      "date": "2026-07-18",
-      "datetime": "2026-07-18T01:20:30Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.214",
-      "summary": "- Fixed single-segment `dir/**` allow rules like `Edit(src/**)` auto-approving writes to nested `dir/` directories anywhere in the tree instead of only `<cwd>/dir`\n- Fixed a permission-check bypass affecting commands run in Windows PowerShell 5.1 sessions\n- Fixed Bash permission checks to fail closed on file-descriptor redirect forms that bash parses differently than the permission analyzer\n-…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214"
     },
     {
       "date": "2026-07-14",
