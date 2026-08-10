@@ -1,5 +1,5 @@
 {
-  "sample_size": 1696,
+  "sample_size": 1697,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1561,
+      "count": 1562,
       "pct": 92.0
     },
     {
       "field": "name",
-      "count": 1550,
+      "count": 1551,
       "pct": 91.4
     },
     {
       "field": "metadata",
       "count": 459,
-      "pct": 27.1
+      "pct": 27.0
     },
     {
       "field": "origin",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 1696,
+      "count": 1697,
       "min": 8,
       "p25": 83,
       "median": 156,
       "p75": 244,
       "p90": 357,
       "max": 1068,
-      "mean": 189.2
+      "mean": 189.3
     },
     "has_trigger_phrase_pct": 32.0,
     "has_quoted_user_phrase_pct": 3.8,
-    "short_pct_lt_120": 37.7,
+    "short_pct_lt_120": 37.6,
     "long_pct_gt_300": 16.5
   },
   "body": {
     "length_chars": {
-      "count": 1696,
+      "count": 1697,
       "min": 610,
       "p25": 3185,
-      "median": 6567,
-      "p75": 11716,
-      "p90": 19182,
+      "median": 6568,
+      "p75": 11696,
+      "p90": 19160,
       "max": 110236,
-      "mean": 9254.4
+      "mean": 9238.9
     },
     "heading_count": {
-      "count": 1696,
+      "count": 1697,
       "min": 0,
       "p25": 11,
       "median": 19,
       "p75": 35,
       "p90": 57,
       "max": 237,
-      "mean": 26.7
+      "mean": 26.6
     },
     "code_block_count": {
-      "count": 1696,
+      "count": 1697,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -173,7 +173,7 @@
     },
     {
       "label": "quick start",
-      "count": 109
+      "count": 108
     },
     {
       "label": "anti-patterns",
