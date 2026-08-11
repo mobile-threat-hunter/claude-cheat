@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T02:40:56.815Z",
+  "generated_at": "2026-08-11T02:34:45.265Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,44 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-10",
+      "datetime": "2026-08-10T22:57:30.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Building Effective AI Agents",
+      "summary": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "title_ko": "효과적인 AI 에이전트 구축하기",
+      "summary_ko": "Anthropic이 신뢰할 수 있는 AI 에이전트를 어떻게 개발하는지 — 능력·안전·기술 프레임워크를 정리한 글."
+    },
+    {
+      "date": "2026-08-10",
+      "datetime": "2026-08-10T22:56:53Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.227",
+      "summary": "- Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227"
+    },
+    {
+      "date": "2026-08-10",
+      "datetime": "2026-08-10T22:34:13.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Learning more about Claude&#x27;s mathematical capabilities",
+      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
+      "url": "https://www.anthropic.com/research/riemann-zeta"
+    },
+    {
+      "date": "2026-08-10",
+      "datetime": "2026-08-10T19:00:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
     {
       "date": "2026-08-08",
       "datetime": "2026-08-08T02:48:05Z",
@@ -207,15 +245,6 @@
       "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
     },
     {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T10:14:58.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Donating another $20 million to Public First Action",
-      "summary": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.",
-      "url": "https://www.anthropic.com/news/donation-public-first-action"
-    },
-    {
       "date": "2026-07-21",
       "datetime": "2026-07-21T21:35:10Z",
       "source": "claude-code",
@@ -232,15 +261,6 @@
       "title": "Claude Code v2.1.216",
       "summary": "- Added `sandbox.filesystem.disabled` setting to skip filesystem isolation while keeping network egress control\n- Fixed a slowdown in long sessions where message normalization cost grew quadratically with the number of turns, causing multi-second stalls and slow resumes\n- Fixed auto mode denying commands with \"HTTP 401\" classifier errors after the OAuth token expired or rotated mid-session\n-…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216"
-    },
-    {
-      "date": "2026-07-19",
-      "datetime": "2026-07-19T02:56:01Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.215",
-      "summary": "- Claude no longer runs the `/verify` and `/code-review` skills on its own; invoke them with `/verify` or `/code-review` when you want them",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215"
     },
     {
       "date": "2026-07-14",
@@ -286,15 +306,6 @@
       "title": "A global workspace in language models",
       "summary": "Interpretability research on Claude&#x27;s internal thoughts.",
       "url": "https://www.anthropic.com/research/global-workspace"
-    },
-    {
-      "date": "2026-07-09",
-      "datetime": "2026-07-09T12:42:20.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "An off switch for dual use knowledge in AI models",
-      "summary": "New results on a method of controlling access to potentially dangerous AI capabilities",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use"
     },
     {
       "date": "2026-06-06",
@@ -361,17 +372,6 @@
       "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
       "title_ko": "Agent Skills로 에이전트에게 실전 도구 입히기",
       "summary_ko": "Anthropic이 모듈형 스킬을 활용해 AI 에이전트가 복잡한 실세계 작업을 더 안정적으로 수행하도록 만드는 방식을 소개합니다."
-    },
-    {
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T17:46:47.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Building Effective AI Agents",
-      "summary": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
-      "url": "https://www.anthropic.com/engineering/building-effective-agents",
-      "title_ko": "효과적인 AI 에이전트 구축하기",
-      "summary_ko": "Anthropic이 신뢰할 수 있는 AI 에이전트를 어떻게 개발하는지 — 능력·안전·기술 프레임워크를 정리한 글."
     },
     {
       "date": "2026-03-24",
