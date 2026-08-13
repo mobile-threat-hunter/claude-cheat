@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T03:04:12.825Z",
+  "generated_at": "2026-08-13T03:07:58.225Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-13",
+      "datetime": "2026-08-13T01:33:05.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Patterns and problems in multiagent systems",
+      "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
+      "url": "https://www.anthropic.com/research/multiagent-systems"
+    },
+    {
+      "date": "2026-08-12",
+      "datetime": "2026-08-12T20:56:22Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.229",
+      "summary": "- Documented `claude remote-control --continue` for resuming the most recent Remote Control session\n- Added server-supplied Claude Code hook support for self-hosted runner sessions, matching managed-environment behavior\n- Added SSE keepalive pings to gateway streaming responses during long thinking pauses, preventing idle-timeout disconnects on Vertex and Bedrock upstreams\n- Added plugin…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229"
+    },
+    {
+      "date": "2026-08-12",
+      "datetime": "2026-08-12T20:17:11.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How well do job retraining programs work?",
+      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+    },
     {
       "date": "2026-08-11",
       "datetime": "2026-08-11T19:50:59Z",
@@ -254,15 +281,6 @@
       "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
     },
     {
-      "date": "2026-07-21",
-      "datetime": "2026-07-21T21:35:10Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.217",
-      "summary": "- Added emoji shortcode autocomplete in the prompt input: type `:heart:` to insert ❤️, or `:hea` for suggestions — disable with the `emojiCompletionEnabled` setting\n- Added warnings when transcript writes are failing (e.g. disk full) or when session saving is off due to an inherited environment variable, instead of losing transcripts silently\n- Fixed a memory leak where truncated MCP tool outputs…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217"
-    },
-    {
       "date": "2026-07-14",
       "datetime": "2026-07-14T16:33:01.000Z",
       "source": "anthropic-research",
@@ -288,24 +306,6 @@
       "title": "Agentic misalignment: How LLMs could be insider threats",
       "summary": "New research on simulated blackmail, industrial espionage, and other misaligned behaviors in LLMs",
       "url": "https://www.anthropic.com/research/agentic-misalignment"
-    },
-    {
-      "date": "2026-07-13",
-      "datetime": "2026-07-13T17:54:21.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude Performs on Robotics Tasks",
-      "summary": "Do language models’ strengths transfer to robotics? Can a model perceive a scene, understand a particular robot’s state, and issue actions that reliably effect change in the physical world? We ran tests to find out.",
-      "url": "https://www.anthropic.com/research/claude-plays-robotics"
-    },
-    {
-      "date": "2026-07-13",
-      "datetime": "2026-07-13T12:08:40.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "A global workspace in language models",
-      "summary": "Interpretability research on Claude&#x27;s internal thoughts.",
-      "url": "https://www.anthropic.com/research/global-workspace"
     },
     {
       "date": "2026-06-06",

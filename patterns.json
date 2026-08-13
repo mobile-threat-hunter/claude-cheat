@@ -1,5 +1,5 @@
 {
-  "sample_size": 1697,
+  "sample_size": 1698,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 1562,
+      "count": 1563,
       "pct": 92.0
     },
     {
       "field": "name",
-      "count": 1551,
+      "count": 1552,
       "pct": 91.4
     },
     {
@@ -84,14 +84,14 @@
   ],
   "description": {
     "length": {
-      "count": 1697,
+      "count": 1698,
       "min": 8,
       "p25": 83,
       "median": 156,
       "p75": 244,
-      "p90": 357,
+      "p90": 358,
       "max": 1068,
-      "mean": 189.3
+      "mean": 189.4
     },
     "has_trigger_phrase_pct": 32.0,
     "has_quoted_user_phrase_pct": 3.8,
@@ -100,17 +100,17 @@
   },
   "body": {
     "length_chars": {
-      "count": 1697,
+      "count": 1698,
       "min": 610,
       "p25": 3215,
-      "median": 6618,
-      "p75": 11696,
+      "median": 6637,
+      "p75": 11716,
       "p90": 19160,
       "max": 110236,
-      "mean": 9242.6
+      "mean": 9246.0
     },
     "heading_count": {
-      "count": 1697,
+      "count": 1698,
       "min": 0,
       "p25": 11,
       "median": 19,
@@ -120,7 +120,7 @@
       "mean": 26.6
     },
     "code_block_count": {
-      "count": 1697,
+      "count": 1698,
       "min": 0,
       "p25": 2,
       "median": 6,
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.897
+      "composite": 0.896
     },
     {
       "id": "3cf385577bf18e79",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.888
+      "composite": 0.887
     }
   ]
 }
