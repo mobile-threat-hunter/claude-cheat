@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T03:07:58.225Z",
+  "generated_at": "2026-08-14T03:06:39.463Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-13",
+      "datetime": "2026-08-13T23:32:23.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Learning more about Claude&#x27;s mathematical capabilities",
+      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
+      "url": "https://www.anthropic.com/research/riemann-zeta"
+    },
+    {
+      "date": "2026-08-13",
+      "datetime": "2026-08-13T23:29:59Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.232",
+      "summary": "- Subagent forking is now on by default: a `subagent_type: \"fork\"` subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in the background by default\n- Type `@` in the prompt to mention another Claude session by name; Claude then uses `SendMessage` to reach that session directly\n- `SendMessage` now delivers to a bare name that…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232"
+    },
+    {
+      "date": "2026-08-13",
+      "datetime": "2026-08-13T08:38:50Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.231",
+      "summary": "- Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231"
+    },
     {
       "date": "2026-08-13",
       "datetime": "2026-08-13T01:33:05.000Z",
@@ -63,15 +90,6 @@
       "title": "Claude Code v2.1.227",
       "summary": "- Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227"
-    },
-    {
-      "date": "2026-08-10",
-      "datetime": "2026-08-10T22:34:13.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Learning more about Claude&#x27;s mathematical capabilities",
-      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
-      "url": "https://www.anthropic.com/research/riemann-zeta"
     },
     {
       "date": "2026-08-10",
@@ -228,15 +246,6 @@
     },
     {
       "date": "2026-07-24",
-      "datetime": "2026-07-24T17:14:23Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.219",
-      "summary": "- Added Claude Opus 5 (`claude-opus-5`), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok\n- Added `sandbox.network.strictAllowlist` setting to deny non-allowlisted hosts for sandboxed commands without prompting\n- Added `DirectoryAdded` hook that fires after `/add-dir` or the SDK `register_repo_root` control request registers a new working directory mid-session\n- Added…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219"
-    },
-    {
-      "date": "2026-07-24",
       "datetime": "2026-07-24T15:38:58.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
@@ -261,15 +270,6 @@
       "title": "Introducing Claude Opus 4.5",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/news/claude-opus-4-5"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T21:24:56Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.218",
-      "summary": "- Changed `/code-review` to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review target\n- Added screen-reader announcements of deleted text for word and line deletions (`Option+Delete`, `Ctrl+W`, `Cmd+Backspace`, `Ctrl+U`, `Ctrl+K`) in `--ax-screen-reader` mode\n- Fixed Windows paths with `\\u`-prefixed segments (like…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218"
     },
     {
       "date": "2026-07-22",
