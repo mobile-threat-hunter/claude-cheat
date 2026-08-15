@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:06:39.463Z",
+  "generated_at": "2026-08-15T01:56:43.738Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-14",
+      "datetime": "2026-08-14T22:20:57Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.233",
+      "summary": "- Added GitLab merge request URL support to the `--worktree` flag and the `claude agents` view (where MRs display as `!N`)\n- Added an opt-in `forward_user_identity` apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind the gateway can attribute spend per user\n- Added opt-in memory cgroup support for Bash tool commands on Linux…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233"
+    },
+    {
+      "date": "2026-08-14",
+      "datetime": "2026-08-14T20:06:43.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "How Claude&#x27;s text watermarking works",
+      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether ",
+      "url": "https://www.anthropic.com/news/claude-text-watermark"
+    },
+    {
+      "date": "2026-08-14",
+      "datetime": "2026-08-14T17:26:28.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How well do job retraining programs work?",
+      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+    },
     {
       "date": "2026-08-13",
       "datetime": "2026-08-13T23:32:23.000Z",
@@ -52,15 +79,6 @@
       "title": "Claude Code v2.1.229",
       "summary": "- Documented `claude remote-control --continue` for resuming the most recent Remote Control session\n- Added server-supplied Claude Code hook support for self-hosted runner sessions, matching managed-environment behavior\n- Added SSE keepalive pings to gateway streaming responses during long thinking pauses, preventing idle-timeout disconnects on Vertex and Bedrock upstreams\n- Added plugin…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229"
-    },
-    {
-      "date": "2026-08-12",
-      "datetime": "2026-08-12T20:17:11.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How well do job retraining programs work?",
-      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
-      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
     },
     {
       "date": "2026-08-11",
@@ -227,15 +245,6 @@
       "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-      "date": "2026-07-25",
-      "datetime": "2026-07-25T01:35:55Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.220",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220"
-    },
-    {
       "date": "2026-07-24",
       "datetime": "2026-07-24T18:46:48.000Z",
       "source": "anthropic-news",
@@ -270,15 +279,6 @@
       "title": "Introducing Claude Opus 4.5",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/news/claude-opus-4-5"
-    },
-    {
-      "date": "2026-07-22",
-      "datetime": "2026-07-22T17:35:48.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "The Anthropic Economic Index connector",
-      "summary": "We&#x27;re launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
     },
     {
       "date": "2026-07-14",
