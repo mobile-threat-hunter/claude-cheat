@@ -1,5 +1,5 @@
 {
-  "sample_size": 2957,
+  "sample_size": 2960,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 2718,
+      "count": 2721,
       "pct": 91.9
     },
     {
       "field": "name",
-      "count": 2707,
-      "pct": 91.5
+      "count": 2710,
+      "pct": 91.6
     },
     {
       "field": "metadata",
       "count": 975,
-      "pct": 33.0
+      "pct": 32.9
     },
     {
       "field": "origin",
@@ -34,17 +34,17 @@
     {
       "field": "argument-hint",
       "count": 330,
-      "pct": 11.2
+      "pct": 11.1
     },
     {
       "field": "version",
-      "count": 269,
+      "count": 270,
       "pct": 9.1
     },
     {
       "field": "license",
-      "count": 205,
-      "pct": 6.9
+      "count": 206,
+      "pct": 7.0
     },
     {
       "field": "compatibility",
@@ -84,33 +84,33 @@
   ],
   "description": {
     "length": {
-      "count": 2957,
+      "count": 2960,
       "min": 4,
       "p25": 70,
       "median": 144,
       "p75": 249,
-      "p90": 393,
+      "p90": 394,
       "max": 3663,
-      "mean": 198.2
+      "mean": 198.6
     },
-    "has_trigger_phrase_pct": 30.4,
-    "has_quoted_user_phrase_pct": 10.2,
+    "has_trigger_phrase_pct": 30.5,
+    "has_quoted_user_phrase_pct": 10.3,
     "short_pct_lt_120": 43.6,
-    "long_pct_gt_300": 18.2
+    "long_pct_gt_300": 18.3
   },
   "body": {
     "length_chars": {
-      "count": 2957,
+      "count": 2960,
       "min": 604,
-      "p25": 3635,
-      "median": 6766,
+      "p25": 3643,
+      "median": 6769,
       "p75": 11302,
       "p90": 18580,
       "max": 141519,
-      "mean": 9353.2
+      "mean": 9351.9
     },
     "heading_count": {
-      "count": 2957,
+      "count": 2960,
       "min": 0,
       "p25": 11,
       "median": 18,
@@ -120,7 +120,7 @@
       "mean": 25.4
     },
     "code_block_count": {
-      "count": 2957,
+      "count": 2960,
       "min": 0,
       "p25": 1,
       "median": 5,
@@ -131,7 +131,7 @@
     },
     "has_numbered_list_pct": 66.5,
     "has_bullet_list_pct": 95.7,
-    "has_table_pct": 55.3,
+    "has_table_pct": 55.2,
     "has_code_block_pct": 86.4
   },
   "common_section_headings_h2": [
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "composite": 0.9
     },
     {
       "id": "3cf385577bf18e79",
