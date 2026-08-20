@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:00:19.070Z",
+  "generated_at": "2026-08-20T01:58:37.822Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-20",
+      "datetime": "2026-08-20T00:54:41Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.237",
+      "summary": "- Fixed prompt caching for sessions using an LLM gateway or custom base URL\n- Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237"
+    },
+    {
+      "date": "2026-08-19",
+      "datetime": "2026-08-19T20:02:05Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.236",
+      "summary": "- Added `ANTHROPIC_DEFAULT_MODEL` environment variable: sets the model new sessions start on, while a `/model` pick still overrides it and persists across restarts (unlike `ANTHROPIC_MODEL`)\n- Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle — opt-in, one-shot, no polling (macOS and Linux)\n- Sandbox:…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236"
+    },
     {
       "date": "2026-08-18",
       "datetime": "2026-08-18T22:13:08.000Z",
@@ -165,30 +183,12 @@
     },
     {
       "date": "2026-08-07",
-      "datetime": "2026-08-07T04:00:59Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.224",
-      "summary": "- Added self-hosted environments: `claude self-hosted-runner` turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions can run, on Team and Enterprise plans\n- Added `archive` plugin source: install plugins from a zip over HTTPS without git or npm, with optional SHA-256 pinning\n- Added a cancel-and-confirm step when removing an unavailable paste changes a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224"
-    },
-    {
-      "date": "2026-08-07",
       "datetime": "2026-08-07T03:05:42.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Improving Fable 5 Safeguards",
       "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
-    },
-    {
-      "date": "2026-08-06",
-      "datetime": "2026-08-06T00:52:37Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.223",
-      "summary": "- Added owner wildcard entries (`\"owner/*\"`) to the `strictKnownMarketplaces` and `blockedMarketplaces` managed settings for allowing or blocking all marketplace repos under a GitHub org\n- Added a warning when workflow agents, forked skills, slash commands, or resumed background agents' requested subagent model is restricted and the parent model runs instead\n- Added a `/teleport` hint in cloud…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223"
     },
     {
       "date": "2026-08-04",
