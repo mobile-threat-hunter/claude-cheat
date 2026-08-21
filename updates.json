@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:58:37.822Z",
+  "generated_at": "2026-08-21T02:07:50.009Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-20",
+      "datetime": "2026-08-20T20:33:51Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.238",
+      "summary": "- Added a `keybindingFlavor` setting: set it to `\"readline\"` to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (`\"classic\"`) is unchanged\n- Plugin marketplaces: `headersHelper` on a url marketplace or a catalog entry runs a command that mints HTTP headers (e.g. a short-lived token) for catalog and same-origin archive fetches\n- A catalog entry's…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238"
+    },
+    {
+      "date": "2026-08-20",
+      "datetime": "2026-08-20T14:45:23.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude is accelerating protein design and analytical chemistry",
+      "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Clau",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+    },
     {
       "date": "2026-08-20",
       "datetime": "2026-08-20T00:54:41Z",
@@ -25,15 +43,6 @@
       "title": "Claude Code v2.1.236",
       "summary": "- Added `ANTHROPIC_DEFAULT_MODEL` environment variable: sets the model new sessions start on, while a `/model` pick still overrides it and persists across restarts (unlike `ANTHROPIC_MODEL`)\n- Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle — opt-in, one-shot, no polling (macOS and Linux)\n- Sandbox:…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236"
-    },
-    {
-      "date": "2026-08-18",
-      "datetime": "2026-08-18T22:13:08.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude is accelerating protein design and analytical chemistry",
-      "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Clau",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
     },
     {
       "date": "2026-08-18",
@@ -171,15 +180,6 @@
       "title": "Claude Code v2.1.226",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226"
-    },
-    {
-      "date": "2026-08-08",
-      "datetime": "2026-08-08T01:09:26Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.225",
-      "summary": "- Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the gateway on 2.1.225)\n- Added a workspace trust prompt to `claude agents` for untrusted directories, matching the behavior of `claude`\n- Fixed a transient 401 replacing a long-lived `CLAUDE_CODE_OAUTH_TOKEN` with a stored login's…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225"
     },
     {
       "date": "2026-08-07",

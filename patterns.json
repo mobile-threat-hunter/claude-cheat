@@ -89,9 +89,9 @@
       "p25": 70,
       "median": 144,
       "p75": 249,
-      "p90": 394,
+      "p90": 393,
       "max": 3663,
-      "mean": 198.6
+      "mean": 198.5
     },
     "has_trigger_phrase_pct": 30.5,
     "has_quoted_user_phrase_pct": 10.3,
@@ -107,7 +107,7 @@
       "p75": 11302,
       "p90": 18580,
       "max": 141519,
-      "mean": 9351.9
+      "mean": 9352.2
     },
     "heading_count": {
       "count": 2960,
