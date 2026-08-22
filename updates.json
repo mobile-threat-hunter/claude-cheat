@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T02:07:50.009Z",
+  "generated_at": "2026-08-22T01:57:36.194Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-21",
+      "datetime": "2026-08-21T19:54:23Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.239",
+      "summary": "- Cost estimates (`/cost`, status line, `--max-budget-usd`) now include the 1.1× US-only-inference premium for data-residency workspaces\n- Added the one-time fullscreen renderer offer on Bedrock, Vertex, Foundry and other previously excluded setups; new installs there now start in fullscreen\n- Added `/claude-api upgrade` to migrate Python projects from `anthropic` 0.x to 1.x, and updated the…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239"
+    },
     {
       "date": "2026-08-20",
       "datetime": "2026-08-20T20:33:51Z",
@@ -171,15 +180,6 @@
       "title": "Introducing Claude Sonnet 5",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-08-08",
-      "datetime": "2026-08-08T02:48:05Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.226",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226"
     },
     {
       "date": "2026-08-07",
