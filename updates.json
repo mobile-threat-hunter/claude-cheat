@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:57:36.194Z",
+  "generated_at": "2026-08-23T02:09:19.355Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-23",
+      "datetime": "2026-08-23T00:52:16Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.241",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241"
+    },
+    {
+      "date": "2026-08-22",
+      "datetime": "2026-08-22T14:45:30Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.240",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240"
+    },
     {
       "date": "2026-08-21",
       "datetime": "2026-08-21T19:54:23Z",
@@ -144,15 +162,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229"
     },
     {
-      "date": "2026-08-11",
-      "datetime": "2026-08-11T19:50:59Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.228",
-      "summary": "- Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error\n- Fixed `git` / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation\n- Fixed `/tui` reverting the session to an earlier model when `/model` had been changed since the last response\n- Fixed cross-session…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228"
-    },
-    {
       "date": "2026-08-10",
       "datetime": "2026-08-10T22:57:30.000Z",
       "source": "anthropic-engineering",
@@ -162,15 +171,6 @@
       "url": "https://www.anthropic.com/engineering/building-effective-agents",
       "title_ko": "효과적인 AI 에이전트 구축하기",
       "summary_ko": "Anthropic이 신뢰할 수 있는 AI 에이전트를 어떻게 개발하는지 — 능력·안전·기술 프레임워크를 정리한 글."
-    },
-    {
-      "date": "2026-08-10",
-      "datetime": "2026-08-10T22:56:53Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.227",
-      "summary": "- Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227"
     },
     {
       "date": "2026-08-10",
