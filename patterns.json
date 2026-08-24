@@ -1,5 +1,5 @@
 {
-  "sample_size": 2960,
+  "sample_size": 3019,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,58 +8,58 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 2721,
-      "pct": 91.9
+      "count": 2780,
+      "pct": 92.1
     },
     {
       "field": "name",
-      "count": 2710,
-      "pct": 91.6
+      "count": 2769,
+      "pct": 91.7
     },
     {
       "field": "metadata",
-      "count": 975,
-      "pct": 32.9
+      "count": 976,
+      "pct": 32.3
     },
     {
       "field": "origin",
       "count": 445,
-      "pct": 15.0
+      "pct": 14.7
     },
     {
       "field": "allowed-tools",
       "count": 373,
-      "pct": 12.6
+      "pct": 12.4
     },
     {
       "field": "argument-hint",
       "count": 330,
-      "pct": 11.1
+      "pct": 10.9
     },
     {
       "field": "version",
       "count": 270,
-      "pct": 9.1
+      "pct": 8.9
     },
     {
       "field": "license",
       "count": 206,
-      "pct": 7.0
+      "pct": 6.8
     },
     {
       "field": "compatibility",
       "count": 92,
-      "pct": 3.1
+      "pct": 3.0
     },
     {
       "field": "author",
       "count": 67,
-      "pct": 2.3
+      "pct": 2.2
     },
     {
       "field": "disable-model-invocation",
       "count": 52,
-      "pct": 1.8
+      "pct": 1.7
     },
     {
       "field": "tags",
@@ -84,54 +84,54 @@
   ],
   "description": {
     "length": {
-      "count": 2960,
+      "count": 3019,
       "min": 4,
-      "p25": 70,
-      "median": 144,
+      "p25": 71,
+      "median": 148,
       "p75": 249,
-      "p90": 393,
+      "p90": 391,
       "max": 3663,
       "mean": 198.5
     },
-    "has_trigger_phrase_pct": 30.5,
-    "has_quoted_user_phrase_pct": 10.3,
-    "short_pct_lt_120": 43.6,
-    "long_pct_gt_300": 18.3
+    "has_trigger_phrase_pct": 31.5,
+    "has_quoted_user_phrase_pct": 10.1,
+    "short_pct_lt_120": 42.9,
+    "long_pct_gt_300": 18.0
   },
   "body": {
     "length_chars": {
-      "count": 2960,
+      "count": 3019,
       "min": 604,
-      "p25": 3643,
-      "median": 6769,
-      "p75": 11302,
-      "p90": 18580,
+      "p25": 3649,
+      "median": 6818,
+      "p75": 11331,
+      "p90": 18589,
       "max": 141519,
-      "mean": 9353.0
+      "mean": 9375.5
     },
     "heading_count": {
-      "count": 2960,
+      "count": 3019,
       "min": 0,
       "p25": 11,
-      "median": 18,
-      "p75": 30,
+      "median": 19,
+      "p75": 31,
       "p90": 52,
       "max": 325,
-      "mean": 25.4
+      "mean": 25.5
     },
     "code_block_count": {
-      "count": 2960,
+      "count": 3019,
       "min": 0,
       "p25": 1,
       "median": 5,
       "p75": 11,
-      "p90": 19,
+      "p90": 20,
       "max": 83,
-      "mean": 7.7
+      "mean": 7.8
     },
-    "has_numbered_list_pct": 66.5,
+    "has_numbered_list_pct": 66.7,
     "has_bullet_list_pct": 95.7,
-    "has_table_pct": 55.2,
+    "has_table_pct": 55.9,
     "has_code_block_pct": 86.4
   },
   "common_section_headings_h2": [
@@ -141,7 +141,7 @@
     },
     {
       "label": "references",
-      "count": 398
+      "count": 399
     },
     {
       "label": "best practices",
@@ -149,7 +149,7 @@
     },
     {
       "label": "when to use",
-      "count": 326
+      "count": 331
     },
     {
       "label": "when to use this",
