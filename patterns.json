@@ -1,5 +1,5 @@
 {
-  "sample_size": 3019,
+  "sample_size": 3020,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 2780,
+      "count": 2781,
       "pct": 92.1
     },
     {
       "field": "name",
-      "count": 2769,
+      "count": 2770,
       "pct": 91.7
     },
     {
@@ -84,7 +84,7 @@
   ],
   "description": {
     "length": {
-      "count": 3019,
+      "count": 3020,
       "min": 4,
       "p25": 71,
       "median": 148,
@@ -94,23 +94,23 @@
       "mean": 198.5
     },
     "has_trigger_phrase_pct": 31.5,
-    "has_quoted_user_phrase_pct": 10.1,
+    "has_quoted_user_phrase_pct": 10.2,
     "short_pct_lt_120": 42.9,
-    "long_pct_gt_300": 18.0
+    "long_pct_gt_300": 17.9
   },
   "body": {
     "length_chars": {
-      "count": 3019,
+      "count": 3020,
       "min": 604,
-      "p25": 3649,
-      "median": 6818,
-      "p75": 11331,
+      "p25": 3650,
+      "median": 6820,
+      "p75": 11336,
       "p90": 18589,
       "max": 141519,
-      "mean": 9375.5
+      "mean": 9377.4
     },
     "heading_count": {
-      "count": 3019,
+      "count": 3020,
       "min": 0,
       "p25": 11,
       "median": 19,
@@ -120,7 +120,7 @@
       "mean": 25.5
     },
     "code_block_count": {
-      "count": 3019,
+      "count": 3020,
       "min": 0,
       "p25": 1,
       "median": 5,
@@ -243,7 +243,7 @@
       "name": "competitive-landscape",
       "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
       "source": "github:wshobson/agents@main",
-      "composite": 0.9
+      "composite": 0.899
     },
     {
       "id": "3cf385577bf18e79",
@@ -257,7 +257,7 @@
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
       "source": "github:anthropics/skills@main",
-      "composite": 0.889
+      "composite": 0.888
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T02:07:30.457Z",
+  "generated_at": "2026-08-25T02:00:32.258Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,51 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-08-24",
+      "datetime": "2026-08-24T23:40:26Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.243",
+      "summary": "- Added a Loops breakdown to `/usage`: per-loop run count, total tokens, tokens per run, and last run, so runaway or chatty `/loop` tasks are easy to spot\n- Added `modelPicker` setting: curate the `/model` picker with an ordered, labeled list of models (any id spelling, including Vertex/Bedrock ids), appended to or replacing the built-in lineup\n- Added `promptCacheTtl` and…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243"
+    },
+    {
+      "date": "2026-08-24",
+      "datetime": "2026-08-24T17:50:59.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Economics",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/team/economics"
+    },
+    {
+      "date": "2026-08-24",
+      "datetime": "2026-08-24T15:42:06.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Improving Fable 5 Safeguards",
+      "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+    },
+    {
+      "date": "2026-08-24",
+      "datetime": "2026-08-24T15:41:58.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "How Claude&#x27;s text watermarking works",
+      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether ",
+      "url": "https://www.anthropic.com/news/claude-text-watermark"
+    },
+    {
+      "date": "2026-08-24",
+      "datetime": "2026-08-24T15:30:22.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude is accelerating protein design and analytical chemistry",
+      "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Clau",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+    },
     {
       "date": "2026-08-23",
       "datetime": "2026-08-23T00:52:16Z",
@@ -43,15 +88,6 @@
       "title": "Claude Code v2.1.238",
       "summary": "- Added a `keybindingFlavor` setting: set it to `\"readline\"` to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (`\"classic\"`) is unchanged\n- Plugin marketplaces: `headersHelper` on a url marketplace or a catalog entry runs a command that mints HTTP headers (e.g. a short-lived token) for catalog and same-origin archive fetches\n- A catalog entry's…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238"
-    },
-    {
-      "date": "2026-08-20",
-      "datetime": "2026-08-20T14:45:23.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude is accelerating protein design and analytical chemistry",
-      "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Clau",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
     },
     {
       "date": "2026-08-20",
@@ -99,15 +135,6 @@
       "url": "https://www.anthropic.com/research/multiagent-systems"
     },
     {
-      "date": "2026-08-15",
-      "datetime": "2026-08-15T05:53:01.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "How Claude&#x27;s text watermarking works",
-      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether ",
-      "url": "https://www.anthropic.com/news/claude-text-watermark"
-    },
-    {
       "date": "2026-08-14",
       "datetime": "2026-08-14T22:20:57Z",
       "source": "claude-code",
@@ -153,15 +180,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231"
     },
     {
-      "date": "2026-08-12",
-      "datetime": "2026-08-12T20:56:22Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.229",
-      "summary": "- Documented `claude remote-control --continue` for resuming the most recent Remote Control session\n- Added server-supplied Claude Code hook support for self-hosted runner sessions, matching managed-environment behavior\n- Added SSE keepalive pings to gateway streaming responses during long thinking pauses, preventing idle-timeout disconnects on Vertex and Bedrock upstreams\n- Added plugin…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229"
-    },
-    {
       "date": "2026-08-10",
       "datetime": "2026-08-10T22:57:30.000Z",
       "source": "anthropic-engineering",
@@ -180,15 +198,6 @@
       "title": "Introducing Claude Sonnet 5",
       "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "2026-08-07",
-      "datetime": "2026-08-07T03:05:42.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Improving Fable 5 Safeguards",
-      "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
     },
     {
       "date": "2026-08-04",
@@ -297,15 +306,6 @@
       "title": "How Canada uses Claude",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/research/how-canada-uses-claude"
-    },
-    {
-      "date": "2026-07-13",
-      "datetime": "2026-07-13T21:10:45.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude&#x27;s values vary by model and language",
-      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
-      "url": "https://www.anthropic.com/research/claude-values-models-languages"
     },
     {
       "date": "2026-06-06",
