@@ -1,30 +1,158 @@
 {
-  "generated_at": "2026-08-25T02:00:32.258Z",
+  "generated_at": "2026-08-26T02:08:47.400Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 8
+    "translated_ko": 9
   },
   "items": [
     {
-      "date": "2026-08-24",
-      "datetime": "2026-08-24T23:40:26Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.243",
-      "summary": "- Added a Loops breakdown to `/usage`: per-loop run count, total tokens, tokens per run, and last run, so runaway or chatty `/loop` tasks are easy to spot\n- Added `modelPicker` setting: curate the `/model` picker with an ordered, labeled list of models (any id spelling, including Vertex/Bedrock ids), appended to or replacing the built-in lineup\n- Added `promptCacheTtl` and…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243"
-    },
-    {
-      "date": "2026-08-24",
-      "datetime": "2026-08-24T17:50:59.000Z",
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T23:30:03.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
-      "title": "Economics",
+      "title": "Clio: Privacy-preserving insights into real-world AI use",
+      "summary": "A blog post describing Anthropic’s new system, Clio, for analyzing how people use AI while maintaining their privacy ",
+      "url": "https://www.anthropic.com/research/clio"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T22:31:52Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.246",
+      "summary": "- Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. `Bash(git * main)`), since they also match options inserted before the subcommand\n- Added an Auto mode tab to `/permissions` for viewing and editing auto mode classifier rules\n- Added the turn's completion time to the end-of-turn duration line, e.g. `✻ Sautéed for 23s · done 6:05 PM`\n- Fixed fullscreen mode…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:20:57.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing the Anthropic Economic Index",
+      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
+      "url": "https://www.anthropic.com/news/the-anthropic-economic-index"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Launching the Anthropic Economic Futures Programme in the UK and Europe",
+      "summary": "Anthropic&#x27;s support for economic research comes to the UK and Europe",
+      "url": "https://www.anthropic.com/news/economic-futures-uk-europe"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic Economic Index: Insights from Claude 3.7 Sonnet",
+      "summary": "The second update from the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "The Anthropic Economic Index connector",
+      "summary": "We&#x27;re launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How well do job retraining programs work?",
+      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Labor market impacts of AI: A new measure and early evidence",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/team/economics"
+      "url": "https://www.anthropic.com/research/labor-market-impacts"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "India Country Brief: The Anthropic Economic Index",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/india-brief-economic-index"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Anthropic Economic Index: AI&#x27;s impact on software development",
+      "summary": "Data on how software developers are using Claude",
+      "url": "https://www.anthropic.com/research/impact-software-development"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Canada uses Claude",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/how-canada-uses-claude"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/how-australia-uses-claude"
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T16:13:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Estimating AI productivity gains",
+      "summary": "Anthropic economic research on productivity gains",
+      "url": "https://www.anthropic.com/research/estimating-productivity-gains",
+      "title_ko": "AI가 가져올 생산성 향상 추정",
+      "summary_ko": "AI 도입이 가져올 생산성 향상을 경제학적으로 추정한 Anthropic의 연구."
+    },
+    {
+      "date": "2026-08-25",
+      "datetime": "2026-08-25T05:13:24Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.245",
+      "summary": "- Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245"
     },
     {
       "date": "2026-08-24",
@@ -43,15 +171,6 @@
       "title": "How Claude&#x27;s text watermarking works",
       "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether ",
       "url": "https://www.anthropic.com/news/claude-text-watermark"
-    },
-    {
-      "date": "2026-08-24",
-      "datetime": "2026-08-24T15:30:22.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude is accelerating protein design and analytical chemistry",
-      "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Clau",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
     },
     {
       "date": "2026-08-23",
@@ -126,15 +245,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234"
     },
     {
-      "date": "2026-08-15",
-      "datetime": "2026-08-15T16:06:32.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Patterns and problems in multiagent systems",
-      "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
-      "url": "https://www.anthropic.com/research/multiagent-systems"
-    },
-    {
       "date": "2026-08-14",
       "datetime": "2026-08-14T22:20:57Z",
       "source": "claude-code",
@@ -144,24 +254,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233"
     },
     {
-      "date": "2026-08-14",
-      "datetime": "2026-08-14T17:26:28.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How well do job retraining programs work?",
-      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
-      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
-    },
-    {
-      "date": "2026-08-13",
-      "datetime": "2026-08-13T23:32:23.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Learning more about Claude&#x27;s mathematical capabilities",
-      "summary": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.",
-      "url": "https://www.anthropic.com/research/riemann-zeta"
-    },
-    {
       "date": "2026-08-13",
       "datetime": "2026-08-13T23:29:59Z",
       "source": "claude-code",
@@ -169,15 +261,6 @@
       "title": "Claude Code v2.1.232",
       "summary": "- Subagent forking is now on by default: a `subagent_type: \"fork\"` subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in the background by default\n- Type `@` in the prompt to mention another Claude session by name; Claude then uses `SendMessage` to reach that session directly\n- `SendMessage` now delivers to a bare name that…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232"
-    },
-    {
-      "date": "2026-08-13",
-      "datetime": "2026-08-13T08:38:50Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.231",
-      "summary": "- Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231"
     },
     {
       "date": "2026-08-10",
@@ -225,87 +308,6 @@
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
       "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p",
       "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
-    },
-    {
-      "date": "2026-07-29",
-      "datetime": "2026-07-29T14:10:25.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "summary": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
-    },
-    {
-      "date": "2026-07-28",
-      "datetime": "2026-07-28T15:25:50.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Our position on open-weights models",
-      "summary": "Anthropic CEO Dario Amodei on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models"
-    },
-    {
-      "date": "2026-07-27",
-      "datetime": "2026-07-27T15:34:00.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Expanding our partnership with Cognizant | Anthropic",
-      "summary": "Cognizant embeds Claude across its platforms, with 30,000+ associates trained, and becomes a Global Premier Partner in the Claude Partner Network.",
-      "url": "https://www.anthropic.com/news/cognizant-anthropic"
-    },
-    {
-      "date": "2026-07-25",
-      "datetime": "2026-07-25T02:03:36.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 5",
-      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "url": "https://www.anthropic.com/news/claude-opus-5"
-    },
-    {
-      "date": "2026-07-24",
-      "datetime": "2026-07-24T18:46:48.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
-      "summary": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.",
-      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
-    },
-    {
-      "date": "2026-07-24",
-      "datetime": "2026-07-24T15:38:58.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Project Pilot: Can AI models fly drones?",
-      "summary": "We worked with Andon Labs on Drone-Bench, a new benchmark testing whether AI models can autonomously fly a drone to locate and follow a person.",
-      "url": "https://www.anthropic.com/research/project-pilot"
-    },
-    {
-      "date": "2026-07-23",
-      "datetime": "2026-07-23T04:19:56.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 4.7",
-      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. ",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "date": "2026-07-23",
-      "datetime": "2026-07-23T04:09:31.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Opus 4.5",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-5"
-    },
-    {
-      "date": "2026-07-14",
-      "datetime": "2026-07-14T16:33:01.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Canada uses Claude",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/how-canada-uses-claude"
     },
     {
       "date": "2026-06-06",
