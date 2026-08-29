@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T11:38:17.193Z",
+  "generated_at": "2026-08-29T07:16:10.808Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-08-28",
+      "datetime": "2026-08-28T18:19:32Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.251",
+      "summary": "- Added `PreModelSwitch` and `PostModelSwitch` hook events (block, confirm, or annotate a model switch); `SessionStart` resume hooks now receive session staleness and the estimated re-cache cost\n- Added live streaming of a foreground subagent's tool calls and results to Remote Control clients (background subagents, the default, still show status only)\n- Added a Spend limit bar to `/usage` and a…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251"
+    },
+    {
+      "date": "2026-08-28",
+      "datetime": "2026-08-28T17:02:17.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities. ",
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+    },
+    {
+      "date": "2026-08-28",
+      "datetime": "2026-08-28T15:01:10.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude for Teachers",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/claude-for-teachers"
+    },
     {
       "date": "2026-08-28",
       "datetime": "2026-08-28T10:42:34.000Z",
@@ -135,15 +162,6 @@
       "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute"
     },
     {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:10:26.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/anthropic-codepath-partnership"
-    },
-    {
       "date": "2026-08-26",
       "datetime": "2026-08-26T23:06:39Z",
       "source": "claude-code",
@@ -207,15 +225,6 @@
       "title": "Measuring the persuasiveness of language models",
       "summary": "Anthropic developed a way to test how persuasive language models (LMs) are, and analyzed how persuasiveness scales across different versions of Claude.",
       "url": "https://www.anthropic.com/research/measuring-model-persuasiveness"
-    },
-    {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T18:16:30.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Tracing model outputs to the training data",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/influence-functions"
     },
     {
       "date": "2026-08-25",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.236",
       "summary": "- Added `ANTHROPIC_DEFAULT_MODEL` environment variable: sets the model new sessions start on, while a `/model` pick still overrides it and persists across restarts (unlike `ANTHROPIC_MODEL`)\n- Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle — opt-in, one-shot, no polling (macOS and Linux)\n- Sandbox:…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236"
-    },
-    {
-      "date": "2026-08-18",
-      "datetime": "2026-08-18T20:38:54Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.235",
-      "summary": "- Added an optional `spellcheck` setting that underlines misspelled words in the prompt input as you type, using your installed `aspell`, `hunspell`, or `ispell`\n- Fixed whole-prompt-cache invalidation when a language server disconnected or reconnected mid-session\n- Fixed nested markdown list items misaligning at depth 3+ and added a hanging indent to wrapped list items in the terminal UI\n- Fixed…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235"
     },
     {
       "date": "2026-08-10",

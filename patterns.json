@@ -1,5 +1,5 @@
 {
-  "sample_size": 3021,
+  "sample_size": 4901,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,212 +8,212 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 2782,
-      "pct": 92.1
+      "count": 4605,
+      "pct": 94.0
     },
     {
       "field": "name",
-      "count": 2771,
-      "pct": 91.7
+      "count": 4594,
+      "pct": 93.7
     },
     {
       "field": "metadata",
-      "count": 976,
-      "pct": 32.3
+      "count": 1460,
+      "pct": 29.8
     },
     {
       "field": "origin",
-      "count": 445,
-      "pct": 14.7
+      "count": 903,
+      "pct": 18.4
+    },
+    {
+      "field": "od",
+      "count": 471,
+      "pct": 9.6
+    },
+    {
+      "field": "triggers",
+      "count": 461,
+      "pct": 9.4
     },
     {
       "field": "allowed-tools",
-      "count": 373,
-      "pct": 12.3
-    },
-    {
-      "field": "argument-hint",
-      "count": 330,
-      "pct": 10.9
-    },
-    {
-      "field": "version",
-      "count": 270,
+      "count": 437,
       "pct": 8.9
     },
     {
+      "field": "version",
+      "count": 371,
+      "pct": 7.6
+    },
+    {
+      "field": "argument-hint",
+      "count": 339,
+      "pct": 6.9
+    },
+    {
       "field": "license",
-      "count": 206,
-      "pct": 6.8
-    },
-    {
-      "field": "compatibility",
-      "count": 92,
-      "pct": 3.0
-    },
-    {
-      "field": "author",
-      "count": 67,
-      "pct": 2.2
-    },
-    {
-      "field": "disable-model-invocation",
-      "count": 52,
-      "pct": 1.7
+      "count": 283,
+      "pct": 5.8
     },
     {
       "field": "tags",
-      "count": 47,
-      "pct": 1.6
+      "count": 229,
+      "pct": 4.7
     },
     {
-      "field": "required_environment_variables",
-      "count": 32,
-      "pct": 1.1
+      "field": "en_name",
+      "count": 167,
+      "pct": 3.4
     },
     {
-      "field": "workflow_stage",
-      "count": 30,
-      "pct": 1.0
+      "field": "zh_name",
+      "count": 166,
+      "pct": 3.4
     },
     {
-      "field": "tools",
-      "count": 27,
-      "pct": 0.9
+      "field": "en_description",
+      "count": 163,
+      "pct": 3.3
+    },
+    {
+      "field": "zh_description",
+      "count": 163,
+      "pct": 3.3
     }
   ],
   "description": {
     "length": {
-      "count": 3021,
+      "count": 4901,
       "min": 4,
-      "p25": 71,
-      "median": 148,
-      "p75": 249,
-      "p90": 391,
+      "p25": 77,
+      "median": 157,
+      "p75": 250,
+      "p90": 390,
       "max": 3663,
-      "mean": 198.6
+      "mean": 199.8
     },
-    "has_trigger_phrase_pct": 31.5,
-    "has_quoted_user_phrase_pct": 10.2,
-    "short_pct_lt_120": 42.9,
-    "long_pct_gt_300": 18.0
+    "has_trigger_phrase_pct": 32.5,
+    "has_quoted_user_phrase_pct": 9.7,
+    "short_pct_lt_120": 38.9,
+    "long_pct_gt_300": 17.6
   },
   "body": {
     "length_chars": {
-      "count": 3021,
-      "min": 604,
-      "p25": 3650,
-      "median": 6822,
-      "p75": 11337,
-      "p90": 18580,
+      "count": 4901,
+      "min": 602,
+      "p25": 2925,
+      "median": 6127,
+      "p75": 10636,
+      "p90": 17605,
       "max": 141519,
-      "mean": 9380.0
+      "mean": 8663.0
     },
     "heading_count": {
-      "count": 3021,
+      "count": 4901,
       "min": 0,
-      "p25": 11,
-      "median": 19,
-      "p75": 31,
-      "p90": 52,
+      "p25": 9,
+      "median": 16,
+      "p75": 28,
+      "p90": 49,
       "max": 325,
-      "mean": 25.5
+      "mean": 22.7
     },
     "code_block_count": {
-      "count": 3021,
+      "count": 4901,
       "min": 0,
       "p25": 1,
-      "median": 5,
-      "p75": 11,
-      "p90": 20,
-      "max": 83,
-      "mean": 7.8
+      "median": 4,
+      "p75": 10,
+      "p90": 19,
+      "max": 174,
+      "mean": 7.2
     },
-    "has_numbered_list_pct": 66.7,
-    "has_bullet_list_pct": 95.7,
-    "has_table_pct": 55.8,
-    "has_code_block_pct": 86.4
+    "has_numbered_list_pct": 64.8,
+    "has_bullet_list_pct": 95.8,
+    "has_table_pct": 48.9,
+    "has_code_block_pct": 83.9
   },
   "common_section_headings_h2": [
     {
       "label": "overview",
-      "count": 624
-    },
-    {
-      "label": "references",
-      "count": 399
-    },
-    {
-      "label": "best practices",
-      "count": 375
-    },
-    {
-      "label": "when to use",
-      "count": 331
-    },
-    {
-      "label": "when to use this",
-      "count": 296
+      "count": 637
     },
     {
       "label": "workflow",
-      "count": 243
+      "count": 562
+    },
+    {
+      "label": "when to use",
+      "count": 559
+    },
+    {
+      "label": "best practices",
+      "count": 468
+    },
+    {
+      "label": "references",
+      "count": 439
     },
     {
       "label": "when to activate",
-      "count": 204
+      "count": 410
+    },
+    {
+      "label": "when to use this",
+      "count": 325
     },
     {
       "label": "examples",
-      "count": 155
-    },
-    {
-      "label": "quick start",
-      "count": 147
+      "count": 272
     },
     {
       "label": "how it works",
-      "count": 135
-    },
-    {
-      "label": "core concepts",
-      "count": 133
+      "count": 269
     },
     {
       "label": "related skills",
-      "count": 129
+      "count": 253
     },
     {
       "label": "anti-patterns",
-      "count": 125
-    },
-    {
-      "label": "installation",
-      "count": 124
+      "count": 225
     },
     {
       "label": "output format",
-      "count": 111
+      "count": 175
     },
     {
-      "label": "common pitfalls",
-      "count": 110
+      "label": "output contract",
+      "count": 170
+    },
+    {
+      "label": "quick start",
+      "count": 162
+    },
+    {
+      "label": "core concepts",
+      "count": 154
+    },
+    {
+      "label": "installation",
+      "count": 132
     },
     {
       "label": "instructions",
-      "count": 109
+      "count": 127
     },
     {
-      "label": "resources",
-      "count": 89
+      "label": "何时激活",
+      "count": 123
     },
     {
-      "label": "troubleshooting",
-      "count": 89
+      "label": "common pitfalls",
+      "count": 113
     },
     {
-      "label": "constants",
-      "count": 88
+      "label": "工作原理",
+      "count": 110
     }
   ],
   "exemplars": [
@@ -239,25 +239,25 @@
       "composite": 0.992
     },
     {
-      "id": "d06d6b81bdf90ceb",
-      "name": "competitive-landscape",
-      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
-      "source": "github:wshobson/agents@main",
-      "composite": 0.899
+      "id": "ef3fce0eadf65283",
+      "name": "continuous-learning-v2",
+      "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
+      "source": "github:affaan-m/ECC@main",
+      "composite": 0.9
     },
     {
-      "id": "3cf385577bf18e79",
-      "name": "load-pr-comments",
-      "description": "Use to load open/unresolved PR review comments then aggregate them as tasks in .specs/comments/*.md for parallel agents to fix.",
-      "source": "github:NeoLabHQ/context-engineering-kit@master",
-      "composite": 0.895
+      "id": "5d66f5413a5863b6",
+      "name": "dependabot-triager",
+      "description": "Assesses an open Dependabot pull request and emits a recommendation (Merge / Review before merging / Do not merge) plus confidence (High / Medium / Low) with concise prose grounded in upstream source ",
+      "source": "github:cli/cli@trunk",
+      "composite": 0.9
     },
     {
-      "id": "067a3d6a62a691f5",
-      "name": "algorithmic-art",
-      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
-      "source": "github:anthropics/skills@main",
-      "composite": 0.887
+      "id": "57fb026ef6acbea3",
+      "name": "design-guide",
+      "description": "Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling ",
+      "source": "github:paperclipai/paperclip@master",
+      "composite": 0.9
     }
   ]
 }
