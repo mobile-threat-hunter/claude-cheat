@@ -1,5 +1,5 @@
 {
-  "sample_size": 4901,
+  "sample_size": 8746,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,212 +8,212 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 4605,
-      "pct": 94.0
+      "count": 8392,
+      "pct": 96.0
     },
     {
       "field": "name",
-      "count": 4594,
-      "pct": 93.7
+      "count": 8325,
+      "pct": 95.2
     },
     {
       "field": "metadata",
-      "count": 1460,
-      "pct": 29.8
+      "count": 2640,
+      "pct": 30.2
+    },
+    {
+      "field": "homepage",
+      "count": 1219,
+      "pct": 13.9
     },
     {
       "field": "origin",
       "count": 903,
-      "pct": 18.4
+      "pct": 10.3
+    },
+    {
+      "field": "allowed-tools",
+      "count": 482,
+      "pct": 5.5
     },
     {
       "field": "od",
       "count": 471,
-      "pct": 9.6
+      "pct": 5.4
     },
     {
       "field": "triggers",
       "count": 461,
-      "pct": 9.4
-    },
-    {
-      "field": "allowed-tools",
-      "count": 437,
-      "pct": 8.9
+      "pct": 5.3
     },
     {
       "field": "version",
-      "count": 371,
-      "pct": 7.6
+      "count": 374,
+      "pct": 4.3
     },
     {
       "field": "argument-hint",
-      "count": 339,
-      "pct": 6.9
+      "count": 358,
+      "pct": 4.1
     },
     {
       "field": "license",
-      "count": 283,
-      "pct": 5.8
+      "count": 328,
+      "pct": 3.8
     },
     {
       "field": "tags",
-      "count": 229,
-      "pct": 4.7
+      "count": 257,
+      "pct": 2.9
     },
     {
       "field": "en_name",
       "count": 167,
-      "pct": 3.4
+      "pct": 1.9
     },
     {
       "field": "zh_name",
       "count": 166,
-      "pct": 3.4
+      "pct": 1.9
     },
     {
       "field": "en_description",
       "count": 163,
-      "pct": 3.3
-    },
-    {
-      "field": "zh_description",
-      "count": 163,
-      "pct": 3.3
+      "pct": 1.9
     }
   ],
   "description": {
     "length": {
-      "count": 4901,
+      "count": 8746,
       "min": 4,
-      "p25": 77,
-      "median": 157,
-      "p75": 250,
-      "p90": 390,
+      "p25": 130,
+      "median": 301,
+      "p75": 470,
+      "p90": 555,
       "max": 3663,
-      "mean": 199.8
+      "mean": 310.7
     },
-    "has_trigger_phrase_pct": 32.5,
-    "has_quoted_user_phrase_pct": 9.7,
-    "short_pct_lt_120": 38.9,
-    "long_pct_gt_300": 17.6
+    "has_trigger_phrase_pct": 58.3,
+    "has_quoted_user_phrase_pct": 5.9,
+    "short_pct_lt_120": 23.1,
+    "long_pct_gt_300": 50.1
   },
   "body": {
     "length_chars": {
-      "count": 4901,
+      "count": 8746,
       "min": 602,
-      "p25": 2925,
-      "median": 6127,
-      "p75": 10636,
-      "p90": 17605,
+      "p25": 3176,
+      "median": 4631,
+      "p75": 7715,
+      "p90": 13851,
       "max": 141519,
-      "mean": 8663.0
+      "mean": 6994.6
     },
     "heading_count": {
-      "count": 4901,
+      "count": 8746,
       "min": 0,
-      "p25": 9,
-      "median": 16,
-      "p75": 28,
-      "p90": 49,
+      "p25": 8,
+      "median": 12,
+      "p75": 20,
+      "p90": 38,
       "max": 325,
-      "mean": 22.7
+      "mean": 17.8
     },
     "code_block_count": {
-      "count": 4901,
+      "count": 8746,
       "min": 0,
-      "p25": 1,
-      "median": 4,
-      "p75": 10,
-      "p90": 19,
+      "p25": 0,
+      "median": 1,
+      "p75": 6,
+      "p90": 14,
       "max": 174,
-      "mean": 7.2
+      "mean": 4.3
     },
-    "has_numbered_list_pct": 64.8,
-    "has_bullet_list_pct": 95.8,
-    "has_table_pct": 48.9,
-    "has_code_block_pct": 83.9
+    "has_numbered_list_pct": 64.7,
+    "has_bullet_list_pct": 97.0,
+    "has_table_pct": 50.6,
+    "has_code_block_pct": 56.8
   },
   "common_section_headings_h2": [
     {
-      "label": "overview",
-      "count": 637
-    },
-    {
-      "label": "workflow",
-      "count": 562
-    },
-    {
-      "label": "when to use",
-      "count": 559
-    },
-    {
-      "label": "best practices",
-      "count": 468
-    },
-    {
-      "label": "references",
-      "count": 439
-    },
-    {
-      "label": "when to activate",
-      "count": 410
-    },
-    {
-      "label": "when to use this",
-      "count": 325
-    },
-    {
-      "label": "examples",
-      "count": 272
-    },
-    {
-      "label": "how it works",
-      "count": 269
-    },
-    {
-      "label": "related skills",
-      "count": 253
-    },
-    {
       "label": "anti-patterns",
-      "count": 225
+      "count": 3604
+    },
+    {
+      "label": "quality checks",
+      "count": 3403
+    },
+    {
+      "label": "required inputs",
+      "count": 3333
     },
     {
       "label": "output format",
-      "count": 175
+      "count": 3181
     },
     {
-      "label": "output contract",
-      "count": 170
+      "label": "what this skill produces",
+      "count": 2056
     },
     {
-      "label": "quick start",
-      "count": 162
+      "label": "example trigger phrases",
+      "count": 1213
     },
     {
-      "label": "core concepts",
-      "count": 154
+      "label": "overview",
+      "count": 672
     },
     {
-      "label": "installation",
-      "count": 132
+      "label": "based on",
+      "count": 656
     },
     {
-      "label": "instructions",
-      "count": 127
+      "label": "when to use",
+      "count": 620
     },
     {
-      "label": "何时激活",
-      "count": 123
+      "label": "workflow",
+      "count": 592
     },
     {
-      "label": "common pitfalls",
-      "count": 113
+      "label": "best practices",
+      "count": 475
     },
     {
-      "label": "工作原理",
-      "count": 110
+      "label": "references",
+      "count": 444
+    },
+    {
+      "label": "when to activate",
+      "count": 411
+    },
+    {
+      "label": "working from a brief",
+      "count": 358
+    },
+    {
+      "label": "output structure",
+      "count": 357
+    },
+    {
+      "label": "when to use this",
+      "count": 334
+    },
+    {
+      "label": "examples",
+      "count": 288
+    },
+    {
+      "label": "how it works",
+      "count": 275
+    },
+    {
+      "label": "related skills",
+      "count": 262
+    },
+    {
+      "label": "related",
+      "count": 201
     }
   ],
   "exemplars": [
