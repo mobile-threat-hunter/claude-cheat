@@ -1,5 +1,5 @@
 {
-  "sample_size": 8746,
+  "sample_size": 8795,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,17 +8,17 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8392,
-      "pct": 96.0
+      "count": 8438,
+      "pct": 95.9
     },
     {
       "field": "name",
-      "count": 8325,
+      "count": 8371,
       "pct": 95.2
     },
     {
       "field": "metadata",
-      "count": 2640,
+      "count": 2655,
       "pct": 30.2
     },
     {
@@ -44,11 +44,11 @@
     {
       "field": "triggers",
       "count": 461,
-      "pct": 5.3
+      "pct": 5.2
     },
     {
       "field": "version",
-      "count": 374,
+      "count": 375,
       "pct": 4.3
     },
     {
@@ -59,7 +59,7 @@
     {
       "field": "license",
       "count": 328,
-      "pct": 3.8
+      "pct": 3.7
     },
     {
       "field": "tags",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 8746,
+      "count": 8795,
       "min": 4,
-      "p25": 130,
-      "median": 301,
-      "p75": 470,
-      "p90": 555,
+      "p25": 128,
+      "median": 299,
+      "p75": 469,
+      "p90": 554,
       "max": 3663,
-      "mean": 310.7
+      "mean": 309.6
     },
-    "has_trigger_phrase_pct": 58.3,
+    "has_trigger_phrase_pct": 58.0,
     "has_quoted_user_phrase_pct": 5.9,
-    "short_pct_lt_120": 23.1,
-    "long_pct_gt_300": 50.1
+    "short_pct_lt_120": 23.4,
+    "long_pct_gt_300": 49.8
   },
   "body": {
     "length_chars": {
-      "count": 8746,
+      "count": 8795,
       "min": 602,
-      "p25": 3176,
-      "median": 4631,
-      "p75": 7715,
-      "p90": 13851,
+      "p25": 3169,
+      "median": 4626,
+      "p75": 7698,
+      "p90": 13831,
       "max": 141519,
-      "mean": 6994.6
+      "mean": 6979.0
     },
     "heading_count": {
-      "count": 8746,
+      "count": 8795,
       "min": 0,
       "p25": 8,
       "median": 12,
       "p75": 20,
-      "p90": 38,
+      "p90": 37,
       "max": 325,
-      "mean": 17.8
+      "mean": 17.7
     },
     "code_block_count": {
-      "count": 8746,
+      "count": 8795,
       "min": 0,
       "p25": 0,
       "median": 1,
@@ -129,9 +129,9 @@
       "max": 174,
       "mean": 4.3
     },
-    "has_numbered_list_pct": 64.7,
+    "has_numbered_list_pct": 64.6,
     "has_bullet_list_pct": 97.0,
-    "has_table_pct": 50.6,
+    "has_table_pct": 50.7,
     "has_code_block_pct": 56.8
   },
   "common_section_headings_h2": [
@@ -169,11 +169,11 @@
     },
     {
       "label": "when to use",
-      "count": 620
+      "count": 627
     },
     {
       "label": "workflow",
-      "count": 592
+      "count": 593
     },
     {
       "label": "best practices",
@@ -239,6 +239,13 @@
       "composite": 0.992
     },
     {
+      "id": "d06d6b81bdf90ceb",
+      "name": "competitive-landscape",
+      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
+      "source": "github:wshobson/agents@main",
+      "composite": 0.9
+    },
+    {
       "id": "ef3fce0eadf65283",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
@@ -250,13 +257,6 @@
       "name": "dependabot-triager",
       "description": "Assesses an open Dependabot pull request and emits a recommendation (Merge / Review before merging / Do not merge) plus confidence (High / Medium / Low) with concise prose grounded in upstream source ",
       "source": "github:cli/cli@trunk",
-      "composite": 0.9
-    },
-    {
-      "id": "57fb026ef6acbea3",
-      "name": "design-guide",
-      "description": "Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling ",
-      "source": "github:paperclipai/paperclip@master",
       "composite": 0.9
     }
   ]
