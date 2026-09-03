@@ -1,5 +1,5 @@
 {
-  "sample_size": 8798,
+  "sample_size": 8799,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8441,
+      "count": 8442,
       "pct": 95.9
     },
     {
       "field": "name",
-      "count": 8374,
+      "count": 8375,
       "pct": 95.2
     },
     {
@@ -84,7 +84,7 @@
   ],
   "description": {
     "length": {
-      "count": 8798,
+      "count": 8799,
       "min": 4,
       "p25": 128,
       "median": 299,
@@ -100,17 +100,17 @@
   },
   "body": {
     "length_chars": {
-      "count": 8798,
+      "count": 8799,
       "min": 602,
       "p25": 3169,
       "median": 4626,
       "p75": 7692,
       "p90": 13831,
       "max": 141519,
-      "mean": 6979.8
+      "mean": 6979.7
     },
     "heading_count": {
-      "count": 8798,
+      "count": 8799,
       "min": 0,
       "p25": 8,
       "median": 12,
@@ -120,7 +120,7 @@
       "mean": 17.7
     },
     "code_block_count": {
-      "count": 8798,
+      "count": 8799,
       "min": 0,
       "p25": 0,
       "median": 1,
@@ -239,13 +239,6 @@
       "composite": 0.992
     },
     {
-      "id": "d06d6b81bdf90ceb",
-      "name": "competitive-landscape",
-      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
-      "source": "github:wshobson/agents@main",
-      "composite": 0.9
-    },
-    {
       "id": "ef3fce0eadf65283",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
@@ -257,6 +250,13 @@
       "name": "dependabot-triager",
       "description": "Assesses an open Dependabot pull request and emits a recommendation (Merge / Review before merging / Do not merge) plus confidence (High / Medium / Low) with concise prose grounded in upstream source ",
       "source": "github:cli/cli@trunk",
+      "composite": 0.9
+    },
+    {
+      "id": "57fb026ef6acbea3",
+      "name": "design-guide",
+      "description": "Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling ",
+      "source": "github:paperclipai/paperclip@master",
       "composite": 0.9
     }
   ]

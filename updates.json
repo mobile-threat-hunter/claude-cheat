@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:53:55.298Z",
+  "generated_at": "2026-09-03T04:52:06.340Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "date": "2026-09-02",
+      "datetime": "2026-09-02T22:33:51Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.259",
+      "summary": "- Added `managedMcpServers` managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as `.mcp.json`); entries that name a command to run are skipped\n- Added `--permission-prompts none` for unattended headless hosts: anything that would prompt is denied automatically while the active permission mode (including auto mode) keeps deciding\n- Added recognition of…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259"
+    },
+    {
+      "date": "2026-09-02",
+      "datetime": "2026-09-02T19:11:21.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+    },
+    {
+      "date": "2026-09-02",
+      "datetime": "2026-09-02T15:29:47.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How well do job retraining programs work?",
+      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+    },
+    {
       "date": "2026-09-01",
       "datetime": "2026-09-01T22:33:20Z",
       "source": "claude-code",
@@ -16,15 +43,6 @@
       "title": "Claude Code v2.1.258",
       "summary": "- Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255\n- Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258"
-    },
-    {
-      "date": "2026-09-01",
-      "datetime": "2026-09-01T19:11:41.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Developing Enterprise Frontier Safeguards with our customers",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
     },
     {
       "date": "2026-09-01",
@@ -245,15 +263,6 @@
       "url": "https://www.anthropic.com/research/crosscoder-model-diffing"
     },
     {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T18:22:26.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Measuring the persuasiveness of language models",
-      "summary": "Anthropic developed a way to test how persuasive language models (LMs) are, and analyzed how persuasiveness scales across different versions of Claude.",
-      "url": "https://www.anthropic.com/research/measuring-model-persuasiveness"
-    },
-    {
       "date": "2026-08-25",
       "datetime": "2026-08-25T22:31:52Z",
       "source": "claude-code",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.240",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240"
-    },
-    {
-      "date": "2026-08-21",
-      "datetime": "2026-08-21T19:54:23Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.239",
-      "summary": "- Cost estimates (`/cost`, status line, `--max-budget-usd`) now include the 1.1× US-only-inference premium for data-residency workspaces\n- Added the one-time fullscreen renderer offer on Bedrock, Vertex, Foundry and other previously excluded setups; new installs there now start in fullscreen\n- Added `/claude-api upgrade` to migrate Python projects from `anthropic` 0.x to 1.x, and updated the…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239"
     },
     {
       "date": "2026-08-10",
