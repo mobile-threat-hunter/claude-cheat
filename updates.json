@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T04:52:06.340Z",
+  "generated_at": "2026-09-04T04:54:56.694Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-09-04",
+      "datetime": "2026-09-04T03:24:16.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+    },
+    {
+      "date": "2026-09-03",
+      "datetime": "2026-09-03T23:48:12Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.260",
+      "summary": "- Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with `/diff`\n- Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to `/cost` and the status line's `prompt_cache` field\n- Added `/reload-plugins` to headless sessions, so it appears in the Claude Code…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260"
+    },
+    {
+      "date": "2026-09-03",
+      "datetime": "2026-09-03T21:12:06.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "India Country Brief: The Anthropic Economic Index",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/india-brief-economic-index"
+    },
     {
       "date": "2026-09-02",
       "datetime": "2026-09-02T22:33:51Z",
@@ -198,15 +225,6 @@
       "url": "https://www.anthropic.com/news/healthcare-life-sciences"
     },
     {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:12:10.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "How scientists are using Claude to accelerate research and discovery",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/accelerating-scientific-research"
-    },
-    {
       "date": "2026-08-26",
       "datetime": "2026-08-26T23:06:39Z",
       "source": "claude-code",
@@ -254,15 +272,6 @@
       "url": "https://www.anthropic.com/research/constitutional-classifiers"
     },
     {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T18:30:11.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Insights on crosscoder model diffing",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/crosscoder-model-diffing"
-    },
-    {
       "date": "2026-08-25",
       "datetime": "2026-08-25T22:31:52Z",
       "source": "claude-code",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.241",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241"
-    },
-    {
-      "date": "2026-08-22",
-      "datetime": "2026-08-22T14:45:30Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.240",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240"
     },
     {
       "date": "2026-08-10",
