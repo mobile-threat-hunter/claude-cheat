@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T04:54:56.694Z",
+  "generated_at": "2026-09-05T04:48:53.658Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,42 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-09-04",
+      "datetime": "2026-09-04T19:58:10Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.261",
+      "summary": "- Added an \"Organization policy\" line to `/status` and `claude doctor` that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through\n- Added `bashOutputMaxChars` and `taskOutputMaxChars` settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261"
+    },
+    {
+      "date": "2026-09-04",
+      "datetime": "2026-09-04T18:21:03.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Formalizing Fermat&#x27;s Last Theorem",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+    },
+    {
+      "date": "2026-09-04",
+      "datetime": "2026-09-04T18:19:02.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "India Country Brief: The Anthropic Economic Index",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/india-brief-economic-index"
+    },
+    {
+      "date": "2026-09-04",
+      "datetime": "2026-09-04T14:19:31.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How well do job retraining programs work?",
+      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+    },
     {
       "date": "2026-09-04",
       "datetime": "2026-09-04T03:24:16.000Z",
@@ -27,15 +63,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260"
     },
     {
-      "date": "2026-09-03",
-      "datetime": "2026-09-03T21:12:06.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "India Country Brief: The Anthropic Economic Index",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/india-brief-economic-index"
-    },
-    {
       "date": "2026-09-02",
       "datetime": "2026-09-02T22:33:51Z",
       "source": "claude-code",
@@ -52,15 +79,6 @@
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
-    },
-    {
-      "date": "2026-09-02",
-      "datetime": "2026-09-02T15:29:47.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How well do job retraining programs work?",
-      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
-      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
     },
     {
       "date": "2026-09-01",
@@ -263,15 +281,6 @@
       "url": "https://www.anthropic.com/research/persona-vectors"
     },
     {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T20:45:34.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Constitutional Classifiers: Defending against universal jailbreaks",
-      "summary": "A paper from Anthropic describing a new way to guard LLMs against jailbreaking.",
-      "url": "https://www.anthropic.com/research/constitutional-classifiers"
-    },
-    {
       "date": "2026-08-25",
       "datetime": "2026-08-25T22:31:52Z",
       "source": "claude-code",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.245",
       "summary": "- Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245"
-    },
-    {
-      "date": "2026-08-23",
-      "datetime": "2026-08-23T00:52:16Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.241",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241"
     },
     {
       "date": "2026-08-10",
