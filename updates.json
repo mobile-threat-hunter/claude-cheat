@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:02:23.303Z",
+  "generated_at": "2026-09-08T05:00:19.120Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-09-07",
+      "datetime": "2026-09-07T11:07:52.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Formalizing Fermat&#x27;s Last Theorem",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+    },
+    {
+      "date": "2026-09-07",
+      "datetime": "2026-09-07T09:43:45.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Improving our alignment and security practices",
+      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+    },
     {
       "date": "2026-09-06",
       "datetime": "2026-09-06T02:54:20Z",
@@ -25,15 +43,6 @@
       "title": "Claude Code v2.1.261",
       "summary": "- Added an \"Organization policy\" line to `/status` and `claude doctor` that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through\n- Added `bashOutputMaxChars` and `taskOutputMaxChars` settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters\n- Added…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261"
-    },
-    {
-      "date": "2026-09-04",
-      "datetime": "2026-09-04T18:21:03.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Formalizing Fermat&#x27;s Last Theorem",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
     },
     {
       "date": "2026-09-04",
@@ -115,15 +124,6 @@
       "title": "Claude Code v2.1.257",
       "summary": "- Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads\n- Added \"Time format\" (`timeFormat`) and `timeZone` settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps\n- Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
-    },
-    {
-      "date": "2026-09-01",
-      "datetime": "2026-09-01T12:43:20.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Improving our alignment and security practices",
-      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
     },
     {
       "date": "2026-08-31",

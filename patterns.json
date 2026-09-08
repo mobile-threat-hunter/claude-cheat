@@ -239,13 +239,6 @@
       "composite": 0.992
     },
     {
-      "id": "d06d6b81bdf90ceb",
-      "name": "competitive-landscape",
-      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
-      "source": "github:wshobson/agents@main",
-      "composite": 0.9
-    },
-    {
       "id": "ef3fce0eadf65283",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
@@ -257,6 +250,13 @@
       "name": "dependabot-triager",
       "description": "Assesses an open Dependabot pull request and emits a recommendation (Merge / Review before merging / Do not merge) plus confidence (High / Medium / Low) with concise prose grounded in upstream source ",
       "source": "github:cli/cli@trunk",
+      "composite": 0.9
+    },
+    {
+      "id": "57fb026ef6acbea3",
+      "name": "design-guide",
+      "description": "Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling ",
+      "source": "github:paperclipai/paperclip@master",
       "composite": 0.9
     }
   ]
