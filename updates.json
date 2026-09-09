@@ -1,13 +1,78 @@
 {
-  "generated_at": "2026-09-08T05:00:19.120Z",
+  "generated_at": "2026-09-09T04:59:18.787Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 9
+    "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T23:55:14Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.266",
+      "summary": "- Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266"
+    },
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T20:37:31Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.265",
+      "summary": "- Added `user.email` and `user.groups` to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions\n- Added support for pointing `--plugin-dir` at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up\n- Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265"
+    },
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T10:48:11.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Detecting and preventing distillation attacks",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T10:47:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. ",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "title_ko": "1년간의 AI 기반 사이버 위협을 매핑하며 배운 것",
+      "summary_ko": "AI가 사이버 공격의 양상과 수법을 바꾸는 가운데, 기존 보안 커뮤니티의 기법·프레임워크가 얼마나 잘 버티는지 새 보고서로 정리했습니다."
+    },
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T10:47:28.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Detecting and countering malicious uses of Claude",
+      "summary": "Detecting and Countering Malicious Uses of Claude",
+      "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
+    },
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T10:47:10.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
+      "summary": "A report describing an a highly sophisticated AI-led cyberattack",
+      "url": "https://www.anthropic.com/news/disrupting-AI-espionage"
+    },
+    {
+      "date": "2026-09-08",
+      "datetime": "2026-09-08T10:46:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Detecting and countering misuse of AI: August 2025",
+      "summary": "Anthropic&#x27;s threat intelligence report on AI cybercrime and other abuses",
+      "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
+    },
     {
       "date": "2026-09-07",
       "datetime": "2026-09-07T11:07:52.000Z",
@@ -207,60 +272,6 @@
       "url": "https://www.anthropic.com/research/multiagent-systems"
     },
     {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:14:27.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Anthropic&#x27;s AI for Science Program",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/ai-for-science-program"
-    },
-    {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:13:58.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Advancing Claude for Education",
-      "summary": "A first look at new education-specific integrations, expanded student programs, and university updates.",
-      "url": "https://www.anthropic.com/news/advancing-claude-for-education"
-    },
-    {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:13:34.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude for Life Sciences",
-      "summary": "Discover how Claude accelerates life sciences research with new scientific connectors, skills, and improved performance for drug discovery and clinical work.",
-      "url": "https://www.anthropic.com/news/claude-for-life-sciences"
-    },
-    {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:13:17.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic and Iceland announce one of the world’s first national AI education pilots",
-      "summary": "Anthropic and Iceland announce national AI education pilot",
-      "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots"
-    },
-    {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:12:44.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Advancing Claude in healthcare and the life sciences",
-      "summary": "Introducing Claude for Healthcare with HIPAA-ready infrastructure, plus expanded Life Sciences tools for clinical trials and regulatory submissions. New connectors to CMS, Medidata, and ClinicalTrials.gov.",
-      "url": "https://www.anthropic.com/news/healthcare-life-sciences"
-    },
-    {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T23:06:39Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.247",
-      "summary": "- Added the `SendFeedback` tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from `/feedback` (turn off with the `feedbackDrafts` setting)\n- Added `{id, text, cooldownSessions, priority}` entries, `tipsFile`, and `label` to `spinnerTipsOverride`, so organizations can rotate their own tips alongside the built-in ones\n- Added a tip on Bash…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247"
-    },
-    {
       "date": "2026-08-26",
       "datetime": "2026-08-26T21:22:31.000Z",
       "source": "anthropic-research",
@@ -288,15 +299,6 @@
       "title": "Persona vectors: Monitoring and controlling character traits in language models",
       "summary": "A paper from Anthropic describing persona vectors and their applications to monitoring and controlling model behavior.",
       "url": "https://www.anthropic.com/research/persona-vectors"
-    },
-    {
-      "date": "2026-08-25",
-      "datetime": "2026-08-25T22:31:52Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.246",
-      "summary": "- Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. `Bash(git * main)`), since they also match options inserted before the subcommand\n- Added an Auto mode tab to `/permissions` for viewing and editing auto mode classifier rules\n- Added the turn's completion time to the end-of-turn duration line, e.g. `✻ Sautéed for 23s · done 6:05 PM`\n- Fixed fullscreen mode…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246"
     },
     {
       "date": "2026-08-10",
