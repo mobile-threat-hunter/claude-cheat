@@ -1,13 +1,202 @@
 {
-  "generated_at": "2026-09-09T04:59:18.787Z",
+  "generated_at": "2026-09-10T05:02:55.106Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 10
+    "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-09-10",
+      "datetime": "2026-09-10T01:13:21.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems. ",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:55:31.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Introducing Bloom: Automated behavioral evals",
+      "summary": "Bloom is an open-source agentic framework that auto-generates behavioral evaluations, tested across 16 frontier models.",
+      "url": "https://www.anthropic.com/research/bloom"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:54:48.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Our compliance framework for California&#x27;s SB 53",
+      "summary": "Anthropic&#x27;s Frontier Compliance Framework discloses how we assess and manage catastrophic AI risks under California&#x27;s Transparency in Frontier AI Act.",
+      "url": "https://www.anthropic.com/news/compliance-framework-SB53"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:53:55.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "AI to defend critical infrastructure",
+      "summary": "Anthropic partnered with Pacific Northwest National Laboratory to explore how AI can help defenders find and fix vulnerabilities before attackers do.",
+      "url": "https://www.anthropic.com/research/critical-infrastructure-defense"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:53:20.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Next-generation Constitutional Classifiers",
+      "summary": "We&#x27;ve developed the next generation of Constitutional Classifiers, offering more efficient protection against universal jailbreaks.",
+      "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:51:07.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Labs",
+      "summary": "Anthropic Labs incubates experimental AI products. Mike Krieger joins Ben Mann on Labs, while Ami Vora leads the Product organization.",
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:50:18.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Finding bugs with Claude and property-based testing",
+      "summary": "We developed a Claude-powered agent that efficiently identifies bugs in large software projects across the Python ecosystem.",
+      "url": "https://www.anthropic.com/research/property-based-testing"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:49:08.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Economic Index: New building blocks for AI use",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/economic-index-primitives"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:47:42.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Economic Index report: Economic primitives",
+      "summary": "New metrics of AI usage provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.",
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:45:55.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "How scientists use Claude to accelerate research",
+      "summary": "Labs at Stanford and MIT built Claude-powered systems that run genome-wide studies in minutes and automate gene cluster interpretation.",
+      "url": "https://www.anthropic.com/news/accelerating-scientific-research"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:44:37.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "AI models on realistic cyber ranges",
+      "summary": "Current Claude models can succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools.",
+      "url": "https://www.anthropic.com/research/cyber-toolkits-update"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:44:01.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Irina Ghose named Managing Director of India",
+      "summary": "Former Microsoft India MD Irina Ghose will lead Anthropic&#x27;s first Bengaluru office, focusing on enterprise adoption and developer partnerships.",
+      "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:43:11.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Mariano-Florentino Cuéllar appointed to Long-Term Benefit Trust",
+      "summary": "Former California Supreme Court Justice Mariano-Florentino Cuéllar joins Anthropic&#x27;s Long-Term Benefit Trust as a trustee.",
+      "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:41:24.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic and Teach For All train educators on AI",
+      "summary": "The AI Literacy &amp; Creator Collective brings AI training to 100,000+ educators across 63 countries serving 1.5 million students.",
+      "url": "https://www.anthropic.com/news/anthropic-teach-for-all"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:38:02.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic partners with the UK Government on GOV.UK",
+      "summary": "The UK selected Anthropic to build and pilot an AI assistant for GOV.UK, starting with career advice and training access for job seekers.",
+      "url": "https://www.anthropic.com/news/gov-UK-partnership"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:36:33.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "ServiceNow chooses Claude",
+      "summary": "ServiceNow selects Claude as the default model for its Build Agent and rolls Claude out to 29,000+ employees and engineering teams.",
+      "url": "https://www.anthropic.com/news/servicenow-anthropic-claude"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:34:03.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic partners with Allen Institute and HHMI",
+      "summary": "Anthropic is building specialized AI agents with the Allen Institute and Howard Hughes Medical Institute to accelerate biomedical research.",
+      "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:33:07.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Apple’s Xcode now supports the Claude Agent SDK",
+      "summary": "Xcode 26.3 integrates the Claude Agent SDK, letting developers use Claude for autonomous, long-running coding tasks on Apple platforms.",
+      "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:31:05.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude is a space to think",
+      "summary": "Claude will remain ad-free. We explain why advertising incentives are incompatible with a helpful AI assistant.",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T21:28:45.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude Opus 4.6",
+      "summary": "We&#x27;re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "date": "2026-09-09",
+      "datetime": "2026-09-09T19:58:14Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.267",
+      "summary": "- Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267"
+    },
     {
       "date": "2026-09-08",
       "datetime": "2026-09-08T23:55:14Z",
@@ -25,71 +214,6 @@
       "title": "Claude Code v2.1.265",
       "summary": "- Added `user.email` and `user.groups` to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions\n- Added support for pointing `--plugin-dir` at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up\n- Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265"
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T10:48:11.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Detecting and preventing distillation attacks",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T10:47:50.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
-      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. ",
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "title_ko": "1년간의 AI 기반 사이버 위협을 매핑하며 배운 것",
-      "summary_ko": "AI가 사이버 공격의 양상과 수법을 바꾸는 가운데, 기존 보안 커뮤니티의 기법·프레임워크가 얼마나 잘 버티는지 새 보고서로 정리했습니다."
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T10:47:28.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Detecting and countering malicious uses of Claude",
-      "summary": "Detecting and Countering Malicious Uses of Claude",
-      "url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T10:47:10.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
-      "summary": "A report describing an a highly sophisticated AI-led cyberattack",
-      "url": "https://www.anthropic.com/news/disrupting-AI-espionage"
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T10:46:50.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Detecting and countering misuse of AI: August 2025",
-      "summary": "Anthropic&#x27;s threat intelligence report on AI cybercrime and other abuses",
-      "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
-    },
-    {
-      "date": "2026-09-07",
-      "datetime": "2026-09-07T11:07:52.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Formalizing Fermat&#x27;s Last Theorem",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
-    },
-    {
-      "date": "2026-09-07",
-      "datetime": "2026-09-07T09:43:45.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Improving our alignment and security practices",
-      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
     },
     {
       "date": "2026-09-06",
@@ -110,33 +234,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261"
     },
     {
-      "date": "2026-09-04",
-      "datetime": "2026-09-04T18:19:02.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "India Country Brief: The Anthropic Economic Index",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/india-brief-economic-index"
-    },
-    {
-      "date": "2026-09-04",
-      "datetime": "2026-09-04T14:19:31.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How well do job retraining programs work?",
-      "summary": "An evidence review from Anthropic&#x27;s Economic Research team",
-      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
-    },
-    {
-      "date": "2026-09-04",
-      "datetime": "2026-09-04T03:24:16.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
-    },
-    {
       "date": "2026-09-03",
       "datetime": "2026-09-03T23:48:12Z",
       "source": "claude-code",
@@ -155,15 +252,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259"
     },
     {
-      "date": "2026-09-02",
-      "datetime": "2026-09-02T19:11:21.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Developing Enterprise Frontier Safeguards with our customers",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
-    },
-    {
       "date": "2026-09-01",
       "datetime": "2026-09-01T22:33:20Z",
       "source": "claude-code",
@@ -171,15 +259,6 @@
       "title": "Claude Code v2.1.258",
       "summary": "- Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255\n- Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258"
-    },
-    {
-      "date": "2026-09-01",
-      "datetime": "2026-09-01T18:01:14.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "How Claude&#x27;s text watermarking works",
-      "summary": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act.  In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether ",
-      "url": "https://www.anthropic.com/news/claude-text-watermark"
     },
     {
       "date": "2026-09-01",
@@ -200,15 +279,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252"
     },
     {
-      "date": "2026-08-29",
-      "datetime": "2026-08-29T10:57:56.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Previewing the Model Hardware Standard",
-      "summary": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers. ",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
-    },
-    {
       "date": "2026-08-28",
       "datetime": "2026-08-28T18:19:32Z",
       "source": "claude-code",
@@ -219,86 +289,12 @@
     },
     {
       "date": "2026-08-28",
-      "datetime": "2026-08-28T17:02:17.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Automated researchers can reliably mitigate alignment failures",
-      "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities. ",
-      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
-    },
-    {
-      "date": "2026-08-28",
-      "datetime": "2026-08-28T15:01:10.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude for Teachers",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/claude-for-teachers"
-    },
-    {
-      "date": "2026-08-28",
-      "datetime": "2026-08-28T10:42:34.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Expanding our support for scientists",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
-    },
-    {
-      "date": "2026-08-28",
       "datetime": "2026-08-28T00:49:16Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.250",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250"
-    },
-    {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T22:12:20Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.248",
-      "summary": "- Added `--restricted` (or `CLAUDE_CODE_RESTRICTED=1`): removes the built-in tools that run commands or code and `WebFetch` (unless named in `--tools`), keeps file tools inside the working directory, refuses `bypassPermissions`, and ignores user, project and local settings files\n- Added `experimental.cacheTtl` (`\"5m\"` or `\"1h\"`) to agent frontmatter: a per-agent prompt cache TTL used when no…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248"
-    },
-    {
-      "date": "2026-08-27",
-      "datetime": "2026-08-27T15:38:32.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Patterns and problems in multiagent systems",
-      "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
-      "url": "https://www.anthropic.com/research/multiagent-systems"
-    },
-    {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T21:22:31.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude performs on robotics tasks",
-      "summary": "Do language models’ strengths transfer to robotics? Can a model perceive a scene, understand a particular robot’s state, and issue actions that reliably effect change in the physical world? We ran tests to find out.",
-      "url": "https://www.anthropic.com/research/claude-plays-robotics"
-    },
-    {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T20:55:42.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Developing nuclear safeguards for AI",
-      "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier—an AI system that automatically categorizes content—that distinguishes between concerning and benign nuclear-related conversations with high accuracy in preliminary testing.",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-      "title_ko": "AI를 위한 핵 안전장치(Nuclear Safeguards) 개발",
-      "summary_ko": "NNSA 및 DOE 국립연구소와 공동으로 분류기(AI 시스템)를 개발 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 자동 구분, 초기 테스트에서 높은 정확도를 보였습니다."
-    },
-    {
-      "date": "2026-08-26",
-      "datetime": "2026-08-26T20:53:12.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Persona vectors: Monitoring and controlling character traits in language models",
-      "summary": "A paper from Anthropic describing persona vectors and their applications to monitoring and controlling model behavior.",
-      "url": "https://www.anthropic.com/research/persona-vectors"
     },
     {
       "date": "2026-08-10",
