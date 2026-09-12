@@ -1,13 +1,94 @@
 {
-  "generated_at": "2026-09-11T04:59:29.098Z",
+  "generated_at": "2026-09-12T04:51:59.601Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 11
+    "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T19:17:55Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.269",
+      "summary": "- Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`\n- Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions\n- Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T16:58:57.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude&#x27;s values vary by model and language",
+      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T16:57:50.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Enabling independent research on how people use Claude",
+      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
+      "url": "https://www.anthropic.com/research/enabling-independent-research"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T12:13:44.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Many-shot jailbreaking",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/many-shot-jailbreaking"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T12:12:58.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Mapping the mind of a large language model",
+      "summary": "We have identified how millions of concepts are represented inside Claude Sonnet, one of our deployed large language models. This is the first ever detailed look inside a modern, production-grade large language model.",
+      "url": "https://www.anthropic.com/research/mapping-mind-language-model"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T11:57:15.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Anthropic Education Report: The AI Fluency Index · Claude Academy",
+      "summary": "Anthropic&#x27;s AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.",
+      "url": "https://www.anthropic.com/research/AI-fluency-index"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T11:57:10.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Anthropic Economic Index report: Cadences",
+      "summary": "The latest Economic Index report looks at when people come to Claude, what they produce with it, and how they perceive AI&#x27;s impact on their work.",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T11:57:00.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Introducing the Anthropic Economic Index",
+      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
+      "url": "https://www.anthropic.com/research/the-anthropic-economic-index"
+    },
+    {
+      "date": "2026-09-11",
+      "datetime": "2026-09-11T11:56:53.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Anthropic Economic Index: AI&#x27;s impact on software development",
+      "summary": "Data on how software developers are using Claude",
+      "url": "https://www.anthropic.com/research/impact-software-development"
+    },
     {
       "date": "2026-09-11",
       "datetime": "2026-09-11T02:45:01.000Z",
@@ -21,32 +102,12 @@
     },
     {
       "date": "2026-09-10",
-      "datetime": "2026-09-10T21:55:41.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "An alignment assessment of recent cybersecurity incidents",
-      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems. ",
-      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
-    },
-    {
-      "date": "2026-09-10",
       "datetime": "2026-09-10T20:30:54Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.268",
       "summary": "- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks`…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T20:19:24.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Developing nuclear safeguards for AI",
-      "summary": "With the NNSA and DOE national labs, we co-developed a classifier that distinguishes concerning from benign nuclear-related conversations.",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-      "title_ko": "AI를 위한 핵 안전장치(Nuclear Safeguards) 개발",
-      "summary_ko": "NNSA 및 DOE 국립연구소와 공동으로 분류기(AI 시스템)를 개발 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 자동 구분, 초기 테스트에서 높은 정확도를 보였습니다."
     },
     {
       "date": "2026-09-10",
@@ -85,24 +146,6 @@
       "title": "Detecting and countering misuse of AI: August 2025",
       "summary": "Anthropic&#x27;s August 2025 threat intelligence report on AI cybercrime and other abuses.",
       "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T19:05:29.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Formalizing Fermat&#x27;s Last Theorem",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T19:00:37.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Education Report: How educators use Claude",
-      "summary": "Research on 74,000 educator conversations shows how faculty use Claude for teaching, research, and building interactive learning tools.",
-      "url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude"
     },
     {
       "date": "2026-09-10",
@@ -151,24 +194,6 @@
     },
     {
       "date": "2026-09-10",
-      "datetime": "2026-09-10T18:53:15.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Economic Index: AI&#x27;s role in the US and global economy",
-      "summary": "New research from the Anthropic Economic Index exploring geographic patterns of AI use across the US and the global economy.",
-      "url": "https://www.anthropic.com/research/economic-index-geography"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:52:18.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Economic Index: Uneven AI adoption",
-      "summary": "We extend the Anthropic Economic Index with a geographic analysis of Claude.ai conversations and a first look at enterprise API use.",
-      "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report"
-    },
-    {
-      "date": "2026-09-10",
       "datetime": "2026-09-10T18:51:09.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -178,30 +203,12 @@
     },
     {
       "date": "2026-09-10",
-      "datetime": "2026-09-10T18:49:39.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Petri: An open-source AI auditing tool",
-      "summary": "Petri is a new open-source automated auditing tool from Anthropic designed to accelerate AI safety research.",
-      "url": "https://www.anthropic.com/research/petri-open-source-auditing"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:44:43.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "A small number of samples can poison LLMs",
-      "summary": "Anthropic research on data poisoning attacks shows a few hundred malicious documents can &quot;backdoor&quot; large language models of any size.",
-      "url": "https://www.anthropic.com/research/small-samples-poison"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:44:03.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Preparing for AI&#x27;s economic impact",
-      "summary": "We asked economists and researchers to explore policy responses to the economic effects of powerful AI. Here are the initial ideas.",
-      "url": "https://www.anthropic.com/research/economic-policy-responses"
+      "datetime": "2026-09-10T18:48:58.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Deloitte brings Claude to 470,000 people",
+      "summary": "Deloitte will make Claude available across its global network, Anthropic&#x27;s largest enterprise AI deployment to date.",
+      "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership"
     },
     {
       "date": "2026-09-09",
@@ -292,15 +299,6 @@
       "title": "Claude Code v2.1.252",
       "summary": "- Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs\n- Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet\n- Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded\n- Fixed background task notifications with very…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252"
-    },
-    {
-      "date": "2026-08-28",
-      "datetime": "2026-08-28T18:19:32Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.251",
-      "summary": "- Added `PreModelSwitch` and `PostModelSwitch` hook events (block, confirm, or annotate a model switch); `SessionStart` resume hooks now receive session staleness and the estimated re-cache cost\n- Added live streaming of a foreground subagent's tool calls and results to Remote Control clients (background subagents, the default, still show status only)\n- Added a Spend limit bar to `/usage` and a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251"
     },
     {
       "date": "2026-08-10",
