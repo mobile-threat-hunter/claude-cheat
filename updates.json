@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:51:59.601Z",
+  "generated_at": "2026-09-13T05:10:29.782Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-12",
+      "datetime": "2026-09-12T19:45:44Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.270",
+      "summary": "- Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270"
+    },
     {
       "date": "2026-09-11",
       "datetime": "2026-09-11T19:17:55Z",
@@ -290,15 +299,6 @@
       "title": "Claude Code v2.1.257",
       "summary": "- Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads\n- Added \"Time format\" (`timeFormat`) and `timeZone` settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps\n- Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
-    },
-    {
-      "date": "2026-08-31",
-      "datetime": "2026-08-31T19:46:55Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.252",
-      "summary": "- Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs\n- Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet\n- Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes after a tool finished when the connection to claude.ai was degraded\n- Fixed background task notifications with very…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252"
     },
     {
       "date": "2026-08-10",
