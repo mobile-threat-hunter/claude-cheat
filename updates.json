@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:17:04.301Z",
+  "generated_at": "2026-09-15T05:08:43.225Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-15",
+      "datetime": "2026-09-15T00:42:25Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.272",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272"
+    },
+    {
+      "date": "2026-09-14",
+      "datetime": "2026-09-14T22:12:54Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.271",
+      "summary": "- Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or `/fast` typed in the session applies where your organization allows it\n- Added mouse support to the `/config` panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted\n- Added `claude…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271"
+    },
     {
       "date": "2026-09-12",
       "datetime": "2026-09-12T19:45:44Z",
@@ -281,24 +299,6 @@
       "title": "Claude Code v2.1.259",
       "summary": "- Added `managedMcpServers` managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as `.mcp.json`); entries that name a command to run are skipped\n- Added `--permission-prompts none` for unattended headless hosts: anything that would prompt is denied automatically while the active permission mode (including auto mode) keeps deciding\n- Added recognition of…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259"
-    },
-    {
-      "date": "2026-09-01",
-      "datetime": "2026-09-01T22:33:20Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.258",
-      "summary": "- Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255\n- Fixed remote and scheduled sessions failing with \"user messages must have non-empty content\" after a re-sent permission approval could not be applied",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258"
-    },
-    {
-      "date": "2026-09-01",
-      "datetime": "2026-09-01T17:53:52Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.257",
-      "summary": "- Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads\n- Added \"Time format\" (`timeFormat`) and `timeZone` settings: 12-hour, 24-hour, 24-hour UTC, or a strftime pattern for the turn-end clock and transcript-view timestamps\n- Added a Containment Escape rule to auto mode so cloud metadata-credential fetches, egress…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
     },
     {
       "date": "2026-08-10",
