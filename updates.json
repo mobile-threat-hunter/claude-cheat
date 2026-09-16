@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T05:08:43.225Z",
+  "generated_at": "2026-09-16T05:04:17.850Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-15",
+      "datetime": "2026-09-15T20:23:03Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.273",
+      "summary": "- Added `x-claude-code-request-class`, `x-claude-code-agent-type`, `x-claude-code-prev-tool-durations`, `x-claude-code-compaction` and `x-claude-code-context-compacted` request headers for LLM gateways; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at `/mcp`\n- Added forking a session…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273"
+    },
     {
       "date": "2026-09-15",
       "datetime": "2026-09-15T00:42:25Z",
@@ -290,15 +299,6 @@
       "title": "Claude Code v2.1.260",
       "summary": "- Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with `/diff`\n- Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to `/cost` and the status line's `prompt_cache` field\n- Added `/reload-plugins` to headless sessions, so it appears in the Claude Code…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260"
-    },
-    {
-      "date": "2026-09-02",
-      "datetime": "2026-09-02T22:33:51Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.259",
-      "summary": "- Added `managedMcpServers` managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as `.mcp.json`); entries that name a command to run are skipped\n- Added `--permission-prompts none` for unattended headless hosts: anything that would prompt is denied automatically while the active permission mode (including auto mode) keeps deciding\n- Added recognition of…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259"
     },
     {
       "date": "2026-08-10",
