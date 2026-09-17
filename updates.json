@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:04:17.850Z",
+  "generated_at": "2026-09-17T05:07:24.282Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-17",
+      "datetime": "2026-09-17T00:12:02Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.274",
+      "summary": "- Added a visible warning when memory usage is critical, with steps to free memory or restart safely\n- Added `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` to bound how long the first non-interactive turn waits for connecting MCP servers (`0` = don't wait)\n- Added `effort` attribute to the `claude_code.llm_request` OpenTelemetry trace span, matching the `api_request` event\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274"
+    },
     {
       "date": "2026-09-15",
       "datetime": "2026-09-15T20:23:03Z",
@@ -290,15 +299,6 @@
       "title": "Claude Code v2.1.261",
       "summary": "- Added an \"Organization policy\" line to `/status` and `claude doctor` that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through\n- Added `bashOutputMaxChars` and `taskOutputMaxChars` settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters\n- Added…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261"
-    },
-    {
-      "date": "2026-09-03",
-      "datetime": "2026-09-03T23:48:12Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.260",
-      "summary": "- Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with `/diff`\n- Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to `/cost` and the status line's `prompt_cache` field\n- Added `/reload-plugins` to headless sessions, so it appears in the Claude Code…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260"
     },
     {
       "date": "2026-08-10",
