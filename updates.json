@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T05:07:24.282Z",
+  "generated_at": "2026-09-18T05:00:15.439Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,51 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-18",
+      "datetime": "2026-09-18T02:12:26Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.276",
+      "summary": "- Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
+    },
+    {
+      "date": "2026-09-17",
+      "datetime": "2026-09-17T23:55:18.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude is uplifting biomolecular modeling",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+    },
+    {
+      "date": "2026-09-17",
+      "datetime": "2026-09-17T23:46:13.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems. ",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+    },
+    {
+      "date": "2026-09-17",
+      "datetime": "2026-09-17T22:33:17Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.275",
+      "summary": "- Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and `/status` shows it\n- Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them\n- Added a startup warning when a configured…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275"
+    },
+    {
+      "date": "2026-09-17",
+      "datetime": "2026-09-17T20:15:21.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing the Life Sciences Verification Program",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+    },
     {
       "date": "2026-09-17",
       "datetime": "2026-09-17T00:12:02Z",
@@ -115,24 +160,6 @@
       "title": "Anthropic Economic Index report: Cadences",
       "summary": "The latest Economic Index report looks at when people come to Claude, what they produce with it, and how they perceive AI&#x27;s impact on their work.",
       "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T11:57:00.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Introducing the Anthropic Economic Index",
-      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
-      "url": "https://www.anthropic.com/research/the-anthropic-economic-index"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T11:56:53.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Anthropic Economic Index: AI&#x27;s impact on software development",
-      "summary": "Data on how software developers are using Claude",
-      "url": "https://www.anthropic.com/research/impact-software-development"
     },
     {
       "date": "2026-09-11",
@@ -247,15 +274,6 @@
       "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of"
     },
     {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:48:58.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Deloitte brings Claude to 470,000 people",
-      "summary": "Deloitte will make Claude available across its global network, Anthropic&#x27;s largest enterprise AI deployment to date.",
-      "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership"
-    },
-    {
       "date": "2026-09-09",
       "datetime": "2026-09-09T19:58:14Z",
       "source": "claude-code",
@@ -281,24 +299,6 @@
       "title": "Claude Code v2.1.265",
       "summary": "- Added `user.email` and `user.groups` to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions\n- Added support for pointing `--plugin-dir` at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up\n- Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265"
-    },
-    {
-      "date": "2026-09-06",
-      "datetime": "2026-09-06T02:54:20Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.263",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263"
-    },
-    {
-      "date": "2026-09-04",
-      "datetime": "2026-09-04T19:58:10Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.261",
-      "summary": "- Added an \"Organization policy\" line to `/status` and `claude doctor` that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through\n- Added `bashOutputMaxChars` and `taskOutputMaxChars` settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters\n- Added…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261"
     },
     {
       "date": "2026-08-10",
