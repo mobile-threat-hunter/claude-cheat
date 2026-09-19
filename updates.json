@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T05:00:15.439Z",
+  "generated_at": "2026-09-19T04:52:36.171Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,6 +9,42 @@
   },
   "items": [
     {
+      "date": "2026-09-19",
+      "datetime": "2026-09-19T03:10:40Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.278",
+      "summary": "- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server`…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
+    },
+    {
+      "date": "2026-09-18",
+      "datetime": "2026-09-18T20:02:00.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Partnering with Accenture on embedded evaluation",
+      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    },
+    {
+      "date": "2026-09-18",
+      "datetime": "2026-09-18T19:19:41.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude is uplifting biomolecular modeling",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+    },
+    {
+      "date": "2026-09-18",
+      "datetime": "2026-09-18T18:06:32Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.277",
+      "summary": "- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277"
+    },
+    {
       "date": "2026-09-18",
       "datetime": "2026-09-18T02:12:26Z",
       "source": "claude-code",
@@ -16,15 +52,6 @@
       "title": "Claude Code v2.1.276",
       "summary": "- Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
-    },
-    {
-      "date": "2026-09-17",
-      "datetime": "2026-09-17T23:55:18.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude is uplifting biomolecular modeling",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
     },
     {
       "date": "2026-09-17",
@@ -265,15 +292,6 @@
       "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
     },
     {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:51:09.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Chris Ciauri named Managing Director of International",
-      "summary": "Chris Ciauri joins Anthropic as Managing Director of International, adding to our global leadership team as we expand our worldwide presence.",
-      "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of"
-    },
-    {
       "date": "2026-09-09",
       "datetime": "2026-09-09T19:58:14Z",
       "source": "claude-code",
@@ -281,24 +299,6 @@
       "title": "Claude Code v2.1.267",
       "summary": "- Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267"
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T23:55:14Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.266",
-      "summary": "- Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266"
-    },
-    {
-      "date": "2026-09-08",
-      "datetime": "2026-09-08T20:37:31Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.265",
-      "summary": "- Added `user.email` and `user.groups` to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions\n- Added support for pointing `--plugin-dir` at a folder of plugins: each child folder with a manifest loads, and children added or removed while running are picked up\n- Added a 1 GB cap on tool results saved to disk; the in-conversation preview says when…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265"
     },
     {
       "date": "2026-08-10",
