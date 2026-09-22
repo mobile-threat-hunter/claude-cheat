@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T05:16:41.907Z",
+  "generated_at": "2026-09-22T05:15:25.663Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-21",
+      "datetime": "2026-09-21T23:14:52.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude is uplifting biomolecular modeling",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+    },
     {
       "date": "2026-09-19",
       "datetime": "2026-09-19T03:10:40Z",
@@ -25,15 +34,6 @@
       "title": "Partnering with Accenture on embedded evaluation",
       "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-    },
-    {
-      "date": "2026-09-18",
-      "datetime": "2026-09-18T19:19:41.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude is uplifting biomolecular modeling",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
     },
     {
       "date": "2026-09-18",
