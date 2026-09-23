@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:15:25.663Z",
+  "generated_at": "2026-09-23T04:59:38.819Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-22",
+      "datetime": "2026-09-22T16:38:14Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.280",
+      "summary": "- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280"
+    },
     {
       "date": "2026-09-21",
       "datetime": "2026-09-21T23:14:52.000Z",
@@ -290,15 +299,6 @@
       "title": "Strengthening safeguards with US CAISI and UK AISI",
       "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
       "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
-    },
-    {
-      "date": "2026-09-09",
-      "datetime": "2026-09-09T19:58:14Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.267",
-      "summary": "- Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267"
     },
     {
       "date": "2026-08-10",
