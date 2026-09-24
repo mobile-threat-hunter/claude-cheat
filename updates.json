@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T04:59:38.819Z",
+  "generated_at": "2026-09-24T05:10:31.248Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-23",
+      "datetime": "2026-09-23T20:05:57.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude discovers a novel enzyme system",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    },
+    {
+      "date": "2026-09-23",
+      "datetime": "2026-09-23T19:19:15Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.281",
+      "summary": "- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail:…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281"
+    },
     {
       "date": "2026-09-22",
       "datetime": "2026-09-22T16:38:14Z",
@@ -210,15 +228,6 @@
     },
     {
       "date": "2026-09-10",
-      "datetime": "2026-09-10T20:30:54Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.268",
-      "summary": "- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks`…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268"
-    },
-    {
-      "date": "2026-09-10",
       "datetime": "2026-09-10T20:11:55.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -290,15 +299,6 @@
       "title": "Anthropic joins White House AI education pledge",
       "summary": "Anthropic signs White House pledge investing in AI education for America&#x27;s youth, supporting AI students and educators nationwide.",
       "url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:55:52.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Strengthening safeguards with US CAISI and UK AISI",
-      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
-      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
     },
     {
       "date": "2026-08-10",
