@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:10:31.248Z",
+  "generated_at": "2026-09-25T05:12:54.092Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,26 @@
   },
   "items": [
     {
-      "date": "2026-09-23",
-      "datetime": "2026-09-23T20:05:57.000Z",
+      "date": "2026-09-24",
+      "datetime": "2026-09-24T20:21:47.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Project Swap: What happens when agents trade for us?",
+      "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
+      "url": "https://www.anthropic.com/research/project-swap"
+    },
+    {
+      "date": "2026-09-24",
+      "datetime": "2026-09-24T18:38:05Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.282",
+      "summary": "- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282"
+    },
+    {
+      "date": "2026-09-24",
+      "datetime": "2026-09-24T10:25:16.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Claude discovers a novel enzyme system",
@@ -154,15 +172,6 @@
     },
     {
       "date": "2026-09-11",
-      "datetime": "2026-09-11T19:17:55Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.269",
-      "summary": "- Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`\n- Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions\n- Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269"
-    },
-    {
-      "date": "2026-09-11",
       "datetime": "2026-09-11T16:58:57.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
@@ -205,15 +214,6 @@
       "title": "Anthropic Education Report: The AI Fluency Index · Claude Academy",
       "summary": "Anthropic&#x27;s AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.",
       "url": "https://www.anthropic.com/research/AI-fluency-index"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T11:57:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Anthropic Economic Index report: Cadences",
-      "summary": "The latest Economic Index report looks at when people come to Claude, what they produce with it, and how they perceive AI&#x27;s impact on their work.",
-      "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
     },
     {
       "date": "2026-09-11",
