@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:17:46.608Z",
+  "generated_at": "2026-09-27T05:34:28.945Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-26",
+      "datetime": "2026-09-26T16:02:49.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
+      "summary": "An unreleased Claude model improved the lower bound for the fraction of zeroes of the Riemann zeta function that satisfy the hypothesis, raising it from 41.6% to 67.2%.",
+      "url": "https://www.anthropic.com/research/riemann-zeta"
+    },
     {
       "date": "2026-09-25",
       "datetime": "2026-09-25T21:50:12Z",
@@ -205,15 +214,6 @@
       "title": "Many-shot jailbreaking",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/research/many-shot-jailbreaking"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T12:12:58.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Mapping the mind of a large language model",
-      "summary": "We have identified how millions of concepts are represented inside Claude Sonnet, one of our deployed large language models. This is the first ever detailed look inside a modern, production-grade large language model.",
-      "url": "https://www.anthropic.com/research/mapping-mind-language-model"
     },
     {
       "date": "2026-09-11",
