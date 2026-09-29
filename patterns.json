@@ -1,5 +1,5 @@
 {
-  "sample_size": 8842,
+  "sample_size": 8843,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8485,
+      "count": 8486,
       "pct": 96.0
     },
     {
       "field": "name",
-      "count": 8418,
+      "count": 8419,
       "pct": 95.2
     },
     {
@@ -84,7 +84,7 @@
   ],
   "description": {
     "length": {
-      "count": 8842,
+      "count": 8843,
       "min": 4,
       "p25": 129,
       "median": 298,
@@ -100,17 +100,17 @@
   },
   "body": {
     "length_chars": {
-      "count": 8842,
+      "count": 8843,
       "min": 602,
       "p25": 3158,
-      "median": 4609,
+      "median": 4611,
       "p75": 7685,
       "p90": 13809,
       "max": 141519,
-      "mean": 6965.9
+      "mean": 6967.7
     },
     "heading_count": {
-      "count": 8842,
+      "count": 8843,
       "min": 0,
       "p25": 8,
       "median": 12,
@@ -120,7 +120,7 @@
       "mean": 17.7
     },
     "code_block_count": {
-      "count": 8842,
+      "count": 8843,
       "min": 0,
       "p25": 0,
       "median": 1,
@@ -181,7 +181,7 @@
     },
     {
       "label": "references",
-      "count": 443
+      "count": 442
     },
     {
       "label": "when to activate",
@@ -197,7 +197,7 @@
     },
     {
       "label": "when to use this",
-      "count": 334
+      "count": 335
     },
     {
       "label": "examples",
@@ -209,7 +209,7 @@
     },
     {
       "label": "related skills",
-      "count": 262
+      "count": 263
     },
     {
       "label": "related",

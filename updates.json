@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:42:47.151Z",
+  "generated_at": "2026-09-29T05:59:49.774Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-28",
+      "datetime": "2026-09-28T18:02:03Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.284",
+      "summary": "- Added Claude Sonnet 5.5 (`claude-sonnet-5-5`), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads\n- Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones\n- Added dollar amounts to the Claude apps gateway spend…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"
+    },
+    {
+      "date": "2026-09-28",
+      "datetime": "2026-09-28T13:18:19.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Project Swap: What happens when agents trade for us?",
+      "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
+      "url": "https://www.anthropic.com/research/project-swap"
+    },
     {
       "date": "2026-09-28",
       "datetime": "2026-09-28T03:20:50.000Z",
@@ -43,15 +61,6 @@
       "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
-    },
-    {
-      "date": "2026-09-25",
-      "datetime": "2026-09-25T18:52:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Project Swap: What happens when agents trade for us?",
-      "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
-      "url": "https://www.anthropic.com/research/project-swap"
     },
     {
       "date": "2026-09-24",
@@ -187,15 +196,6 @@
       "title": "Claude Code v2.1.272",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272"
-    },
-    {
-      "date": "2026-09-14",
-      "datetime": "2026-09-14T22:12:54Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.271",
-      "summary": "- Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or `/fast` typed in the session applies where your organization allows it\n- Added mouse support to the `/config` panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted\n- Added `claude…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271"
     },
     {
       "date": "2026-09-11",
