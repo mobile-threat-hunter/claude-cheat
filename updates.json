@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:59:49.774Z",
+  "generated_at": "2026-09-30T05:49:40.305Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-09-29",
+      "datetime": "2026-09-29T19:28:51.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "summary": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+      "date": "2026-09-29",
+      "datetime": "2026-09-29T19:27:30Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.285",
+      "summary": "- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`\n- Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285"
+    },
+    {
+      "date": "2026-09-29",
+      "datetime": "2026-09-29T19:10:51.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "What Do You Want from AI?",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/your-thoughts-on-ai"
+    },
     {
       "date": "2026-09-28",
       "datetime": "2026-09-28T18:02:03Z",
@@ -189,15 +216,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273"
     },
     {
-      "date": "2026-09-15",
-      "datetime": "2026-09-15T00:42:25Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.272",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272"
-    },
-    {
       "date": "2026-09-11",
       "datetime": "2026-09-11T16:58:57.000Z",
       "source": "anthropic-research",
@@ -205,24 +223,6 @@
       "title": "How Claude&#x27;s values vary by model and language",
       "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
       "url": "https://www.anthropic.com/research/claude-values-models-languages"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T16:57:50.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Enabling independent research on how people use Claude",
-      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
-      "url": "https://www.anthropic.com/research/enabling-independent-research"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T12:13:44.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Many-shot jailbreaking",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/many-shot-jailbreaking"
     },
     {
       "date": "2026-09-11",
