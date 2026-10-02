@@ -1,13 +1,40 @@
 {
-  "generated_at": "2026-10-01T06:51:20.209Z",
+  "generated_at": "2026-10-02T05:59:44.120Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
-    "claude_code_releases_count": 0,
+    "claude_code_releases_count": 12,
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-10-01",
+      "datetime": "2026-10-01T18:50:14.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude-shaped science",
+      "summary": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
+      "url": "https://www.anthropic.com/research/claude-shaped-science"
+    },
+    {
+      "date": "2026-10-01",
+      "datetime": "2026-10-01T18:00:22Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.287",
+      "summary": "- Added Claude Mods: plugins may now modify deeper behavior\n- Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with `/plugin enable cc-plugin-you-should-know@builtin` (for first-party sessions with telemetry on)\n- Added an `n:<text>` filter to the agents view that matches session names and tasks; a filter now shows…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287"
+    },
+    {
+      "date": "2026-10-01",
+      "datetime": "2026-10-01T09:16:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude"
+    },
     {
       "date": "2026-09-30",
       "datetime": "2026-09-30T22:54:30.000Z",
@@ -16,6 +43,15 @@
       "title": "Introducing the Life Sciences Verification Program",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+    },
+    {
+      "date": "2026-09-30",
+      "datetime": "2026-09-30T19:10:13Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.286",
+      "summary": "- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
     },
     {
       "date": "2026-09-30",
@@ -43,6 +79,24 @@
       "title": "GLM-5.3 and the spread of advanced cyber capabilities",
       "summary": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.",
       "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+      "date": "2026-09-29",
+      "datetime": "2026-09-29T19:27:30Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.285",
+      "summary": "- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`\n- Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285"
+    },
+    {
+      "date": "2026-09-28",
+      "datetime": "2026-09-28T18:02:03Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.284",
+      "summary": "- Added Claude Sonnet 5.5 (`claude-sonnet-5-5`), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads\n- Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones\n- Added dollar amounts to the Claude apps gateway spend…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"
     },
     {
       "date": "2026-09-28",
@@ -73,12 +127,30 @@
     },
     {
       "date": "2026-09-25",
+      "datetime": "2026-09-25T21:50:12Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.283",
+      "summary": "- Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283"
+    },
+    {
+      "date": "2026-09-25",
       "datetime": "2026-09-25T21:38:13.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+    },
+    {
+      "date": "2026-09-24",
+      "datetime": "2026-09-24T18:38:05Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.282",
+      "summary": "- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282"
     },
     {
       "date": "2026-09-24",
@@ -90,6 +162,24 @@
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
     },
     {
+      "date": "2026-09-23",
+      "datetime": "2026-09-23T19:19:15Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.281",
+      "summary": "- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail:…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281"
+    },
+    {
+      "date": "2026-09-22",
+      "datetime": "2026-09-22T16:38:14Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.280",
+      "summary": "- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280"
+    },
+    {
       "date": "2026-09-21",
       "datetime": "2026-09-21T23:14:52.000Z",
       "source": "anthropic-research",
@@ -97,6 +187,15 @@
       "title": "How Claude is uplifting biomolecular modeling",
       "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+    },
+    {
+      "date": "2026-09-19",
+      "datetime": "2026-09-19T03:10:40Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.278",
+      "summary": "- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server`…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
     },
     {
       "date": "2026-09-18",
@@ -108,13 +207,31 @@
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
     },
     {
+      "date": "2026-09-18",
+      "datetime": "2026-09-18T18:06:32Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.277",
+      "summary": "- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277"
+    },
+    {
+      "date": "2026-09-18",
+      "datetime": "2026-09-18T02:12:26Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.276",
+      "summary": "- Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
+    },
+    {
       "date": "2026-09-17",
-      "datetime": "2026-09-17T23:46:13.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "An alignment assessment of recent cybersecurity incidents",
-      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems. ",
-      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+      "datetime": "2026-09-17T22:33:17Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.275",
+      "summary": "- Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and `/status` shows it\n- Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them\n- Added a startup warning when a configured…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275"
     },
     {
       "date": "2026-09-11",
@@ -182,15 +299,6 @@
       "title": "Anthropic raises $13B Series F at $183B valuation",
       "summary": "Anthropic has completed a $13 billion Series F led by ICONIQ, co-led by Fidelity and Lightspeed, valuing the company at $183 billion post-money.",
       "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:57:26.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Updating sales restrictions for unsupported regions",
-      "summary": "Anthropic is tightening restrictions to bar entities majority-owned by companies headquartered in unsupported regions.",
-      "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
     },
     {
       "date": "2026-08-10",
