@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:59:44.120Z",
+  "generated_at": "2026-10-03T05:34:54.834Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-10-02",
+      "datetime": "2026-10-02T20:19:57Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.288",
+      "summary": "- Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row\n- Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal\n- Added recovery for a prompt cleared with Ctrl+C:…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288"
+    },
+    {
+      "date": "2026-10-02",
+      "datetime": "2026-10-02T17:12:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "summary": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy"
+    },
     {
       "date": "2026-10-01",
       "datetime": "2026-10-01T18:50:14.000Z",
@@ -225,15 +243,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
     },
     {
-      "date": "2026-09-17",
-      "datetime": "2026-09-17T22:33:17Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.275",
-      "summary": "- Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and `/status` shows it\n- Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them\n- Added a startup warning when a configured…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275"
-    },
-    {
       "date": "2026-09-11",
       "datetime": "2026-09-11T02:45:01.000Z",
       "source": "anthropic-news",
@@ -290,15 +299,6 @@
       "title": "Updates to Consumer Terms and Privacy Policy",
       "summary": "Claude Free, Pro, and Max users can now opt in to having conversations used to improve models, with a five-year retention period for participants.",
       "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:58:05.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic raises $13B Series F at $183B valuation",
-      "summary": "Anthropic has completed a $13 billion Series F led by ICONIQ, co-led by Fidelity and Lightspeed, valuing the company at $183 billion post-money.",
-      "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
     },
     {
       "date": "2026-08-10",
