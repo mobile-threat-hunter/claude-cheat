@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:34:54.834Z",
+  "generated_at": "2026-10-04T06:11:23.935Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-10-03",
+      "datetime": "2026-10-03T23:07:17Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.289",
+      "summary": "- Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines\n- Fixed the terminal freezing on short code blocks with many unclosed `<script>` tags or deeply nested `${` substitutions\n- Fixed `Read` deny rules not applying to files @-mentioned, changed, or selected in the IDE through a symlink\n- [VSCode] Reverted a…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"
+    },
     {
       "date": "2026-10-02",
       "datetime": "2026-10-02T20:19:57Z",
@@ -232,15 +241,6 @@
       "title": "Claude Code v2.1.277",
       "summary": "- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277"
-    },
-    {
-      "date": "2026-09-18",
-      "datetime": "2026-09-18T02:12:26Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.276",
-      "summary": "- Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
     },
     {
       "date": "2026-09-11",
