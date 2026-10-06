@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:02:22.990Z",
+  "generated_at": "2026-10-06T06:41:37.111Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-10-06",
+      "datetime": "2026-10-06T03:55:19Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.291",
+      "summary": "- Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\n- Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291"
+    },
+    {
+      "date": "2026-10-05",
+      "datetime": "2026-10-05T23:33:17Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.290",
+      "summary": "- Added `serverToolUses` to the result of a mod's `turn.step` hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end\n- Added `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the main session's\n- Added `ceiling` to the question and verdict a mod's `tool.check` hook reads, naming the approval an…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
+    },
+    {
+      "date": "2026-10-05",
+      "datetime": "2026-10-05T18:58:21.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Can we predict the jobs robots will do?",
+      "summary": "What work can robots do? Anthropic&#x27;s robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do"
+    },
     {
       "date": "2026-10-03",
       "datetime": "2026-10-03T23:07:17Z",
@@ -79,15 +106,6 @@
       "title": "Claude Code v2.1.286",
       "summary": "- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
-    },
-    {
-      "date": "2026-09-30",
-      "datetime": "2026-09-30T16:04:26.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Can we predict the jobs robots will do?",
-      "summary": "What work can robots do? Anthropic&#x27;s robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.",
-      "url": "https://www.anthropic.com/research/what-work-can-robots-do"
     },
     {
       "date": "2026-09-30",
@@ -216,15 +234,6 @@
       "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
     },
     {
-      "date": "2026-09-19",
-      "datetime": "2026-09-19T03:10:40Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.278",
-      "summary": "- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server`…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
-    },
-    {
       "date": "2026-09-18",
       "datetime": "2026-09-18T20:02:00.000Z",
       "source": "anthropic-news",
@@ -232,15 +241,6 @@
       "title": "Partnering with Accenture on embedded evaluation",
       "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-    },
-    {
-      "date": "2026-09-18",
-      "datetime": "2026-09-18T18:06:32Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.277",
-      "summary": "- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277"
     },
     {
       "date": "2026-09-11",
