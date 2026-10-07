@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:41:37.111Z",
+  "generated_at": "2026-10-07T06:18:03.815Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-10-06",
+      "datetime": "2026-10-06T19:39:32.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Expanding the Cyber Verification Program",
+      "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+      "url": "https://www.anthropic.com/news/cyber-verification-program"
+    },
+    {
+      "date": "2026-10-06",
+      "datetime": "2026-10-06T18:59:30Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.292",
+      "summary": "- Added `--marketplace <source>` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it\n- Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292"
+    },
     {
       "date": "2026-10-06",
       "datetime": "2026-10-06T03:55:19Z",
@@ -216,15 +234,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281"
     },
     {
-      "date": "2026-09-22",
-      "datetime": "2026-09-22T16:38:14Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.280",
-      "summary": "- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280"
-    },
-    {
       "date": "2026-09-21",
       "datetime": "2026-09-21T23:14:52.000Z",
       "source": "anthropic-research",
@@ -290,15 +299,6 @@
       "title": "Detecting and countering misuse of AI: August 2025",
       "summary": "Anthropic&#x27;s August 2025 threat intelligence report on AI cybercrime and other abuses.",
       "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T18:59:30.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Updates to Consumer Terms and Privacy Policy",
-      "summary": "Claude Free, Pro, and Max users can now opt in to having conversations used to improve models, with a five-year retention period for participants.",
-      "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
     },
     {
       "date": "2026-08-10",
