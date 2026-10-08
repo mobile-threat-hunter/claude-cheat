@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:18:03.815Z",
+  "generated_at": "2026-10-08T06:27:57.653Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,44 @@
   },
   "items": [
     {
-      "date": "2026-10-06",
-      "datetime": "2026-10-06T19:39:32.000Z",
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T05:03:54Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.294",
+      "summary": "- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294"
+    },
+    {
+      "date": "2026-10-07",
+      "datetime": "2026-10-07T18:10:20Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.293",
+      "summary": "- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
+    },
+    {
+      "date": "2026-10-07",
+      "datetime": "2026-10-07T08:55:22.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude discovers a novel enzyme system",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    },
+    {
+      "date": "2026-10-07",
+      "datetime": "2026-10-07T08:54:50.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "What do you want from AI?",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/your-thoughts-on-ai"
+    },
+    {
+      "date": "2026-10-07",
+      "datetime": "2026-10-07T08:52:51.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Expanding the Cyber Verification Program",
@@ -127,15 +163,6 @@
     },
     {
       "date": "2026-09-30",
-      "datetime": "2026-09-30T08:47:38.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "What do you want from AI?",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/your-thoughts-on-ai"
-    },
-    {
-      "date": "2026-09-30",
       "datetime": "2026-09-30T08:46:41.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
@@ -205,33 +232,6 @@
       "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
       "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
-    },
-    {
-      "date": "2026-09-24",
-      "datetime": "2026-09-24T18:38:05Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.282",
-      "summary": "- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282"
-    },
-    {
-      "date": "2026-09-24",
-      "datetime": "2026-09-24T10:25:16.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude discovers a novel enzyme system",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-    },
-    {
-      "date": "2026-09-23",
-      "datetime": "2026-09-23T19:19:15Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.281",
-      "summary": "- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail:…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281"
     },
     {
       "date": "2026-09-21",
