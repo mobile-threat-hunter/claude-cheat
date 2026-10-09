@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:27:57.653Z",
+  "generated_at": "2026-10-09T06:29:04.268Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,60 @@
     "translated_ko": 10
   },
   "items": [
+    {
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T20:03:07.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
+      "summary": "Claude Science helped produce the first complete map of the sky in UV light",
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+    },
+    {
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T19:48:38Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.295",
+      "summary": "- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
+    },
+    {
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T19:01:09.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An opt-in vulnerability-finding service for open-source software",
+      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    {
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T19:00:45.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+    },
+    {
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T17:00:30.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "2026 Usage Policy update",
+      "summary": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+    },
+    {
+      "date": "2026-10-08",
+      "datetime": "2026-10-08T15:49:10.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Building on our commitment to American scientific discovery",
+      "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. ",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment"
+    },
     {
       "date": "2026-10-08",
       "datetime": "2026-10-08T05:03:54Z",
@@ -216,33 +270,6 @@
       "url": "https://www.anthropic.com/research/riemann-zeta"
     },
     {
-      "date": "2026-09-25",
-      "datetime": "2026-09-25T21:50:12Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.283",
-      "summary": "- Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283"
-    },
-    {
-      "date": "2026-09-25",
-      "datetime": "2026-09-25T21:38:13.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-      "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
-    },
-    {
-      "date": "2026-09-21",
-      "datetime": "2026-09-21T23:14:52.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude is uplifting biomolecular modeling",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
-    },
-    {
       "date": "2026-09-18",
       "datetime": "2026-09-18T20:02:00.000Z",
       "source": "anthropic-news",
@@ -272,33 +299,6 @@
       "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
       "title_ko": "민관 파트너십을 통한 AI용 핵 안전장치 개발",
       "summary_ko": "NNSA 및 DOE 국립연구소와 공동 개발한 분류기 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 96% 정확도(초기 테스트)로 자동 구분합니다."
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T20:10:33.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Higher education advisory board and AI Fluency courses",
-      "summary": "Anthropic announces a Higher Education Advisory Board chaired by Rick Levin and three Creative Commons AI Fluency courses for institutions.",
-      "url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T20:08:57.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "National Security and Public Sector Advisory Council",
-      "summary": "Eleven former senators and senior defense, intelligence, and energy officials will help identify high-impact AI applications for US security.",
-      "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T19:44:33.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Detecting and countering misuse of AI: August 2025",
-      "summary": "Anthropic&#x27;s August 2025 threat intelligence report on AI cybercrime and other abuses.",
-      "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
     },
     {
       "date": "2026-08-10",
