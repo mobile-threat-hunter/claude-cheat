@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T06:29:04.268Z",
+  "generated_at": "2026-10-10T06:12:31.491Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,13 +9,51 @@
   },
   "items": [
     {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T20:03:07.000Z",
+      "date": "2026-10-09",
+      "datetime": "2026-10-09T22:04:00.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Investigating unintended model actions in our evaluations and internal use",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+    },
+    {
+      "date": "2026-10-09",
+      "datetime": "2026-10-09T19:28:59Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.296",
+      "summary": "- Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode\n- Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296"
+    },
+    {
+      "date": "2026-10-09",
+      "datetime": "2026-10-09T17:48:00.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude Corps",
+      "summary": "Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "title_ko": "Claude Corps 출범",
+      "summary_ko": "AI의 혜택을 미국 전역 지역사회로 확장하는 데 관심 있는 초년 경력자를 위한 국가 펠로우십 프로그램 'Claude Corps'를 시작합니다."
+    },
+    {
+      "date": "2026-10-09",
+      "datetime": "2026-10-09T09:29:17.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Using Claude Science to produce the first complete map of the sky in UV light",
       "summary": "Claude Science helped produce the first complete map of the sky in UV light",
       "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+    },
+    {
+      "date": "2026-10-09",
+      "datetime": "2026-10-09T08:48:01.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An opt-in vulnerability-finding service for open-source software",
+      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
     },
     {
       "date": "2026-10-08",
@@ -25,15 +63,6 @@
       "title": "Claude Code v2.1.295",
       "summary": "- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
-    },
-    {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T19:01:09.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "An opt-in vulnerability-finding service for open-source software",
-      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
-      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
     },
     {
       "date": "2026-10-08",
@@ -235,15 +264,6 @@
     },
     {
       "date": "2026-09-28",
-      "datetime": "2026-09-28T18:02:03Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.284",
-      "summary": "- Added Claude Sonnet 5.5 (`claude-sonnet-5-5`), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads\n- Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones\n- Added dollar amounts to the Claude apps gateway spend…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"
-    },
-    {
-      "date": "2026-09-28",
       "datetime": "2026-09-28T13:18:19.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
@@ -261,15 +281,6 @@
       "url": "https://www.anthropic.com/news/anthropic-infosys"
     },
     {
-      "date": "2026-09-26",
-      "datetime": "2026-09-26T16:02:49.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
-      "summary": "An unreleased Claude model improved the lower bound for the fraction of zeroes of the Riemann zeta function that satisfy the hypothesis, raising it from 41.6% to 67.2%.",
-      "url": "https://www.anthropic.com/research/riemann-zeta"
-    },
-    {
       "date": "2026-09-18",
       "datetime": "2026-09-18T20:02:00.000Z",
       "source": "anthropic-news",
@@ -277,17 +288,6 @@
       "title": "Partnering with Accenture on embedded evaluation",
       "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-    },
-    {
-      "date": "2026-09-11",
-      "datetime": "2026-09-11T02:45:01.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Corps",
-      "summary": "Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "title_ko": "Claude Corps 출범",
-      "summary_ko": "AI의 혜택을 미국 전역 지역사회로 확장하는 데 관심 있는 초년 경력자를 위한 국가 펠로우십 프로그램 'Claude Corps'를 시작합니다."
     },
     {
       "date": "2026-09-10",
