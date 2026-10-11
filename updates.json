@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:12:31.491Z",
+  "generated_at": "2026-10-11T06:10:42.604Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,8 @@
   },
   "items": [
     {
-      "date": "2026-10-09",
-      "datetime": "2026-10-09T22:04:00.000Z",
+      "date": "2026-10-10",
+      "datetime": "2026-10-10T11:53:28.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Investigating unintended model actions in our evaluations and internal use",
