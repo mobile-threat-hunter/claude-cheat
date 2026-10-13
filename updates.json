@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:18:26.033Z",
+  "generated_at": "2026-10-13T06:58:33.715Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,35 @@
   },
   "items": [
     {
-      "date": "2026-10-10",
-      "datetime": "2026-10-10T11:53:28.000Z",
+      "date": "2026-10-13",
+      "datetime": "2026-10-13T00:44:16.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "summary": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.",
+      "url": "https://www.anthropic.com/research/self-replicating-ai"
+    },
+    {
+      "date": "2026-10-13",
+      "datetime": "2026-10-13T00:18:23.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude discovers a novel enzyme system",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    },
+    {
+      "date": "2026-10-12",
+      "datetime": "2026-10-12T23:54:41.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Strengthening our defenses against distillation attacks",
+      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+      "url": "https://www.anthropic.com/research/distillation-defenses"
+    },
+    {
+      "date": "2026-10-12",
+      "datetime": "2026-10-12T15:52:32.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Investigating unintended model actions in our evaluations and internal use",
@@ -108,15 +135,6 @@
       "title": "Claude Code v2.1.293",
       "summary": "- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
-    },
-    {
-      "date": "2026-10-07",
-      "datetime": "2026-10-07T08:55:22.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude discovers a novel enzyme system",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
     },
     {
       "date": "2026-10-07",
@@ -245,15 +263,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
     },
     {
-      "date": "2026-09-30",
-      "datetime": "2026-09-30T08:46:41.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
-      "summary": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.",
-      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
-    },
-    {
       "date": "2026-09-29",
       "datetime": "2026-09-29T19:27:30Z",
       "source": "claude-code",
@@ -261,15 +270,6 @@
       "title": "Claude Code v2.1.285",
       "summary": "- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`\n- Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285"
-    },
-    {
-      "date": "2026-09-28",
-      "datetime": "2026-09-28T13:18:19.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Project Swap: What happens when agents trade for us?",
-      "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
-      "url": "https://www.anthropic.com/research/project-swap"
     },
     {
       "date": "2026-09-28",
