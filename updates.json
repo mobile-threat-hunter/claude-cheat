@@ -1,13 +1,40 @@
 {
-  "generated_at": "2026-10-13T06:58:33.715Z",
+  "generated_at": "2026-10-14T05:11:41.048Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 10
+    "translated_ko": 9
   },
   "items": [
+    {
+      "date": "2026-10-14",
+      "datetime": "2026-10-14T02:49:42Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.299",
+      "summary": "- Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents\n- Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all\n- Added…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299"
+    },
+    {
+      "date": "2026-10-13",
+      "datetime": "2026-10-13T16:27:06.000Z",
+      "source": "anthropic-engineering",
+      "source_label": "Anthropic Engineering",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+      "date": "2026-10-13",
+      "datetime": "2026-10-13T14:34:43.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Strengthening our defenses against distillation attacks",
+      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+      "url": "https://www.anthropic.com/research/distillation-defenses"
+    },
     {
       "date": "2026-10-13",
       "datetime": "2026-10-13T00:44:16.000Z",
@@ -25,15 +52,6 @@
       "title": "Claude discovers a novel enzyme system",
       "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-    },
-    {
-      "date": "2026-10-12",
-      "datetime": "2026-10-12T23:54:41.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Strengthening our defenses against distillation attacks",
-      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-      "url": "https://www.anthropic.com/research/distillation-defenses"
     },
     {
       "date": "2026-10-12",
@@ -263,15 +281,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
     },
     {
-      "date": "2026-09-29",
-      "datetime": "2026-09-29T19:27:30Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.285",
-      "summary": "- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`\n- Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285"
-    },
-    {
       "date": "2026-09-28",
       "datetime": "2026-09-28T03:20:50.000Z",
       "source": "anthropic-news",
@@ -376,17 +385,6 @@
       "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
       "title_ko": "Agent Skills로 에이전트에게 실전 도구 입히기",
       "summary_ko": "Anthropic이 모듈형 스킬을 활용해 AI 에이전트가 복잡한 실세계 작업을 더 안정적으로 수행하도록 만드는 방식을 소개합니다."
-    },
-    {
-      "date": "2026-03-24",
-      "datetime": "2026-03-24T16:23:08.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Harness design for long-running application development",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-      "title_ko": "장시간 실행되는 앱 개발을 위한 하네스 설계",
-      "summary_ko": "오래 돌아가는 애플리케이션을 만들 때 필요한 에이전트 하네스의 설계 원칙과 패턴을 다룬 엔지니어링 글."
     }
   ]
 }
