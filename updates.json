@@ -1,13 +1,40 @@
 {
-  "generated_at": "2026-10-14T05:11:41.048Z",
+  "generated_at": "2026-10-15T04:59:41.451Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 8,
     "claude_code_releases_count": 12,
-    "translated_ko": 9
+    "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-10-14",
+      "datetime": "2026-10-14T21:01:13.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Preparing for the 2026 US midterms",
+      "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
+      "url": "https://www.anthropic.com/news/2026-us-midterms"
+    },
+    {
+      "date": "2026-10-14",
+      "datetime": "2026-10-14T18:24:25Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.300",
+      "summary": "- Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt\n- Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime\n- Added `$.ui.view({ agentId })` for mods: shows an agent's transcript in the main view when you ask, and `$.ui.view({})`…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300"
+    },
+    {
+      "date": "2026-10-14",
+      "datetime": "2026-10-14T08:31:43.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Singapore office and government MOU | Anthropic",
+      "summary": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
+      "url": "https://www.anthropic.com/news/singapore-office-opening"
+    },
     {
       "date": "2026-10-14",
       "datetime": "2026-10-14T02:49:42Z",
@@ -272,15 +299,6 @@
       "url": "https://www.anthropic.com/news/life-sciences-verification-program"
     },
     {
-      "date": "2026-09-30",
-      "datetime": "2026-09-30T19:10:13Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.286",
-      "summary": "- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
-    },
-    {
       "date": "2026-09-28",
       "datetime": "2026-09-28T03:20:50.000Z",
       "source": "anthropic-news",
@@ -288,26 +306,6 @@
       "title": "Anthropic and Infosys build AI agents",
       "summary": "Anthropic and Infosys will build AI agents for telecom, financial services, manufacturing, and other regulated industries.",
       "url": "https://www.anthropic.com/news/anthropic-infosys"
-    },
-    {
-      "date": "2026-09-18",
-      "datetime": "2026-09-18T20:02:00.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Partnering with Accenture on embedded evaluation",
-      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-    },
-    {
-      "date": "2026-09-10",
-      "datetime": "2026-09-10T20:11:55.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Developing nuclear safeguards for AI through public-private partnership",
-      "summary": "With the NNSA and DOE national labs, we co-developed a classifier that distinguishes concerning from benign nuclear conversations with 96% accuracy.",
-      "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
-      "title_ko": "민관 파트너십을 통한 AI용 핵 안전장치 개발",
-      "summary_ko": "NNSA 및 DOE 국립연구소와 공동 개발한 분류기 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 96% 정확도(초기 테스트)로 자동 구분합니다."
     },
     {
       "date": "2026-08-10",
