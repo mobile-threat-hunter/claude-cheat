@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:01:15.913925+00:00",
+  "generated_at": "2026-10-16T04:51:36.776170+00:00",
   "current_model": "opus-4.8",
   "current_month": "2026-10",
   "snapshots": [
@@ -364,7 +364,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md",
                   "skill_name": "screen-reader-testing",
                   "skill_dir": "plugins/accessibility-compliance/skills/screen-reader-testing",
-                  "composite": 0.837
+                  "composite": 0.864
                 }
               ]
             },
@@ -404,7 +404,7 @@
                   "raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md",
                   "skill_name": "architecture-decision-records",
                   "skill_dir": "plugins/documentation-generation/skills/architecture-decision-records",
-                  "composite": 0.88
+                  "composite": 0.846
                 }
               ]
             },
