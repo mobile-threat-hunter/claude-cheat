@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:49:22.186Z",
+  "generated_at": "2026-10-17T04:49:15.291Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,13 +9,67 @@
   },
   "items": [
     {
-      "date": "2026-10-15",
-      "datetime": "2026-10-15T23:35:48.000Z",
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T22:38:50.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T21:14:38.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "The AI expectations gap",
+      "summary": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI&#x27;s future impact on the economy? This note presents new survey evidence on these questions. ",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap"
+    },
+    {
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T21:14:21.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How employment is changing at Anthropic",
+      "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T20:53:06Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.302",
+      "summary": "- Added `CLAUDE_CODE_AUTO_MODE_MODEL` to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode\n- Added an `Idle compaction` row to `/config` for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off\n- Added a notice to `/design-sync` and `/design-login` that standalone Claude…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302"
+    },
+    {
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T20:41:59.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Working at the frontier shapes expectations for the future",
+      "summary": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
+      "url": "https://www.anthropic.com/research/expectations-for-the-future"
+    },
+    {
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T20:30:25.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Anthropic update on independent evaluators",
       "summary": "Anthropic announces updates to embedding independent evaluators",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+    },
+    {
+      "date": "2026-10-16",
+      "datetime": "2026-10-16T17:32:09.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "summary": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
     },
     {
       "date": "2026-10-15",
@@ -137,24 +191,6 @@
       "summary_ko": "AI의 혜택을 미국 전역 지역사회로 확장하는 데 관심 있는 초년 경력자를 위한 국가 펠로우십 프로그램 'Claude Corps'를 시작합니다."
     },
     {
-      "date": "2026-10-09",
-      "datetime": "2026-10-09T09:29:17.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
-      "summary": "Claude Science helped produce the first complete map of the sky in UV light",
-      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky"
-    },
-    {
-      "date": "2026-10-09",
-      "datetime": "2026-10-09T08:48:01.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "An opt-in vulnerability-finding service for open-source software",
-      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
-      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
-    },
-    {
       "date": "2026-10-08",
       "datetime": "2026-10-08T19:48:38Z",
       "source": "claude-code",
@@ -210,15 +246,6 @@
     },
     {
       "date": "2026-10-07",
-      "datetime": "2026-10-07T08:54:50.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "What do you want from AI?",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/your-thoughts-on-ai"
-    },
-    {
-      "date": "2026-10-07",
       "datetime": "2026-10-07T08:52:51.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -254,15 +281,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
     },
     {
-      "date": "2026-10-05",
-      "datetime": "2026-10-05T18:58:21.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Can we predict the jobs robots will do?",
-      "summary": "What work can robots do? Anthropic&#x27;s robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%.",
-      "url": "https://www.anthropic.com/research/what-work-can-robots-do"
-    },
-    {
       "date": "2026-10-03",
       "datetime": "2026-10-03T23:07:17Z",
       "source": "claude-code",
@@ -273,30 +291,12 @@
     },
     {
       "date": "2026-10-02",
-      "datetime": "2026-10-02T20:19:57Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.288",
-      "summary": "- Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row\n- Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal\n- Added recovery for a prompt cleared with Ctrl+C:…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288"
-    },
-    {
-      "date": "2026-10-02",
       "datetime": "2026-10-02T17:12:50.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
       "summary": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
       "url": "https://www.anthropic.com/news/claude-frontier-academy"
-    },
-    {
-      "date": "2026-10-01",
-      "datetime": "2026-10-01T18:50:14.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude-shaped science",
-      "summary": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
-      "url": "https://www.anthropic.com/research/claude-shaped-science"
     },
     {
       "date": "2026-10-01",
