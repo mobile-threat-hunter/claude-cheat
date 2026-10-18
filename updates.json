@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T04:49:15.291Z",
+  "generated_at": "2026-10-18T04:55:38.625Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,17 +9,26 @@
   },
   "items": [
     {
-      "date": "2026-10-16",
-      "datetime": "2026-10-16T22:38:50.000Z",
+      "date": "2026-10-17",
+      "datetime": "2026-10-17T14:25:22.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
-      "title": "Claude reveals ECDSA curve origins",
-      "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+      "title": "Working at the frontier shapes expectations for the future",
+      "summary": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
+      "url": "https://www.anthropic.com/research/expectations-for-the-future"
     },
     {
-      "date": "2026-10-16",
-      "datetime": "2026-10-16T21:14:38.000Z",
+      "date": "2026-10-17",
+      "datetime": "2026-10-17T14:24:53.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How employment is changing at Anthropic",
+      "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "date": "2026-10-17",
+      "datetime": "2026-10-17T14:22:35.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "The AI expectations gap",
@@ -27,13 +36,22 @@
       "url": "https://www.anthropic.com/research/ai-expectations-gap"
     },
     {
-      "date": "2026-10-16",
-      "datetime": "2026-10-16T21:14:21.000Z",
+      "date": "2026-10-17",
+      "datetime": "2026-10-17T14:19:47.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
-      "title": "How employment is changing at Anthropic",
-      "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "date": "2026-10-17",
+      "datetime": "2026-10-17T14:17:25.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "summary": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
     },
     {
       "date": "2026-10-16",
@@ -46,30 +64,12 @@
     },
     {
       "date": "2026-10-16",
-      "datetime": "2026-10-16T20:41:59.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Working at the frontier shapes expectations for the future",
-      "summary": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
-      "url": "https://www.anthropic.com/research/expectations-for-the-future"
-    },
-    {
-      "date": "2026-10-16",
       "datetime": "2026-10-16T20:30:25.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Anthropic update on independent evaluators",
       "summary": "Anthropic announces updates to embedding independent evaluators",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-    },
-    {
-      "date": "2026-10-16",
-      "datetime": "2026-10-16T17:32:09.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "summary": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
     },
     {
       "date": "2026-10-15",
