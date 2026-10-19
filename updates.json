@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T04:55:38.625Z",
+  "generated_at": "2026-10-19T05:04:30.589Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 8
   },
   "items": [
+    {
+      "date": "2026-10-18",
+      "datetime": "2026-10-18T22:26:54Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.303",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
+    },
+    {
+      "date": "2026-10-18",
+      "datetime": "2026-10-18T18:05:05.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Investing in the public benefit",
+      "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
     {
       "date": "2026-10-17",
       "datetime": "2026-10-17T14:25:22.000Z",
@@ -281,15 +299,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
     },
     {
-      "date": "2026-10-03",
-      "datetime": "2026-10-03T23:07:17Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.289",
-      "summary": "- Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines\n- Fixed the terminal freezing on short code blocks with many unclosed `<script>` tags or deeply nested `${` substitutions\n- Fixed `Read` deny rules not applying to files @-mentioned, changed, or selected in the IDE through a symlink\n- [VSCode] Reverted a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"
-    },
-    {
       "date": "2026-10-02",
       "datetime": "2026-10-02T17:12:50.000Z",
       "source": "anthropic-news",
@@ -297,15 +306,6 @@
       "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
       "summary": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
       "url": "https://www.anthropic.com/news/claude-frontier-academy"
-    },
-    {
-      "date": "2026-10-01",
-      "datetime": "2026-10-01T09:16:50.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Barclays scales Claude to upgrade operations and improve client experience",
-      "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
-      "url": "https://www.anthropic.com/news/barclays-scales-claude"
     },
     {
       "date": "2026-08-10",
