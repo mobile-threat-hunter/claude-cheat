@@ -1,13 +1,213 @@
 {
-  "generated_at": "2026-10-20T05:06:49.371Z",
+  "generated_at": "2026-10-21T05:07:59.151Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
-    "anthropic_engineering_count": 8,
+    "anthropic_engineering_count": 0,
     "claude_code_releases_count": 12,
-    "translated_ko": 8
+    "translated_ko": 1
   },
   "items": [
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T04:27:07.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Investing in the public benefit",
+      "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T03:16:31Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.306",
+      "summary": "- Fixed `claude -p` inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables\n- Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T22:16:43.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Using Claude to reduce the attack surface of code",
+      "summary": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T20:46:50Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.305",
+      "summary": "- Added `sandbox.allowNestedUserNamespaces` so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) notices a usage limit that was lifted before its reset\n- Fixed every request failing on Vertex,…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T16:04:01.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "summary": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T15:27:10.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Evaluating discrimination in language model decisions",
+      "summary": "We evaluate discrimination in Claude across 70 decision scenarios and show prompt-based interventions can significantly reduce it.",
+      "url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T15:26:54.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Teaching Claude why",
+      "summary": "New research on how we&#x27;ve reduced agentic misalignment",
+      "url": "https://www.anthropic.com/research/teaching-claude-why"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T15:26:46.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How AI assistance impacts the formation of coding skills",
+      "summary": "A randomized trial with 52 developers found AI assistance lowered comprehension scores, except when used for explanations rather than delegation.",
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T15:26:42.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Tracing the thoughts of a large language model",
+      "summary": "Anthropic&#x27;s latest interpretability research: a new microscope to understand Claude&#x27;s internal mechanisms",
+      "url": "https://www.anthropic.com/research/tracing-thoughts-language-model"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T15:26:33.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "A small number of samples can poison LLMs",
+      "summary": "Anthropic research on data poisoning attacks shows a few hundred malicious documents can &quot;backdoor&quot; large language models of any size.",
+      "url": "https://www.anthropic.com/research/small-samples-poison"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T15:26:24.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Auditing language models for hidden objectives",
+      "summary": "A collaboration between Anthropic&#x27;s Alignment Science and Interpretability teams",
+      "url": "https://www.anthropic.com/research/auditing-hidden-objectives"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T03:29:34.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic update on independent evaluators",
+      "summary": "Anthropic announces updates to embedding independent evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T03:29:07.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Detecting and preventing distillation attacks",
+      "summary": "We identified coordinated distillation attacks using ~24,000 fraudulent accounts to extract Claude&#x27;s capabilities.",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T03:28:51.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Disrupting an AI-orchestrated cyber espionage campaign",
+      "summary": "A report describing a highly sophisticated AI-led cyberattack and how we disrupted it.",
+      "url": "https://www.anthropic.com/news/disrupting-AI-espionage"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:06:33.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Strengthening safeguards with US CAISI and UK AISI",
+      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
+      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:06:30.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Expanding Project Glasswing",
+      "summary": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "title_ko": "Project Glasswing 확장",
+      "summary_ko": "Project Glasswing을 15개국 이상의 신규 조직 약 150곳으로 확장합니다."
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:06:20.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Partnering with Accenture on embedded evaluation",
+      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:06:18.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Responsible Scaling Policy Version 3.0",
+      "summary": "An update to Anthropic&#x27;s policy to mitigate catastrophic risks from AI",
+      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:06:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Our compliance framework for California&#x27;s SB 53",
+      "summary": "Anthropic&#x27;s Frontier Compliance Framework discloses how we assess and manage catastrophic AI risks under California&#x27;s Transparency in Frontier AI Act.",
+      "url": "https://www.anthropic.com/news/compliance-framework-SB53"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:06:08.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Building safeguards for Claude",
+      "summary": "How Anthropic&#x27;s Safeguards team protects users, from policy and pre-deployment evaluations to real-time classifiers.",
+      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:05:57.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic&#x27;s position on the diffusion rule",
+      "summary": "Anthropic&#x27;s recommendations for strengthening US export controls on advanced AI chips and model weights to secure America&#x27;s compute advantage.",
+      "url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule"
+    },
+    {
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T23:05:55.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Testing and mitigating elections-related risks",
+      "summary": "This blog provides a snapshot of the work we&#x27;ve done since last summer to test our models for elections-related risks. ",
+      "url": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks"
+    },
     {
       "date": "2026-10-19",
       "datetime": "2026-10-19T21:34:39Z",
@@ -18,24 +218,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304"
     },
     {
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T20:17:56.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "The AI expectations gap",
-      "summary": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI&#x27;s future impact on the economy? This note presents new survey evidence on these questions. ",
-      "url": "https://www.anthropic.com/research/ai-expectations-gap"
-    },
-    {
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T13:19:29.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic update on independent evaluators",
-      "summary": "Anthropic announces updates to embedding independent evaluators",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-    },
-    {
       "date": "2026-10-18",
       "datetime": "2026-10-18T22:26:54Z",
       "source": "claude-code",
@@ -43,51 +225,6 @@
       "title": "Claude Code v2.1.303",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
-    },
-    {
-      "date": "2026-10-18",
-      "datetime": "2026-10-18T18:05:05.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Investing in the public benefit",
-      "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-      "url": "https://www.anthropic.com/news/public-benefit-fund"
-    },
-    {
-      "date": "2026-10-17",
-      "datetime": "2026-10-17T14:25:22.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Working at the frontier shapes expectations for the future",
-      "summary": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
-      "url": "https://www.anthropic.com/research/expectations-for-the-future"
-    },
-    {
-      "date": "2026-10-17",
-      "datetime": "2026-10-17T14:24:53.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How employment is changing at Anthropic",
-      "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic"
-    },
-    {
-      "date": "2026-10-17",
-      "datetime": "2026-10-17T14:19:47.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude reveals ECDSA curve origins",
-      "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
-    },
-    {
-      "date": "2026-10-17",
-      "datetime": "2026-10-17T14:17:25.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "summary": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
     },
     {
       "date": "2026-10-16",
@@ -100,39 +237,12 @@
     },
     {
       "date": "2026-10-15",
-      "datetime": "2026-10-15T22:05:58.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Offering expanded Claude access across all three branches of government",
-      "summary": "We are removing barriers to government AI adoption by offering Claude for Enterprise and Claude for Government to all three branches of government, including federal civilian executive branch agencies, as well as legislative and judiciary branches of government, for $1. ",
-      "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government"
-    },
-    {
-      "date": "2026-10-15",
       "datetime": "2026-10-15T19:22:06Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.301",
       "summary": "- Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) ends a request at a usage limit that resets too far away instead of waiting\n- Added OpenTelemetry tracing guidance to the `claude-api` skill, including setting up trace destinations with the `ant` CLI\n- Added the `%` motion to vim mode: jump to the matching bracket, alone or with…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301"
-    },
-    {
-      "date": "2026-10-15",
-      "datetime": "2026-10-15T18:21:28.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Redesigning source control at Anthropic",
-      "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
-    },
-    {
-      "date": "2026-10-14",
-      "datetime": "2026-10-14T21:01:13.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Preparing for the 2026 US midterms",
-      "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-      "url": "https://www.anthropic.com/news/2026-us-midterms"
     },
     {
       "date": "2026-10-14",
@@ -145,57 +255,12 @@
     },
     {
       "date": "2026-10-14",
-      "datetime": "2026-10-14T08:31:43.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Singapore office and government MOU | Anthropic",
-      "summary": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
-      "url": "https://www.anthropic.com/news/singapore-office-opening"
-    },
-    {
-      "date": "2026-10-14",
       "datetime": "2026-10-14T02:49:42Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.299",
       "summary": "- Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents\n- Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all\n- Added…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299"
-    },
-    {
-      "date": "2026-10-13",
-      "datetime": "2026-10-13T14:34:43.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Strengthening our defenses against distillation attacks",
-      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-      "url": "https://www.anthropic.com/research/distillation-defenses"
-    },
-    {
-      "date": "2026-10-13",
-      "datetime": "2026-10-13T00:44:16.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "AI models may be capable of self-replicating without access to a datacenter",
-      "summary": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.",
-      "url": "https://www.anthropic.com/research/self-replicating-ai"
-    },
-    {
-      "date": "2026-10-13",
-      "datetime": "2026-10-13T00:18:23.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude discovers a novel enzyme system",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
-    },
-    {
-      "date": "2026-10-12",
-      "datetime": "2026-10-12T15:52:32.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Investigating unintended model actions in our evaluations and internal use",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
     },
     {
       "date": "2026-10-09",
@@ -207,17 +272,6 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296"
     },
     {
-      "date": "2026-10-09",
-      "datetime": "2026-10-09T17:48:00.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing Claude Corps",
-      "summary": "Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "title_ko": "Claude Corps 출범",
-      "summary_ko": "AI의 혜택을 미국 전역 지역사회로 확장하는 데 관심 있는 초년 경력자를 위한 국가 펠로우십 프로그램 'Claude Corps'를 시작합니다."
-    },
-    {
       "date": "2026-10-08",
       "datetime": "2026-10-08T19:48:38Z",
       "source": "claude-code",
@@ -225,33 +279,6 @@
       "title": "Claude Code v2.1.295",
       "summary": "- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
-    },
-    {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T19:00:45.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Introducing the Anthropic Cyber Mission",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
-    },
-    {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T17:00:30.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "2026 Usage Policy update",
-      "summary": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
-    },
-    {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T15:49:10.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Building on our commitment to American scientific discovery",
-      "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. ",
-      "url": "https://www.anthropic.com/news/genesis-mission-commitment"
     },
     {
       "date": "2026-10-08",
@@ -270,119 +297,6 @@
       "title": "Claude Code v2.1.293",
       "summary": "- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
-    },
-    {
-      "date": "2026-10-07",
-      "datetime": "2026-10-07T08:52:51.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Expanding the Cyber Verification Program",
-      "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-      "url": "https://www.anthropic.com/news/cyber-verification-program"
-    },
-    {
-      "date": "2026-10-06",
-      "datetime": "2026-10-06T18:59:30Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.292",
-      "summary": "- Added `--marketplace <source>` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it\n- Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292"
-    },
-    {
-      "date": "2026-10-06",
-      "datetime": "2026-10-06T03:55:19Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.291",
-      "summary": "- Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\n- Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291"
-    },
-    {
-      "date": "2026-10-02",
-      "datetime": "2026-10-02T17:12:50.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
-      "summary": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy"
-    },
-    {
-      "date": "2026-08-10",
-      "datetime": "2026-08-10T22:57:30.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Building Effective AI Agents",
-      "summary": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
-      "url": "https://www.anthropic.com/engineering/building-effective-agents",
-      "title_ko": "효과적인 AI 에이전트 구축하기",
-      "summary_ko": "Anthropic이 신뢰할 수 있는 AI 에이전트를 어떻게 개발하는지 — 능력·안전·기술 프레임워크를 정리한 글."
-    },
-    {
-      "date": "2026-06-06",
-      "datetime": "2026-06-06T00:28:16.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "title_ko": "Anthropic이 제품 전반에서 Claude를 어떻게 통제하는가",
-      "summary_ko": "Anthropic의 다양한 제품에서 Claude의 행동을 안전하게 제한·격리하는 방식을 설명하는 엔지니어링 글."
-    },
-    {
-      "date": "2026-05-27",
-      "datetime": "2026-05-27T11:44:48.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-      "title_ko": "Claude Code auto 모드 — 권한 프롬프트를 안전하게 건너뛰는 방법",
-      "summary_ko": "권한 프롬프트를 매번 띄우지 않으면서도 안전성을 유지하는 Claude Code auto 모드의 설계 과정을 소개합니다."
-    },
-    {
-      "date": "2026-04-30",
-      "datetime": "2026-04-30T21:34:23.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "title_ko": "최근 Claude Code 품질 보고에 대한 업데이트",
-      "summary_ko": "4월 23일 즈음 보고된 Claude Code 품질 저하 이슈에 대한 원인 분석과 후속 조치 (포스트모템)."
-    },
-    {
-      "date": "2026-04-24",
-      "datetime": "2026-04-24T14:21:28.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Quantifying infrastructure noise in agentic coding evals",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
-      "title_ko": "에이전트 코딩 평가에서 인프라 노이즈 정량화",
-      "summary_ko": "에이전트 코딩 능력 평가 결과가 인프라 변동성에 얼마나 흔들리는지 측정하고, 이를 줄이는 방법을 다룬 엔지니어링 글."
-    },
-    {
-      "date": "2026-04-24",
-      "datetime": "2026-04-24T14:19:43.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
-      "title_ko": "Managed Agents 확장 — 두뇌와 손의 분리",
-      "summary_ko": "관리형 에이전트를 대규모로 확장할 때 '판단(두뇌)'과 '실행(손)'을 분리하는 설계 접근을 설명합니다."
-    },
-    {
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T14:39:01.000Z",
-      "source": "anthropic-engineering",
-      "source_label": "Anthropic Engineering",
-      "title": "Equipping agents for the real world with Agent Skills",
-      "summary": "Discover how Anthropic builds AI agents with practical capabilities through modular skills, enabling them to handle complex real-world tasks more effectively and reliably.",
-      "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
-      "title_ko": "Agent Skills로 에이전트에게 실전 도구 입히기",
-      "summary_ko": "Anthropic이 모듈형 스킬을 활용해 AI 에이전트가 복잡한 실세계 작업을 더 안정적으로 수행하도록 만드는 방식을 소개합니다."
     }
   ]
 }
