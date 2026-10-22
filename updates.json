@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:07:59.151Z",
+  "generated_at": "2026-10-22T05:11:04.073Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,98 @@
   },
   "items": [
     {
+      "date": "2026-10-22",
+      "datetime": "2026-10-22T04:34:55Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.308",
+      "summary": "- Bug fixes and reliability improvements",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308"
+    },
+    {
       "date": "2026-10-21",
-      "datetime": "2026-10-21T04:27:07.000Z",
+      "datetime": "2026-10-21T22:17:02Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.307",
+      "summary": "- Added `/claude-api api-version` to move Claude API code to API version `2026-10-21`\n- Added the `claude_code.safety_event` OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back\n- Fixed requests failing with a model-not-found error when `CLAUDE_CODE_DISABLE_1M_CONTEXT` is set and the model is an alias with the…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T19:53:59.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T18:22:03.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Physicist Christopher Stubbs joins Anthropic&#x27;s Long-Term Benefit Trust",
+      "summary": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.  “I am honored to join Anthropic’s Long-Term Benefit Trust and",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T17:15:23.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+      "summary": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T17:14:17.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "summary": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T17:13:53.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "summary": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T17:13:25.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An opt-in vulnerability-finding service for open-source software",
+      "summary": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost.",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T17:12:53.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T17:12:30.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "summary": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed.",
+      "url": "https://www.anthropic.com/research/self-replicating-ai"
+    },
+    {
+      "date": "2026-10-21",
+      "datetime": "2026-10-21T11:37:13.000Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
       "title": "Investing in the public benefit",
@@ -52,60 +142,6 @@
       "title": "How Claude designed protein binders against scorpion neurotoxins",
       "summary": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
       "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T15:27:10.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Evaluating discrimination in language model decisions",
-      "summary": "We evaluate discrimination in Claude across 70 decision scenarios and show prompt-based interventions can significantly reduce it.",
-      "url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T15:26:54.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Teaching Claude why",
-      "summary": "New research on how we&#x27;ve reduced agentic misalignment",
-      "url": "https://www.anthropic.com/research/teaching-claude-why"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T15:26:46.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How AI assistance impacts the formation of coding skills",
-      "summary": "A randomized trial with 52 developers found AI assistance lowered comprehension scores, except when used for explanations rather than delegation.",
-      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T15:26:42.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Tracing the thoughts of a large language model",
-      "summary": "Anthropic&#x27;s latest interpretability research: a new microscope to understand Claude&#x27;s internal mechanisms",
-      "url": "https://www.anthropic.com/research/tracing-thoughts-language-model"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T15:26:33.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "A small number of samples can poison LLMs",
-      "summary": "Anthropic research on data poisoning attacks shows a few hundred malicious documents can &quot;backdoor&quot; large language models of any size.",
-      "url": "https://www.anthropic.com/research/small-samples-poison"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T15:26:24.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Auditing language models for hidden objectives",
-      "summary": "A collaboration between Anthropic&#x27;s Alignment Science and Interpretability teams",
-      "url": "https://www.anthropic.com/research/auditing-hidden-objectives"
     },
     {
       "date": "2026-10-20",
@@ -192,24 +228,6 @@
     },
     {
       "date": "2026-10-19",
-      "datetime": "2026-10-19T23:05:57.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic&#x27;s position on the diffusion rule",
-      "summary": "Anthropic&#x27;s recommendations for strengthening US export controls on advanced AI chips and model weights to secure America&#x27;s compute advantage.",
-      "url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule"
-    },
-    {
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T23:05:55.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Testing and mitigating elections-related risks",
-      "summary": "This blog provides a snapshot of the work we&#x27;ve done since last summer to test our models for elections-related risks. ",
-      "url": "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks"
-    },
-    {
-      "date": "2026-10-19",
       "datetime": "2026-10-19T21:34:39Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -279,24 +297,6 @@
       "title": "Claude Code v2.1.295",
       "summary": "- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
-    },
-    {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T05:03:54Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.294",
-      "summary": "- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294"
-    },
-    {
-      "date": "2026-10-07",
-      "datetime": "2026-10-07T18:10:20Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.293",
-      "summary": "- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
     }
   ]
 }
