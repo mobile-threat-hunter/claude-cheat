@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:11:04.073Z",
+  "generated_at": "2026-10-23T05:10:48.122Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,51 @@
     "translated_ko": 1
   },
   "items": [
+    {
+      "date": "2026-10-22",
+      "datetime": "2026-10-22T22:18:57Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.309",
+      "summary": "- Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command\n- Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink\n- Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`\n- Fixed a…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309"
+    },
+    {
+      "date": "2026-10-22",
+      "datetime": "2026-10-22T22:13:27.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
+      "url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+      "date": "2026-10-22",
+      "datetime": "2026-10-22T21:59:15.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Open call for guest investigators in the life sciences",
+      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+    },
+    {
+      "date": "2026-10-22",
+      "datetime": "2026-10-22T17:48:51.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    },
+    {
+      "date": "2026-10-22",
+      "datetime": "2026-10-22T08:59:33.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Exploring model welfare",
+      "summary": "Announcing a new research program at Anthropic on model welfare",
+      "url": "https://www.anthropic.com/research/exploring-model-welfare"
+    },
     {
       "date": "2026-10-22",
       "datetime": "2026-10-22T04:34:55Z",
@@ -118,30 +163,12 @@
     },
     {
       "date": "2026-10-20",
-      "datetime": "2026-10-20T22:16:43.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Using Claude to reduce the attack surface of code",
-      "summary": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude.",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction"
-    },
-    {
-      "date": "2026-10-20",
       "datetime": "2026-10-20T20:46:50Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.305",
       "summary": "- Added `sandbox.allowNestedUserNamespaces` so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) notices a usage limit that was lifted before its reset\n- Fixed every request failing on Vertex,…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T16:04:01.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How Claude designed protein binders against scorpion neurotoxins",
-      "summary": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
     },
     {
       "date": "2026-10-20",
@@ -210,24 +237,6 @@
     },
     {
       "date": "2026-10-19",
-      "datetime": "2026-10-19T23:06:15.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Our compliance framework for California&#x27;s SB 53",
-      "summary": "Anthropic&#x27;s Frontier Compliance Framework discloses how we assess and manage catastrophic AI risks under California&#x27;s Transparency in Frontier AI Act.",
-      "url": "https://www.anthropic.com/news/compliance-framework-SB53"
-    },
-    {
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T23:06:08.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Building safeguards for Claude",
-      "summary": "How Anthropic&#x27;s Safeguards team protects users, from policy and pre-deployment evaluations to real-time classifiers.",
-      "url": "https://www.anthropic.com/news/building-safeguards-for-claude"
-    },
-    {
-      "date": "2026-10-19",
       "datetime": "2026-10-19T21:34:39Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -288,15 +297,6 @@
       "title": "Claude Code v2.1.296",
       "summary": "- Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode\n- Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window\n- Added…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296"
-    },
-    {
-      "date": "2026-10-08",
-      "datetime": "2026-10-08T19:48:38Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.295",
-      "summary": "- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
     }
   ]
 }
