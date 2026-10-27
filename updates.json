@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T05:08:32.258Z",
+  "generated_at": "2026-10-27T05:23:23.172Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,24 @@
     "translated_ko": 2
   },
   "items": [
+    {
+      "date": "2026-10-26",
+      "datetime": "2026-10-26T21:51:23Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.311",
+      "summary": "- Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running\n- Added a tip for the Explanatory output style, shown when you ask Claude for explanations\n- Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item\n- Fixed interrupting Claude not taking…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311"
+    },
+    {
+      "date": "2026-10-26",
+      "datetime": "2026-10-26T15:04:18.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
     {
       "date": "2026-10-23",
       "datetime": "2026-10-23T23:39:00Z",
@@ -239,15 +257,6 @@
     },
     {
       "date": "2026-10-19",
-      "datetime": "2026-10-19T23:06:18.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Responsible Scaling Policy Version 3.0",
-      "summary": "An update to Anthropic&#x27;s policy to mitigate catastrophic risks from AI",
-      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3"
-    },
-    {
-      "date": "2026-10-19",
       "datetime": "2026-10-19T21:34:39Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -290,15 +299,6 @@
       "title": "Claude Code v2.1.300",
       "summary": "- Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt\n- Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime\n- Added `$.ui.view({ agentId })` for mods: shows an agent's transcript in the main view when you ask, and `$.ui.view({})`…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300"
-    },
-    {
-      "date": "2026-10-14",
-      "datetime": "2026-10-14T02:49:42Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.299",
-      "summary": "- Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents\n- Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all\n- Added…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299"
     }
   ]
 }
