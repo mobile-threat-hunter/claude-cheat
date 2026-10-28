@@ -1,13 +1,85 @@
 {
-  "generated_at": "2026-10-27T05:23:23.172Z",
+  "generated_at": "2026-10-28T06:01:42.182Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
     "anthropic_engineering_count": 0,
     "claude_code_releases_count": 12,
-    "translated_ko": 2
+    "translated_ko": 1
   },
   "items": [
+    {
+      "date": "2026-10-28",
+      "datetime": "2026-10-28T04:28:52.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Coding agents in the social sciences",
+      "summary": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
+      "url": "https://www.anthropic.com/research/coding-agents-social-sciences"
+    },
+    {
+      "date": "2026-10-28",
+      "datetime": "2026-10-28T04:28:01.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude discovers a novel enzyme system",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system"
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T22:21:46.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T21:40:46.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T20:26:09.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Early progress on accelerating drug development with Claude",
+      "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T20:24:20Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.312",
+      "summary": "- Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id_token claim other than `sub`, such as Microsoft Entra ID's `oid`\n- Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does\n- Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T19:17:23.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How AI agents shape experts’ judgment calls",
+      "summary": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls"
+    },
+    {
+      "date": "2026-10-27",
+      "datetime": "2026-10-27T18:15:30.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+    },
     {
       "date": "2026-10-26",
       "datetime": "2026-10-26T21:51:23Z",
@@ -16,15 +88,6 @@
       "title": "Claude Code v2.1.311",
       "summary": "- Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running\n- Added a tip for the Explanatory output style, shown when you ask Claude for explanations\n- Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item\n- Fixed interrupting Claude not taking…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311"
-    },
-    {
-      "date": "2026-10-26",
-      "datetime": "2026-10-26T15:04:18.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
       "date": "2026-10-23",
@@ -61,53 +124,6 @@
       "title": "Finding bugs with Claude and property-based testing",
       "summary": "We developed a Claude-powered agent that efficiently identifies bugs in large software projects across the Python ecosystem.",
       "url": "https://www.anthropic.com/research/property-based-testing"
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T20:56:38.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Project Vend: Phase two",
-      "summary": "How Claude turned around its failing vending machine business",
-      "url": "https://www.anthropic.com/research/project-vend-2"
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T20:56:38.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Developing nuclear safeguards for AI",
-      "summary": "With the NNSA and DOE national labs, we co-developed a classifier that distinguishes concerning from benign nuclear-related conversations.",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-      "title_ko": "AI를 위한 핵 안전장치(Nuclear Safeguards) 개발",
-      "summary_ko": "NNSA 및 DOE 국립연구소와 공동으로 분류기(AI 시스템)를 개발 — 핵 관련 대화를 우려되는 것 vs 무해한 것으로 자동 구분, 초기 테스트에서 높은 정확도를 보였습니다."
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T20:56:37.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Reverse engineering Claude&#x27;s CVE-2026-2796 exploit",
-      "summary": "This post dives deep into how Claude wrote an exploit for one of the vulnerabilities it found in Firefox.",
-      "url": "https://www.anthropic.com/research/exploit"
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T20:56:37.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "AI models on realistic cyber ranges",
-      "summary": "Current Claude models can succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools.",
-      "url": "https://www.anthropic.com/research/cyber-toolkits-update"
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T20:56:37.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Cyber toolkits for LLMs",
-      "summary": "LLMs not fine-tuned for cybersecurity can succeed in multistage attacks on networks with dozens of hosts when equipped with a novel toolkit.",
-      "url": "https://www.anthropic.com/research/cyber-toolkits"
     },
     {
       "date": "2026-10-22",
@@ -248,15 +264,6 @@
     },
     {
       "date": "2026-10-19",
-      "datetime": "2026-10-19T23:06:20.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Partnering with Accenture on embedded evaluation",
-      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-    },
-    {
-      "date": "2026-10-19",
       "datetime": "2026-10-19T21:34:39Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -290,15 +297,6 @@
       "title": "Claude Code v2.1.301",
       "summary": "- Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) ends a request at a usage limit that resets too far away instead of waiting\n- Added OpenTelemetry tracing guidance to the `claude-api` skill, including setting up trace destinations with the `ant` CLI\n- Added the `%` motion to vim mode: jump to the matching bracket, alone or with…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301"
-    },
-    {
-      "date": "2026-10-14",
-      "datetime": "2026-10-14T18:24:25Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.300",
-      "summary": "- Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt\n- Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime\n- Added `$.ui.view({ agentId })` for mods: shows an agent's transcript in the main view when you ask, and `$.ui.view({})`…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300"
     }
   ]
 }
