@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:12:26.600Z",
+  "generated_at": "2026-10-31T06:06:13.784Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-10-31",
+      "datetime": "2026-10-31T01:01:35Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.316",
+      "summary": "- Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off\n- Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API\n- Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to keep system cross-certificates that certify each other in a…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
+    },
+    {
+      "date": "2026-10-30",
+      "datetime": "2026-10-30T15:51:07.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Scaling Managed Agents with stable interfaces",
+      "summary": "Harnesses encode assumptions that go stale as models improve. See how Managed Agents is built around interfaces that stay stable as harnesses change.",
+      "url": "https://www.anthropic.com/research/managed-agents"
+    },
+    {
+      "date": "2026-10-30",
+      "datetime": "2026-10-30T15:24:16.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+    },
     {
       "date": "2026-10-30",
       "datetime": "2026-10-30T01:06:26Z",
@@ -25,15 +52,6 @@
       "title": "Claude Code Best Practices",
       "summary": "A blog post covering tips and tricks that have proven effective for using Claude Code across various codebases, languages, and environments. ",
       "url": "https://www.anthropic.com/research/claude-code-best-practices"
-    },
-    {
-      "date": "2026-10-29",
-      "datetime": "2026-10-29T17:33:31.695Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Scaling Managed Agents with stable interfaces",
-      "summary": "Harnesses encode assumptions that go stale as models improve. See how Managed Agents is built around interfaces that stay stable as harnesses change.",
-      "url": "https://www.anthropic.com/research/managed-agents"
     },
     {
       "date": "2026-10-29",
@@ -61,15 +79,6 @@
       "title": "Early progress on accelerating drug development with Claude",
       "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
       "url": "https://www.anthropic.com/research/early-progress-drug-development"
-    },
-    {
-      "date": "2026-10-28",
-      "datetime": "2026-10-28T15:31:36.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
-      "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.",
-      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
     },
     {
       "date": "2026-10-28",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.303",
       "summary": "- Bug fixes and reliability improvements",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
-    },
-    {
-      "date": "2026-10-16",
-      "datetime": "2026-10-16T20:53:06Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.302",
-      "summary": "- Added `CLAUDE_CODE_AUTO_MODE_MODEL` to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode\n- Added an `Idle compaction` row to `/config` for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off\n- Added a notice to `/design-sync` and `/design-login` that standalone Claude…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302"
     }
   ]
 }
