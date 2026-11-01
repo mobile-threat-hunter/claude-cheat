@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:06:13.784Z",
+  "generated_at": "2026-11-01T06:36:16.284Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-10-31",
+      "datetime": "2026-10-31T02:38:41.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Enabling independent research on how people use Claude",
+      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
+      "url": "https://www.anthropic.com/research/enabling-independent-research"
+    },
     {
       "date": "2026-10-31",
       "datetime": "2026-10-31T01:01:35Z",
@@ -142,15 +151,6 @@
       "title": "Claude Code v2.1.310",
       "summary": "- Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too\n- Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them\n- Fixed background cleanup…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310"
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T20:56:39.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "LLM-discovered 0 days",
-      "summary": "AI models can now find high-severity vulnerabilities at scale. We&#x27;re using Claude to find and help fix vulnerabilities in open source software.",
-      "url": "https://www.anthropic.com/research/zero-days"
     },
     {
       "date": "2026-10-22",
