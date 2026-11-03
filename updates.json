@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:35:53.391Z",
+  "generated_at": "2026-11-03T07:06:01.801Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,51 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-03",
+      "datetime": "2026-11-03T04:21:38.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Progress on provable inference for large language models",
+      "summary": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
+      "url": "https://www.anthropic.com/research/provable-inference"
+    },
+    {
+      "date": "2026-11-03",
+      "datetime": "2026-11-03T01:25:46Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.317",
+      "summary": "- Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them\n- Added a check that asks before a web or shell tool call sends your account email address to the network\n- Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run\n- Added a notice in Claude Desktop's…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
+    },
+    {
+      "date": "2026-11-02",
+      "datetime": "2026-11-02T10:12:52.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Vibe physics: The AI grad student",
+      "summary": "A Harvard physicist guided Claude Opus 4.5 through a full quantum chromodynamics research project in two weeks.",
+      "url": "https://www.anthropic.com/research/vibe-physics"
+    },
+    {
+      "date": "2026-11-02",
+      "datetime": "2026-11-02T10:11:59.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude-shaped science",
+      "summary": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
+      "url": "https://www.anthropic.com/research/claude-shaped-science"
+    },
+    {
+      "date": "2026-11-02",
+      "datetime": "2026-11-02T10:11:06.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude accelerates protein design and analytical chemistry",
+      "summary": "Two results show how Claude helps life sciences researchers speed up their work: designing protein binders from scratch and analyzing NMR and LC-MS data to speed chemical analysis.",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+    },
     {
       "date": "2026-10-31",
       "datetime": "2026-10-31T02:38:41.000Z",
@@ -81,33 +126,6 @@
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
     },
     {
-      "date": "2026-10-28",
-      "datetime": "2026-10-28T17:16:58.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Early progress on accelerating drug development with Claude",
-      "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development"
-    },
-    {
-      "date": "2026-10-28",
-      "datetime": "2026-10-28T04:28:52.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Coding agents in the social sciences",
-      "summary": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
-      "url": "https://www.anthropic.com/research/coding-agents-social-sciences"
-    },
-    {
-      "date": "2026-10-28",
-      "datetime": "2026-10-28T04:28:01.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude discovers a novel enzyme system",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system"
-    },
-    {
       "date": "2026-10-27",
       "datetime": "2026-10-27T21:40:46.000Z",
       "source": "anthropic-news",
@@ -124,15 +142,6 @@
       "title": "Claude Code v2.1.312",
       "summary": "- Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id_token claim other than `sub`, such as Microsoft Entra ID's `oid`\n- Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does\n- Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"
-    },
-    {
-      "date": "2026-10-27",
-      "datetime": "2026-10-27T19:17:23.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How AI agents shape experts’ judgment calls",
-      "summary": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.",
-      "url": "https://www.anthropic.com/research/agents-judgment-calls"
     },
     {
       "date": "2026-10-26",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.304",
       "summary": "- Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin\n- Added `decider: \"person\"` to a mod's `tool.check` answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked\n- Added `e.isReadOnly` to a mod's `tool.check` event, set when the tool call is…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304"
-    },
-    {
-      "date": "2026-10-18",
-      "datetime": "2026-10-18T22:26:54Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.303",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
     }
   ]
 }
