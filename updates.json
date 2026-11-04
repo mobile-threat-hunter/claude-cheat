@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:06:01.801Z",
+  "generated_at": "2026-11-04T06:50:49.858Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,17 @@
   },
   "items": [
     {
+      "date": "2026-11-04",
+      "datetime": "2026-11-04T00:01:03Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.318",
+      "summary": "- Added a record of your answer when Claude Code asks to turn on the mods it writes in a session\n- Added `assume_role` on `mantle` upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution\n- Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses; the result reports the…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
+    },
+    {
       "date": "2026-11-03",
-      "datetime": "2026-11-03T04:21:38.000Z",
+      "datetime": "2026-11-03T19:10:19.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Progress on provable inference for large language models",
@@ -286,15 +295,6 @@
       "title": "Strengthening safeguards with US CAISI and UK AISI",
       "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
       "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
-    },
-    {
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T21:34:39Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.304",
-      "summary": "- Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin\n- Added `decider: \"person\"` to a mod's `tool.check` answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked\n- Added `e.isReadOnly` to a mod's `tool.check` event, set when the tool call is…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304"
     }
   ]
 }
