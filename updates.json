@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:50:49.858Z",
+  "generated_at": "2026-11-05T07:10:19.708Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-04",
+      "datetime": "2026-11-04T19:51:49.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Investigating vault particles with Claude",
+      "summary": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.",
+      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+    },
     {
       "date": "2026-11-04",
       "datetime": "2026-11-04T00:01:03Z",
@@ -106,15 +115,6 @@
       "title": "Claude Code v2.1.314",
       "summary": "- Added `permissions.blockWritesOutsideWorkingDirectories`: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode\n- Added an optional `groups` list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too\n- Added `guardrail_trace` to Claude apps gateway Bedrock upstreams, to log which Amazon…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314"
-    },
-    {
-      "date": "2026-10-29",
-      "datetime": "2026-10-29T17:35:57.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude Code Best Practices",
-      "summary": "A blog post covering tips and tricks that have proven effective for using Claude Code across various codebases, languages, and environments. ",
-      "url": "https://www.anthropic.com/research/claude-code-best-practices"
     },
     {
       "date": "2026-10-29",
