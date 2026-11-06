@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:10:19.708Z",
+  "generated_at": "2026-11-06T07:10:12.507Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,13 +9,58 @@
   },
   "items": [
     {
-      "date": "2026-11-04",
-      "datetime": "2026-11-04T19:51:49.000Z",
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T01:53:44.000Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Investigating vault particles with Claude",
       "summary": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.",
       "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T00:33:28.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Early progress on accelerating drug development with Claude",
+      "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T00:32:57.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Open call for guest investigators in the life sciences",
+      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+    },
+    {
+      "date": "2026-11-05",
+      "datetime": "2026-11-05T16:54:05.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How scientists use Claude",
+      "summary": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude"
+    },
+    {
+      "date": "2026-11-05",
+      "datetime": "2026-11-05T15:44:46.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "The Long-Term Benefit Trust",
+      "summary": "An independent body of five trustees with authority to elect and remove Anthropic board members, balancing stockholder and public interests.",
+      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-11-05",
+      "datetime": "2026-11-05T14:10:48.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "summary": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi"
     },
     {
       "date": "2026-11-04",
@@ -73,39 +118,12 @@
     },
     {
       "date": "2026-10-31",
-      "datetime": "2026-10-31T02:38:41.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Enabling independent research on how people use Claude",
-      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
-      "url": "https://www.anthropic.com/research/enabling-independent-research"
-    },
-    {
-      "date": "2026-10-31",
       "datetime": "2026-10-31T01:01:35Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.316",
       "summary": "- Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off\n- Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API\n- Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to keep system cross-certificates that certify each other in a…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
-    },
-    {
-      "date": "2026-10-30",
-      "datetime": "2026-10-30T15:51:07.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Scaling Managed Agents with stable interfaces",
-      "summary": "Harnesses encode assumptions that go stale as models improve. See how Managed Agents is built around interfaces that stay stable as harnesses change.",
-      "url": "https://www.anthropic.com/research/managed-agents"
-    },
-    {
-      "date": "2026-10-30",
-      "datetime": "2026-10-30T15:24:16.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
-      "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.",
-      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
     },
     {
       "date": "2026-10-30",
@@ -178,15 +196,6 @@
       "title": "Claude Code v2.1.309",
       "summary": "- Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command\n- Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink\n- Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`\n- Fixed a…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309"
-    },
-    {
-      "date": "2026-10-22",
-      "datetime": "2026-10-22T21:59:15.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Open call for guest investigators in the life sciences",
-      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
-      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
     },
     {
       "date": "2026-10-22",
@@ -286,15 +295,6 @@
       "title": "Disrupting an AI-orchestrated cyber espionage campaign",
       "summary": "A report describing a highly sophisticated AI-led cyberattack and how we disrupted it.",
       "url": "https://www.anthropic.com/news/disrupting-AI-espionage"
-    },
-    {
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T23:06:33.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Strengthening safeguards with US CAISI and UK AISI",
-      "summary": "Government red-teamers tested Constitutional Classifiers on Claude Opus 4 and 4.1, uncovering vulnerabilities that strengthened our safeguards.",
-      "url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi"
     }
   ]
 }
