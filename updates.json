@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T07:10:12.507Z",
+  "generated_at": "2026-11-07T06:22:05.466Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,69 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T21:15:32.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "The components of agent memory",
+      "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T20:33:15.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Teaching AI to build scientific models",
+      "summary": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T17:09:29.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Project EVE: Claude plays MMORPGs",
+      "summary": "We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need.",
+      "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T17:04:01Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.319",
+      "summary": "- Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set `CLAUDE_CODE_AUTO_MODE_SERVER=0` to keep using it (Bedrock, Vertex and Foundry are unchanged)\n- Changed auto mode behind an LLM gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` turns on the server-side check even…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T15:55:34.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How scientists use Claude",
+      "summary": "We analyzed 207,000 research sessions to learn how Claude is used in science, why some tasks get more use than others, and how AI could speed up discovery.",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T10:23:12.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How scientists use Claude to accelerate research",
+      "summary": "Labs at Stanford and MIT built Claude-powered systems that run genome-wide studies in minutes and automate gene cluster interpretation.",
+      "url": "https://www.anthropic.com/research/accelerating-scientific-research"
+    },
+    {
+      "date": "2026-11-06",
+      "datetime": "2026-11-06T10:22:49.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Open call for guest investigators in the life sciences",
+      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+    },
     {
       "date": "2026-11-06",
       "datetime": "2026-11-06T01:53:44.000Z",
@@ -25,24 +88,6 @@
       "title": "Early progress on accelerating drug development with Claude",
       "summary": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
       "url": "https://www.anthropic.com/research/early-progress-drug-development"
-    },
-    {
-      "date": "2026-11-06",
-      "datetime": "2026-11-06T00:32:57.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Open call for guest investigators in the life sciences",
-      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
-      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
-    },
-    {
-      "date": "2026-11-05",
-      "datetime": "2026-11-05T16:54:05.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How scientists use Claude",
-      "summary": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.",
-      "url": "https://www.anthropic.com/research/how-researchers-use-claude"
     },
     {
       "date": "2026-11-05",
@@ -73,48 +118,12 @@
     },
     {
       "date": "2026-11-03",
-      "datetime": "2026-11-03T19:10:19.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Progress on provable inference for large language models",
-      "summary": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
-      "url": "https://www.anthropic.com/research/provable-inference"
-    },
-    {
-      "date": "2026-11-03",
       "datetime": "2026-11-03T01:25:46Z",
       "source": "claude-code",
       "source_label": "Claude Code",
       "title": "Claude Code v2.1.317",
       "summary": "- Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them\n- Added a check that asks before a web or shell tool call sends your account email address to the network\n- Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run\n- Added a notice in Claude Desktop's…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
-    },
-    {
-      "date": "2026-11-02",
-      "datetime": "2026-11-02T10:12:52.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Vibe physics: The AI grad student",
-      "summary": "A Harvard physicist guided Claude Opus 4.5 through a full quantum chromodynamics research project in two weeks.",
-      "url": "https://www.anthropic.com/research/vibe-physics"
-    },
-    {
-      "date": "2026-11-02",
-      "datetime": "2026-11-02T10:11:59.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude-shaped science",
-      "summary": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
-      "url": "https://www.anthropic.com/research/claude-shaped-science"
-    },
-    {
-      "date": "2026-11-02",
-      "datetime": "2026-11-02T10:11:06.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude accelerates protein design and analytical chemistry",
-      "summary": "Two results show how Claude helps life sciences researchers speed up their work: designing protein binders from scratch and analyzing NMR and LC-MS data to speed chemical analysis.",
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
     },
     {
       "date": "2026-10-31",
@@ -259,15 +268,6 @@
       "title": "Claude Code v2.1.306",
       "summary": "- Fixed `claude -p` inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables\n- Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T20:46:50Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.305",
-      "summary": "- Added `sandbox.allowNestedUserNamespaces` so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) notices a usage limit that was lifted before its reset\n- Fixed every request failing on Vertex,…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305"
     },
     {
       "date": "2026-10-20",
