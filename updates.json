@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:22:05.466Z",
+  "generated_at": "2026-11-08T06:28:55.150Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,6 +9,15 @@
   },
   "items": [
     {
+      "date": "2026-11-07",
+      "datetime": "2026-11-07T23:12:43.000Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Teaching AI to build scientific models",
+      "summary": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models"
+    },
+    {
       "date": "2026-11-06",
       "datetime": "2026-11-06T21:15:32.000Z",
       "source": "anthropic-research",
@@ -16,15 +25,6 @@
       "title": "The components of agent memory",
       "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
       "url": "https://www.anthropic.com/research/components-of-agent-memory"
-    },
-    {
-      "date": "2026-11-06",
-      "datetime": "2026-11-06T20:33:15.000Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Teaching AI to build scientific models",
-      "summary": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.",
-      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models"
     },
     {
       "date": "2026-11-06",
