@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:37:12.572Z",
+  "generated_at": "2026-11-11T06:55:18.207Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-10",
+      "datetime": "2026-11-10T11:32:16.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "url": "https://www.anthropic.com/news/roadshow-launch"
+    },
     {
       "date": "2026-11-10",
       "datetime": "2026-11-10T02:29:43Z",
@@ -286,15 +295,6 @@
       "title": "Detecting and preventing distillation attacks",
       "summary": "We identified coordinated distillation attacks using ~24,000 fraudulent accounts to extract Claude&#x27;s capabilities.",
       "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T03:28:51.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Disrupting an AI-orchestrated cyber espionage campaign",
-      "summary": "A report describing a highly sophisticated AI-led cyberattack and how we disrupted it.",
-      "url": "https://www.anthropic.com/news/disrupting-AI-espionage"
     }
   ]
 }
