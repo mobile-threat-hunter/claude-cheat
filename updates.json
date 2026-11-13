@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:31:29.570Z",
+  "generated_at": "2026-11-13T07:02:17.605Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,33 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-12",
+      "datetime": "2026-11-12T22:12:13Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.323",
+      "summary": "- Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization\n- Added `engines[\"claude-code\"]` to `plugin.json`: plugins outside their stated Claude Code version range are not installed, updated or loaded, and install and update pick the newest version that fits\n-…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323"
+    },
+    {
+      "date": "2026-11-12",
+      "datetime": "2026-11-12T21:02:17.838Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Introducing Claude 4",
+      "summary": "Discover Claude 4&#x27;s breakthrough AI capabilities. Experience more reliable, interpretable assistance for complex tasks across work and learning.",
+      "url": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "date": "2026-11-12",
+      "datetime": "2026-11-12T16:11:50.000Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
     {
       "date": "2026-11-10",
       "datetime": "2026-11-10T11:32:16.000Z",
@@ -190,15 +217,6 @@
     },
     {
       "date": "2026-10-27",
-      "datetime": "2026-10-27T21:40:46.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "url": "https://www.anthropic.com/news/s1-sec"
-    },
-    {
-      "date": "2026-10-27",
       "datetime": "2026-10-27T20:24:20Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -243,15 +261,6 @@
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
     },
     {
-      "date": "2026-10-22",
-      "datetime": "2026-10-22T04:34:55Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.308",
-      "summary": "- Bug fixes and reliability improvements",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308"
-    },
-    {
       "date": "2026-10-21",
       "datetime": "2026-10-21T19:53:59.000Z",
       "source": "anthropic-news",
@@ -286,15 +295,6 @@
       "title": "Anthropic update on independent evaluators",
       "summary": "Anthropic announces updates to embedding independent evaluators",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-    },
-    {
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T03:29:07.000Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Detecting and preventing distillation attacks",
-      "summary": "We identified coordinated distillation attacks using ~24,000 fraudulent accounts to extract Claude&#x27;s capabilities.",
-      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
     }
   ]
 }
