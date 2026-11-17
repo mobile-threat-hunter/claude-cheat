@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:02:17.503Z",
+  "generated_at": "2026-11-17T08:17:23.225Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,87 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T22:11:05Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.326",
+      "summary": "- Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode\n- Added a startup warning when an `--allowedTools`, `--disallowedTools` or `--tools` value has an entry that doesn't look like a complete rule\n- Added a message explaining why MCP servers stop loading when an administrator adds `managed-mcp.json`…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:50:34.490Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "summary": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.",
+      "url": "https://www.anthropic.com/news/canadian-ai-research"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:50:09.800Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Singapore office and government MOU | Anthropic",
+      "summary": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.",
+      "url": "https://www.anthropic.com/news/singapore-office-opening"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:46:19.203Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:46:07.417Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:45:52.106Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "summary": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:45:37.815Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Investing in the public benefit",
+      "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T20:44:03.790Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Physicist Christopher Stubbs joins Anthropic&#x27;s Long-Term Benefit Trust",
+      "summary": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.  “I am honored to join Anthropic’s Long-Term Benefit Trust and",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+    },
+    {
+      "date": "2026-11-16",
+      "datetime": "2026-11-16T14:32:08.228Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Updating our coordinated vulnerability disclosure policy timelines",
+      "summary": "We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.",
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+    },
     {
       "date": "2026-11-13",
       "datetime": "2026-11-13T22:37:05.654Z",
@@ -73,15 +154,6 @@
     },
     {
       "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.639Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Petri: An open-source AI auditing tool",
-      "summary": "Petri is a new open-source automated auditing tool from Anthropic designed to accelerate AI safety research.",
-      "url": "https://www.anthropic.com/research/petri-open-source-auditing"
-    },
-    {
-      "date": "2026-11-13",
       "datetime": "2026-11-13T22:37:05.632Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -124,69 +196,6 @@
       "title": "Protecting the wellbeing of our users",
       "summary": "New safeguards include a crisis classifier that routes users to 170+ helplines worldwide and models that are far less sycophantic.",
       "url": "https://www.anthropic.com/news/protecting-well-being-of-users"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.618Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Partnering with Accenture on embedded evaluation",
-      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.617Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Improving Fable 5&#x27;s safeguards",
-      "summary": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks.",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.608Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Challenges in red teaming AI systems",
-      "summary": "In this post we detail insights from a sample of red teaming approaches that we’ve used to test our AI systems. Through this practice, we’ve begun to gather empirical data about the appropriate tool to reach for in a given situation, and the associated benefits and challenges with each approach. We hope this post is helpful for other companies trying to red team their AI systems, policymakers curi",
-      "url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.607Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic&#x27;s position on the diffusion rule",
-      "summary": "Anthropic&#x27;s recommendations for strengthening US export controls on advanced AI chips and model weights to secure America&#x27;s compute advantage.",
-      "url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.607Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Commitments on model deprecation and preservation",
-      "summary": "Anthropic commits to preserving the weights of all publicly released Claude models and interviewing retiring models about their preferences.",
-      "url": "https://www.anthropic.com/news/deprecation-commitments"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.606Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Thoughts on America’s AI Action Plan",
-      "summary": "Anthropic welcomes the White House plan&#x27;s infrastructure and procurement provisions and urges stronger chip export controls and transparency standards.",
-      "url": "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.606Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "A framework for AI development transparency",
-      "summary": "A targeted approach to increasing transparency in frontier AI development, focusing on safety standards and accountability measures for advanced AI systems.",
-      "url": "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai"
     },
     {
       "date": "2026-11-13",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.311",
       "summary": "- Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running\n- Added a tip for the Explanatory output style, shown when you ask Claude for explanations\n- Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item\n- Fixed interrupting Claude not taking…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311"
-    },
-    {
-      "date": "2026-10-23",
-      "datetime": "2026-10-23T23:39:00Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.310",
-      "summary": "- Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too\n- Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them\n- Fixed background cleanup…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310"
     }
   ]
 }
