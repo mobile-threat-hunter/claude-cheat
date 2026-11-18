@@ -1,5 +1,5 @@
 {
-  "sample_size": 8920,
+  "sample_size": 8966,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,23 +8,23 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8561,
+      "count": 8606,
       "pct": 96.0
     },
     {
       "field": "name",
-      "count": 8494,
+      "count": 8539,
       "pct": 95.2
     },
     {
       "field": "metadata",
-      "count": 2726,
-      "pct": 30.6
+      "count": 2727,
+      "pct": 30.4
     },
     {
       "field": "homepage",
-      "count": 1220,
-      "pct": 13.7
+      "count": 1221,
+      "pct": 13.6
     },
     {
       "field": "origin",
@@ -44,7 +44,7 @@
     {
       "field": "triggers",
       "count": 461,
-      "pct": 5.2
+      "pct": 5.1
     },
     {
       "field": "version",
@@ -53,7 +53,7 @@
     },
     {
       "field": "license",
-      "count": 388,
+      "count": 390,
       "pct": 4.3
     },
     {
@@ -64,7 +64,7 @@
     {
       "field": "tags",
       "count": 335,
-      "pct": 3.8
+      "pct": 3.7
     },
     {
       "field": "en_name",
@@ -84,43 +84,43 @@
   ],
   "description": {
     "length": {
-      "count": 8920,
+      "count": 8966,
       "min": 4,
-      "p25": 130,
-      "median": 300,
-      "p75": 469,
-      "p90": 556,
+      "p25": 131,
+      "median": 299,
+      "p75": 468,
+      "p90": 555,
       "max": 3663,
-      "mean": 310.7
+      "mean": 310.4
     },
-    "has_trigger_phrase_pct": 57.6,
+    "has_trigger_phrase_pct": 57.5,
     "has_quoted_user_phrase_pct": 6.5,
-    "short_pct_lt_120": 23.1,
-    "long_pct_gt_300": 49.9
+    "short_pct_lt_120": 23.0,
+    "long_pct_gt_300": 49.8
   },
   "body": {
     "length_chars": {
-      "count": 8920,
+      "count": 8966,
       "min": 602,
-      "p25": 3167,
-      "median": 4645,
-      "p75": 7754,
-      "p90": 14002,
+      "p25": 3166,
+      "median": 4652,
+      "p75": 7770,
+      "p90": 13992,
       "max": 141519,
-      "mean": 7026.0
+      "mean": 7027.5
     },
     "heading_count": {
-      "count": 8920,
+      "count": 8966,
       "min": 0,
       "p25": 8,
       "median": 12,
-      "p75": 21,
+      "p75": 20,
       "p90": 37,
       "max": 325,
       "mean": 17.8
     },
     "code_block_count": {
-      "count": 8920,
+      "count": 8966,
       "min": 0,
       "p25": 0,
       "median": 1,
@@ -129,7 +129,7 @@
       "max": 174,
       "mean": 4.3
     },
-    "has_numbered_list_pct": 65.0,
+    "has_numbered_list_pct": 65.1,
     "has_bullet_list_pct": 97.0,
     "has_table_pct": 50.6,
     "has_code_block_pct": 56.9
@@ -137,7 +137,7 @@
   "common_section_headings_h2": [
     {
       "label": "anti-patterns",
-      "count": 3604
+      "count": 3629
     },
     {
       "label": "quality checks",
@@ -161,11 +161,11 @@
     },
     {
       "label": "when to use",
-      "count": 683
+      "count": 707
     },
     {
       "label": "overview",
-      "count": 671
+      "count": 672
     },
     {
       "label": "based on",
@@ -173,11 +173,11 @@
     },
     {
       "label": "workflow",
-      "count": 651
+      "count": 652
     },
     {
       "label": "references",
-      "count": 496
+      "count": 497
     },
     {
       "label": "best practices",
@@ -213,7 +213,7 @@
     },
     {
       "label": "related",
-      "count": 202
+      "count": 203
     }
   ],
   "exemplars": [

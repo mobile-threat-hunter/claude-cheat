@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:17:23.225Z",
+  "generated_at": "2026-11-18T07:49:38.957Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,42 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-17",
+      "datetime": "2026-11-17T23:17:45Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.327",
+      "summary": "- Added a confirmation before `/install-github-app` changes a repository\n- Added `claude mcp add-json <name> -` to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code session\n- Added a line when a resumed session's earlier messages can't be loaded\n- Added a list in `/status` of broken agent, skill, command and output style files,…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327"
+    },
+    {
+      "date": "2026-11-17",
+      "datetime": "2026-11-17T17:10:23.887Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Advancing Claude for Financial Services",
+      "summary": "Claude for Financial Services adds a native Excel plugin, real-time market connectors, and skills for modeling, comp analysis, and earnings reports.",
+      "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+    },
+    {
+      "date": "2026-11-17",
+      "datetime": "2026-11-17T17:03:42.375Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
+      "url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+      "date": "2026-11-17",
+      "datetime": "2026-11-17T13:46:19.009Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Building strong safety evaluations",
+      "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+    },
     {
       "date": "2026-11-16",
       "datetime": "2026-11-16T22:11:05Z",
@@ -136,24 +172,6 @@
     },
     {
       "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.642Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Anthropic Economic Index report: Cadences",
-      "summary": "The latest Economic Index report looks at when people come to Claude, what they produce with it, and how they perceive AI&#x27;s impact on their work.",
-      "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.640Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Project Vend: Can Claude run a small shop?",
-      "summary": "We let Claude run a small shop in the Anthropic office. Here&#x27;s what happened.",
-      "url": "https://www.anthropic.com/research/project-vend-1"
-    },
-    {
-      "date": "2026-11-13",
       "datetime": "2026-11-13T22:37:05.632Z",
       "source": "anthropic-news",
       "source_label": "Anthropic News",
@@ -187,15 +205,6 @@
       "title": "Funding third-party model evaluations",
       "summary": "A new initiative to fund evaluations developed by third-party organizations that can effectively measure advanced AI capabilities.",
       "url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.622Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Protecting the wellbeing of our users",
-      "summary": "New safeguards include a crisis classifier that routes users to 170+ helplines worldwide and models that are far less sycophantic.",
-      "url": "https://www.anthropic.com/news/protecting-well-being-of-users"
     },
     {
       "date": "2026-11-13",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.312",
       "summary": "- Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id_token claim other than `sub`, such as Microsoft Entra ID's `oid`\n- Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does\n- Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"
-    },
-    {
-      "date": "2026-10-26",
-      "datetime": "2026-10-26T21:51:23Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.311",
-      "summary": "- Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running\n- Added a tip for the Explanatory output style, shown when you ask Claude for explanations\n- Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item\n- Fixed interrupting Claude not taking…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311"
     }
   ]
 }
