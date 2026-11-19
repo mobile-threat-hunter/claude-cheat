@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:49:38.957Z",
+  "generated_at": "2026-11-19T07:45:34.048Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,114 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-19",
+      "datetime": "2026-11-19T01:14:04Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.328",
+      "summary": "- Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it\n- Added `\"onFailure\": \"block\"` for `mcp_tool` hooks, as for command and HTTP hooks: a hook whose call fails blocks the action\n- Added a warning when a message from a session that skips permission…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T23:26:25.522Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic prices initial public offering",
+      "summary": "Today Anthropic, PBC priced its initial public offering of its Class A common stock.",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T21:55:37.420Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Expanding the Cyber Verification Program",
+      "summary": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+      "url": "https://www.anthropic.com/news/cyber-verification-program"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T21:42:44.116Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+      "summary": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.285Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How AI assistance impacts the formation of coding skills",
+      "summary": "A randomized trial with 52 developers found AI assistance lowered comprehension scores, except when used for explanations rather than delegation.",
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.284Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "What 81,000 people told us about AI economics",
+      "summary": "Anthropic&#x27;s recent survey of 81,000 Claude users provides a way to connect people’s economic concerns with what we’ve quantified in Claude traffic.",
+      "url": "https://www.anthropic.com/research/81k-economics"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.283Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Challenges in evaluating AI systems",
+      "summary": "Insights from the red teaming approaches we&#x27;ve used to test our AI systems.",
+      "url": "https://www.anthropic.com/research/evaluating-ai-systems"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.282Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "How people use Claude for support and advice",
+      "summary": "Only 2.9% of Claude conversations involve emotional support, advice, or companionship. We share research on affective use and how we&#x27;re building safeguards.",
+      "url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.281Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Economic Index: Insights from Claude 3.7 Sonnet",
+      "summary": "The second update from the Anthropic Economic Index on how people are using AI.",
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.280Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Introducing the Anthropic Economic Index",
+      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
+      "url": "https://www.anthropic.com/research/the-anthropic-economic-index"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.279Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Coding agents in the social sciences",
+      "summary": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
+      "url": "https://www.anthropic.com/research/coding-agents-social-sciences"
+    },
+    {
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T17:12:33.278Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Focus areas for The Anthropic Institute",
+      "summary": "The Anthropic Institute investigates AI&#x27;s impact on the world from within a frontier lab. Here are the questions driving its agenda.",
+      "url": "https://www.anthropic.com/news/anthropic-institute-agenda"
+    },
     {
       "date": "2026-11-17",
       "datetime": "2026-11-17T23:17:45Z",
@@ -25,24 +133,6 @@
       "title": "Advancing Claude for Financial Services",
       "summary": "Claude for Financial Services adds a native Excel plugin, real-time market connectors, and skills for modeling, comp analysis, and earnings reports.",
       "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services"
-    },
-    {
-      "date": "2026-11-17",
-      "datetime": "2026-11-17T17:03:42.375Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
-      "url": "https://www.anthropic.com/research/formal-verification"
-    },
-    {
-      "date": "2026-11-17",
-      "datetime": "2026-11-17T13:46:19.009Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Building strong safety evaluations",
-      "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
-      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
     },
     {
       "date": "2026-11-16",
@@ -117,60 +207,6 @@
       "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
     },
     {
-      "date": "2026-11-16",
-      "datetime": "2026-11-16T14:32:08.228Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Updating our coordinated vulnerability disclosure policy timelines",
-      "summary": "We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.",
-      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.654Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "An alignment assessment of the UK AISI cybertesting incident",
-      "summary": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
-      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.648Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Vibe physics: The AI grad student",
-      "summary": "A Harvard physicist guided Claude Opus 4.5 through a full quantum chromodynamics research project in two weeks.",
-      "url": "https://www.anthropic.com/research/vibe-physics"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.645Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "AI agents find smart contract exploits",
-      "summary": "On a benchmark of real exploited contracts, AI agents found vulnerabilities worth a combined $4.6 million, underscoring the need for AI-powered defense.",
-      "url": "https://www.anthropic.com/research/smart-contracts"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.644Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Claude does cyber competitions",
-      "summary": "Throughout 2025, we quietly entered Claude in cybersecurity competitions designed for humans. It often placed in the top 25% of competitors.",
-      "url": "https://www.anthropic.com/research/cyber-competitions"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.643Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "LLMs and biorisk",
-      "summary": "This article explains why we believe that evaluating biorisk and safeguarding against it is a critical element of responsible AI development.",
-      "url": "https://www.anthropic.com/research/biorisk"
-    },
-    {
       "date": "2026-11-13",
       "datetime": "2026-11-13T22:37:05.632Z",
       "source": "anthropic-news",
@@ -178,33 +214,6 @@
       "title": "Anthropic is endorsing SB 53",
       "summary": "Anthropic is endorsing SB 53, the California bill that governs powerful AI systems built by frontier AI developers like Anthropic.",
       "url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.631Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Understanding and addressing AI harms",
-      "summary": "Anthropic&#x27;s framework for identifying, classifying, and mitigating potential harms from AI systems to support responsible development.",
-      "url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.627Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic update on independent evaluators",
-      "summary": "Anthropic announces updates to embedding independent evaluators",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-    },
-    {
-      "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.626Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Funding third-party model evaluations",
-      "summary": "A new initiative to fund evaluations developed by third-party organizations that can effectively measure advanced AI capabilities.",
-      "url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations"
     },
     {
       "date": "2026-11-13",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.314",
       "summary": "- Added `permissions.blockWritesOutsideWorkingDirectories`: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode\n- Added an optional `groups` list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too\n- Added `guardrail_trace` to Claude apps gateway Bedrock upstreams, to log which Amazon…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314"
-    },
-    {
-      "date": "2026-10-27",
-      "datetime": "2026-10-27T20:24:20Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.312",
-      "summary": "- Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id_token claim other than `sub`, such as Microsoft Entra ID's `oid`\n- Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does\n- Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"
     }
   ]
 }
