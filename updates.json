@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T07:38:04.093Z",
+  "generated_at": "2026-11-21T07:33:38.249Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "date": "2026-11-20",
+      "datetime": "2026-11-20T22:32:56Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.330",
+      "summary": "- Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after `claude auth login`, Claude Code applies the organization's settings and uses its cloud provider or gateway\n- Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in `/config`\n-…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330"
+    },
+    {
+      "date": "2026-11-20",
+      "datetime": "2026-11-20T18:45:25.849Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
+      "url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+      "date": "2026-11-20",
+      "datetime": "2026-11-20T12:41:01.161Z",
+      "source": "anthropic-news",
+      "source_label": "Anthropic News",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "summary": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
+      "url": "https://www.anthropic.com/news/ipo-close"
+    },
+    {
       "date": "2026-11-19",
       "datetime": "2026-11-19T22:14:41Z",
       "source": "claude-code",
@@ -16,15 +43,6 @@
       "title": "Claude Code v2.1.329",
       "summary": "- Added a trust dialog warning that says where a folder's hooks are declared\n- Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load\n- Added this session's scheduled tasks, `/loop` wakeups, the goal and this conversation's forks to `/tasks`; x stops one after asking\n- Added a \"Server message\" row to a server's page in…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"
-    },
-    {
-      "date": "2026-11-19",
-      "datetime": "2026-11-19T13:21:45.531Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "summary": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years.",
-      "url": "https://www.anthropic.com/research/formal-verification"
     },
     {
       "date": "2026-11-19",
@@ -217,15 +235,6 @@
     },
     {
       "date": "2026-11-13",
-      "datetime": "2026-11-13T22:37:05.632Z",
-      "source": "anthropic-news",
-      "source_label": "Anthropic News",
-      "title": "Anthropic is endorsing SB 53",
-      "summary": "Anthropic is endorsing SB 53, the California bill that governs powerful AI systems built by frontier AI developers like Anthropic.",
-      "url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53"
-    },
-    {
-      "date": "2026-11-13",
       "datetime": "2026-11-13T20:40:01Z",
       "source": "claude-code",
       "source_label": "Claude Code",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.317",
       "summary": "- Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them\n- Added a check that asks before a web or shell tool call sends your account email address to the network\n- Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run\n- Added a notice in Claude Desktop's…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
-    },
-    {
-      "date": "2026-10-31",
-      "datetime": "2026-10-31T01:01:35Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.316",
-      "summary": "- Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off\n- Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API\n- Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to keep system cross-certificates that certify each other in a…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
     }
   ]
 }
