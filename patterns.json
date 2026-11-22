@@ -1,5 +1,5 @@
 {
-  "sample_size": 8966,
+  "sample_size": 8993,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,18 +8,18 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8606,
+      "count": 8631,
       "pct": 96.0
     },
     {
       "field": "name",
-      "count": 8539,
+      "count": 8564,
       "pct": 95.2
     },
     {
       "field": "metadata",
-      "count": 2727,
-      "pct": 30.4
+      "count": 2745,
+      "pct": 30.5
     },
     {
       "field": "homepage",
@@ -29,17 +29,17 @@
     {
       "field": "origin",
       "count": 903,
-      "pct": 10.1
+      "pct": 10.0
     },
     {
       "field": "allowed-tools",
-      "count": 483,
-      "pct": 5.4
+      "count": 492,
+      "pct": 5.5
     },
     {
       "field": "od",
       "count": 471,
-      "pct": 5.3
+      "pct": 5.2
     },
     {
       "field": "triggers",
@@ -53,8 +53,8 @@
     },
     {
       "field": "license",
-      "count": 390,
-      "pct": 4.3
+      "count": 408,
+      "pct": 4.5
     },
     {
       "field": "argument-hint",
@@ -72,45 +72,45 @@
       "pct": 1.9
     },
     {
-      "field": "zh_name",
+      "field": "compatibility",
       "count": 166,
-      "pct": 1.9
+      "pct": 1.8
     },
     {
-      "field": "en_description",
-      "count": 163,
+      "field": "zh_name",
+      "count": 166,
       "pct": 1.8
     }
   ],
   "description": {
     "length": {
-      "count": 8966,
+      "count": 8993,
       "min": 4,
-      "p25": 131,
-      "median": 299,
-      "p75": 468,
-      "p90": 555,
+      "p25": 132,
+      "median": 300,
+      "p75": 470,
+      "p90": 556,
       "max": 3663,
-      "mean": 310.4
+      "mean": 311.7
     },
     "has_trigger_phrase_pct": 57.5,
-    "has_quoted_user_phrase_pct": 6.5,
-    "short_pct_lt_120": 23.0,
-    "long_pct_gt_300": 49.8
+    "has_quoted_user_phrase_pct": 6.6,
+    "short_pct_lt_120": 22.9,
+    "long_pct_gt_300": 50.0
   },
   "body": {
     "length_chars": {
-      "count": 8966,
+      "count": 8993,
       "min": 602,
-      "p25": 3166,
-      "median": 4652,
-      "p75": 7770,
-      "p90": 13992,
+      "p25": 3171,
+      "median": 4663,
+      "p75": 7829,
+      "p90": 14125,
       "max": 141519,
-      "mean": 7027.7
+      "mean": 7109.4
     },
     "heading_count": {
-      "count": 8966,
+      "count": 8993,
       "min": 0,
       "p25": 8,
       "median": 12,
@@ -120,7 +120,7 @@
       "mean": 17.8
     },
     "code_block_count": {
-      "count": 8966,
+      "count": 8993,
       "min": 0,
       "p25": 0,
       "median": 1,
@@ -129,10 +129,10 @@
       "max": 174,
       "mean": 4.3
     },
-    "has_numbered_list_pct": 65.1,
+    "has_numbered_list_pct": 65.2,
     "has_bullet_list_pct": 97.0,
-    "has_table_pct": 50.6,
-    "has_code_block_pct": 56.9
+    "has_table_pct": 50.7,
+    "has_code_block_pct": 57.0
   },
   "common_section_headings_h2": [
     {
@@ -209,7 +209,7 @@
     },
     {
       "label": "related skills",
-      "count": 263
+      "count": 266
     },
     {
       "label": "related",
@@ -239,6 +239,13 @@
       "composite": 0.992
     },
     {
+      "id": "d06d6b81bdf90ceb",
+      "name": "competitive-landscape",
+      "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill whe",
+      "source": "github:wshobson/agents@main",
+      "composite": 0.9
+    },
+    {
       "id": "ef3fce0eadf65283",
       "name": "continuous-learning-v2",
       "description": "Sistema de aprendizaje basado en instintos que observa sesiones mediante hooks, crea instintos atómicos con puntuación de confianza y los evoluciona en skills/comandos/agentes. v2.1 agrega instintos c",
@@ -250,13 +257,6 @@
       "name": "dependabot-triager",
       "description": "Assesses an open Dependabot pull request and emits a recommendation (Merge / Review before merging / Do not merge) plus confidence (High / Medium / Low) with concise prose grounded in upstream source ",
       "source": "github:cli/cli@trunk",
-      "composite": 0.9
-    },
-    {
-      "id": "57fb026ef6acbea3",
-      "name": "design-guide",
-      "description": "Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling ",
-      "source": "github:paperclipai/paperclip@master",
       "composite": 0.9
     }
   ]
