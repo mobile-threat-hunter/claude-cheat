@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:59:31.096Z",
+  "generated_at": "2026-11-24T10:14:21.273Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,42 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-24",
+      "datetime": "2026-11-24T06:58:09.229Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Alignment",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/team/alignment"
+    },
+    {
+      "date": "2026-11-24",
+      "datetime": "2026-11-24T06:56:52.923Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Interpretability",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "url": "https://www.anthropic.com/research/team/interpretability"
+    },
+    {
+      "date": "2026-11-23",
+      "datetime": "2026-11-23T22:13:27.525Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Working with AI",
+      "summary": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.",
+      "url": "https://www.anthropic.com/research/working-with-ai"
+    },
+    {
+      "date": "2026-11-23",
+      "datetime": "2026-11-23T21:34:41Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.331",
+      "summary": "- Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS\n- Added `oidc.groups_jsonpath` to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535)\n- Added an API connectivity section to `claude doctor` that reports whether the API can be…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331"
+    },
     {
       "date": "2026-11-20",
       "datetime": "2026-11-20T22:32:56Z",
@@ -106,33 +142,6 @@
       "title": "Challenges in evaluating AI systems",
       "summary": "Insights from the red teaming approaches we&#x27;ve used to test our AI systems.",
       "url": "https://www.anthropic.com/research/evaluating-ai-systems"
-    },
-    {
-      "date": "2026-11-18",
-      "datetime": "2026-11-18T17:12:33.282Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "How people use Claude for support and advice",
-      "summary": "Only 2.9% of Claude conversations involve emotional support, advice, or companionship. We share research on affective use and how we&#x27;re building safeguards.",
-      "url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship"
-    },
-    {
-      "date": "2026-11-18",
-      "datetime": "2026-11-18T17:12:33.281Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Economic Index: Insights from Claude 3.7 Sonnet",
-      "summary": "The second update from the Anthropic Economic Index on how people are using AI.",
-      "url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7"
-    },
-    {
-      "date": "2026-11-18",
-      "datetime": "2026-11-18T17:12:33.280Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Introducing the Anthropic Economic Index",
-      "summary": "Announcement of the new Anthropic Economic Index and description of the new data on AI use in occupations",
-      "url": "https://www.anthropic.com/research/the-anthropic-economic-index"
     },
     {
       "date": "2026-11-18",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.318",
       "summary": "- Added a record of your answer when Claude Code asks to turn on the mods it writes in a session\n- Added `assume_role` on `mantle` upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution\n- Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses; the result reports the…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
-    },
-    {
-      "date": "2026-11-03",
-      "datetime": "2026-11-03T01:25:46Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.317",
-      "summary": "- Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them\n- Added a check that asks before a web or shell tool call sends your account email address to the network\n- Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run\n- Added a notice in Claude Desktop's…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
     }
   ]
 }
