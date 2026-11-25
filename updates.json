@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:14:21.273Z",
+  "generated_at": "2026-11-25T08:58:24.586Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -9,8 +9,17 @@
   },
   "items": [
     {
+      "date": "2026-11-25",
+      "datetime": "2026-11-25T01:32:14Z",
+      "source": "claude-code",
+      "source_label": "Claude Code",
+      "title": "Claude Code v2.1.332",
+      "summary": "- Added skills from MCP servers (beta). They show as `server:skill` in the `/` menu; other skills keep their names\n- Added a `PreSkillShellCommand` hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start\n- Added \"Always deliver\" to the prompt for held messages from other sessions\n- Added a footer…",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332"
+    },
+    {
       "date": "2026-11-24",
-      "datetime": "2026-11-24T06:58:09.229Z",
+      "datetime": "2026-11-24T17:02:51.779Z",
       "source": "anthropic-research",
       "source_label": "Anthropic Research",
       "title": "Alignment",
@@ -286,15 +295,6 @@
       "title": "Claude Code v2.1.319",
       "summary": "- Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set `CLAUDE_CODE_AUTO_MODE_SERVER=0` to keep using it (Bedrock, Vertex and Foundry are unchanged)\n- Changed auto mode behind an LLM gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` turns on the server-side check even…",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
-    },
-    {
-      "date": "2026-11-04",
-      "datetime": "2026-11-04T00:01:03Z",
-      "source": "claude-code",
-      "source_label": "Claude Code",
-      "title": "Claude Code v2.1.318",
-      "summary": "- Added a record of your answer when Claude Code asks to turn on the mods it writes in a session\n- Added `assume_role` on `mantle` upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution\n- Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses; the result reports the…",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
     }
   ]
 }
