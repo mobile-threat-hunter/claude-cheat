@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:58:24.586Z",
+  "generated_at": "2026-11-26T08:44:57.956Z",
   "sources": {
     "anthropic_news_count": 12,
     "anthropic_research_count": 8,
@@ -8,6 +8,15 @@
     "translated_ko": 0
   },
   "items": [
+    {
+      "date": "2026-11-25",
+      "datetime": "2026-11-25T16:27:43.869Z",
+      "source": "anthropic-research",
+      "source_label": "Anthropic Research",
+      "title": "Migrating our Messages API to Rust",
+      "summary": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+    },
     {
       "date": "2026-11-25",
       "datetime": "2026-11-25T01:32:14Z",
@@ -142,15 +151,6 @@
       "title": "What 81,000 people told us about AI economics",
       "summary": "Anthropic&#x27;s recent survey of 81,000 Claude users provides a way to connect people’s economic concerns with what we’ve quantified in Claude traffic.",
       "url": "https://www.anthropic.com/research/81k-economics"
-    },
-    {
-      "date": "2026-11-18",
-      "datetime": "2026-11-18T17:12:33.283Z",
-      "source": "anthropic-research",
-      "source_label": "Anthropic Research",
-      "title": "Challenges in evaluating AI systems",
-      "summary": "Insights from the red teaming approaches we&#x27;ve used to test our AI systems.",
-      "url": "https://www.anthropic.com/research/evaluating-ai-systems"
     },
     {
       "date": "2026-11-18",
