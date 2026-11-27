@@ -1,5 +1,5 @@
 {
-  "sample_size": 8994,
+  "sample_size": 8995,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,12 +8,12 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8632,
+      "count": 8633,
       "pct": 96.0
     },
     {
       "field": "name",
-      "count": 8565,
+      "count": 8566,
       "pct": 95.2
     },
     {
@@ -84,7 +84,7 @@
   ],
   "description": {
     "length": {
-      "count": 8994,
+      "count": 8995,
       "min": 4,
       "p25": 132,
       "median": 300,
@@ -100,17 +100,17 @@
   },
   "body": {
     "length_chars": {
-      "count": 8994,
+      "count": 8995,
       "min": 602,
       "p25": 3171,
       "median": 4663,
       "p75": 7829,
       "p90": 14125,
       "max": 141519,
-      "mean": 7111.1
+      "mean": 7111.0
     },
     "heading_count": {
-      "count": 8994,
+      "count": 8995,
       "min": 0,
       "p25": 8,
       "median": 12,
@@ -120,7 +120,7 @@
       "mean": 17.8
     },
     "code_block_count": {
-      "count": 8994,
+      "count": 8995,
       "min": 0,
       "p25": 0,
       "median": 1,
