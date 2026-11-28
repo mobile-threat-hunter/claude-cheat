@@ -1,5 +1,5 @@
 {
-  "sample_size": 8995,
+  "sample_size": 9001,
   "filter": {
     "class": "Agent Skills",
     "min_body_length": 600,
@@ -8,17 +8,17 @@
   "frontmatter_fields": [
     {
       "field": "description",
-      "count": 8633,
+      "count": 8637,
       "pct": 96.0
     },
     {
       "field": "name",
-      "count": 8566,
+      "count": 8570,
       "pct": 95.2
     },
     {
       "field": "metadata",
-      "count": 2745,
+      "count": 2749,
       "pct": 30.5
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "field": "allowed-tools",
-      "count": 483,
+      "count": 487,
       "pct": 5.4
     },
     {
@@ -53,8 +53,8 @@
     },
     {
       "field": "license",
-      "count": 408,
-      "pct": 4.5
+      "count": 412,
+      "pct": 4.6
     },
     {
       "field": "argument-hint",
@@ -67,14 +67,14 @@
       "pct": 3.7
     },
     {
-      "field": "en_name",
-      "count": 167,
+      "field": "compatibility",
+      "count": 170,
       "pct": 1.9
     },
     {
-      "field": "compatibility",
-      "count": 166,
-      "pct": 1.8
+      "field": "en_name",
+      "count": 167,
+      "pct": 1.9
     },
     {
       "field": "zh_name",
@@ -84,14 +84,14 @@
   ],
   "description": {
     "length": {
-      "count": 8995,
+      "count": 9001,
       "min": 4,
       "p25": 132,
       "median": 300,
       "p75": 470,
-      "p90": 556,
+      "p90": 557,
       "max": 3663,
-      "mean": 311.7
+      "mean": 311.8
     },
     "has_trigger_phrase_pct": 57.5,
     "has_quoted_user_phrase_pct": 6.6,
@@ -100,17 +100,17 @@
   },
   "body": {
     "length_chars": {
-      "count": 8995,
+      "count": 9001,
       "min": 602,
       "p25": 3171,
-      "median": 4663,
-      "p75": 7829,
-      "p90": 14125,
+      "median": 4673,
+      "p75": 7833,
+      "p90": 14145,
       "max": 141519,
-      "mean": 7111.0
+      "mean": 7115.4
     },
     "heading_count": {
-      "count": 8995,
+      "count": 9001,
       "min": 0,
       "p25": 8,
       "median": 12,
@@ -120,7 +120,7 @@
       "mean": 17.8
     },
     "code_block_count": {
-      "count": 8995,
+      "count": 9001,
       "min": 0,
       "p25": 0,
       "median": 1,
@@ -161,7 +161,7 @@
     },
     {
       "label": "when to use",
-      "count": 707
+      "count": 708
     },
     {
       "label": "overview",
